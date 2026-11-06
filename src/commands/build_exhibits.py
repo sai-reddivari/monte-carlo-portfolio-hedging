@@ -1,5 +1,6 @@
 """Build publication figures from saved aggregate results; no fitting or simulation."""
 from pathlib import Path
+import argparse
 import json
 import hashlib
 import matplotlib
@@ -21,10 +22,71 @@ SOURCES=[
  'results/breadth-20261106T020730752645Z/policy_summary.csv',
  'tests/artifacts/independent_validation/window_placement/comparisons.csv',
  'data/market/financial_50_coverage.csv']
+CONTROL_SOURCES=[
+ 'config/research_release_1.json',
+ 'config/equity_overlay_study.json',
+ 'src/hedging_harness/breadth.py',
+ 'src/hedging_harness/feature_models.py',
+ 'src/hedging_harness/experiments/run_feature_research.py',
+ 'tests/validation/accounting.py',
+ 'tests/validation/statistics.py',
+ 'tests/validation/window_placement.py']
 
 def save(fig,name):
     for ext in ['png','pdf']:fig.savefig(OUT/f'{name}.{ext}',dpi=190,bbox_inches='tight',pad_inches=.16)
     plt.close(fig)
+
+def build_controls_figure():
+    """Explain design choices and their limits; this is not an additional result."""
+    OUT.mkdir(parents=True,exist_ok=True)
+    fig=plt.figure(figsize=(11.6,7.4))
+    ax=fig.add_axes([.02,.05,.96,.90])
+    ax.axis('off');ax.set_xlim(0,12);ax.set_ylim(0,7.2)
+    ax.text(.12,7.02,'What the design protects against — and what remains open',
+            fontsize=15,fontweight='bold',va='top')
+    columns=[.18,2.72,7.65]
+    for x,label,color in zip(columns,
+            ['WHAT COULD MISLEAD US?','WHAT WE CONTROLLED OR CHECKED','WHAT REMAINS UNRESOLVED'],
+            [INK,TEAL,ORANGE]):
+        ax.text(x,6.38,label,fontsize=9.5,fontweight='bold')
+    rows=[
+      ('Unequal\ncomparisons',
+       'Shared simulated paths; fixed notional\nin breadth tests; common base holdings\nfor historical overlays.',
+       'Reducing exposure changes upside;\nadding names also changes\nportfolio composition.'),
+      ('Selection\noptimism',
+       'Fresh simulated evaluation paths;\nchronological historical splits;\ntrain-only fitting, validation selection.',
+       'Historical periods are not unknown;\nadditional checks on observed\noutcomes remain post-hoc.'),
+      ('Unavailable\ninformation',
+       'Filing-linked facts; next-session-close\nadmission and staleness limits;\npast-only estimates and execution lag.',
+       'Availability conventions are not\na verified record of when every\nvendor observation arrived.'),
+      ('Arithmetic or\nsampling error',
+       'Cash/stock/option reconciliation;\nindependent terminal reconstruction;\npaired, dependence-aware intervals.',
+       'Few historical tail windows;\npointwise intervals; arithmetic\nchecks do not validate market prices.'),
+      ('Dependence on\none specification',
+       'Cost and pricing-volatility grids;\ncomposition and dependence scenarios;\nshifted historical windows.',
+       'Overlapping windows add no new\nindependent crises. Executable prices\nand usable liquidity remain untested.')]
+    for i,(risk,control,limit) in enumerate(rows):
+        top=6.10-i*1.13
+        ax.add_patch(FancyBboxPatch((.05,top-1.03),11.9,1.02,
+            boxstyle='round,pad=.01,rounding_size=.045',
+            facecolor=PALE if i%2==0 else '#F8FAFA',edgecolor='none'))
+        ax.text(columns[0],top-.17,risk,fontsize=12,fontweight='bold',va='top',linespacing=1.45)
+        ax.text(columns[1],top-.16,control,fontsize=11.5,va='top',linespacing=1.5,color=TEAL)
+        ax.text(columns[2],top-.16,limit,fontsize=11.5,va='top',linespacing=1.5,color=INK)
+    ax.text(.12,.13,'Each control applies to its relevant experiment; sensitivity checks do not certify real-market performance.',
+            fontsize=10,color=GRAY)
+    for ext in ['png','svg']:
+        fig.savefig(OUT/f'research_controls.{ext}',dpi=190,bbox_inches='tight',pad_inches=.16)
+    svg=OUT/'research_controls.svg'
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
+    plt.close(fig)
+
+def write_manifest():
+    manifest={'purpose':'Publication exhibits and design explanation; no new empirical experiment.',
+      'inputs':{p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in SOURCES if (ROOT/p).is_file()},
+      'design_sources':{p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in CONTROL_SOURCES},
+      'builder_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
+    (OUT/'sources.json').write_text(json.dumps(manifest,indent=2)+'\n')
 
 def build():
     OUT.mkdir(parents=True,exist_ok=True)
@@ -91,9 +153,15 @@ def build():
     ax.legend(frameon=False);ax.grid(alpha=.16);fig.subplots_adjust(bottom=.23)
     fig.text(.09,.03,'Long puts; positive values favor puts. Post-hoc, overlapping samples; offsets are not independent crises.',fontsize=9,color=GRAY)
     save(fig,'window_placement')
-    manifest={'purpose':'Publication exhibits from saved aggregate results; no new empirical experiment.',
-      'inputs':{p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in SOURCES if (ROOT/p).is_file()},
-      'builder_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
-    (OUT/'sources.json').write_text(json.dumps(manifest,indent=2)+'\n')
+    build_controls_figure()
+    write_manifest()
 
-if __name__=='__main__':build()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--only-controls',action='store_true',help='Build only the README design figure and refresh source identities.')
+    args=parser.parse_args()
+    if args.only_controls:
+        build_controls_figure()
+        write_manifest()
+    else:
+        build()

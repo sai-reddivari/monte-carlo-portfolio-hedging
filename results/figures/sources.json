@@ -1,5 +1,5 @@
 {
-  "purpose": "Publication exhibits from saved aggregate results; no new empirical experiment.",
+  "purpose": "Publication exhibits and design explanation; no new empirical experiment.",
   "inputs": {
     "results/research-release-1/release-1/evaluation_metrics.csv": "96fa7935c165ff6d9269c671fcd6ca50eb4d3abeff1b7ca87407177e7d019614",
     "results/research-release-1/release-1/paired_tail_differences.csv": "1d25d80981d812fa9f623743aad923ce62735021daef2ae9ccb30a64c92844f7",
@@ -8,5 +8,15 @@
     "tests/artifacts/independent_validation/window_placement/comparisons.csv": "2fc44a6e0bbb4d3bf2f7930526069d3ba7a31996df7dd0ad8dd7ab2590ed88ec",
     "data/market/financial_50_coverage.csv": "bcf6fceeb0cf407d6fcdf8cec21e9afa55f90efd5ca2370fdcffddc43f4f23be"
   },
-  "builder_sha256": "05544a19117449ba9b839a1199348bdd79dbaf2566eeb5bd2e968f0fc373adbd"
+  "design_sources": {
+    "config/research_release_1.json": "6bf5148edb3f7b822bc59fc21b60e047205d6daa66fbc2a7676c350bec64b6cb",
+    "config/equity_overlay_study.json": "ca8913dba1d02cea1085b025a489a275ede8a3dd12fe65f521c35179b8861b46",
+    "src/hedging_harness/breadth.py": "d93954788ca1e9f94a083fb39be6e0a98e936467eb4545bd803f20cb00558417",
+    "src/hedging_harness/feature_models.py": "c46f93d21462a9ac1d55d2c7f8f25dcdc1d53313e30fbf7ef54a237f1f8dcefb",
+    "src/hedging_harness/experiments/run_feature_research.py": "d919559a6f97c3e3430acd77e6d153a995946307503264ac4ea4a42893adf427",
+    "tests/validation/accounting.py": "3c67a0f6d7fa8251df8d68ec959aa48abd1d7f98eed0533b782483f59a9d2552",
+    "tests/validation/statistics.py": "7df5b88e4c73bb2c74cf70ae7180a89125b2af4667ae489557daba363a6ef386",
+    "tests/validation/window_placement.py": "aecd2cab28c2467bc29824adcfd0ced84dafd9d70cf0139032cfc2408b64ad25"
+  },
+  "builder_sha256": "73c4a16ed09dfece9beb292812321f30c1e533fb7cea4b3e30f4d7531c936a71"
 }

@@ -1,5 +1,7 @@
 # Monte Carlo option hedging for equity portfolios
 
+*A study of trading costs and downside protection, with a long/short financial-sector equity application.*
+
 **Author: Sai Reddivari**
 
 When does hedging add value beyond simply holding less risk?
@@ -32,11 +34,21 @@ Here, tail loss means the average loss in the worst six of 23 test windows—not
 
 The Black–Scholes pricing assumption omits observed bid/ask, dividends, borrow spreads, margin and American exercise. The accounts are separate windows, not a continuous investment history. **Incremental economic hedge value remains unestablished.**
 
+## How the comparisons were constructed
+
+The design tries to separate the effect of a hedge from differences in the paths, holdings or information used to evaluate it. Simulated policies share paths; breadth experiments hold total notional fixed; historical overlays share executed base holdings. Selection and evaluation are separated, while filing-aware features and lagged execution restrict what a decision can use.
+
+![Five sources of misleading results, the controls or checks used to address them, and the uncertainties that remain](results/figures/research_controls.png)
+
+These are different kinds of safeguards. Accounting reconstruction checks implementation; paired and dependence-aware intervals quantify sampling uncertainty; sensitivity runs show how conclusions change with assumptions. Budget treatment also differs: simulation enforces an expected-cost screen, while historical premium allowances size trades at the decision close. Execution-time premium caps were **not** enforced; overruns remain in the results.
+
 ## What the extensions add
 
 The expanded universe covers **50 current companies: 42 complete histories and eight partial histories**. Fixed-notional simulations compare portfolios of **3, 10, 25 and 40 names**. More names do not always lower tail risk when composition and common exposures change. This is a breadth experiment, not a 40-name historical overlay backtest. Current-survivor coverage does not establish historical sector membership.
 
-The forecasting extension tests five- and twenty-session variance targets. Price-history improvements depend on metric and horizon. Liabilities/assets adds a small five-session improvement across ten companies; deposits/liabilities worsens incremental QLIKE for the six-bank cohort. That result concerns the tested proxy and model, not funding risk in general.
+The forecasting extension asks whether a company's balance sheet adds information beyond its price history and broad market/sector conditions. Liabilities/assets measures the share of assets funded by liabilities; deposits/liabilities measures the share of a bank's liabilities supplied by deposits. Neither is a complete measure of funding vulnerability. SPY/XLF inputs provide the market/sector benchmark those features must improve on. SEC observations are linked to filings, admitted conservatively from the next session's close and subject to release- and fiscal-period staleness limits. Transformations are fitted on training data, and validation selects regularization before test evaluation.
+
+The targets are five- and twenty-session variance. Price-history improvements depend on metric and horizon. Liabilities/assets adds a small five-session improvement across ten companies; deposits/liabilities worsens incremental QLIKE for the six-bank cohort. That result concerns the tested proxy and model, not funding risk in general. Forecast accuracy is evaluated separately from hedge performance: these financial-statement models did not drive the historical adaptive overlay.
 
 The next questions are practical: which portfolio loss should be insured, what real option quotes imply for affordable coverage, whether interim protection can be monetized, and whether staggered expiries or adaptive coverage improve the tradeoff. The paper develops these questions alongside the evidence that motivates them.
 
