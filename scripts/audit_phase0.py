@@ -64,7 +64,7 @@ def evidence_checks():
 
 def csv_comparison(original, reproduced):
     result = dict(table=str(original.relative_to(ROOT)),
-        reproduction=str(reproduced.relative_to(ROOT)), saved_sha256=digest(original),
+        reproduction=str(reproduced.relative_to(ROOT, walk_up=True)), saved_sha256=digest(original),
         reproduced_sha256=digest(reproduced) if reproduced.is_file() else None,
         passed=False, numeric_cells=0, numeric_mismatches=0, text_mismatches=0,
         max_absolute_difference=0., max_finite_relative_difference=0., examples=[])
@@ -130,7 +130,7 @@ def contracts(folder):
 
 def json_comparison(original, reproduced):
     import math
-    result=dict(file=str(original.relative_to(ROOT)),reproduction=str(reproduced.relative_to(ROOT)),
+    result=dict(file=str(original.relative_to(ROOT)),reproduction=str(reproduced.relative_to(ROOT, walk_up=True)),
         byte_equal=reproduced.is_file() and digest(original)==digest(reproduced),numeric_cells=0,
         numeric_mismatches=[],observed_timing_differences=[],string_differences=[],structure_differences=[],boolean_differences=[])
     if not reproduced.is_file():
