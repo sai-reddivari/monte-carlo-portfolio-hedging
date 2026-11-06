@@ -163,3 +163,22 @@ Every originally tracked result directory is accounted for below. `covered_by_cu
 | `results/risk-research-20261106T014645390937Z` | reproduced | 1 | All saved CSV output cells match the recorded fresh replay; any historical source-version difference is separately retained below. |
 | `results/risk-research-20261106T014747676804Z` | reproduced | 0 | All saved CSV output cells match the recorded fresh replay; any historical source-version difference is separately retained below. |
 | `results/risk-research-notebook-20261106T015049784721Z` | covered_by_current_entrypoint | 0 | Historical notebook wrapper of the price-risk entry point; its original outputs are retained by exact hashes. |
+
+## Phase 1 reproduction interface and explicit exclusions
+
+`make reproduce` runs the package from the exact saved raw inputs and regenerates `results/manifest_post_refactor.json`. `make test` runs unit/accounting tests and a real fast-subset replay. `make diff` checks full-precision manifest contracts at relative tolerance 1e-9, absolute tolerance zero. The manifests retain full precision; publication display differences are recorded in `docs/review/errata_post_freeze.md`.
+
+| Entry | Status | Reason |
+|---|---|---|
+| `results/equity-overlays-20261106T020955456052Z` | **hash-only, not reproducible from current code** | Superseded development freeze; original source version unavailable. Historical code is not reconstructed. |
+| `results/feature-research-20261106T020600619286Z` | **hash-only, not reproducible from current code** | Superseded feature run; original source version unavailable. Historical code is not reconstructed. |
+| `scripts/audit_market_data.py` | **hash-only, not reproducible from current code** | A present live query cannot regenerate the frozen vendor/entitlement snapshot. |
+| `scripts/fetch_core_prices.py` | **hash-only, not reproducible from current code** | Frozen historical provider snapshot may have revisions; use its exact input bytes. |
+| `scripts/audit_reference_data.py` | **hash-only, not reproducible from current code** | Historical current-universe/entitlement snapshot cannot be recovered by a present query. |
+| `scripts/fetch_financial_universe.py` | **hash-only, not reproducible from current code** | Frozen survivor snapshot and histories are not a new live universe request. |
+| `scripts/audit_research_features.py` | **hash-only, not reproducible from current code** | Financial/filing/Treasury snapshot and entitlements cannot be regenerated exactly. |
+| `scripts/extend_sec_core10.py` | **hash-only, not reproducible from current code** | SEC/vendor vintages and retrieval metadata may change. |
+
+The six acquisition programs remain available as acquisition utilities; the label concerns exact reproduction of their historical products. No credentials or live refresh are used by `make reproduce`. Normalized raw inputs are restored byte-for-byte from the immutable tag. Original pre-refactor outputs, notebooks and logs remain in place. Reproduction writes a new ignored directory, never into a frozen result directory.
+
+Notebook 00's required import is restored in its package study. Source notebooks now only call package functions; their original executed versions remain under `results/pre_refactor/notebooks/as_committed/`. The eight identical legacy setup cells are shared in `hedging_harness/notebooks/reference.py`. The two old notebook-global snippets expose `one_step_prices(...)` and `compare_methods(..., crr_price=...)` in `hedging_harness/legacy_methods.py`. No CRR implementation existed in the frozen repository, so its callable remains an explicit required dependency, not an invented pricing method. These reference snippets are not canonical publication experiments.

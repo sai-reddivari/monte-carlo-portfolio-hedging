@@ -1,0 +1,15 @@
+# Frozen input provenance and access
+
+The published experiments use an exact saved snapshot, not a new live API query. The immutable `pre-refactor` tag and Phase 0 SHA-256 inventory identify every original input byte. `make reproduce` restores missing inputs from that tag and refuses to overwrite a changed input. `python scripts/restore_frozen_inputs.py` performs just that restoration. No credential is copied into results or provenance.
+
+| Input group | Provider / provenance | How to obtain the published bytes |
+|---|---|---|
+| `market/prices_split_adjusted*.csv`, `prices_core_10.csv`, `prices_benchmarks.csv` | Saved FMP split-adjusted closing prices; ten issuers plus SPY/XLF; aligned XNYS sessions, 2010-01-04 through 2026-11-04; no dividend cash flows | Restore from `pre-refactor`; metadata and coverage files pin retrieval context and hashes. Authorized fresh acquisition uses `scripts/audit_market_data.py --export-prices` and `scripts/fetch_core_prices.py`, but cannot certify identical historical revisions. |
+| Fifty-name prices, universe, availability and eligibility | Saved current-survivor FMP screen/histories; missingness retained; explicit BK/BNY issuer mapping | Restore the snapshot and audits. `fetch_financial_universe.py` and `audit_reference_data.py` are live acquisition utilities, not exact reproduction of this historical snapshot. |
+| `market/features/sec_facts/`, `sec_facts_core10/` | Official SEC companyfacts with accession/filed-date binding, selected filing-metadata crosschecks and conservative next-session-close availability | Restore facts, snapshots, coverage and probe manifests. `extend_sec_core10.py` can acquire present data with an appropriate SEC user agent and vendor access; revisions and entitlements may differ. |
+| FMP statements, filing metadata and two Treasury samples | Saved capability audit; incomplete timing/vintage coverage excluded those FMP layers from incremental forecast claims | Restore with audit coverage. `audit_research_features.py` is hash-only for exact historical reproduction. |
+| `study_inputs/` | Project-owned derived views of `config/illustrative_study.json` | JSON is authoritative. `hedging_harness.study.export_input_tables` regenerates views without replacing the frozen copies. |
+
+Raw vendor/SEC snapshot files under `data/market/` are excluded from current-tree tracking. Their redistribution rights have not been certified; the MIT software license does not license third-party data. The immutable historical tag still contains the original inputs. This refactor does not erase Git history or certify rights to redistribute it. No destructive history rewrite was performed.
+
+For genuinely new acquisitions, obtain the required provider access and place secrets in local `.env` as described by `.env.example`. Never pass credentials in command-line URLs or commit them. Missing historical options and point-in-time membership data are not synthesized or filled. No live acquisition runs during reproduction.

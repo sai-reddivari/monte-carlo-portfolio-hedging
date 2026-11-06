@@ -10,3 +10,11 @@ results/harness-*/
 .env.*
 !.env.example
 data/cache/
+
+# Fresh reproductions include restored vendor inputs and disposable tag workspaces.
+results/reproduction/
+
+# Vendor/SEC snapshots are restored locally from the immutable checkpoint.
+data/market/
+# Notebook side outputs are retained locally; canonical regressions are in manifests.
+results/*-notebook-*/

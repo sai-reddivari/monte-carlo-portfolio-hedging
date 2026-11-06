@@ -1,0 +1,5 @@
+# Phase 1 publication refactor report
+
+Phase 0's provenance differences were changes in metadata coverage, not changes in economic values: the controlled release's current provenance enumerated four later-added modules (`breadth`, `feature_models`, `overlays`, `study`) absent from its historical record; the original three-name risk runner additionally recorded input-metadata hashes; fresh timestamps, absolute paths and dependent hashes changed; and the economic overlay CLI did not emit the supplemental notebook-execution record. The historical records remain byte-identical. Historical source identity is verified against the immutable tag, while current executed source identities and numerical output comparisons are recorded separately. Phase 0 CSV comparisons and JSON numeric comparisons had zero numerical mismatches; expanded post-freeze display rounding errata are recorded separately.
+
+Status: in progress. No completion or clean-environment reproduction is claimed until the verification results below have been executed.
