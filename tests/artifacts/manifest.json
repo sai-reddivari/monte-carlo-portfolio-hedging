@@ -1,0 +1,18 @@
+{
+  "description": "Historical validation artifacts retained during repository cleanup. Hashes identify the original bytes.",
+  "sha256": {
+    "independent_validation/accounting/terminal_cash_components.csv": "61be9a70866a7784925e2865c88f94c63f7adb3e4be741bb0fe471dba7438aed",
+    "independent_validation/accounting/terminal_pnl_reconstruction.csv": "dc887852af3bf0dd01e35faa05195fb5948d88e4ddcfb34e26786feae536d453",
+    "independent_validation/statistics/collar_initial_exposure_reconstruction.csv": "fe9ae7e49f42ed3f81f9ff3578a1451ada385a919942856dc1e625de76a7a307",
+    "independent_validation/statistics/collar_signed_legs_reconstruction.csv": "ca507ad58887ae9dae1afc96634a04770d484e6086b01db0150c0b6f9358a3f8",
+    "independent_validation/statistics/paired_es_diagnostics.csv": "3783e5c8e03452a40e03e82658d75ad8f9e412f6bbb38b3617edc44ba52674d1",
+    "independent_validation/statistics/selected_test_summary.csv": "ffcd0ed00a7b81c84de57b2bce5bd3fbbc7edd24a644b906a3db59fea1f134d9",
+    "independent_validation/window_placement/checks.csv": "1fd08d2ecc30bd8b5ad6d4fd069af2613a9a20cceab32efd6d0256ee511b4872",
+    "independent_validation/window_placement/comparisons.csv": "2fc44a6e0bbb4d3bf2f7930526069d3ba7a31996df7dd0ad8dd7ab2590ed88ec",
+    "independent_validation/window_placement/summary.csv": "cc01b4334c44ddf96cae877d2e514a86df1a278e43f133a8f8fbd6e1718b9229",
+    "independent_validation/window_placement/window_counts.csv": "eb0afeba2b3768f43782c829593ceb91b67cb7867878823b8a7bb16e740826f9",
+    "independent_validation/window_placement/window_records.csv": "1dedddd0fa649fd25f9f7cc2542486123bbe788fc059b02371b377dab15a36ce",
+    "owned_tests.xml": "6f44a6bb5459813cb4aae3819b6973950312dd50bed23d2df0f4aa5f5eca523c",
+    "release_2_tests.xml": "7ee5b5a993736ac02b3fdff83ef844c9a67f235c90c33ffdb0cebe61000a1136"
+  }
+}

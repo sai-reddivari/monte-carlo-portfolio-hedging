@@ -1,6 +1,0 @@
-{
-  "conditional_release_2_publication_ready": true,
-  "gate1_artifact_integrity": true,
-  "research_gate_2_passed": false,
-  "owner_addendum": "docs/equity_overlay_review_addendum.md"
-}

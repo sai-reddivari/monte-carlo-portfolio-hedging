@@ -1,0 +1,12 @@
+{
+  "purpose": "Publication exhibits from saved aggregate results; no new empirical experiment.",
+  "inputs": {
+    "results/research-release-1/release-1/evaluation_metrics.csv": "96fa7935c165ff6d9269c671fcd6ca50eb4d3abeff1b7ca87407177e7d019614",
+    "results/research-release-1/release-1/paired_tail_differences.csv": "1d25d80981d812fa9f623743aad923ce62735021daef2ae9ccb30a64c92844f7",
+    "results/equity-overlays-20261106T023430248130Z/summary.csv": "49873796075e3968b790173167b0cd2171ce7983075809e1779a2c03103c14dc",
+    "results/breadth-20261106T020730752645Z/policy_summary.csv": "081ab2f9de8e38a61237998442eaff9376e93ae638605ff7b033c97982322817",
+    "tests/artifacts/independent_validation/window_placement/comparisons.csv": "2fc44a6e0bbb4d3bf2f7930526069d3ba7a31996df7dd0ad8dd7ab2590ed88ec",
+    "data/market/financial_50_coverage.csv": "bcf6fceeb0cf407d6fcdf8cec21e9afa55f90efd5ca2370fdcffddc43f4f23be"
+  },
+  "builder_sha256": "05544a19117449ba9b839a1199348bdd79dbaf2566eeb5bd2e968f0fc373adbd"
+}

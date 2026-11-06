@@ -54,7 +54,7 @@ def test_method_snippet_requires_and_uses_explicit_missing_crr_dependency():
 
 def test_fast_publication_subset_against_full_precision_manifest():
     from hedging_harness.reproduction import reproduce
-    sys.path.insert(0,str(ROOT/'scripts'))
+    sys.path.insert(0,str(ROOT/'src/commands'))
     from diff_manifests import compare
     before=json.loads((ROOT/'results/manifest_pre_refactor.json').read_text())
     with tempfile.TemporaryDirectory(prefix='hedging-regression-',dir='/tmp') as temp:

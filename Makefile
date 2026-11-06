@@ -1,4 +1,5 @@
 PYTHON ?= .venv/bin/python
+export PYTHONPATH := $(CURDIR)/src
 export OMP_NUM_THREADS=1
 export MKL_NUM_THREADS=1
 export OPENBLAS_NUM_THREADS=1
@@ -7,14 +8,20 @@ export PYTHONHASHSEED=0
 export MPLBACKEND=Agg
 export MPLCONFIGDIR=/tmp/hedging-publication-mpl
 
-.PHONY: reproduce test diff verify
+.PHONY: reproduce test diff verify figures paper
 reproduce:
-	$(PYTHON) -m hedging_harness.reproduction --notebooks --reviewers
-	$(PYTHON) scripts/diff_manifests.py
+	$(PYTHON) -m hedging_harness.reproduction --notebooks --validation
+	$(PYTHON) src/commands/diff_manifests.py
 test:
-	$(PYTHON) scripts/restore_frozen_inputs.py
+	$(PYTHON) src/commands/restore_frozen_inputs.py
 	$(PYTHON) -m pytest -q
 diff:
-	$(PYTHON) scripts/diff_manifests.py
+	$(PYTHON) src/commands/diff_manifests.py
 verify:
-	$(PYTHON) scripts/verify_frozen_bundle.py
+	$(PYTHON) src/commands/verify_validation_artifacts.py
+
+figures:
+	$(PYTHON) src/commands/build_exhibits.py
+
+paper: figures
+	$(PYTHON) src/commands/build_paper.py $(if $(TECTONIC),--tectonic "$(TECTONIC)",)

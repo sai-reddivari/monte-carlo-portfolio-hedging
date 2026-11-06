@@ -1,52 +1,62 @@
-# Financial-sector hedging under trading costs and model uncertainty
+# Monte Carlo option hedging for equity portfolios
 
-Can financial-sector risk signals improve protection of a ten-stock long/short portfolio after costs, pricing assumptions and simpler exposure-reduction benchmarks are considered?
+**Author: Sai Reddivari**
 
-A controlled hedging experiment identifies a favorable cost–risk tradeoff. Historical extensions show that forecast improvements depend on metric and horizon, while model-priced option protection depends materially on pricing, exposure and evaluation-window assumptions. Incremental economic hedge value remains unestablished.
+When does hedging add value beyond simply holding less risk?
 
-The paragraph above is verbatim from the [frozen publication summary](docs/final_findings/research_release_2_publication.md). Read its [claims and errata](docs/final_findings/research_release_2_claims_and_errata.md) and the separate [post-freeze display errata](docs/review/errata_post_freeze.md). Full empirical Research Gate 2 remains open.
+The study starts with a controlled Monte Carlo experiment: choose a delta-hedging rule that limits tail losses without spending too much on rebalancing. It then examines a different use of options—protecting a long/short equity portfolio—using financial-sector stocks as the application. Forecasting and portfolio-breadth extensions test whether better information or more names strengthen the case for protection.
+
+![Three related experiments: controlled hedge selection, historical equity protection and portfolio breadth](results/figures/study_design.png)
+
+These experiments answer related questions. The historical application is not a validation of the simulated rule, and the financial-statement forecasts were not connected to an end-to-end hedge strategy.
+
+## Monte Carlo identifies a cost–risk tradeoff
+
+Fourteen rebalancing rules compete on 5,000 simulated paths under a $500 expected financed trading-cost screen. The selected maturity-sensitive band is locked before evaluation on 10,000 new paths.
+
+**The selected rule reduces ES95 by 46.7% relative to weekly hedging, at higher trading cost.** Against daily hedging, it costs **10.6% less**, while the ES95 difference is inconclusive: +$1.90, with a paired 95% interval of −$31.61 to +$33.56. That supports a conditional cost–risk tradeoff; it does not establish equivalence to daily hedging.
+
+![Held-out tail loss and financed trading cost for weekly, selected-band and daily hedging](results/figures/controlled_tradeoff.png)
+
+ES95 is mean loss in the worst 5% of simulated outcomes. The three-name short-call book has $300,000 initial underlying notional. Rates, volatilities and correlations are illustrative. The $500 screen constrains the upper confidence endpoint for expected cost, not every path’s spending.
+
+## Protecting equity introduces a second price: surrendered upside
+
+The historical application holds ten financial-sector companies in a fixed long/short mandate. Eight policies—two baselines and six hedge families—are compared over separate 63-session accounts, with 11 validation windows and 23 test windows. The decision-close targets are 90% long and 40% short equity. Options are model-priced European contracts; no historical option quotes were acquired.
+
+**Reducing equity is a demanding benchmark.** Single-name puts retain more upside than a 75%-sized equity book, but their estimated tail loss is higher. The collar has a lower tail-loss estimate and retains only 13.2% of upside. Its exposure changes substantially; the study does not establish that the entire benefit is caused by that change.
+
+![Historical policies compared on tail loss and upside retained](results/figures/historical_tradeoff.png)
+
+Here, tail loss means the average loss in the worst six of 23 test windows—not the simulation’s ES95. These are point estimates. Purchased-put differences from the unhedged portfolio are inconclusive under the reported intervals; the collar’s incremental tail advantage over reduced equity is also unresolved.
+
+The Black–Scholes pricing assumption omits observed bid/ask, dividends, borrow spreads, margin and American exercise. The accounts are separate windows, not a continuous investment history. **Incremental economic hedge value remains unestablished.**
+
+## What the extensions add
+
+The expanded universe covers **50 current companies: 42 complete histories and eight partial histories**. Fixed-notional simulations compare portfolios of **3, 10, 25 and 40 names**. More names do not always lower tail risk when composition and common exposures change. This is a breadth experiment, not a 40-name historical overlay backtest. Current-survivor coverage does not establish historical sector membership.
+
+The forecasting extension tests five- and twenty-session variance targets. Price-history improvements depend on metric and horizon. Liabilities/assets adds a small five-session improvement across ten companies; deposits/liabilities worsens incremental QLIKE for the six-bank cohort. That result concerns the tested proxy and model, not funding risk in general.
+
+The next questions are practical: which portfolio loss should be insured, what real option quotes imply for affordable coverage, whether interim protection can be monetized, and whether staggered expiries or adaptive coverage improve the tradeoff. The paper develops these questions alongside the evidence that motivates them.
+
+Read the **[research study](docs/research_study.pdf)** or its [LaTeX source](docs/latex/research_study.tex). [Technical notes](docs/technical_notes.md) define the metrics and record display corrections. [Notebooks](notebooks/) show the experiment steps.
 
 ## Reproduce
 
-Use Python **3.14.8** and the unchanged 57-distribution lock. No package upgrades are part of this refactor.
+Use Python 3.14.8, the pinned dependencies, and a clone containing the `pre-refactor` tag.
 
 ```sh
 python3.14 -m venv .venv
 .venv/bin/python -m pip install -r requirements.lock
-make reproduce
-make test
-make diff
+make figures       # Rebuild figures from saved aggregate tables
+make test          # Tests, including a three-experiment numerical regression
+make reproduce     # Eight research variants, notebooks and independent validation
+make diff          # Compare full-precision results with the saved baseline
 ```
 
-Run from a clone that includes the immutable `pre-refactor` tag. The pipeline restores exact missing raw input files from that tag, checks their hashes, and executes pricing/Greeks and simulation/hedging studies, chronological forecasts/features, all eight overlay policies and original sensitivities, notebook views, and independent accounting/statistical checks. It writes fresh outputs under `results/reproduction/` and the full-precision `results/manifest_post_refactor.json`. No API keys, downloads or parameter reselection on test outcomes are required. Raw data provenance and redistribution limits are in [data/README.md](data/README.md).
+The [reproduction guide](docs/REPRODUCTION.md) explains inputs, commands and limitations. Full reproduction restores exact historical inputs from the tag; live vendor queries are not equivalent. The [data guide](data/README.md) records provenance and access restrictions. Building the figures does not fit models, run simulations or acquire data.
 
-For a fast review, `make test` includes a real frozen-seed regression of the controlled release, historical replay and ten-name risk model. Complete command output, elapsed time and the fresh-environment check are in [the Phase 1 report](docs/PHASE1_REPORT.md).
+`src/` contains implementation and runners; `notebooks/` the worked studies; `tests/` validation; `config/` experiment settings; `data/` input documentation; `results/` canonical evidence; and `docs/` the paper and supporting material.
 
-## Repository map
-
-| Path | Purpose |
-|---|---|
-| `hedging_harness/pricing.py`, `domain.py`, `simulation.py` | Pricing/Greeks, validated books and correlated Q paths |
-| `hedging_harness/hedging.py`, `policies.py`, `replay.py`, `overlays.py` | Cost-aware hedges and historical cash/stock/option accounting |
-| `hedging_harness/risk_models.py`, `feature_models.py`, `breadth.py` | Chronological forecasting, filing-aware features and conditional breadth |
-| `hedging_harness/evaluation.py`, `reporting.py`, `experiments/` | Metrics, provenance and experiment interfaces |
-| `hedging_harness/notebooks/`, `Hedging_Study_Notebooks/` | Package-owned studies and call-only notebook views |
-| `config/` | Exact published defaults, seeds, splits, costs and policy settings |
-| `docs/final_findings/`, `docs/research_log/` | Unchanged frozen conclusions/evidence and research history |
-| `docs/provenance/`, `docs/review/` | Per-number provenance and post-freeze errata |
-| `results/pre_refactor/`, `results/manifest_pre_refactor.json` | Preserved baseline, executed notebook backups, logs and numerical contracts |
-
-[EXPERIMENTS](docs/EXPERIMENTS.md) lists commands, inputs, outputs, runtimes and non-determinism controls. [CHANGELOG](CHANGELOG.md) maps every moved path; compatibility modules/links retain historical imports and document context. [FUTURE_WORK](docs/FUTURE_WORK.md) contains proposals only.
-
-## Limitations
-
-- Historical options are hypothetical European Black–Scholes contracts at assumed volatility; observed option quotes, bid/ask, dividends, borrow/rebate spreads, margin and American exercise are absent. Current-survivor samples are not survivorship-safe historical universes. Separate-window accounts are not continuous portfolio returns.
-- In the historical equity-overlay accounting engine, short proceeds count as cash, so recorded ledger borrowing is zero for every policy; usable liquidity is not modelled. This is not a claim of zero real financing needs. The controlled short-call Monte Carlo book is a different account and does report borrowing.
-- The two superseded directories `results/equity-overlays-20261106T020955456052Z` and `results/feature-research-20261106T020600619286Z`, and all six acquisition utilities, are **hash-only, not reproducible from current code**. Historical code is not reconstructed; see EXPERIMENTS for each entry.
-- The frozen bundle manifest lists one macOS metadata file that Git ignores (`frozen_package_and_review_evidence/.DS_Store`), so **47 of 48 bundle entries verify from a clean checkout**. The manifest and frozen documents remain unchanged.
-- Publication figures are rounded; manifests retain full precision. Three display-rounding differences are listed separately without changing any conclusion. Pointwise intervals, sparse tail windows, model-price assumptions and post-hoc date shifts limit economic inference.
-- The software license excludes third-party market data and historical review material. Redistribution rights for vendor snapshots are not certified. The immutable historical tag retains original research artifacts; removing them from current-tree tracking does not erase Git history.
-
-## Citation and license
-
-Use [CITATION.cff](CITATION.cff) to cite the study. [LICENSE](LICENSE) covers the project software; it does not grant rights to vendor data or third-party material.
+Use [CITATION.cff](CITATION.cff) to cite the study. [LICENSE](LICENSE) covers the software, not third-party market data. The work was directed by Sai Reddivari with AI assistance in implementation, testing and editing.

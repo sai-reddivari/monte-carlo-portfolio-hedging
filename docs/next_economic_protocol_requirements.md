@@ -1,1 +1,0 @@
-research_log/next_economic_protocol_requirements.md

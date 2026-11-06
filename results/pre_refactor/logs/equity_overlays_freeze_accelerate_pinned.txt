@@ -1,2 +1,0 @@
-Frozen protocol: /Users/saireddivari/MonteCarloEvaluations/results/pre_refactor/experiments_accelerate_pinned/equity_overlays
-SHA-256: c66908152994b1e2a611fc7bf0a8c72da332831122f0d3ef61fa798c86df75bd

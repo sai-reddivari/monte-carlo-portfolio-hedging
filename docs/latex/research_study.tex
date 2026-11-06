@@ -1,0 +1,184 @@
+\documentclass[11pt,a4paper]{article}
+\input{style}
+\hypersetup{pdftitle={Monte Carlo option hedging for equity portfolios}}
+\begin{document}
+\thispagestyle{plain}
+{\small\sffamily\color{muted}RESEARCH STUDY\hfill 6 NOVEMBER 2026}\par
+\vspace{10pt}
+{\fontsize{25}{29}\selectfont\bfseries\color{ink}Monte Carlo option hedging for equity portfolios\par}
+\vspace{8pt}{\normalsize Sai Reddivari}\par
+{\small\color{muted}Trading costs, downside protection and a long/short financials application}\par
+\vspace{5pt}{\color{teal}\hrule height .8pt}\vspace{8pt}
+
+\textbf{Abstract.} When does hedging add value beyond simply holding less risk? This study begins with a controlled Monte Carlo comparison of discrete delta-hedging rules for a three-name short-call book. A maturity-sensitive rule selected under an expected trading-cost constraint reduces held-out expected shortfall by 46.7\% relative to weekly hedging. It costs 10.6\% less than daily hedging, while the tail-loss difference from daily is inconclusive. A separate historical application compares eight protection policies for a ten-name long/short financials portfolio. Equity reduction is a demanding benchmark: purchased puts preserve more upside, while a collar achieves a lower point estimate of tail loss at the cost of much of that upside. Forecasting and breadth extensions through 40 names do not establish incremental economic hedge value. Historical options are model-priced contracts; conclusions depend on pricing, exposure and evaluation-window assumptions.
+
+\section*{The purpose is to test the price of protection}
+A hedge changes more than the loss in a bad outcome. It also changes trading costs, financing, exposure and participation when the portfolio recovers. A strategy can look attractive against an unhedged book while offering less than a simpler reduction in equity exposure. Conversely, a hedge that looks expensive at expiry may have provided useful protection during a selloff. The comparison needs to state which benefit it values.
+
+Monte Carlo compares rebalancing rules on the same simulated paths. Historical equity portfolios then ask whether purchased protection is worth its premium relative to retaining less exposure. Success in the first experiment does not establish success in the second.
+
+\figurefile{study_design}
+\captiontext{Figure 1. Scope of the experiments. The 40-name breadth test is a simulation extension; the historical equity-overlay application uses ten names. Financial-feature forecasting is a separate information test, not a demonstrated funding-signal-to-hedge pipeline.}
+
+\nextpage
+\section*{Common Monte Carlo paths make hedge rules comparable}
+The controlled book sells calls on three labelled underlyings, with \$100,000 of initial underlying notional per name and a 63-session horizon. Rates, volatilities and correlations are illustrative assumptions, not fitted market observations. The simulation uses correlated geometric Brownian paths under a risk-neutral measure:
+\[
+S_{i,t+\Delta t}=S_{i,t}\exp\!\left[(r-\tfrac12\sigma_i^2)\Delta t+\sigma_i\sqrt{\Delta t}\,Z_{i,t}\right],
+\qquad Z_t\sim N(0,\Sigma).
+\]
+Black--Scholes values and deltas supply the pricing and hedge targets. The ledger records option premium, stock trades, financed cash and expiry settlement. Stock trades cost five basis points one way; charges are financed to the terminal date. Candidates rebalance periodically or when delta mismatch exceeds a band. The selected band is $0.05\sqrt{\tau/T}$ per option unit, narrowing as remaining maturity $\tau$ falls from its initial value $T$.
+
+Fourteen periodic and delta-band candidates are evaluated on 5,000 selection paths. The chosen rule minimizes estimated ES95 among candidates whose upper 95\% confidence endpoint for mean financed cost is at most \$500. Selection is then locked before 10,000 new evaluation paths are generated. This is an \emph{expected-cost} screen; individual paths can cost more than \$500.
+
+If terminal portfolio profit is $\Pi_j$, loss is $L_j=-\Pi_j$. ES95 is the mean of the largest 5\% of simulated losses. Policies use the same paths, and the bootstrap preserves that pairing. The experiment therefore measures differences between policies under its stated process; it does not estimate the frequency of real-market crises.
+
+\figurefile{controlled_tradeoff}
+\captiontext{Figure 2. Held-out outcomes for the selected maturity-sensitive band and two periodic benchmarks. The cost constraint applies to the upper endpoint for expected cost, not just the displayed mean.}
+
+The selected rule's mean financed cost is \$487.97, with an upper endpoint of \$490.18. ES95 is \$3,327.94 versus \$6,242.90 for weekly hedging. The selected-minus-weekly difference is $-\$2,914.96$, with paired 95\% interval $[-\$3,100.69,-\$2,710.43]$. Weekly hedging costs less, at \$336.13: the reduction in tail loss is bought with more trading.
+
+Daily hedging costs \$545.69 and has ES95 of \$3,326.05. The selected-minus-daily tail difference is only \$1.90, but its interval spans $[-\$31.61,+\$33.56]$. The supported result is lower expected trading cost with an unresolved tail-loss difference, not statistical equivalence to daily hedging.
+
+\nextpage
+\section*{The equity portfolio tests a different use of options}
+The historical application uses a fixed long/short financials mandate, chosen to provide a concrete portfolio whose risks can be protected. It is not a sector-forecasting or stock-selection strategy. At the decision close the book targets 90\% long and 40\% short exposure on \$100 million of capital: 130\% gross and 50\% net.
+
+\begin{center}\small
+\begin{tabular}{@{}p{.19\linewidth}p{.58\linewidth}r@{}}\toprule
+Sleeve & Companies & Target per name\\\midrule
+Long & JPMorgan, Bank of America, Wells Fargo, Citi, PNC, U.S. Bancorp & 15\%\\
+Short & Goldman Sachs, Morgan Stanley, Charles Schwab, Bank of New York Mellon & 10\%\\\bottomrule
+\end{tabular}\end{center}
+
+Split-adjusted closes cover 4,236 exchange-aligned sessions from 4 January 2010 to 4 November 2026. Training uses 2010--2017, validation 2018--2020 and testing 2021 onward. Each window opens a separate 63-session account, with a one-session decision-to-execution lag. There are 11 validation windows and 23 test windows. Whole-share rounding and lagged execution cause realized initial gross exposure to differ from the decision-close target. The policies share the same executed base holdings.
+
+Two baselines and six hedge families are compared. Validation chooses a candidate within each hedge family; no candidate is reselected on the test outcomes. Prices for historical options are European Black--Scholes values using trailing-return volatility. The study has no observed historical option quotes, implied-volatility surface or executable bid/ask spread.
+
+\begin{center}\small
+\begin{tabular}{@{}p{.45\linewidth}rrr@{}}\toprule
+Test policy & Tail loss & Mean P\&L & Upside retained\\\midrule
+Unhedged & 6.280\% & 1.644\% & 100.0\%\\
+Equity reduced to 75\% & 4.458\% & 1.484\% & 78.7\%\\
+XLF stock hedge & 5.232\% & $-0.086$\% & 25.1\%\\
+Purchased single-name puts & 5.700\% & 1.451\% & 93.4\%\\
+Purchased calls on short equities & 6.516\% & 1.738\% & 105.0\%\\
+Purchased sector puts & 6.058\% & 1.399\% & 93.5\%\\
+Collar & 2.906\% & $-0.033$\% & 13.2\%\\
+Price-history-informed puts & 5.990\% & 1.532\% & 96.3\%\\\bottomrule
+\end{tabular}\end{center}
+\captiontext{Table 1. Tail loss is the mean loss of the worst six of 23 test windows, using a 25\% tail fraction and ceiling rounding. P\&L and loss are percentages of initial capital per window. Upside retained is aggregate policy gain divided by baseline gain in baseline-up windows. These are separate accounts, not annual returns or a continuous NAV series.}
+
+The historical tail statistic is deliberately distinguished from simulated ES95. Twenty-three test windows provide only six observations in this tail average, so its uncertainty is substantial. Independent accounting code reconstructs all 2,013 base-case candidate/window terminal outcomes from prices and the protocol, with maximum absolute P\&L discrepancy of \$1.1921e-7. That verifies terminal arithmetic; it does not validate market prices or every intrawindow mark.
+
+\nextpage
+\section*{The tradeoff is between protection and participation}
+Reducing equity to 75\% lowers the point estimate of tail loss while retaining 78.7\% of upside. Single-name puts retain 93.4\%, but have a higher tail-loss estimate. The collar achieves the lowest displayed tail loss while retaining only 13.2\% of upside. Its average initial local dollar delta shifts from $+50.401$\% to $-5.385$\% of capital. This is a material exposure change; local option delta is not market beta, and the study does not attribute the collar's entire benefit to that change.
+
+\figurefile{historical_tradeoff}
+\captiontext{Figure 3. Protection and retained upside must be read together. Points are estimates, not a statistically established frontier. The historical sample, hypothetical option prices and financing assumptions apply to every point.}
+
+Purchased-put tail differences from the unhedged book are inconclusive under the reported pointwise intervals. Additional comparisons with the existing 75\%-equity benchmark find greater tail loss for single-name, sector and price-informed puts, by 1.241, 1.599 and 1.531 percentage points respectively. Their intervals are positive, but the puts preserve more upside. These comparisons cannot establish that reduced equity dominates every investor's preferences.
+
+The collar's tail difference versus reduced equity is $-1.552$ percentage points, with interval $[-3.034,+0.773]$. Its incremental advantage remains unresolved. Purchased calls can protect the short sleeve while worsening whole-book tail loss: a sleeve-specific benefit and a portfolio-level benefit are different objects.
+
+Premium allowances also need careful interpretation. They size positions at the decision close; they are not hard caps enforced at execution. The worst test-window spend/allowance ratios range from 1.269 for sector puts to 4.125 for the collar. A low net collar premium can conceal large gross premiums and exposure to price changes between decision and execution. These outcomes are retained rather than repaired retrospectively.
+
+\nextpage
+\section*{Window placement and prices change the answer}
+The contracts are held to expiry, but the engine also records intrawindow marks and drawdown measures. Terminal tail loss drives selection. It does not capture every possible benefit from interim protection, nor does a model mark establish that the position could have been sold for that amount.
+
+A post-hoc diagnostic shifts window starts by 0, 5, 21 and 42 trading sessions while retaining the same selected policies and 63-session holding periods. Past-only inputs are recomputed at each shifted decision date. Every offset is reported; none is chosen as a replacement result.
+
+\figurefile{window_placement}
+\captiontext{Figure 4. For long puts, the validation tail benefit versus reduced equity changes from $+7.005$ to $-0.231$ percentage points at the 42-session shift. Test puts have greater tail loss than reduced equity at every offset, while retaining more upside.}
+
+The shifts alter timing and which end-period observations enter the sample. The windows overlap, so they do not create independent crises or isolate a pure causal effect of expiry date. The diagnostic shows that the reported terminal result depends on the contract-and-window design. It does not show that insurance is useless or that interim protection has no value.
+
+Option valuation is another unresolved measurement problem. Trailing realized volatility is an assumption about the price of insurance, not an observed price. Changing that assumption changes how much coverage a given premium allowance buys. The correct next check is a small panel of timestamped option quotes and contract terms, covering both calm and stressed dates.
+
+The remaining omissions are economically material: dividends received on longs and owed on shorts, stock borrowing and rebate spreads, margin, American exercise and option bid/ask costs. The historical ledger counts short proceeds as cash and therefore records zero borrowing across the overlay policies. That does not demonstrate zero real financing needs or available collateral. The simulated short-call book is a different account and does report borrowing.
+
+\nextpage
+\section*{A better risk forecast is not automatically a better hedge}
+The forecasting extension asks whether price history, market/sector information and filing-aware financial ratios improve estimates of future variance. Five- and twenty-session cumulative squared log returns are the targets. Transformations are fitted on training data, regularization is selected on validation data, and test forecasts use the locked choices. Date-level block bootstraps retain dependence across companies observed on the same date.
+
+Own-price ridge improves QLIKE relative to EWMA at both horizons. At five sessions its MSE is 29.3\% worse as a point estimate, although the paired MSE interval crosses zero. At twenty sessions, pointwise intervals favor ridge for both QLIKE and MSE. The metrics penalize errors differently; no single score establishes whether a forecast buys useful protection.
+
+The final financial-feature extension uses liabilities/assets for ten companies and deposits/liabilities for six banks. SEC facts are linked to filing information and admitted conservatively from the next session's close, subject to release and fiscal-period staleness limits. Matched financial samples contain 276 five-session and 69 twenty-session origins, ending in July 2026 because of Citi staleness. Price-only samples have 293 and 73 origins.
+
+\begin{center}\small
+\begin{tabular}{@{}p{.34\linewidth}p{.27\linewidth}p{.29\linewidth}@{}}\toprule
+Incremental QLIKE & Five sessions & Twenty sessions\\\midrule
+Liabilities/assets, ten names & $-0.00660$\newline $[-0.01095,-0.00279]$ & $+0.00648$\newline $[+0.00167,+0.01101]$\\[5pt]
+Deposits/liabilities, six banks & $+0.01501$\newline $[+0.00056,+0.03266]$ & $+0.06993$\newline $[+0.02808,+0.12480]$\\\bottomrule
+\end{tabular}\end{center}
+\captiontext{Table 2. Balance-sheet model minus the matched market/sector model; lower QLIKE is better. Brackets contain pointwise paired 95\% intervals. These are forecasting comparisons, not hedge P\&L.}
+
+The liability ratio gives a small horizon-specific improvement, while the tested deposit-share feature worsens incremental QLIKE at both horizons. That finding concerns this proxy, model and cohort. Deposits/liabilities is not a complete description of runnable funding, asset losses or liquidity vulnerability.
+
+The adaptive overlay in the historical study uses price-history risk estimates. The SEC financial models were not connected to an end-to-end trading policy. Establishing economic value would require an explicit mapping from a forecast issued before trading to coverage purchased at an observable price, with a static protection comparator and a predetermined exposure-reduction benchmark.
+
+\nextpage
+\section*{Breadth changes composition as well as name count}
+The expanded data audit retains 50 current companies: 42 with complete price histories and eight with partial histories. The breadth simulations use the complete-history universe, constructing portfolios of 3, 10, 25 and 40 names while preserving \$300,000 of total initial notional. Each portfolio is an exact subset of common master-universe paths within its scenario. Alternative composition chains and a synthetic common-shock scenario probe dependence on the names and correlations included.
+
+\figurefile{breadth}
+\captiontext{Figure 5. Selected-policy ES95 for the canonical composition under two dependence scenarios. The calibrated 25-name and 40-name values are \$4,521.13 and \$4,640.84. These are simulation outcomes conditional on the current-survivor universe and model assumptions.}
+
+Diversification can reduce issuer-specific variation while leaving common exposures intact. Increasing the number of names also changes industry mix and portfolio composition, so a monotonic fall in tail loss is not guaranteed. The 25-to-40-name increase in this calibrated composition is a useful counterexample to treating name count as sufficient evidence of robustness.
+
+This extension is not a 40-name historical equity-overlay backtest. Nor is the 50-name audit a survivorship-safe reconstruction of the financial sector. Historical membership, failed institutions and comparable data through mergers and acquisitions remain incomplete. These limits are particularly relevant when the research question concerns stress: the missing institutions may be among the most informative cases.
+
+The simulation and historical exercises nevertheless contribute different kinds of evidence. Common-path experiments isolate policy differences under stated assumptions; historical windows expose the contracts to observed stock-price episodes; financial features test an information hypothesis. Keeping these roles distinct prevents an improvement in one stage from being mistaken for a validated investment process.
+
+\nextpage
+\section*{The next questions follow from the measurement problems}
+\subsection*{What loss is the portfolio actually trying to insure?}
+The long bank sleeve and short capital-markets sleeve need not lose together. A useful first decomposition would separate broad-market, sector, business-line and issuer contributions. It should also count losses in rallies. A generic sector put may address a different risk from the relative-value exposure carried by the book.
+
+\subsection*{Does protection arrive when it is useful?}
+An option can cushion NAV during a selloff and finish with little expiry payoff after a rebound. Measuring that path is worthwhile. Turning it into usable cash requires executable prices and a rule for selling, retaining coverage and re-entering. Selling at a retrospectively identified trough is a diagnostic, not a feasible trading strategy. The current engine records interim marks but has not tested early monetization or established usable distress liquidity.
+
+\subsection*{Would staggered expiries make protection more dependable?}
+Splitting the same budget across several maturities could reduce dependence on a single expiry date. It also changes carry, maturity exposure and the amount of coverage affordable at entry. A ladder therefore needs a matched-budget, quote-priced comparison, rather than an assumption that window sensitivity will disappear.
+
+\subsection*{Can forecasts distinguish danger from expensive insurance?}
+Risk can be easier to predict precisely when protection becomes expensive. A bounded comparison of adaptive and static puts should align the forecast horizon with the economic evaluation, enforce pre-fill premium limits and measure retained upside. The existing result leaves this question open; better variance scores alone do not answer it.
+
+\subsection*{What can synthetic crises and sharper funding measures add?}
+A simulator with jumps, volatility spikes and different recovery speeds could test which mechanisms each hedge handles under explicit assumptions. It would not add independent historical crises. A separate funding study could examine runnable liabilities, maturity mismatch and asset losses, with failed and acquired institutions and bank-size controls. Neither extension should inherit a claim of effectiveness from the present experiments.
+
+The immediate priority is observable option prices and contract terms, followed by a precise insured-loss objective and executable accounting. Historical periods already examined remain retrospective even if better quotes become available. New comparisons should be specified before evaluation and labelled accordingly.
+
+\nextpage
+\section*{Evidence, implementation and reproduction}
+The repository separates pricing and simulation, trading and cash accounting, forecasting, market-data handling and evaluation. Readable notebooks expose the experiment steps. Automated tests cover financial identities and chronology; independent validation code reconstructs terminal accounting and selected statistical comparisons without relying on the production valuation implementation.
+
+The main numerical reference points are:
+\begin{itemize}
+\item \texttt{config/research\_release\_1.json}: controlled candidate set, seeds, cost screen and held-out evaluation.
+\item \texttt{config/equity\_overlay\_study.json}: portfolio, chronological splits, execution assumptions, candidates and sensitivities.
+\item \texttt{config/published\_defaults.json}: forecasting, breadth and numerical defaults.
+\item \texttt{results/}: canonical experiment tables and full-precision numerical baselines.
+\item \texttt{tests/validation/}: independent accounting, statistics and window-placement checks.
+\end{itemize}
+
+The publication figures are built from saved aggregate CSV files; building them does not fit a model, select a policy or fetch data. A full reproduction restores exact historical input bytes from the recorded Git checkpoint, runs the canonical experiments and compares their outputs. Later live queries cannot guarantee the same vendor observations or filing vintages. The software licence does not grant redistribution rights to third-party inputs.
+
+\subsection*{Sources and reader's guide}
+\begin{enumerate}
+\item \href{https://github.com/sai-reddivari/monte-carlo-portfolio-hedging}{Project repository}: source code, notebooks, configuration and saved results.
+\item \href{https://github.com/sai-reddivari/monte-carlo-portfolio-hedging/blob/main/docs/REPRODUCTION.md}{Reproduction guide}: environment, commands, data restoration and scope limits.
+\item \href{https://github.com/sai-reddivari/monte-carlo-portfolio-hedging/blob/main/docs/technical_notes.md}{Technical notes}: metric conventions, inference qualifications and corrections to earlier displays.
+\item \href{https://github.com/sai-reddivari/monte-carlo-portfolio-hedging/blob/main/data/README.md}{Data provenance}: saved FMP prices and SEC filing facts, coverage and access constraints.
+\end{enumerate}
+
+Historical supplementary runs with incomplete source records are not represented as exactly reproducible. Seeds and single-thread controls improve repeatability within the recorded environment; hardware timing and metadata timestamps are not deterministic economic results. The historical tests use few tail windows, and pointwise intervals do not resolve multiplicity, model-price uncertainty or survivorship bias.
+
+\subsection*{Authorship and assistance}
+Sai Reddivari directed the research question, portfolio application and interpretation. AI tools assisted with implementation, testing and editing.
+
+\vfill
+\captiontext{The controlled experiment supports a conditional trading-cost/risk tradeoff. The historical application clarifies what must be measured before claiming that option protection adds economic value beyond a simpler exposure reduction. Neither result establishes a deployable trading strategy.}
+\end{document}

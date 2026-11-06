@@ -691,7 +691,7 @@ class EndToEndProtocol(unittest.TestCase):
     def setUpClass(cls):
         import matplotlib
         matplotlib.use("Agg")
-        from scripts import run_overlay_research as runner
+        from commands import run_overlay_research as runner
         cls.runner = runner
         cls.folder = tempfile.TemporaryDirectory()
         cls.root = Path(cls.folder.name)

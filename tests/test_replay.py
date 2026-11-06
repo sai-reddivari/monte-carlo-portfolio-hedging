@@ -160,7 +160,7 @@ class ReplayTests(unittest.TestCase):
             replay(self.prices,[self.option()],initial_capital=-100)
 
     def test_study_runner_uses_prior_returns_and_does_not_invent_source_verification(self):
-        from scripts.run_model_contract_replay import run_study
+        from commands.run_model_contract_replay import run_study
 
         dates = pd.bdate_range("2017-01-02", "2020-04-30")
         time = np.arange(len(dates))

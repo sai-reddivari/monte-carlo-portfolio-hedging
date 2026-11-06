@@ -1,1 +1,0 @@
-research_log/equity_overlay_research.md

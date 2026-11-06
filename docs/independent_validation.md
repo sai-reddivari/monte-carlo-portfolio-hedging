@@ -1,1 +1,0 @@
-research_log/independent_validation.md
