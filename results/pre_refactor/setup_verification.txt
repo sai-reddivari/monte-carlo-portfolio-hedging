@@ -1,0 +1,5 @@
+Opus: exact extracted-text match against 71c0be1 RTF; 3596 bytes; SHA256 ab6fce1f73e3de95456aca2a7eda5b5c971607982a6f15f3d0b2d5cbf15e642d
+Sol: exact extracted-text match against 71c0be1 RTF; 4962 bytes; SHA256 4f9ecd23a0d1c695ea3c0fdfac0738c85bf18a8867476c72d9e6327e61591104
+a96d992 chore: capture pre-refactor Python environment
+cd1356e docs: convert next-steps notes to markdown
+a96d99210ea16ac2dd33f46623aaf96cbc563196	refs/tags/pre-refactor

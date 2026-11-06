@@ -1,0 +1,2576 @@
+[
+  {
+    "id": "N0001",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 3,
+    "column": 30,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "Conditional Research Release 2. Prepared November 5, 2026, America/Chicago. This is a local publication package; no public upload has occurred. Full empirical Research Gate 2 remains open. Human review is separate from the computational and independent reviews reported here."
+  },
+  {
+    "id": "N0002",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 3,
+    "column": 51,
+    "literal": "5,",
+    "decimal_text": "5",
+    "context": "Conditional Research Release 2. Prepared November 5, 2026, America/Chicago. This is a local publication package; no public upload has occurred. Full empirical Research Gate 2 remains open. Human review is separate from the computational and independent reviews reported here."
+  },
+  {
+    "id": "N0003",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 3,
+    "column": 54,
+    "literal": "2026,",
+    "decimal_text": "2026",
+    "context": "Conditional Research Release 2. Prepared November 5, 2026, America/Chicago. This is a local publication package; no public upload has occurred. Full empirical Research Gate 2 remains open. Human review is separate from the computational and independent reviews reported here."
+  },
+  {
+    "id": "N0004",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 3,
+    "column": 174,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "Conditional Research Release 2. Prepared November 5, 2026, America/Chicago. This is a local publication package; no public upload has occurred. Full empirical Research Gate 2 remains open. Human review is separate from the computational and independent reviews reported here."
+  },
+  {
+    "id": "N0005",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 7,
+    "column": 179,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "We study portfolio hedging through controlled simulation and historical model-contract replay. A locked maturity-sensitive delta hedge met its expected-cost screen and reduced ES95 relative to weekly hedging; its ES95 difference from daily hedging was inconclusive at lower trading cost. Historical extensions evaluated five- and twenty-session variance forecasts, filing-aware financial features and eight protection policies for a ten-name financial-sector equity long/short mandate. Forecast improvements depended on metric and horizon, while tested deposit-share features worsened incremental QLIKE. Model-priced option protection showed substantial pricing and window-placement sensitivity. Exposure reduction was a strong benchmark; collar protection sacrificed substantial upside. The study identifies the market-data and execution evidence needed before claiming incremental economic hedge value."
+  },
+  {
+    "id": "N0006",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 7,
+    "column": 216,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "We study portfolio hedging through controlled simulation and historical model-contract replay. A locked maturity-sensitive delta hedge met its expected-cost screen and reduced ES95 relative to weekly hedging; its ES95 difference from daily hedging was inconclusive at lower trading cost. Historical extensions evaluated five- and twenty-session variance forecasts, filing-aware financial features and eight protection policies for a ten-name financial-sector equity long/short mandate. Forecast improvements depended on metric and horizon, while tested deposit-share features worsened incremental QLIKE. Model-priced option protection showed substantial pricing and window-placement sensitivity. Exposure reduction was a strong benchmark; collar protection sacrificed substantial upside. The study identifies the market-data and execution evidence needed before claiming incremental economic hedge value."
+  },
+  {
+    "id": "N0007",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 11,
+    "column": 372,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "The framework links validated portfolio inputs, discrete option hedging, cash/stock/option ledgers, chronological forecasts and equity-overlay comparisons. Frozen protocols, selection locks, source/input hashes, executed notebooks and machine-readable results support reconstruction. Original frozen result directories are preserved; [claims and errata](research_release_2_claims_and_errata.md) supply the corrected interpretation."
+  },
+  {
+    "id": "N0008",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 13,
+    "column": 83,
+    "literal": "4,236",
+    "decimal_text": "4236",
+    "context": "The historical input panel contains ten financial-sector issuers and SPY/XLF over 4,236 exchange-aligned sessions from January 4, 2010 through November 4, 2026. Prices are split-adjusted closes without dividend cash flows. Fifty current names were audited for breadth: 42 have complete histories and eight partial histories are retained. Historical membership and failed-name coverage are not established."
+  },
+  {
+    "id": "N0009",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 13,
+    "column": 128,
+    "literal": "4,",
+    "decimal_text": "4",
+    "context": "The historical input panel contains ten financial-sector issuers and SPY/XLF over 4,236 exchange-aligned sessions from January 4, 2010 through November 4, 2026. Prices are split-adjusted closes without dividend cash flows. Fifty current names were audited for breadth: 42 have complete histories and eight partial histories are retained. Historical membership and failed-name coverage are not established."
+  },
+  {
+    "id": "N0010",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 13,
+    "column": 131,
+    "literal": "2010",
+    "decimal_text": "2010",
+    "context": "The historical input panel contains ten financial-sector issuers and SPY/XLF over 4,236 exchange-aligned sessions from January 4, 2010 through November 4, 2026. Prices are split-adjusted closes without dividend cash flows. Fifty current names were audited for breadth: 42 have complete histories and eight partial histories are retained. Historical membership and failed-name coverage are not established."
+  },
+  {
+    "id": "N0011",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 13,
+    "column": 153,
+    "literal": "4,",
+    "decimal_text": "4",
+    "context": "The historical input panel contains ten financial-sector issuers and SPY/XLF over 4,236 exchange-aligned sessions from January 4, 2010 through November 4, 2026. Prices are split-adjusted closes without dividend cash flows. Fifty current names were audited for breadth: 42 have complete histories and eight partial histories are retained. Historical membership and failed-name coverage are not established."
+  },
+  {
+    "id": "N0012",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 13,
+    "column": 156,
+    "literal": "2026",
+    "decimal_text": "2026",
+    "context": "The historical input panel contains ten financial-sector issuers and SPY/XLF over 4,236 exchange-aligned sessions from January 4, 2010 through November 4, 2026. Prices are split-adjusted closes without dividend cash flows. Fifty current names were audited for breadth: 42 have complete histories and eight partial histories are retained. Historical membership and failed-name coverage are not established."
+  },
+  {
+    "id": "N0013",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 13,
+    "column": 270,
+    "literal": "42",
+    "decimal_text": "42",
+    "context": "The historical input panel contains ten financial-sector issuers and SPY/XLF over 4,236 exchange-aligned sessions from January 4, 2010 through November 4, 2026. Prices are split-adjusted closes without dividend cash flows. Fifty current names were audited for breadth: 42 have complete histories and eight partial histories are retained. Historical membership and failed-name coverage are not established."
+  },
+  {
+    "id": "N0014",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 19,
+    "column": 96,
+    "literal": "300,000",
+    "decimal_text": "300000",
+    "context": "Fourteen periodic and delta-band candidates were frozen for a three-name short-call book with $300,000 initial underlying notional, 63 sessions and a 5 bp one-way stock charge. Selection used 5,000 simulated Q paths; the selected policy was locked before generating 10,000 held-out paths. The expected financed stock-cost allowance was $500, screened using the upper endpoint of a two-sided 95% Monte Carlo interval. This is an expected-cost screen, not a pathwise spending cap."
+  },
+  {
+    "id": "N0015",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 19,
+    "column": 133,
+    "literal": "63",
+    "decimal_text": "63",
+    "context": "Fourteen periodic and delta-band candidates were frozen for a three-name short-call book with $300,000 initial underlying notional, 63 sessions and a 5 bp one-way stock charge. Selection used 5,000 simulated Q paths; the selected policy was locked before generating 10,000 held-out paths. The expected financed stock-cost allowance was $500, screened using the upper endpoint of a two-sided 95% Monte Carlo interval. This is an expected-cost screen, not a pathwise spending cap."
+  },
+  {
+    "id": "N0016",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 19,
+    "column": 151,
+    "literal": "5",
+    "decimal_text": "5",
+    "context": "Fourteen periodic and delta-band candidates were frozen for a three-name short-call book with $300,000 initial underlying notional, 63 sessions and a 5 bp one-way stock charge. Selection used 5,000 simulated Q paths; the selected policy was locked before generating 10,000 held-out paths. The expected financed stock-cost allowance was $500, screened using the upper endpoint of a two-sided 95% Monte Carlo interval. This is an expected-cost screen, not a pathwise spending cap."
+  },
+  {
+    "id": "N0017",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 19,
+    "column": 193,
+    "literal": "5,000",
+    "decimal_text": "5000",
+    "context": "Fourteen periodic and delta-band candidates were frozen for a three-name short-call book with $300,000 initial underlying notional, 63 sessions and a 5 bp one-way stock charge. Selection used 5,000 simulated Q paths; the selected policy was locked before generating 10,000 held-out paths. The expected financed stock-cost allowance was $500, screened using the upper endpoint of a two-sided 95% Monte Carlo interval. This is an expected-cost screen, not a pathwise spending cap."
+  },
+  {
+    "id": "N0018",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 19,
+    "column": 267,
+    "literal": "10,000",
+    "decimal_text": "10000",
+    "context": "Fourteen periodic and delta-band candidates were frozen for a three-name short-call book with $300,000 initial underlying notional, 63 sessions and a 5 bp one-way stock charge. Selection used 5,000 simulated Q paths; the selected policy was locked before generating 10,000 held-out paths. The expected financed stock-cost allowance was $500, screened using the upper endpoint of a two-sided 95% Monte Carlo interval. This is an expected-cost screen, not a pathwise spending cap."
+  },
+  {
+    "id": "N0019",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 19,
+    "column": 338,
+    "literal": "500,",
+    "decimal_text": "500",
+    "context": "Fourteen periodic and delta-band candidates were frozen for a three-name short-call book with $300,000 initial underlying notional, 63 sessions and a 5 bp one-way stock charge. Selection used 5,000 simulated Q paths; the selected policy was locked before generating 10,000 held-out paths. The expected financed stock-cost allowance was $500, screened using the upper endpoint of a two-sided 95% Monte Carlo interval. This is an expected-cost screen, not a pathwise spending cap."
+  },
+  {
+    "id": "N0020",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 19,
+    "column": 392,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "Fourteen periodic and delta-band candidates were frozen for a three-name short-call book with $300,000 initial underlying notional, 63 sessions and a 5 bp one-way stock charge. Selection used 5,000 simulated Q paths; the selected policy was locked before generating 10,000 held-out paths. The expected financed stock-cost allowance was $500, screened using the upper endpoint of a two-sided 95% Monte Carlo interval. This is an expected-cost screen, not a pathwise spending cap."
+  },
+  {
+    "id": "N0021",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 23,
+    "column": 10,
+    "literal": "95,",
+    "decimal_text": "95",
+    "context": "| Loss ES95, dollars | 3,327.95 | 3,326.05 | 6,242.90 |"
+  },
+  {
+    "id": "N0022",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 23,
+    "column": 24,
+    "literal": "3,327.95",
+    "decimal_text": "3327.95",
+    "context": "| Loss ES95, dollars | 3,327.95 | 3,326.05 | 6,242.90 |"
+  },
+  {
+    "id": "N0023",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 23,
+    "column": 35,
+    "literal": "3,326.05",
+    "decimal_text": "3326.05",
+    "context": "| Loss ES95, dollars | 3,327.95 | 3,326.05 | 6,242.90 |"
+  },
+  {
+    "id": "N0024",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 23,
+    "column": 46,
+    "literal": "6,242.90",
+    "decimal_text": "6242.90",
+    "context": "| Loss ES95, dollars | 3,327.95 | 3,326.05 | 6,242.90 |"
+  },
+  {
+    "id": "N0025",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 24,
+    "column": 39,
+    "literal": "487.97",
+    "decimal_text": "487.97",
+    "context": "| Mean financed stock cost, dollars | 487.97 | 545.69 | 336.13 |"
+  },
+  {
+    "id": "N0026",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 24,
+    "column": 48,
+    "literal": "545.69",
+    "decimal_text": "545.69",
+    "context": "| Mean financed stock cost, dollars | 487.97 | 545.69 | 336.13 |"
+  },
+  {
+    "id": "N0027",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 24,
+    "column": 57,
+    "literal": "336.13",
+    "decimal_text": "336.13",
+    "context": "| Mean financed stock cost, dollars | 487.97 | 545.69 | 336.13 |"
+  },
+  {
+    "id": "N0028",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 46,
+    "literal": "490.18",
+    "decimal_text": "490.18",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0029",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 60,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0030",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 99,
+    "literal": "2,914.96",
+    "decimal_text": "2914.96",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0031",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 112,
+    "literal": "46.7",
+    "decimal_text": "46.7",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0032",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 141,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0033",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 183,
+    "literal": "3,100.69",
+    "decimal_text": "3100.69",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0034",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 195,
+    "literal": "2,710.43",
+    "decimal_text": "2710.43",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0035",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 231,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0036",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 251,
+    "literal": "1.90",
+    "decimal_text": "1.90",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0037",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 259,
+    "literal": "31.61",
+    "decimal_text": "31.61",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0038",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 268,
+    "literal": "33.56",
+    "decimal_text": "33.56",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0039",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 26,
+    "column": 285,
+    "literal": "10.6",
+    "decimal_text": "10.6",
+    "context": "The selected rule's cost upper endpoint was $490.18. Its ES95 improvement relative to weekly was $2,914.96, or 46.7%, with pointwise paired 95% interval for selected-minus-weekly [\u2212$3,100.69, \u2212$2,710.43]. Relative to daily, the ES95 difference was +$1.90 [\u2212$31.61, +$33.56], at about 10.6% lower financed stock cost. This supports a conditional cost\u2013risk tradeoff. It does not establish equivalence with daily hedging, historical alpha or robustness to an unspecified physical return process."
+  },
+  {
+    "id": "N0040",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 28,
+    "column": 5,
+    "literal": "28",
+    "decimal_text": "28",
+    "context": "All 28 selection/evaluation cases, the ledgers, lock order and uncertainty intervals were independently reconstructed. See [frozen controlled report](../../results/research-release-1/release-1/report.md) and [independent validation](../independent_validation.md)."
+  },
+  {
+    "id": "N0041",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 28,
+    "column": 181,
+    "literal": "-1",
+    "decimal_text": "-1",
+    "context": "All 28 selection/evaluation cases, the ledgers, lock order and uncertainty intervals were independently reconstructed. See [frozen controlled report](../../results/research-release-1/release-1/report.md) and [independent validation](../independent_validation.md)."
+  },
+  {
+    "id": "N0042",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 28,
+    "column": 191,
+    "literal": "-1",
+    "decimal_text": "-1",
+    "context": "All 28 selection/evaluation cases, the ledgers, lock order and uncertainty intervals were independently reconstructed. See [frozen controlled report](../../results/research-release-1/release-1/report.md) and [independent validation](../independent_validation.md)."
+  },
+  {
+    "id": "N0043",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 32,
+    "column": 12,
+    "literal": "2010",
+    "decimal_text": "2010",
+    "context": "Models use 2010\u20132017 training, 2018\u20132020 validation and 2021 onward test data. Targets are five-/twenty-session cumulative squared log returns. Training-only transformations and validation-selected regularization are locked before test prediction. Date-level block bootstrap retains cross-name dependence; name forecasts within the same date are not independent observations."
+  },
+  {
+    "id": "N0044",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 32,
+    "column": 17,
+    "literal": "2017",
+    "decimal_text": "2017",
+    "context": "Models use 2010\u20132017 training, 2018\u20132020 validation and 2021 onward test data. Targets are five-/twenty-session cumulative squared log returns. Training-only transformations and validation-selected regularization are locked before test prediction. Date-level block bootstrap retains cross-name dependence; name forecasts within the same date are not independent observations."
+  },
+  {
+    "id": "N0045",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 32,
+    "column": 32,
+    "literal": "2018",
+    "decimal_text": "2018",
+    "context": "Models use 2010\u20132017 training, 2018\u20132020 validation and 2021 onward test data. Targets are five-/twenty-session cumulative squared log returns. Training-only transformations and validation-selected regularization are locked before test prediction. Date-level block bootstrap retains cross-name dependence; name forecasts within the same date are not independent observations."
+  },
+  {
+    "id": "N0046",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 32,
+    "column": 37,
+    "literal": "2020",
+    "decimal_text": "2020",
+    "context": "Models use 2010\u20132017 training, 2018\u20132020 validation and 2021 onward test data. Targets are five-/twenty-session cumulative squared log returns. Training-only transformations and validation-selected regularization are locked before test prediction. Date-level block bootstrap retains cross-name dependence; name forecasts within the same date are not independent observations."
+  },
+  {
+    "id": "N0047",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 32,
+    "column": 57,
+    "literal": "2021",
+    "decimal_text": "2021",
+    "context": "Models use 2010\u20132017 training, 2018\u20132020 validation and 2021 onward test data. Targets are five-/twenty-session cumulative squared log returns. Training-only transformations and validation-selected regularization are locked before test prediction. Date-level block bootstrap retains cross-name dependence; name forecasts within the same date are not independent observations."
+  },
+  {
+    "id": "N0048",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 34,
+    "column": 132,
+    "literal": "29.3",
+    "decimal_text": "29.3",
+    "context": "Price-only ridge improves QLIKE relative to EWMA at both horizons, with favorable pointwise intervals. At five sessions its MSE is 29.3% worse as a point estimate, but the paired MSE interval includes zero. At twenty sessions, pointwise intervals favor ridge for both QLIKE and MSE. These metrics weight errors differently; neither result alone establishes improved hedging."
+  },
+  {
+    "id": "N0049",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 36,
+    "column": 356,
+    "literal": "276",
+    "decimal_text": "276",
+    "context": "The **final financial-feature extension covers ten names for liabilities/assets and six eligible banks for deposits/liabilities**, alongside the original three-name/two-bank cohorts. It uses SEC filing-linked observations, conservative next-session-close availability and limits on both release and fiscal-period staleness. Matched financial samples have 276 five-session and 69 twenty-session origins, ending in July 2026 because of Citi staleness; price-only samples have 293 and 73 origins."
+  },
+  {
+    "id": "N0050",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 36,
+    "column": 377,
+    "literal": "69",
+    "decimal_text": "69",
+    "context": "The **final financial-feature extension covers ten names for liabilities/assets and six eligible banks for deposits/liabilities**, alongside the original three-name/two-bank cohorts. It uses SEC filing-linked observations, conservative next-session-close availability and limits on both release and fiscal-period staleness. Matched financial samples have 276 five-session and 69 twenty-session origins, ending in July 2026 because of Citi staleness; price-only samples have 293 and 73 origins."
+  },
+  {
+    "id": "N0051",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 36,
+    "column": 419,
+    "literal": "2026",
+    "decimal_text": "2026",
+    "context": "The **final financial-feature extension covers ten names for liabilities/assets and six eligible banks for deposits/liabilities**, alongside the original three-name/two-bank cohorts. It uses SEC filing-linked observations, conservative next-session-close availability and limits on both release and fiscal-period staleness. Matched financial samples have 276 five-session and 69 twenty-session origins, ending in July 2026 because of Citi staleness; price-only samples have 293 and 73 origins."
+  },
+  {
+    "id": "N0052",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 36,
+    "column": 475,
+    "literal": "293",
+    "decimal_text": "293",
+    "context": "The **final financial-feature extension covers ten names for liabilities/assets and six eligible banks for deposits/liabilities**, alongside the original three-name/two-bank cohorts. It uses SEC filing-linked observations, conservative next-session-close availability and limits on both release and fiscal-period staleness. Matched financial samples have 276 five-session and 69 twenty-session origins, ending in July 2026 because of Citi staleness; price-only samples have 293 and 73 origins."
+  },
+  {
+    "id": "N0053",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 36,
+    "column": 483,
+    "literal": "73",
+    "decimal_text": "73",
+    "context": "The **final financial-feature extension covers ten names for liabilities/assets and six eligible banks for deposits/liabilities**, alongside the original three-name/two-bank cohorts. It uses SEC filing-linked observations, conservative next-session-close availability and limits on both release and fiscal-period staleness. Matched financial samples have 276 five-session and 69 twenty-session origins, ending in July 2026 because of Citi staleness; price-only samples have 293 and 73 origins."
+  },
+  {
+    "id": "N0054",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 38,
+    "column": 72,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "| Incremental QLIKE comparison | Five-session difference and pointwise 95% interval | Twenty-session difference and pointwise 95% interval |"
+  },
+  {
+    "id": "N0055",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 38,
+    "column": 127,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "| Incremental QLIKE comparison | Five-session difference and pointwise 95% interval | Twenty-session difference and pointwise 95% interval |"
+  },
+  {
+    "id": "N0056",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 40,
+    "column": 62,
+    "literal": "\u22120.00660",
+    "decimal_text": "-0.00660",
+    "context": "| Liabilities/assets versus market-sector model, ten names | \u22120.00660 [\u22120.01095, \u22120.00279] | +0.00648 [+0.00167, +0.01101] |"
+  },
+  {
+    "id": "N0057",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 40,
+    "column": 72,
+    "literal": "\u22120.01095",
+    "decimal_text": "-0.01095",
+    "context": "| Liabilities/assets versus market-sector model, ten names | \u22120.00660 [\u22120.01095, \u22120.00279] | +0.00648 [+0.00167, +0.01101] |"
+  },
+  {
+    "id": "N0058",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 40,
+    "column": 82,
+    "literal": "\u22120.00279",
+    "decimal_text": "-0.00279",
+    "context": "| Liabilities/assets versus market-sector model, ten names | \u22120.00660 [\u22120.01095, \u22120.00279] | +0.00648 [+0.00167, +0.01101] |"
+  },
+  {
+    "id": "N0059",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 40,
+    "column": 94,
+    "literal": "+0.00648",
+    "decimal_text": "+0.00648",
+    "context": "| Liabilities/assets versus market-sector model, ten names | \u22120.00660 [\u22120.01095, \u22120.00279] | +0.00648 [+0.00167, +0.01101] |"
+  },
+  {
+    "id": "N0060",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 40,
+    "column": 104,
+    "literal": "+0.00167",
+    "decimal_text": "+0.00167",
+    "context": "| Liabilities/assets versus market-sector model, ten names | \u22120.00660 [\u22120.01095, \u22120.00279] | +0.00648 [+0.00167, +0.01101] |"
+  },
+  {
+    "id": "N0061",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 40,
+    "column": 114,
+    "literal": "+0.01101",
+    "decimal_text": "+0.01101",
+    "context": "| Liabilities/assets versus market-sector model, ten names | \u22120.00660 [\u22120.01095, \u22120.00279] | +0.00648 [+0.00167, +0.01101] |"
+  },
+  {
+    "id": "N0062",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 41,
+    "column": 64,
+    "literal": "+0.01501",
+    "decimal_text": "+0.01501",
+    "context": "| Deposits/liabilities versus market-sector model, six banks | +0.01501 [+0.00056, +0.03266] | +0.06993 [+0.02808, +0.12480] |"
+  },
+  {
+    "id": "N0063",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 41,
+    "column": 74,
+    "literal": "+0.00056",
+    "decimal_text": "+0.00056",
+    "context": "| Deposits/liabilities versus market-sector model, six banks | +0.01501 [+0.00056, +0.03266] | +0.06993 [+0.02808, +0.12480] |"
+  },
+  {
+    "id": "N0064",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 41,
+    "column": 84,
+    "literal": "+0.03266",
+    "decimal_text": "+0.03266",
+    "context": "| Deposits/liabilities versus market-sector model, six banks | +0.01501 [+0.00056, +0.03266] | +0.06993 [+0.02808, +0.12480] |"
+  },
+  {
+    "id": "N0065",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 41,
+    "column": 96,
+    "literal": "+0.06993",
+    "decimal_text": "+0.06993",
+    "context": "| Deposits/liabilities versus market-sector model, six banks | +0.01501 [+0.00056, +0.03266] | +0.06993 [+0.02808, +0.12480] |"
+  },
+  {
+    "id": "N0066",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 41,
+    "column": 106,
+    "literal": "+0.02808",
+    "decimal_text": "+0.02808",
+    "context": "| Deposits/liabilities versus market-sector model, six banks | +0.01501 [+0.00056, +0.03266] | +0.06993 [+0.02808, +0.12480] |"
+  },
+  {
+    "id": "N0067",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 41,
+    "column": 116,
+    "literal": "+0.12480",
+    "decimal_text": "+0.12480",
+    "context": "| Deposits/liabilities versus market-sector model, six banks | +0.01501 [+0.00056, +0.03266] | +0.06993 [+0.02808, +0.12480] |"
+  },
+  {
+    "id": "N0068",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 45,
+    "column": 82,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "Evidence: [final ten-name/six-bank feature report](../../results/feature-research-20261106T024244836968Z/report.md), [original-cohort report](../../results/feature-research-20261106T024225834886Z/report.md), [feature methods and reconstruction](../feature_research.md)."
+  },
+  {
+    "id": "N0069",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 45,
+    "column": 92,
+    "literal": "024244836968",
+    "decimal_text": "024244836968",
+    "context": "Evidence: [final ten-name/six-bank feature report](../../results/feature-research-20261106T024244836968Z/report.md), [original-cohort report](../../results/feature-research-20261106T024225834886Z/report.md), [feature methods and reconstruction](../feature_research.md)."
+  },
+  {
+    "id": "N0070",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 45,
+    "column": 173,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "Evidence: [final ten-name/six-bank feature report](../../results/feature-research-20261106T024244836968Z/report.md), [original-cohort report](../../results/feature-research-20261106T024225834886Z/report.md), [feature methods and reconstruction](../feature_research.md)."
+  },
+  {
+    "id": "N0071",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 45,
+    "column": 183,
+    "literal": "024225834886",
+    "decimal_text": "024225834886",
+    "context": "Evidence: [final ten-name/six-bank feature report](../../results/feature-research-20261106T024244836968Z/report.md), [original-cohort report](../../results/feature-research-20261106T024225834886Z/report.md), [feature methods and reconstruction](../feature_research.md)."
+  },
+  {
+    "id": "N0072",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 49,
+    "column": 26,
+    "literal": "90",
+    "decimal_text": "90",
+    "context": "The core mandate targets 90% long and 40% short equity at the decision close: 130% gross and 50% net on $100 million capital. Lagged whole-share execution produced test inception gross exposure of 126.644%\u2013140.634%. Comparisons share the same executed base holdings. Policies use independent 63-session accounts, a one-session execution lag, 11 validation windows and 23 test windows. Validation selects one policy per family; no policy is reselected using test results."
+  },
+  {
+    "id": "N0073",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 49,
+    "column": 39,
+    "literal": "40",
+    "decimal_text": "40",
+    "context": "The core mandate targets 90% long and 40% short equity at the decision close: 130% gross and 50% net on $100 million capital. Lagged whole-share execution produced test inception gross exposure of 126.644%\u2013140.634%. Comparisons share the same executed base holdings. Policies use independent 63-session accounts, a one-session execution lag, 11 validation windows and 23 test windows. Validation selects one policy per family; no policy is reselected using test results."
+  },
+  {
+    "id": "N0074",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 49,
+    "column": 79,
+    "literal": "130",
+    "decimal_text": "130",
+    "context": "The core mandate targets 90% long and 40% short equity at the decision close: 130% gross and 50% net on $100 million capital. Lagged whole-share execution produced test inception gross exposure of 126.644%\u2013140.634%. Comparisons share the same executed base holdings. Policies use independent 63-session accounts, a one-session execution lag, 11 validation windows and 23 test windows. Validation selects one policy per family; no policy is reselected using test results."
+  },
+  {
+    "id": "N0075",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 49,
+    "column": 94,
+    "literal": "50",
+    "decimal_text": "50",
+    "context": "The core mandate targets 90% long and 40% short equity at the decision close: 130% gross and 50% net on $100 million capital. Lagged whole-share execution produced test inception gross exposure of 126.644%\u2013140.634%. Comparisons share the same executed base holdings. Policies use independent 63-session accounts, a one-session execution lag, 11 validation windows and 23 test windows. Validation selects one policy per family; no policy is reselected using test results."
+  },
+  {
+    "id": "N0076",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 49,
+    "column": 106,
+    "literal": "100",
+    "decimal_text": "100",
+    "context": "The core mandate targets 90% long and 40% short equity at the decision close: 130% gross and 50% net on $100 million capital. Lagged whole-share execution produced test inception gross exposure of 126.644%\u2013140.634%. Comparisons share the same executed base holdings. Policies use independent 63-session accounts, a one-session execution lag, 11 validation windows and 23 test windows. Validation selects one policy per family; no policy is reselected using test results."
+  },
+  {
+    "id": "N0077",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 49,
+    "column": 198,
+    "literal": "126.644",
+    "decimal_text": "126.644",
+    "context": "The core mandate targets 90% long and 40% short equity at the decision close: 130% gross and 50% net on $100 million capital. Lagged whole-share execution produced test inception gross exposure of 126.644%\u2013140.634%. Comparisons share the same executed base holdings. Policies use independent 63-session accounts, a one-session execution lag, 11 validation windows and 23 test windows. Validation selects one policy per family; no policy is reselected using test results."
+  },
+  {
+    "id": "N0078",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 49,
+    "column": 207,
+    "literal": "140.634",
+    "decimal_text": "140.634",
+    "context": "The core mandate targets 90% long and 40% short equity at the decision close: 130% gross and 50% net on $100 million capital. Lagged whole-share execution produced test inception gross exposure of 126.644%\u2013140.634%. Comparisons share the same executed base holdings. Policies use independent 63-session accounts, a one-session execution lag, 11 validation windows and 23 test windows. Validation selects one policy per family; no policy is reselected using test results."
+  },
+  {
+    "id": "N0079",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 49,
+    "column": 293,
+    "literal": "63",
+    "decimal_text": "63",
+    "context": "The core mandate targets 90% long and 40% short equity at the decision close: 130% gross and 50% net on $100 million capital. Lagged whole-share execution produced test inception gross exposure of 126.644%\u2013140.634%. Comparisons share the same executed base holdings. Policies use independent 63-session accounts, a one-session execution lag, 11 validation windows and 23 test windows. Validation selects one policy per family; no policy is reselected using test results."
+  },
+  {
+    "id": "N0080",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 49,
+    "column": 343,
+    "literal": "11",
+    "decimal_text": "11",
+    "context": "The core mandate targets 90% long and 40% short equity at the decision close: 130% gross and 50% net on $100 million capital. Lagged whole-share execution produced test inception gross exposure of 126.644%\u2013140.634%. Comparisons share the same executed base holdings. Policies use independent 63-session accounts, a one-session execution lag, 11 validation windows and 23 test windows. Validation selects one policy per family; no policy is reselected using test results."
+  },
+  {
+    "id": "N0081",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 49,
+    "column": 369,
+    "literal": "23",
+    "decimal_text": "23",
+    "context": "The core mandate targets 90% long and 40% short equity at the decision close: 130% gross and 50% net on $100 million capital. Lagged whole-share execution produced test inception gross exposure of 126.644%\u2013140.634%. Comparisons share the same executed base holdings. Policies use independent 63-session accounts, a one-session execution lag, 11 validation windows and 23 test windows. Validation selects one policy per family; no policy is reselected using test results."
+  },
+  {
+    "id": "N0082",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 51,
+    "column": 13,
+    "literal": "6",
+    "decimal_text": "6",
+    "context": "**The stage 6 tail statistic is the mean loss of the worst six of 23 test windows**, a 25% tail fraction with ceiling rounding. It is not Gate 1's ES95. Values below are percentages of initial capital per window; upside retained is the ratio of aggregate policy gains to baseline gains in baseline-up windows."
+  },
+  {
+    "id": "N0083",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 51,
+    "column": 67,
+    "literal": "23",
+    "decimal_text": "23",
+    "context": "**The stage 6 tail statistic is the mean loss of the worst six of 23 test windows**, a 25% tail fraction with ceiling rounding. It is not Gate 1's ES95. Values below are percentages of initial capital per window; upside retained is the ratio of aggregate policy gains to baseline gains in baseline-up windows."
+  },
+  {
+    "id": "N0084",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 51,
+    "column": 88,
+    "literal": "25",
+    "decimal_text": "25",
+    "context": "**The stage 6 tail statistic is the mean loss of the worst six of 23 test windows**, a 25% tail fraction with ceiling rounding. It is not Gate 1's ES95. Values below are percentages of initial capital per window; upside retained is the ratio of aggregate policy gains to baseline gains in baseline-up windows."
+  },
+  {
+    "id": "N0085",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 51,
+    "column": 144,
+    "literal": "1",
+    "decimal_text": "1",
+    "context": "**The stage 6 tail statistic is the mean loss of the worst six of 23 test windows**, a 25% tail fraction with ceiling rounding. It is not Gate 1's ES95. Values below are percentages of initial capital per window; upside retained is the ratio of aggregate policy gains to baseline gains in baseline-up windows."
+  },
+  {
+    "id": "N0086",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 51,
+    "column": 150,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "**The stage 6 tail statistic is the mean loss of the worst six of 23 test windows**, a 25% tail fraction with ceiling rounding. It is not Gate 1's ES95. Values below are percentages of initial capital per window; upside retained is the ratio of aggregate policy gains to baseline gains in baseline-up windows."
+  },
+  {
+    "id": "N0087",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 55,
+    "column": 14,
+    "literal": "6.280",
+    "decimal_text": "6.280",
+    "context": "| Unhedged | 6.280 | 1.644 | 100.0% |"
+  },
+  {
+    "id": "N0088",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 55,
+    "column": 22,
+    "literal": "1.644",
+    "decimal_text": "1.644",
+    "context": "| Unhedged | 6.280 | 1.644 | 100.0% |"
+  },
+  {
+    "id": "N0089",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 55,
+    "column": 30,
+    "literal": "100.0",
+    "decimal_text": "100.0",
+    "context": "| Unhedged | 6.280 | 1.644 | 100.0% |"
+  },
+  {
+    "id": "N0090",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 56,
+    "column": 21,
+    "literal": "75",
+    "decimal_text": "75",
+    "context": "| Equity reduced to 75% | 4.458 | 1.484 | 78.7% |"
+  },
+  {
+    "id": "N0091",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 56,
+    "column": 27,
+    "literal": "4.458",
+    "decimal_text": "4.458",
+    "context": "| Equity reduced to 75% | 4.458 | 1.484 | 78.7% |"
+  },
+  {
+    "id": "N0092",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 56,
+    "column": 35,
+    "literal": "1.484",
+    "decimal_text": "1.484",
+    "context": "| Equity reduced to 75% | 4.458 | 1.484 | 78.7% |"
+  },
+  {
+    "id": "N0093",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 56,
+    "column": 43,
+    "literal": "78.7",
+    "decimal_text": "78.7",
+    "context": "| Equity reduced to 75% | 4.458 | 1.484 | 78.7% |"
+  },
+  {
+    "id": "N0094",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 57,
+    "column": 21,
+    "literal": "5.232",
+    "decimal_text": "5.232",
+    "context": "| XLF stock hedge | 5.232 | \u22120.086 | 25.1% |"
+  },
+  {
+    "id": "N0095",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 57,
+    "column": 29,
+    "literal": "\u22120.086",
+    "decimal_text": "-0.086",
+    "context": "| XLF stock hedge | 5.232 | \u22120.086 | 25.1% |"
+  },
+  {
+    "id": "N0096",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 57,
+    "column": 38,
+    "literal": "25.1",
+    "decimal_text": "25.1",
+    "context": "| XLF stock hedge | 5.232 | \u22120.086 | 25.1% |"
+  },
+  {
+    "id": "N0097",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 58,
+    "column": 32,
+    "literal": "5.700",
+    "decimal_text": "5.700",
+    "context": "| Purchased single-name puts | 5.700 | 1.451 | 93.4% |"
+  },
+  {
+    "id": "N0098",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 58,
+    "column": 40,
+    "literal": "1.451",
+    "decimal_text": "1.451",
+    "context": "| Purchased single-name puts | 5.700 | 1.451 | 93.4% |"
+  },
+  {
+    "id": "N0099",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 58,
+    "column": 48,
+    "literal": "93.4",
+    "decimal_text": "93.4",
+    "context": "| Purchased single-name puts | 5.700 | 1.451 | 93.4% |"
+  },
+  {
+    "id": "N0100",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 59,
+    "column": 47,
+    "literal": "6.516",
+    "decimal_text": "6.516",
+    "context": "| Purchased calls protecting short equities | 6.516 | 1.738 | 105.0% |"
+  },
+  {
+    "id": "N0101",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 59,
+    "column": 55,
+    "literal": "1.738",
+    "decimal_text": "1.738",
+    "context": "| Purchased calls protecting short equities | 6.516 | 1.738 | 105.0% |"
+  },
+  {
+    "id": "N0102",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 59,
+    "column": 63,
+    "literal": "105.0",
+    "decimal_text": "105.0",
+    "context": "| Purchased calls protecting short equities | 6.516 | 1.738 | 105.0% |"
+  },
+  {
+    "id": "N0103",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 60,
+    "column": 27,
+    "literal": "6.058",
+    "decimal_text": "6.058",
+    "context": "| Purchased sector puts | 6.058 | 1.399 | 93.5% |"
+  },
+  {
+    "id": "N0104",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 60,
+    "column": 35,
+    "literal": "1.399",
+    "decimal_text": "1.399",
+    "context": "| Purchased sector puts | 6.058 | 1.399 | 93.5% |"
+  },
+  {
+    "id": "N0105",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 60,
+    "column": 43,
+    "literal": "93.5",
+    "decimal_text": "93.5",
+    "context": "| Purchased sector puts | 6.058 | 1.399 | 93.5% |"
+  },
+  {
+    "id": "N0106",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 61,
+    "column": 12,
+    "literal": "2.906",
+    "decimal_text": "2.906",
+    "context": "| Collar | 2.906 | \u22120.033 | 13.2% |"
+  },
+  {
+    "id": "N0107",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 61,
+    "column": 20,
+    "literal": "\u22120.033",
+    "decimal_text": "-0.033",
+    "context": "| Collar | 2.906 | \u22120.033 | 13.2% |"
+  },
+  {
+    "id": "N0108",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 61,
+    "column": 29,
+    "literal": "13.2",
+    "decimal_text": "13.2",
+    "context": "| Collar | 2.906 | \u22120.033 | 13.2% |"
+  },
+  {
+    "id": "N0109",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 62,
+    "column": 33,
+    "literal": "5.990",
+    "decimal_text": "5.990",
+    "context": "| Price-history-informed puts | 5.990 | 1.532 | 96.3% |"
+  },
+  {
+    "id": "N0110",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 62,
+    "column": 41,
+    "literal": "1.532",
+    "decimal_text": "1.532",
+    "context": "| Price-history-informed puts | 5.990 | 1.532 | 96.3% |"
+  },
+  {
+    "id": "N0111",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 62,
+    "column": 49,
+    "literal": "96.3",
+    "decimal_text": "96.3",
+    "context": "| Price-history-informed puts | 5.990 | 1.532 | 96.3% |"
+  },
+  {
+    "id": "N0112",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 64,
+    "column": 284,
+    "literal": "+50.401",
+    "decimal_text": "+50.401",
+    "context": "Reduced equity is a strong benchmark. Purchased-put tail differences versus unhedged are inconclusive under the reported pointwise intervals. The collar reduces modeled tail loss, but substantially changes exposure and sacrifices upside: mean initial local dollar delta changes from +50.401% to \u22125.385% of capital. Delta is not market beta, and no attribution establishes that the entire protection benefit is explained by reduced exposure."
+  },
+  {
+    "id": "N0113",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 64,
+    "column": 296,
+    "literal": "\u22125.385",
+    "decimal_text": "-5.385",
+    "context": "Reduced equity is a strong benchmark. Purchased-put tail differences versus unhedged are inconclusive under the reported pointwise intervals. The collar reduces modeled tail loss, but substantially changes exposure and sacrifices upside: mean initial local dollar delta changes from +50.401% to \u22125.385% of capital. Delta is not market beta, and no attribution establishes that the entire protection benefit is explained by reduced exposure."
+  },
+  {
+    "id": "N0114",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 66,
+    "column": 171,
+    "literal": "0.946695",
+    "decimal_text": "0.946695",
+    "context": "Purchased short-sleeve calls can reduce short-sleeve losses while worsening whole-book downside ES. Including marginal premium financing gives short-side loss capture of 0.946695, compared with 0.946109 in the original sleeve metric. This is a narrow side-specific result, not whole-portfolio dominance."
+  },
+  {
+    "id": "N0115",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 66,
+    "column": 195,
+    "literal": "0.946109",
+    "decimal_text": "0.946109",
+    "context": "Purchased short-sleeve calls can reduce short-sleeve losses while worsening whole-book downside ES. Including marginal premium financing gives short-side loss capture of 0.946695, compared with 0.946109 in the original sleeve metric. This is a narrow side-specific result, not whole-portfolio dominance."
+  },
+  {
+    "id": "N0116",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 68,
+    "column": 152,
+    "literal": "1.304",
+    "decimal_text": "1.304",
+    "context": "Nominal annual premium allowances are decision-time sizing rules, **not enforced execution-time caps**. Worst test-window premium/allowance ratios are 1.304 for long puts, 2.599 for purchased short-sleeve calls, 1.269 for sector puts, 4.125 for the collar and 1.303 for price-informed puts. No retrospective resizing replaces those outcomes."
+  },
+  {
+    "id": "N0117",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 68,
+    "column": 173,
+    "literal": "2.599",
+    "decimal_text": "2.599",
+    "context": "Nominal annual premium allowances are decision-time sizing rules, **not enforced execution-time caps**. Worst test-window premium/allowance ratios are 1.304 for long puts, 2.599 for purchased short-sleeve calls, 1.269 for sector puts, 4.125 for the collar and 1.303 for price-informed puts. No retrospective resizing replaces those outcomes."
+  },
+  {
+    "id": "N0118",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 68,
+    "column": 213,
+    "literal": "1.269",
+    "decimal_text": "1.269",
+    "context": "Nominal annual premium allowances are decision-time sizing rules, **not enforced execution-time caps**. Worst test-window premium/allowance ratios are 1.304 for long puts, 2.599 for purchased short-sleeve calls, 1.269 for sector puts, 4.125 for the collar and 1.303 for price-informed puts. No retrospective resizing replaces those outcomes."
+  },
+  {
+    "id": "N0119",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 68,
+    "column": 236,
+    "literal": "4.125",
+    "decimal_text": "4.125",
+    "context": "Nominal annual premium allowances are decision-time sizing rules, **not enforced execution-time caps**. Worst test-window premium/allowance ratios are 1.304 for long puts, 2.599 for purchased short-sleeve calls, 1.269 for sector puts, 4.125 for the collar and 1.303 for price-informed puts. No retrospective resizing replaces those outcomes."
+  },
+  {
+    "id": "N0120",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 68,
+    "column": 261,
+    "literal": "1.303",
+    "decimal_text": "1.303",
+    "context": "Nominal annual premium allowances are decision-time sizing rules, **not enforced execution-time caps**. Worst test-window premium/allowance ratios are 1.304 for long puts, 2.599 for purchased short-sleeve calls, 1.269 for sector puts, 4.125 for the collar and 1.303 for price-informed puts. No retrospective resizing replaces those outcomes."
+  },
+  {
+    "id": "N0121",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 70,
+    "column": 44,
+    "literal": "2,013",
+    "decimal_text": "2013",
+    "context": "The independent reviewer reconstructed all 2,013 base-case policy/window terminal outcomes from raw prices and the frozen protocol without calling production pricing, risk, replay or overlay functions. Maximum absolute terminal-P&L discrepancy was $1.1921e-7. All 276 test collar legs and original paired block-bootstrap intervals also reconstructed. This does not certify every intrawindow mark/drawdown, sensitivity run, vendor observation or market execution assumption."
+  },
+  {
+    "id": "N0122",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 70,
+    "column": 250,
+    "literal": "1.1921e-7",
+    "decimal_text": "1.1921e-7",
+    "context": "The independent reviewer reconstructed all 2,013 base-case policy/window terminal outcomes from raw prices and the frozen protocol without calling production pricing, risk, replay or overlay functions. Maximum absolute terminal-P&L discrepancy was $1.1921e-7. All 276 test collar legs and original paired block-bootstrap intervals also reconstructed. This does not certify every intrawindow mark/drawdown, sensitivity run, vendor observation or market execution assumption."
+  },
+  {
+    "id": "N0123",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 70,
+    "column": 265,
+    "literal": "276",
+    "decimal_text": "276",
+    "context": "The independent reviewer reconstructed all 2,013 base-case policy/window terminal outcomes from raw prices and the frozen protocol without calling production pricing, risk, replay or overlay functions. Maximum absolute terminal-P&L discrepancy was $1.1921e-7. All 276 test collar legs and original paired block-bootstrap intervals also reconstructed. This does not certify every intrawindow mark/drawdown, sensitivity run, vendor observation or market execution assumption."
+  },
+  {
+    "id": "N0124",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 72,
+    "column": 25,
+    "literal": "6",
+    "decimal_text": "6",
+    "context": "Evidence: [frozen stage 6 report](../../results/equity-overlays-20261106T023430248130Z/report.md), [permanent reviewer archive](frozen_package_and_review_evidence/astra-review-20261106/archive_manifest.json), [corrections and diagnostic interpretation](research_release_2_claims_and_errata.md)."
+  },
+  {
+    "id": "N0125",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 72,
+    "column": 64,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "Evidence: [frozen stage 6 report](../../results/equity-overlays-20261106T023430248130Z/report.md), [permanent reviewer archive](frozen_package_and_review_evidence/astra-review-20261106/archive_manifest.json), [corrections and diagnostic interpretation](research_release_2_claims_and_errata.md)."
+  },
+  {
+    "id": "N0126",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 72,
+    "column": 74,
+    "literal": "023430248130",
+    "decimal_text": "023430248130",
+    "context": "Evidence: [frozen stage 6 report](../../results/equity-overlays-20261106T023430248130Z/report.md), [permanent reviewer archive](frozen_package_and_review_evidence/astra-review-20261106/archive_manifest.json), [corrections and diagnostic interpretation](research_release_2_claims_and_errata.md)."
+  },
+  {
+    "id": "N0127",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 72,
+    "column": 176,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "Evidence: [frozen stage 6 report](../../results/equity-overlays-20261106T023430248130Z/report.md), [permanent reviewer archive](frozen_package_and_review_evidence/astra-review-20261106/archive_manifest.json), [corrections and diagnostic interpretation](research_release_2_claims_and_errata.md)."
+  },
+  {
+    "id": "N0128",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 72,
+    "column": 271,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "Evidence: [frozen stage 6 report](../../results/equity-overlays-20261106T023430248130Z/report.md), [permanent reviewer archive](frozen_package_and_review_evidence/astra-review-20261106/archive_manifest.json), [corrections and diagnostic interpretation](research_release_2_claims_and_errata.md)."
+  },
+  {
+    "id": "N0129",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 78,
+    "column": 43,
+    "literal": "75",
+    "decimal_text": "75",
+    "context": "Reviewer comparisons against the existing 75%-equity benchmark are explicitly post-hoc. Single-name, sector and price-informed puts have greater worst-six losses by 1.241, 1.599 and 1.531 percentage points, with positive pointwise intervals. They also preserve more upside; these results do not establish overall dominance by reduced equity. The collar's incremental tail advantage is unresolved: \u22121.552 [\u22123.034, +0.773]."
+  },
+  {
+    "id": "N0130",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 78,
+    "column": 166,
+    "literal": "1.241",
+    "decimal_text": "1.241",
+    "context": "Reviewer comparisons against the existing 75%-equity benchmark are explicitly post-hoc. Single-name, sector and price-informed puts have greater worst-six losses by 1.241, 1.599 and 1.531 percentage points, with positive pointwise intervals. They also preserve more upside; these results do not establish overall dominance by reduced equity. The collar's incremental tail advantage is unresolved: \u22121.552 [\u22123.034, +0.773]."
+  },
+  {
+    "id": "N0131",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 78,
+    "column": 173,
+    "literal": "1.599",
+    "decimal_text": "1.599",
+    "context": "Reviewer comparisons against the existing 75%-equity benchmark are explicitly post-hoc. Single-name, sector and price-informed puts have greater worst-six losses by 1.241, 1.599 and 1.531 percentage points, with positive pointwise intervals. They also preserve more upside; these results do not establish overall dominance by reduced equity. The collar's incremental tail advantage is unresolved: \u22121.552 [\u22123.034, +0.773]."
+  },
+  {
+    "id": "N0132",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 78,
+    "column": 183,
+    "literal": "1.531",
+    "decimal_text": "1.531",
+    "context": "Reviewer comparisons against the existing 75%-equity benchmark are explicitly post-hoc. Single-name, sector and price-informed puts have greater worst-six losses by 1.241, 1.599 and 1.531 percentage points, with positive pointwise intervals. They also preserve more upside; these results do not establish overall dominance by reduced equity. The collar's incremental tail advantage is unresolved: \u22121.552 [\u22123.034, +0.773]."
+  },
+  {
+    "id": "N0133",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 78,
+    "column": 398,
+    "literal": "\u22121.552",
+    "decimal_text": "-1.552",
+    "context": "Reviewer comparisons against the existing 75%-equity benchmark are explicitly post-hoc. Single-name, sector and price-informed puts have greater worst-six losses by 1.241, 1.599 and 1.531 percentage points, with positive pointwise intervals. They also preserve more upside; these results do not establish overall dominance by reduced equity. The collar's incremental tail advantage is unresolved: \u22121.552 [\u22123.034, +0.773]."
+  },
+  {
+    "id": "N0134",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 78,
+    "column": 406,
+    "literal": "\u22123.034",
+    "decimal_text": "-3.034",
+    "context": "Reviewer comparisons against the existing 75%-equity benchmark are explicitly post-hoc. Single-name, sector and price-informed puts have greater worst-six losses by 1.241, 1.599 and 1.531 percentage points, with positive pointwise intervals. They also preserve more upside; these results do not establish overall dominance by reduced equity. The collar's incremental tail advantage is unresolved: \u22121.552 [\u22123.034, +0.773]."
+  },
+  {
+    "id": "N0135",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 78,
+    "column": 414,
+    "literal": "+0.773",
+    "decimal_text": "+0.773",
+    "context": "Reviewer comparisons against the existing 75%-equity benchmark are explicitly post-hoc. Single-name, sector and price-informed puts have greater worst-six losses by 1.241, 1.599 and 1.531 percentage points, with positive pointwise intervals. They also preserve more upside; these results do not establish overall dominance by reduced equity. The collar's incremental tail advantage is unresolved: \u22121.552 [\u22123.034, +0.773]."
+  },
+  {
+    "id": "N0136",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 80,
+    "column": 45,
+    "literal": "0",
+    "decimal_text": "0",
+    "context": "Window-placement diagnostics fix offsets of 0/5/21/42 sessions and report every offset without policy reselection. Long-put validation tail improvement over reduced equity changes from +7.005 to \u22120.230 points between the original and 42-session offset. Test puts have greater tail loss than reduced equity at all four offsets, while retaining more upside. Sector-put test benefit versus unhedged changes sign at offset 42. The offsets overlap and alter both timing and included end-period observations; they cannot be pooled as additional independent crises."
+  },
+  {
+    "id": "N0137",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 80,
+    "column": 47,
+    "literal": "5",
+    "decimal_text": "5",
+    "context": "Window-placement diagnostics fix offsets of 0/5/21/42 sessions and report every offset without policy reselection. Long-put validation tail improvement over reduced equity changes from +7.005 to \u22120.230 points between the original and 42-session offset. Test puts have greater tail loss than reduced equity at all four offsets, while retaining more upside. Sector-put test benefit versus unhedged changes sign at offset 42. The offsets overlap and alter both timing and included end-period observations; they cannot be pooled as additional independent crises."
+  },
+  {
+    "id": "N0138",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 80,
+    "column": 49,
+    "literal": "21",
+    "decimal_text": "21",
+    "context": "Window-placement diagnostics fix offsets of 0/5/21/42 sessions and report every offset without policy reselection. Long-put validation tail improvement over reduced equity changes from +7.005 to \u22120.230 points between the original and 42-session offset. Test puts have greater tail loss than reduced equity at all four offsets, while retaining more upside. Sector-put test benefit versus unhedged changes sign at offset 42. The offsets overlap and alter both timing and included end-period observations; they cannot be pooled as additional independent crises."
+  },
+  {
+    "id": "N0139",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 80,
+    "column": 52,
+    "literal": "42",
+    "decimal_text": "42",
+    "context": "Window-placement diagnostics fix offsets of 0/5/21/42 sessions and report every offset without policy reselection. Long-put validation tail improvement over reduced equity changes from +7.005 to \u22120.230 points between the original and 42-session offset. Test puts have greater tail loss than reduced equity at all four offsets, while retaining more upside. Sector-put test benefit versus unhedged changes sign at offset 42. The offsets overlap and alter both timing and included end-period observations; they cannot be pooled as additional independent crises."
+  },
+  {
+    "id": "N0140",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 80,
+    "column": 186,
+    "literal": "+7.005",
+    "decimal_text": "+7.005",
+    "context": "Window-placement diagnostics fix offsets of 0/5/21/42 sessions and report every offset without policy reselection. Long-put validation tail improvement over reduced equity changes from +7.005 to \u22120.230 points between the original and 42-session offset. Test puts have greater tail loss than reduced equity at all four offsets, while retaining more upside. Sector-put test benefit versus unhedged changes sign at offset 42. The offsets overlap and alter both timing and included end-period observations; they cannot be pooled as additional independent crises."
+  },
+  {
+    "id": "N0141",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 80,
+    "column": 196,
+    "literal": "\u22120.230",
+    "decimal_text": "-0.230",
+    "context": "Window-placement diagnostics fix offsets of 0/5/21/42 sessions and report every offset without policy reselection. Long-put validation tail improvement over reduced equity changes from +7.005 to \u22120.230 points between the original and 42-session offset. Test puts have greater tail loss than reduced equity at all four offsets, while retaining more upside. Sector-put test benefit versus unhedged changes sign at offset 42. The offsets overlap and alter both timing and included end-period observations; they cannot be pooled as additional independent crises."
+  },
+  {
+    "id": "N0142",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 80,
+    "column": 235,
+    "literal": "42",
+    "decimal_text": "42",
+    "context": "Window-placement diagnostics fix offsets of 0/5/21/42 sessions and report every offset without policy reselection. Long-put validation tail improvement over reduced equity changes from +7.005 to \u22120.230 points between the original and 42-session offset. Test puts have greater tail loss than reduced equity at all four offsets, while retaining more upside. Sector-put test benefit versus unhedged changes sign at offset 42. The offsets overlap and alter both timing and included end-period observations; they cannot be pooled as additional independent crises."
+  },
+  {
+    "id": "N0143",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 80,
+    "column": 420,
+    "literal": "42",
+    "decimal_text": "42",
+    "context": "Window-placement diagnostics fix offsets of 0/5/21/42 sessions and report every offset without policy reselection. Long-put validation tail improvement over reduced equity changes from +7.005 to \u22120.230 points between the original and 42-session offset. Test puts have greater tail loss than reduced equity at all four offsets, while retaining more upside. Sector-put test benefit versus unhedged changes sign at offset 42. The offsets overlap and alter both timing and included end-period observations; they cannot be pooled as additional independent crises."
+  },
+  {
+    "id": "N0144",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 82,
+    "column": 172,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "Breadth experiments preserve total notional and use exact subsets of common master-universe paths through forty names. In the canonical calibrated case, selected-policy ES95 is $4,521.13 at twenty-five names and $4,640.84 at forty names. More names do not guarantee lower risk when composition and factor exposures change. The universe is retrospectively conditioned on current survival and data availability; full empirical stage 7 generalization is not established. See [breadth report](../../results/breadth-20261106T020730752645Z/report.md)."
+  },
+  {
+    "id": "N0145",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 82,
+    "column": 179,
+    "literal": "4,521.13",
+    "decimal_text": "4521.13",
+    "context": "Breadth experiments preserve total notional and use exact subsets of common master-universe paths through forty names. In the canonical calibrated case, selected-policy ES95 is $4,521.13 at twenty-five names and $4,640.84 at forty names. More names do not guarantee lower risk when composition and factor exposures change. The universe is retrospectively conditioned on current survival and data availability; full empirical stage 7 generalization is not established. See [breadth report](../../results/breadth-20261106T020730752645Z/report.md)."
+  },
+  {
+    "id": "N0146",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 82,
+    "column": 214,
+    "literal": "4,640.84",
+    "decimal_text": "4640.84",
+    "context": "Breadth experiments preserve total notional and use exact subsets of common master-universe paths through forty names. In the canonical calibrated case, selected-policy ES95 is $4,521.13 at twenty-five names and $4,640.84 at forty names. More names do not guarantee lower risk when composition and factor exposures change. The universe is retrospectively conditioned on current survival and data availability; full empirical stage 7 generalization is not established. See [breadth report](../../results/breadth-20261106T020730752645Z/report.md)."
+  },
+  {
+    "id": "N0147",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 82,
+    "column": 432,
+    "literal": "7",
+    "decimal_text": "7",
+    "context": "Breadth experiments preserve total notional and use exact subsets of common master-universe paths through forty names. In the canonical calibrated case, selected-policy ES95 is $4,521.13 at twenty-five names and $4,640.84 at forty names. More names do not guarantee lower risk when composition and factor exposures change. The universe is retrospectively conditioned on current survival and data availability; full empirical stage 7 generalization is not established. See [breadth report](../../results/breadth-20261106T020730752645Z/report.md)."
+  },
+  {
+    "id": "N0148",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 82,
+    "column": 511,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "Breadth experiments preserve total notional and use exact subsets of common master-universe paths through forty names. In the canonical calibrated case, selected-policy ES95 is $4,521.13 at twenty-five names and $4,640.84 at forty names. More names do not guarantee lower risk when composition and factor exposures change. The universe is retrospectively conditioned on current survival and data availability; full empirical stage 7 generalization is not established. See [breadth report](../../results/breadth-20261106T020730752645Z/report.md)."
+  },
+  {
+    "id": "N0149",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 82,
+    "column": 521,
+    "literal": "020730752645",
+    "decimal_text": "020730752645",
+    "context": "Breadth experiments preserve total notional and use exact subsets of common master-universe paths through forty names. In the canonical calibrated case, selected-policy ES95 is $4,521.13 at twenty-five names and $4,640.84 at forty names. More names do not guarantee lower risk when composition and factor exposures change. The universe is retrospectively conditioned on current survival and data availability; full empirical stage 7 generalization is not established. See [breadth report](../../results/breadth-20261106T020730752645Z/report.md)."
+  },
+  {
+    "id": "N0150",
+    "document": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "line": 90,
+    "column": 215,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "The [evidence checkpoint](../../reports/research_status.md) records publication-package readiness separately from empirical gate status. Original reports remain frozen, and the [claims supplement](research_release_2_claims_and_errata.md) controls their interpretation."
+  },
+  {
+    "id": "N0151",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 1,
+    "column": 20,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "# Research Release 2 claims and errata"
+  },
+  {
+    "id": "N0152",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 3,
+    "column": 72,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "This supplement accompanies the [publication summary](research_release_2_publication.md). It corrects interpretation without rewriting the original hashed experiments. Astra's full shared review and unmodified diagnostic files are preserved in the [permanent review archive](frozen_package_and_review_evidence/astra-review-20261106/archive_manifest.json). Reviewer diagnostics use already exposed outcomes and are explicitly post-hoc. No original policy, position size or test date was replaced."
+  },
+  {
+    "id": "N0153",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 3,
+    "column": 323,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "This supplement accompanies the [publication summary](research_release_2_publication.md). It corrects interpretation without rewriting the original hashed experiments. Astra's full shared review and unmodified diagnostic files are preserved in the [permanent review archive](frozen_package_and_review_evidence/astra-review-20261106/archive_manifest.json). Reviewer diagnostics use already exposed outcomes and are explicitly post-hoc. No original policy, position size or test date was replaced."
+  },
+  {
+    "id": "N0154",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 11,
+    "column": 49,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "| Release status | Conditional Research Release 2 can be publication-ready while full empirical Gate 2 remains open. Code success, independent accounting, publication readiness and empirical certification are separate decisions. |"
+  },
+  {
+    "id": "N0155",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 11,
+    "column": 102,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "| Release status | Conditional Research Release 2 can be publication-ready while full empirical Gate 2 remains open. Code success, independent accounting, publication readiness and empirical certification are separate decisions. |"
+  },
+  {
+    "id": "N0156",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 13,
+    "column": 114,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "| Premium budget | A nominal annual allowance for decision-time sizing, not an execution-enforced cap. \u201cWithin a 2% budget\u201d is too strong. Original overruns remain results. |"
+  },
+  {
+    "id": "N0157",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 14,
+    "column": 21,
+    "literal": "130",
+    "decimal_text": "130",
+    "context": "| Equity exposure | 130% gross/50% net are decision-close targets. Test executed inception gross exposure ranges 126.644%\u2013140.634%; policies share base holdings. |"
+  },
+  {
+    "id": "N0158",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 14,
+    "column": 32,
+    "literal": "50",
+    "decimal_text": "50",
+    "context": "| Equity exposure | 130% gross/50% net are decision-close targets. Test executed inception gross exposure ranges 126.644%\u2013140.634%; policies share base holdings. |"
+  },
+  {
+    "id": "N0159",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 14,
+    "column": 114,
+    "literal": "126.644",
+    "decimal_text": "126.644",
+    "context": "| Equity exposure | 130% gross/50% net are decision-close targets. Test executed inception gross exposure ranges 126.644%\u2013140.634%; policies share base holdings. |"
+  },
+  {
+    "id": "N0160",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 14,
+    "column": 123,
+    "literal": "140.634",
+    "decimal_text": "140.634",
+    "context": "| Equity exposure | 130% gross/50% net are decision-close targets. Test executed inception gross exposure ranges 126.644%\u2013140.634%; policies share base holdings. |"
+  },
+  {
+    "id": "N0161",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 15,
+    "column": 56,
+    "literal": "+50.401",
+    "decimal_text": "+50.401",
+    "context": "| Collar | Mean initial local dollar delta shifts from +50.401% to \u22125.385% of capital and upside retained is approximately 13%. This is a material exposure/upside tradeoff. The entire benefit has not been attributed to exposure reduction. |"
+  },
+  {
+    "id": "N0162",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 15,
+    "column": 68,
+    "literal": "\u22125.385",
+    "decimal_text": "-5.385",
+    "context": "| Collar | Mean initial local dollar delta shifts from +50.401% to \u22125.385% of capital and upside retained is approximately 13%. This is a material exposure/upside tradeoff. The entire benefit has not been attributed to exposure reduction. |"
+  },
+  {
+    "id": "N0163",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 15,
+    "column": 124,
+    "literal": "13",
+    "decimal_text": "13",
+    "context": "| Collar | Mean initial local dollar delta shifts from +50.401% to \u22125.385% of capital and upside retained is approximately 13%. This is a material exposure/upside tradeoff. The entire benefit has not been attributed to exposure reduction. |"
+  },
+  {
+    "id": "N0164",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 17,
+    "column": 21,
+    "literal": "\u22121.73",
+    "decimal_text": "-1.73",
+    "context": "| XLF \u201ccost\u201d | Mean \u22121.73 percentage-point P&L difference per window is underperformance versus unhedged, including exposure and financing, not transaction cost or premium. Actual stock costs are reported separately. |"
+  },
+  {
+    "id": "N0165",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 18,
+    "column": 21,
+    "literal": "6",
+    "decimal_text": "6",
+    "context": "| Tail loss | Stage 6 averages the worst six of 23 separate 63-session test-window outcomes: 25% tail fraction with ceiling rounding. Gate 1 uses ES95 on 10,000 simulated outcomes. These are different estimands. |"
+  },
+  {
+    "id": "N0166",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 18,
+    "column": 49,
+    "literal": "23",
+    "decimal_text": "23",
+    "context": "| Tail loss | Stage 6 averages the worst six of 23 separate 63-session test-window outcomes: 25% tail fraction with ceiling rounding. Gate 1 uses ES95 on 10,000 simulated outcomes. These are different estimands. |"
+  },
+  {
+    "id": "N0167",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 18,
+    "column": 61,
+    "literal": "63",
+    "decimal_text": "63",
+    "context": "| Tail loss | Stage 6 averages the worst six of 23 separate 63-session test-window outcomes: 25% tail fraction with ceiling rounding. Gate 1 uses ES95 on 10,000 simulated outcomes. These are different estimands. |"
+  },
+  {
+    "id": "N0168",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 18,
+    "column": 94,
+    "literal": "25",
+    "decimal_text": "25",
+    "context": "| Tail loss | Stage 6 averages the worst six of 23 separate 63-session test-window outcomes: 25% tail fraction with ceiling rounding. Gate 1 uses ES95 on 10,000 simulated outcomes. These are different estimands. |"
+  },
+  {
+    "id": "N0169",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 18,
+    "column": 140,
+    "literal": "1",
+    "decimal_text": "1",
+    "context": "| Tail loss | Stage 6 averages the worst six of 23 separate 63-session test-window outcomes: 25% tail fraction with ceiling rounding. Gate 1 uses ES95 on 10,000 simulated outcomes. These are different estimands. |"
+  },
+  {
+    "id": "N0170",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 18,
+    "column": 149,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "| Tail loss | Stage 6 averages the worst six of 23 separate 63-session test-window outcomes: 25% tail fraction with ceiling rounding. Gate 1 uses ES95 on 10,000 simulated outcomes. These are different estimands. |"
+  },
+  {
+    "id": "N0171",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 18,
+    "column": 155,
+    "literal": "10,000",
+    "decimal_text": "10000",
+    "context": "| Tail loss | Stage 6 averages the worst six of 23 separate 63-session test-window outcomes: 25% tail fraction with ceiling rounding. Gate 1 uses ES95 on 10,000 simulated outcomes. These are different estimands. |"
+  },
+  {
+    "id": "N0172",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 22,
+    "column": 35,
+    "literal": "0.946109",
+    "decimal_text": "0.946109",
+    "context": "| Short-sleeve capture | Original 0.946109 capture excludes marginal premium financing. Including that financing gives 0.946695. The direction survives; a roughly 5.3%\u20135.4% reduction is a side-specific metric. |"
+  },
+  {
+    "id": "N0173",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 22,
+    "column": 120,
+    "literal": "0.946695",
+    "decimal_text": "0.946695",
+    "context": "| Short-sleeve capture | Original 0.946109 capture excludes marginal premium financing. Including that financing gives 0.946695. The direction survives; a roughly 5.3%\u20135.4% reduction is a side-specific metric. |"
+  },
+  {
+    "id": "N0174",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 22,
+    "column": 164,
+    "literal": "5.3",
+    "decimal_text": "5.3",
+    "context": "| Short-sleeve capture | Original 0.946109 capture excludes marginal premium financing. Including that financing gives 0.946695. The direction survives; a roughly 5.3%\u20135.4% reduction is a side-specific metric. |"
+  },
+  {
+    "id": "N0175",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 22,
+    "column": 169,
+    "literal": "5.4",
+    "decimal_text": "5.4",
+    "context": "| Short-sleeve capture | Original 0.946109 capture excludes marginal premium financing. Including that financing gives 0.946695. The direction survives; a roughly 5.3%\u20135.4% reduction is a side-specific metric. |"
+  },
+  {
+    "id": "N0176",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 23,
+    "column": 58,
+    "literal": "29.3",
+    "decimal_text": "29.3",
+    "context": "| Forecast metrics | Five-session own-price ridge MSE is 29.3% worse as a point estimate, with paired MSE interval crossing zero. Twenty-session ridge has favorable pointwise intervals for QLIKE and MSE. No hedge-value inference follows automatically. |"
+  },
+  {
+    "id": "N0177",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 30,
+    "column": 138,
+    "literal": "1",
+    "decimal_text": "1",
+    "context": "Ratios compare realized net premium at execution with each policy's nominal window allowance. The purchased short-sleeve call selected a 1% annual allowance; most other option policies selected 2%, while the adaptive policy changes its sizing allowance by state."
+  },
+  {
+    "id": "N0178",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 30,
+    "column": 195,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "Ratios compare realized net premium at execution with each policy's nominal window allowance. The purchased short-sleeve call selected a 1% annual allowance; most other option policies selected 2%, while the adaptive policy changes its sizing allowance by state."
+  },
+  {
+    "id": "N0179",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 34,
+    "column": 30,
+    "literal": "1.304",
+    "decimal_text": "1.304",
+    "context": "| Purchased long-name puts | 1.304\u00d7 |"
+  },
+  {
+    "id": "N0180",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 35,
+    "column": 39,
+    "literal": "2.599",
+    "decimal_text": "2.599",
+    "context": "| Purchased calls protecting shorts | 2.599\u00d7 |"
+  },
+  {
+    "id": "N0181",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 36,
+    "column": 27,
+    "literal": "1.269",
+    "decimal_text": "1.269",
+    "context": "| Purchased sector puts | 1.269\u00d7 |"
+  },
+  {
+    "id": "N0182",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 37,
+    "column": 12,
+    "literal": "4.125",
+    "decimal_text": "4.125",
+    "context": "| Collar | 4.125\u00d7 |"
+  },
+  {
+    "id": "N0183",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 38,
+    "column": 33,
+    "literal": "1.303",
+    "decimal_text": "1.303",
+    "context": "| Price-history-informed puts | 1.303\u00d7 |"
+  },
+  {
+    "id": "N0184",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 40,
+    "column": 20,
+    "literal": "6.517",
+    "decimal_text": "6.517",
+    "context": "The collar reaches 6.517\u00d7 in validation. Overnight movement between decision and execution changes the premiums of already-fixed strikes and contract counts. Net collar spending is especially unstable because it is the difference between large gross premiums. The test collar's annualized gross outlay and receipts are 11.532% and 11.387% of capital; the 0.145% net does not represent the gross cash or spread exposure. Hard execution-time caps require a new protocol, not replacement of frozen outcomes."
+  },
+  {
+    "id": "N0185",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 40,
+    "column": 320,
+    "literal": "11.532",
+    "decimal_text": "11.532",
+    "context": "The collar reaches 6.517\u00d7 in validation. Overnight movement between decision and execution changes the premiums of already-fixed strikes and contract counts. Net collar spending is especially unstable because it is the difference between large gross premiums. The test collar's annualized gross outlay and receipts are 11.532% and 11.387% of capital; the 0.145% net does not represent the gross cash or spread exposure. Hard execution-time caps require a new protocol, not replacement of frozen outcomes."
+  },
+  {
+    "id": "N0186",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 40,
+    "column": 332,
+    "literal": "11.387",
+    "decimal_text": "11.387",
+    "context": "The collar reaches 6.517\u00d7 in validation. Overnight movement between decision and execution changes the premiums of already-fixed strikes and contract counts. Net collar spending is especially unstable because it is the difference between large gross premiums. The test collar's annualized gross outlay and receipts are 11.532% and 11.387% of capital; the 0.145% net does not represent the gross cash or spread exposure. Hard execution-time caps require a new protocol, not replacement of frozen outcomes."
+  },
+  {
+    "id": "N0187",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 40,
+    "column": 356,
+    "literal": "0.145",
+    "decimal_text": "0.145",
+    "context": "The collar reaches 6.517\u00d7 in validation. Overnight movement between decision and execution changes the premiums of already-fixed strikes and contract counts. Net collar spending is especially unstable because it is the difference between large gross premiums. The test collar's annualized gross outlay and receipts are 11.532% and 11.387% of capital; the 0.145% net does not represent the gross cash or spread exposure. Hard execution-time caps require a new protocol, not replacement of frozen outcomes."
+  },
+  {
+    "id": "N0188",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 42,
+    "column": 148,
+    "literal": "0.927",
+    "decimal_text": "0.927",
+    "context": "Whole-split spending and worst-window spending answer different questions. Opus's owner check reports test total premium/total allowance ratios of 0.927 for long puts, 0.911 for adaptive puts, 0.932 for sector puts, 1.131 for purchased short-sleeve calls and 0.072 for the collar. The collar's validation ratio is 1.166. Most test policies underspent in aggregate, but this does not eliminate the individual-window overruns or make the sizing allowance a hard cap."
+  },
+  {
+    "id": "N0189",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 42,
+    "column": 169,
+    "literal": "0.911",
+    "decimal_text": "0.911",
+    "context": "Whole-split spending and worst-window spending answer different questions. Opus's owner check reports test total premium/total allowance ratios of 0.927 for long puts, 0.911 for adaptive puts, 0.932 for sector puts, 1.131 for purchased short-sleeve calls and 0.072 for the collar. The collar's validation ratio is 1.166. Most test policies underspent in aggregate, but this does not eliminate the individual-window overruns or make the sizing allowance a hard cap."
+  },
+  {
+    "id": "N0190",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 42,
+    "column": 194,
+    "literal": "0.932",
+    "decimal_text": "0.932",
+    "context": "Whole-split spending and worst-window spending answer different questions. Opus's owner check reports test total premium/total allowance ratios of 0.927 for long puts, 0.911 for adaptive puts, 0.932 for sector puts, 1.131 for purchased short-sleeve calls and 0.072 for the collar. The collar's validation ratio is 1.166. Most test policies underspent in aggregate, but this does not eliminate the individual-window overruns or make the sizing allowance a hard cap."
+  },
+  {
+    "id": "N0191",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 42,
+    "column": 217,
+    "literal": "1.131",
+    "decimal_text": "1.131",
+    "context": "Whole-split spending and worst-window spending answer different questions. Opus's owner check reports test total premium/total allowance ratios of 0.927 for long puts, 0.911 for adaptive puts, 0.932 for sector puts, 1.131 for purchased short-sleeve calls and 0.072 for the collar. The collar's validation ratio is 1.166. Most test policies underspent in aggregate, but this does not eliminate the individual-window overruns or make the sizing allowance a hard cap."
+  },
+  {
+    "id": "N0192",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 42,
+    "column": 260,
+    "literal": "0.072",
+    "decimal_text": "0.072",
+    "context": "Whole-split spending and worst-window spending answer different questions. Opus's owner check reports test total premium/total allowance ratios of 0.927 for long puts, 0.911 for adaptive puts, 0.932 for sector puts, 1.131 for purchased short-sleeve calls and 0.072 for the collar. The collar's validation ratio is 1.166. Most test policies underspent in aggregate, but this does not eliminate the individual-window overruns or make the sizing allowance a hard cap."
+  },
+  {
+    "id": "N0193",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 42,
+    "column": 315,
+    "literal": "1.166",
+    "decimal_text": "1.166",
+    "context": "Whole-split spending and worst-window spending answer different questions. Opus's owner check reports test total premium/total allowance ratios of 0.927 for long puts, 0.911 for adaptive puts, 0.932 for sector puts, 1.131 for purchased short-sleeve calls and 0.072 for the collar. The collar's validation ratio is 1.166. Most test policies underspent in aggregate, but this does not eliminate the individual-window overruns or make the sizing allowance a hard cap."
+  },
+  {
+    "id": "N0194",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 50,
+    "column": 7,
+    "literal": "2,013",
+    "decimal_text": "2013",
+    "context": "- All 2,013 base-case outcomes: 33 candidates \u00d7 61 training/validation/test windows."
+  },
+  {
+    "id": "N0195",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 50,
+    "column": 33,
+    "literal": "33",
+    "decimal_text": "33",
+    "context": "- All 2,013 base-case outcomes: 33 candidates \u00d7 61 training/validation/test windows."
+  },
+  {
+    "id": "N0196",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 50,
+    "column": 49,
+    "literal": "61",
+    "decimal_text": "61",
+    "context": "- All 2,013 base-case outcomes: 33 candidates \u00d7 61 training/validation/test windows."
+  },
+  {
+    "id": "N0197",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 51,
+    "column": 47,
+    "literal": "1.1921e-7",
+    "decimal_text": "1.1921e-7",
+    "context": "- Maximum absolute terminal-P&L discrepancy: $1.1921e-7."
+  },
+  {
+    "id": "N0198",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 53,
+    "column": 7,
+    "literal": "276",
+    "decimal_text": "276",
+    "context": "- All 276 test collar legs reconstruct, with correct signs and calls covered by owned shares."
+  },
+  {
+    "id": "N0199",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 54,
+    "column": 109,
+    "literal": "1.8e-15",
+    "decimal_text": "1.8e-15",
+    "context": "- Independently implemented NumPy paired block-bootstrap intervals reproduce the originals to approximately 1.8e-15."
+  },
+  {
+    "id": "N0200",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 56,
+    "column": 294,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "This scope does not certify every intrawindow mark/drawdown, every sensitivity run, the vendor's observations or executable option pricing. The archived review summary records these exclusions. The current combined suite is separately recorded in [release test evidence](../../reports/release_2_tests.xml); Astra's prior run reported 194 tests plus 22 subtests, with 28 timezone deprecation warnings."
+  },
+  {
+    "id": "N0201",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 56,
+    "column": 335,
+    "literal": "194",
+    "decimal_text": "194",
+    "context": "This scope does not certify every intrawindow mark/drawdown, every sensitivity run, the vendor's observations or executable option pricing. The archived review summary records these exclusions. The current combined suite is separately recorded in [release test evidence](../../reports/release_2_tests.xml); Astra's prior run reported 194 tests plus 22 subtests, with 28 timezone deprecation warnings."
+  },
+  {
+    "id": "N0202",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 56,
+    "column": 350,
+    "literal": "22",
+    "decimal_text": "22",
+    "context": "This scope does not certify every intrawindow mark/drawdown, every sensitivity run, the vendor's observations or executable option pricing. The archived review summary records these exclusions. The current combined suite is separately recorded in [release test evidence](../../reports/release_2_tests.xml); Astra's prior run reported 194 tests plus 22 subtests, with 28 timezone deprecation warnings."
+  },
+  {
+    "id": "N0203",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 56,
+    "column": 368,
+    "literal": "28",
+    "decimal_text": "28",
+    "context": "This scope does not certify every intrawindow mark/drawdown, every sensitivity run, the vendor's observations or executable option pricing. The archived review summary records these exclusions. The current combined suite is separately recorded in [release test evidence](../../reports/release_2_tests.xml); Astra's prior run reported 194 tests plus 22 subtests, with 28 timezone deprecation warnings."
+  },
+  {
+    "id": "N0204",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 60,
+    "column": 40,
+    "literal": "75",
+    "decimal_text": "75",
+    "context": "These comparisons use the pre-existing 75%-equity benchmark without reselection. The estimand is selected-policy minus benchmark worst-six-window mean loss, in percentage points of initial capital. Positive means greater tail loss under the option/ETF policy. Intervals are pointwise paired block-bootstrap 95% intervals."
+  },
+  {
+    "id": "N0205",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 60,
+    "column": 308,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "These comparisons use the pre-existing 75%-equity benchmark without reselection. The estimand is selected-policy minus benchmark worst-six-window mean loss, in percentage points of initial capital. Positive means greater tail loss under the option/ETF policy. Intervals are pointwise paired block-bootstrap 95% intervals."
+  },
+  {
+    "id": "N0206",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 62,
+    "column": 66,
+    "literal": "95",
+    "decimal_text": "95",
+    "context": "| Selected policy | Difference versus reduced equity | Pointwise 95% interval |"
+  },
+  {
+    "id": "N0207",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 64,
+    "column": 20,
+    "literal": "+1.241",
+    "decimal_text": "+1.241",
+    "context": "| Long-name puts | +1.241 | [+0.944, +1.395] |"
+  },
+  {
+    "id": "N0208",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 64,
+    "column": 30,
+    "literal": "+0.944",
+    "decimal_text": "+0.944",
+    "context": "| Long-name puts | +1.241 | [+0.944, +1.395] |"
+  },
+  {
+    "id": "N0209",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 64,
+    "column": 38,
+    "literal": "+1.395",
+    "decimal_text": "+1.395",
+    "context": "| Long-name puts | +1.241 | [+0.944, +1.395] |"
+  },
+  {
+    "id": "N0210",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 65,
+    "column": 17,
+    "literal": "+1.599",
+    "decimal_text": "+1.599",
+    "context": "| Sector puts | +1.599 | [+0.678, +2.446] |"
+  },
+  {
+    "id": "N0211",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 65,
+    "column": 27,
+    "literal": "+0.678",
+    "decimal_text": "+0.678",
+    "context": "| Sector puts | +1.599 | [+0.678, +2.446] |"
+  },
+  {
+    "id": "N0212",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 65,
+    "column": 35,
+    "literal": "+2.446",
+    "decimal_text": "+2.446",
+    "context": "| Sector puts | +1.599 | [+0.678, +2.446] |"
+  },
+  {
+    "id": "N0213",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 66,
+    "column": 33,
+    "literal": "+1.531",
+    "decimal_text": "+1.531",
+    "context": "| Price-history-informed puts | +1.531 | [+1.032, +1.739] |"
+  },
+  {
+    "id": "N0214",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 66,
+    "column": 43,
+    "literal": "+1.032",
+    "decimal_text": "+1.032",
+    "context": "| Price-history-informed puts | +1.531 | [+1.032, +1.739] |"
+  },
+  {
+    "id": "N0215",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 66,
+    "column": 51,
+    "literal": "+1.739",
+    "decimal_text": "+1.739",
+    "context": "| Price-history-informed puts | +1.531 | [+1.032, +1.739] |"
+  },
+  {
+    "id": "N0216",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 67,
+    "column": 12,
+    "literal": "\u22121.552",
+    "decimal_text": "-1.552",
+    "context": "| Collar | \u22121.552 | [\u22123.034, +0.773] |"
+  },
+  {
+    "id": "N0217",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 67,
+    "column": 22,
+    "literal": "\u22123.034",
+    "decimal_text": "-3.034",
+    "context": "| Collar | \u22121.552 | [\u22123.034, +0.773] |"
+  },
+  {
+    "id": "N0218",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 67,
+    "column": 30,
+    "literal": "+0.773",
+    "decimal_text": "+0.773",
+    "context": "| Collar | \u22121.552 | [\u22123.034, +0.773] |"
+  },
+  {
+    "id": "N0219",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 68,
+    "column": 21,
+    "literal": "+0.774",
+    "decimal_text": "+0.774",
+    "context": "| XLF stock hedge | +0.774 | [\u22121.358, +3.143] |"
+  },
+  {
+    "id": "N0220",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 68,
+    "column": 31,
+    "literal": "\u22121.358",
+    "decimal_text": "-1.358",
+    "context": "| XLF stock hedge | +0.774 | [\u22121.358, +3.143] |"
+  },
+  {
+    "id": "N0221",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 68,
+    "column": 39,
+    "literal": "+3.143",
+    "decimal_text": "+3.143",
+    "context": "| XLF stock hedge | +0.774 | [\u22121.358, +3.143] |"
+  },
+  {
+    "id": "N0222",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 70,
+    "column": 223,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "The collar's incremental tail advantage remains unresolved. Purchased puts retain substantially more upside than reduced equity, so the tail comparisons do not establish overall economic dominance. Bootstrap block lengths 2/4/6 preserve the qualitative original conclusions versus unhedged; they do not address sparse crises, multiplicity, selection uncertainty or model-price uncertainty."
+  },
+  {
+    "id": "N0223",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 70,
+    "column": 225,
+    "literal": "4",
+    "decimal_text": "4",
+    "context": "The collar's incremental tail advantage remains unresolved. Purchased puts retain substantially more upside than reduced equity, so the tail comparisons do not establish overall economic dominance. Bootstrap block lengths 2/4/6 preserve the qualitative original conclusions versus unhedged; they do not address sparse crises, multiplicity, selection uncertainty or model-price uncertainty."
+  },
+  {
+    "id": "N0224",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 70,
+    "column": 227,
+    "literal": "6",
+    "decimal_text": "6",
+    "context": "The collar's incremental tail advantage remains unresolved. Purchased puts retain substantially more upside than reduced equity, so the tail comparisons do not establish overall economic dominance. Bootstrap block lengths 2/4/6 preserve the qualitative original conclusions versus unhedged; they do not address sparse crises, multiplicity, selection uncertainty or model-price uncertainty."
+  },
+  {
+    "id": "N0225",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 72,
+    "column": 86,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "Evidence: [paired review diagnostics](frozen_package_and_review_evidence/astra-review-20261106/statistical_review/paired_es_diagnostics.csv), [review metadata](frozen_package_and_review_evidence/astra-review-20261106/statistical_review/metadata.json)."
+  },
+  {
+    "id": "N0226",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 72,
+    "column": 208,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "Evidence: [paired review diagnostics](frozen_package_and_review_evidence/astra-review-20261106/statistical_review/paired_es_diagnostics.csv), [review metadata](frozen_package_and_review_evidence/astra-review-20261106/statistical_review/metadata.json)."
+  },
+  {
+    "id": "N0227",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 76,
+    "column": 59,
+    "literal": "0",
+    "decimal_text": "0",
+    "context": "Before running the diagnostic, the reviewer fixed offsets 0/5/21/42 trading sessions, preserving all eight selected policies, 63-session holding periods, pricing, sizing, capital and split boundaries. Past-only estimates update at shifted decision dates. All offsets are reported; none is selected."
+  },
+  {
+    "id": "N0228",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 76,
+    "column": 61,
+    "literal": "5",
+    "decimal_text": "5",
+    "context": "Before running the diagnostic, the reviewer fixed offsets 0/5/21/42 trading sessions, preserving all eight selected policies, 63-session holding periods, pricing, sizing, capital and split boundaries. Past-only estimates update at shifted decision dates. All offsets are reported; none is selected."
+  },
+  {
+    "id": "N0229",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 76,
+    "column": 63,
+    "literal": "21",
+    "decimal_text": "21",
+    "context": "Before running the diagnostic, the reviewer fixed offsets 0/5/21/42 trading sessions, preserving all eight selected policies, 63-session holding periods, pricing, sizing, capital and split boundaries. Past-only estimates update at shifted decision dates. All offsets are reported; none is selected."
+  },
+  {
+    "id": "N0230",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 76,
+    "column": 66,
+    "literal": "42",
+    "decimal_text": "42",
+    "context": "Before running the diagnostic, the reviewer fixed offsets 0/5/21/42 trading sessions, preserving all eight selected policies, 63-session holding periods, pricing, sizing, capital and split boundaries. Past-only estimates update at shifted decision dates. All offsets are reported; none is selected."
+  },
+  {
+    "id": "N0231",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 76,
+    "column": 127,
+    "literal": "63",
+    "decimal_text": "63",
+    "context": "Before running the diagnostic, the reviewer fixed offsets 0/5/21/42 trading sessions, preserving all eight selected policies, 63-session holding periods, pricing, sizing, capital and split boundaries. Past-only estimates update at shifted decision dates. All offsets are reported; none is selected."
+  },
+  {
+    "id": "N0232",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 78,
+    "column": 26,
+    "literal": "1,936",
+    "decimal_text": "1936",
+    "context": "The diagnostic completed 1,936 policy/window replays and all existing accounting checks passed. Offset zero exactly reproduced the frozen selected summaries. Frozen source/input hashes remained unchanged. It uses the production engine and is not another independent ledger implementation."
+  },
+  {
+    "id": "N0233",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 82,
+    "column": 23,
+    "literal": "0",
+    "decimal_text": "0",
+    "context": "| Comparison | Offset 0 | Offset 5 | Offset 21 | Offset 42 |"
+  },
+  {
+    "id": "N0234",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 82,
+    "column": 34,
+    "literal": "5",
+    "decimal_text": "5",
+    "context": "| Comparison | Offset 0 | Offset 5 | Offset 21 | Offset 42 |"
+  },
+  {
+    "id": "N0235",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 82,
+    "column": 45,
+    "literal": "21",
+    "decimal_text": "21",
+    "context": "| Comparison | Offset 0 | Offset 5 | Offset 21 | Offset 42 |"
+  },
+  {
+    "id": "N0236",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 82,
+    "column": 57,
+    "literal": "42",
+    "decimal_text": "42",
+    "context": "| Comparison | Offset 0 | Offset 5 | Offset 21 | Offset 42 |"
+  },
+  {
+    "id": "N0237",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 84,
+    "column": 32,
+    "literal": "10.351",
+    "decimal_text": "10.351",
+    "context": "| Validation versus unhedged | 10.351 | 7.042 | 7.219 | 2.229 |"
+  },
+  {
+    "id": "N0238",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 84,
+    "column": 41,
+    "literal": "7.042",
+    "decimal_text": "7.042",
+    "context": "| Validation versus unhedged | 10.351 | 7.042 | 7.219 | 2.229 |"
+  },
+  {
+    "id": "N0239",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 84,
+    "column": 49,
+    "literal": "7.219",
+    "decimal_text": "7.219",
+    "context": "| Validation versus unhedged | 10.351 | 7.042 | 7.219 | 2.229 |"
+  },
+  {
+    "id": "N0240",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 84,
+    "column": 57,
+    "literal": "2.229",
+    "decimal_text": "2.229",
+    "context": "| Validation versus unhedged | 10.351 | 7.042 | 7.219 | 2.229 |"
+  },
+  {
+    "id": "N0241",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 85,
+    "column": 38,
+    "literal": "7.005",
+    "decimal_text": "7.005",
+    "context": "| Validation versus reduced equity | 7.005 | 4.098 | 4.096 | \u22120.230 |"
+  },
+  {
+    "id": "N0242",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 85,
+    "column": 46,
+    "literal": "4.098",
+    "decimal_text": "4.098",
+    "context": "| Validation versus reduced equity | 7.005 | 4.098 | 4.096 | \u22120.230 |"
+  },
+  {
+    "id": "N0243",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 85,
+    "column": 54,
+    "literal": "4.096",
+    "decimal_text": "4.096",
+    "context": "| Validation versus reduced equity | 7.005 | 4.098 | 4.096 | \u22120.230 |"
+  },
+  {
+    "id": "N0244",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 85,
+    "column": 62,
+    "literal": "\u22120.230",
+    "decimal_text": "-0.230",
+    "context": "| Validation versus reduced equity | 7.005 | 4.098 | 4.096 | \u22120.230 |"
+  },
+  {
+    "id": "N0245",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 86,
+    "column": 26,
+    "literal": "0.580",
+    "decimal_text": "0.580",
+    "context": "| Test versus unhedged | 0.580 | 1.207 | 0.810 | 0.164 |"
+  },
+  {
+    "id": "N0246",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 86,
+    "column": 34,
+    "literal": "1.207",
+    "decimal_text": "1.207",
+    "context": "| Test versus unhedged | 0.580 | 1.207 | 0.810 | 0.164 |"
+  },
+  {
+    "id": "N0247",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 86,
+    "column": 42,
+    "literal": "0.810",
+    "decimal_text": "0.810",
+    "context": "| Test versus unhedged | 0.580 | 1.207 | 0.810 | 0.164 |"
+  },
+  {
+    "id": "N0248",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 86,
+    "column": 50,
+    "literal": "0.164",
+    "decimal_text": "0.164",
+    "context": "| Test versus unhedged | 0.580 | 1.207 | 0.810 | 0.164 |"
+  },
+  {
+    "id": "N0249",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 87,
+    "column": 32,
+    "literal": "\u22121.241",
+    "decimal_text": "-1.241",
+    "context": "| Test versus reduced equity | \u22121.241 | \u22120.998 | \u22121.302 | \u22121.369 |"
+  },
+  {
+    "id": "N0250",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 87,
+    "column": 41,
+    "literal": "\u22120.998",
+    "decimal_text": "-0.998",
+    "context": "| Test versus reduced equity | \u22121.241 | \u22120.998 | \u22121.302 | \u22121.369 |"
+  },
+  {
+    "id": "N0251",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 87,
+    "column": 50,
+    "literal": "\u22121.302",
+    "decimal_text": "-1.302",
+    "context": "| Test versus reduced equity | \u22121.241 | \u22120.998 | \u22121.302 | \u22121.369 |"
+  },
+  {
+    "id": "N0252",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 87,
+    "column": 59,
+    "literal": "\u22121.369",
+    "decimal_text": "-1.369",
+    "context": "| Test versus reduced equity | \u22121.241 | \u22120.998 | \u22121.302 | \u22121.369 |"
+  },
+  {
+    "id": "N0253",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 89,
+    "column": 73,
+    "literal": "42",
+    "decimal_text": "42",
+    "context": "Validation's long-put advantage over reduced equity changes sign at the 42-session shift. Test puts have higher tail losses than reduced equity at each offset while preserving more upside. Sector-put test benefit versus unhedged also changes sign at offset 42. Shifts change timing **and included end-period observations**; shifted samples overlap and cannot be pooled. No new significance intervals were computed for the shifts."
+  },
+  {
+    "id": "N0254",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 89,
+    "column": 258,
+    "literal": "42",
+    "decimal_text": "42",
+    "context": "Validation's long-put advantage over reduced equity changes sign at the 42-session shift. Test puts have higher tail losses than reduced equity at each offset while preserving more upside. Sector-put test benefit versus unhedged also changes sign at offset 42. Shifts change timing **and included end-period observations**; shifted samples overlap and cannot be pooled. No new significance intervals were computed for the shifts."
+  },
+  {
+    "id": "N0255",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 80,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0256",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 194,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0257",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 305,
+    "literal": "-20261106",
+    "decimal_text": "-20261106",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0258",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 378,
+    "literal": "256",
+    "decimal_text": "256",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0259",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 384,
+    "literal": "057",
+    "decimal_text": "057",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0260",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 388,
+    "literal": "938",
+    "decimal_text": "938",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0261",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 394,
+    "literal": "6",
+    "decimal_text": "6",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0262",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 396,
+    "literal": "4e9",
+    "decimal_text": "4e9",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0263",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 403,
+    "literal": "1",
+    "decimal_text": "1",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0264",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 407,
+    "literal": "13",
+    "decimal_text": "13",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0265",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 410,
+    "literal": "4",
+    "decimal_text": "4",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0266",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 412,
+    "literal": "583328",
+    "decimal_text": "583328",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0267",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 420,
+    "literal": "282e4",
+    "decimal_text": "282e4",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0268",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 427,
+    "literal": "43",
+    "decimal_text": "43",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0269",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 430,
+    "literal": "6693464",
+    "decimal_text": "6693464",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0270",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 440,
+    "literal": "033",
+    "decimal_text": "033",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0271",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 444,
+    "literal": "10",
+    "decimal_text": "10",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0272",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 93,
+    "column": 447,
+    "literal": "0",
+    "decimal_text": "0",
+    "context": "Evidence: [diagnostic protocol](frozen_package_and_review_evidence/astra-review-20261106/window_placement/diagnostic_protocol.json), [completion](frozen_package_and_review_evidence/astra-review-20261106/window_placement/completion.json), [written findings](frozen_package_and_review_evidence/astra-review-20261106/window_placement/summary.txt). Original diagnostic protocol SHA256: `057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0`."
+  },
+  {
+    "id": "N0273",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 23,
+    "literal": "6",
+    "decimal_text": "6",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0274",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 37,
+    "literal": "256",
+    "decimal_text": "256",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0275",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 43,
+    "literal": "18948e86",
+    "decimal_text": "18948e86",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0276",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 54,
+    "literal": "72",
+    "decimal_text": "72",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0277",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 57,
+    "literal": "6",
+    "decimal_text": "6",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0278",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 59,
+    "literal": "2",
+    "decimal_text": "2",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0279",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 62,
+    "literal": "183",
+    "decimal_text": "183",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0280",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 67,
+    "literal": "6e7",
+    "decimal_text": "6e7",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0281",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 71,
+    "literal": "5",
+    "decimal_text": "5",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0282",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 76,
+    "literal": "49",
+    "decimal_text": "49",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0283",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 80,
+    "literal": "9788806463864",
+    "decimal_text": "9788806463864",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0284",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 94,
+    "literal": "57",
+    "decimal_text": "57",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0285",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 101,
+    "literal": "6079",
+    "decimal_text": "6079",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  },
+  {
+    "id": "N0286",
+    "document": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "line": 109,
+    "column": 106,
+    "literal": "6",
+    "decimal_text": "6",
+    "context": "Original frozen stage 6 protocol SHA256: `18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6`. The [evidence index](../../reports/research_status.json) records package readiness, owner-addendum integration and open empirical gates separately. Public upload and data purchase have not occurred."
+  }
+]

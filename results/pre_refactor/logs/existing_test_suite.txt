@@ -1,0 +1,13 @@
+................................................................... [ 34%]
+........................................................................ [ 71%]
+....................................................... [100%]
+=============================== warnings summary ===============================
+tests/test_market_data.py: 16 warnings
+tests/test_overlays.py: 4 warnings
+tests/test_research_features.py: 8 warnings
+  /Users/saireddivari/MonteCarloEvaluations/.venv/lib/python3.14/site-packages/pandas/core/series.py:848: Pandas4Warning: Series.values returning an ndarray that drops timezone information for DatetimeTZDtype is deprecated. In a future version, this will return the underlying DatetimeArray instead. Use 'Series.dt.tz_convert(None).to_numpy()' to get a NumPy array of UTC values, or 'Series.array' to get the ExtensionArray.
+  See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#whatsnew-310-deprecations-values for more details.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+194 passed, 28 warnings, 22 subtests passed in 68.11s (0:01:08)

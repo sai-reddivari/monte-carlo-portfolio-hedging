@@ -1,0 +1,2 @@
+/Users/saireddivari/MonteCarloEvaluations/.venv/lib/python3.14/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/saireddivari/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"

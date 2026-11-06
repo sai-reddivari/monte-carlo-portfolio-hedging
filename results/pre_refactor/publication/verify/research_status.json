@@ -1,0 +1,216 @@
+{
+  "generated_utc": "2026-11-06T06:14:17.083909+00:00",
+  "human_review": "separate downstream step; not included in computational publication readiness",
+  "book_container": "Book retained; shared source config/illustrative_study.json",
+  "research_gate_1": {
+    "gate": "research_gate_1",
+    "status": "complete",
+    "human_review": "pending_separate_review",
+    "scope": "controlled synthetic policy-selection study only",
+    "selected_policy": "maturity_band_050",
+    "selected_evaluation_budget_feasible": true,
+    "selection_locked_before_evaluation": true,
+    "selection_lock_sha256": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+    "accounting_checks_passed": true,
+    "tail_uncertainty_reported": true,
+    "peak_financing_reported": true,
+    "market_or_stage7_gate_passed": false,
+    "artifact_integrity": {
+      "checked_files": 19,
+      "passed": true,
+      "failures": []
+    },
+    "report": "results/research-release-1/release-1/report.md",
+    "independent_validation": "docs/independent_validation.md",
+    "notebook": "Hedging_Study_Notebooks/04_policy_selection_research.ipynb"
+  },
+  "conditional_release_2": {
+    "publication_ready": true,
+    "status": "ready_for_separate_human_review",
+    "empirical_certification": false,
+    "publication_summary": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+    "claims_and_errata": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "verification": "reports/release_2_verification.json",
+    "verification_current": true,
+    "publication_snapshot": "results/research-release-2/release-2",
+    "public_push_performed": false,
+    "test_evidence": "reports/release_2_tests.xml",
+    "test_summary": {
+      "tests": 216,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "data_gate": {
+    "core_ten_price_and_calendar_passed": true,
+    "current_universe_names": 50,
+    "complete_histories": 42,
+    "partial_histories_retained": 8,
+    "historical_membership": {
+      "passed": false,
+      "status": "entitlement_denied",
+      "http_status": 402,
+      "endpoint": "historical-sp500-constituent"
+    },
+    "option_quotes": {
+      "passed": false,
+      "status": "vendor_documented_unavailable",
+      "provider": "FMP",
+      "source": "https://site.financialmodelingprep.com/faqs",
+      "question": "Does FMP provide options data or Level-2 (Depth of Market) data through the API?"
+    },
+    "evidence": "data/market/data_gate_status.json"
+  },
+  "workstreams": {
+    "model_replay": {
+      "report": "results/model-contract-replay-20261106T014523263280Z/report.md",
+      "record": "results/model-contract-replay-20261106T014523263280Z/run_record.json",
+      "artifact_integrity": {
+        "checked_files": 31,
+        "passed": true,
+        "failures": []
+      },
+      "evidence_flags": {}
+    },
+    "price_risk": {
+      "report": "results/risk-research-20261106T014747676804Z/report.md",
+      "record": "results/risk-research-20261106T014747676804Z/manifest.json",
+      "artifact_integrity": {
+        "checked_files": 9,
+        "passed": true,
+        "failures": []
+      },
+      "evidence_flags": {
+        "price_only_past_feature_checks_passed": true,
+        "target_windows_nonoverlapping_within_split_horizon": true,
+        "covariance_positive_semidefinite_checks_passed": true,
+        "minimum_covariance_eigenvalue": 1.0166834963673638e-05,
+        "train_validation_test_predeclared": true,
+        "test_parameters_tuned": false,
+        "macro_funding_features_evaluated": false,
+        "historical_membership_verified": false,
+        "listed_option_hedge_value_evaluated": false,
+        "full_stage5_gate_passed": false
+      }
+    },
+    "incremental_features_original": {
+      "report": "results/feature-research-20261106T024225834886Z/report.md",
+      "record": "results/feature-research-20261106T024225834886Z/manifest.json",
+      "artifact_integrity": {
+        "checked_files": 13,
+        "passed": true,
+        "failures": []
+      },
+      "evidence_flags": {
+        "models_locked_before_test_predictions": true,
+        "fit_scaler_training_only": true,
+        "training_targets_purged_before_validation": true,
+        "validation_targets_purged_before_test": true,
+        "nonoverlap_targets_with_date_clustered_uncertainty": true,
+        "test_hyperparameters_tuned": false,
+        "total_underlying_variance_target": true,
+        "official_SEC_balance_sheet_layer_tested": true,
+        "original_vintage_publication_bound_used": true,
+        "actual_acceptance_timestamps_claimed": false,
+        "macro_layer_admitted": false,
+        "full_stage5_macro_funding_gate_passed": false,
+        "forecast_to_hedge_value_tested": false,
+        "maximum_admitted_release_age_days": 118.04166666666667,
+        "maximum_admitted_fiscal_period_age_days": 153.875
+      }
+    },
+    "incremental_features": {
+      "report": "results/feature-research-20261106T024244836968Z/report.md",
+      "record": "results/feature-research-20261106T024244836968Z/manifest.json",
+      "artifact_integrity": {
+        "checked_files": 13,
+        "passed": true,
+        "failures": []
+      },
+      "evidence_flags": {
+        "models_locked_before_test_predictions": true,
+        "fit_scaler_training_only": true,
+        "training_targets_purged_before_validation": true,
+        "validation_targets_purged_before_test": true,
+        "nonoverlap_targets_with_date_clustered_uncertainty": true,
+        "test_hyperparameters_tuned": false,
+        "total_underlying_variance_target": true,
+        "official_SEC_balance_sheet_layer_tested": true,
+        "original_vintage_publication_bound_used": true,
+        "actual_acceptance_timestamps_claimed": false,
+        "macro_layer_admitted": false,
+        "full_stage5_macro_funding_gate_passed": false,
+        "forecast_to_hedge_value_tested": false,
+        "maximum_admitted_release_age_days": 122.95833333333333,
+        "maximum_admitted_fiscal_period_age_days": 177.83333333333334
+      }
+    },
+    "conditional_breadth": {
+      "report": "results/breadth-20261106T020730752645Z/report.md",
+      "record": "results/breadth-20261106T020730752645Z/manifest.json",
+      "artifact_integrity": {
+        "checked_files": 41,
+        "passed": true,
+        "failures": []
+      },
+      "evidence_flags": {},
+      "conditional_breadth_computation_passed": true,
+      "full_stage7_gate_passed": false
+    },
+    "equity_overlays": {
+      "report": "results/equity-overlays-20261106T023430248130Z/report.md",
+      "record": "results/equity-overlays-20261106T023430248130Z/manifest.json",
+      "artifact_integrity": {
+        "checked_files": 27,
+        "passed": true,
+        "failures": []
+      },
+      "evidence_flags": {}
+    }
+  },
+  "stage6": {
+    "owner": "external Opus; Astra independent review integrated",
+    "status": "base_case_terminal_accounting_independently_reconstructed",
+    "review_archive": "results/research-release-2/astra-review-20261106",
+    "independent_accounting": {
+      "status": "passed",
+      "outcomes": 2013,
+      "maximum_terminal_pnl_residual_dollars": 1.1920928955078125e-07,
+      "scope": "All frozen base-case grid terminal P&Ls independently reconstructed from raw prices and protocol; no production functions or saved legs used; no reselection or new research scenarios.",
+      "not_validated": [
+        "All intrawindow option marks/drawdowns",
+        "All predeclared sensitivity runs",
+        "Underlying data vendor accuracy/corporate actions",
+        "Observed option market costs or availability",
+        "Economic generalization or independent crisis counts"
+      ]
+    },
+    "owner_addendum": "docs/equity_overlay_review_addendum.md",
+    "owner_corrections_integrated_in": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+    "tail_definition": "Worst six of 23 separate 63-session test windows; 25% tail fraction with ceiling rounding",
+    "option_market_prices_acquired": false,
+    "continuous_rolled_nav_available": false
+  },
+  "research_gate_2": {
+    "passed": false,
+    "stage7_full_empirical_claim": false,
+    "remaining_evidence": [
+      "Timestamped option bid/ask and contract terms for market-price claims",
+      "Point-in-time universe and failed-name coverage for survivorship-safe generalization",
+      "Frozen horizon-aligned forecast-to-hedge economic evaluation",
+      "Realistic dividends, financing/borrow, margin, option spreads and lifecycle treatment"
+    ],
+    "completed_but_not_sufficient": [
+      "Independent stage6 base-case terminal accounting review",
+      "Release-aware SEC feature forecasts on ten-name/six-bank extension",
+      "Conditional breadth computations through forty names"
+    ]
+  },
+  "next_economic_protocol": {
+    "status": "requirements_recorded_not_yet_frozen_or_run",
+    "requirements": "docs/next_economic_protocol_requirements.md",
+    "publication_dependency": false,
+    "rule": "Exact policy mapping and execution protocol must be written and hashed before any further economic evaluation"
+  }
+}

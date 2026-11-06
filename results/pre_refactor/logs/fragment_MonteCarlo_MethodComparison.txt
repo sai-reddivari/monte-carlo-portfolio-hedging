@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/saireddivari/MonteCarloEvaluations/MonteCarlo_Functions/MonteCarlo_MethodComparison.py", line 1, in <module>
+    SCHEMES = {'euler': euler_paths, 'milstein': milstein_paths, 'exact': exact_paths}
+                        ^^^^^^^^^^^
+NameError: name 'euler_paths' is not defined

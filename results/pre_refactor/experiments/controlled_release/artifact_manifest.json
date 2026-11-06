@@ -1,0 +1,21 @@
+{
+  "accounting_checks.csv": "c468acf7167b0fd1582cf21bc57a242abe043fac9386a651fd2253e37dcaf3df",
+  "audit_daily.csv": "ad2263d50c7abaf3bc5b228f57a861d7f34d2cf50c710d5fe9b2e7225155a91e",
+  "audit_initial_only.csv": "3959f6fc305ef0df2d5e0754278bc4cc68c0be214c37bea63e501606c767b8f2",
+  "audit_maturity_band_050.csv": "7556616a5d6f653654a38f66dd4fc151ff22b98c22a586e9ba6e06691b35197c",
+  "audit_two_day.csv": "8a29d2dac855a6c79336e088b4a48c1a1467cac9a4d137516feb8263e823d781",
+  "audit_weekly.csv": "4faf55e1124e523099df72957a0faadea79ec41d4d9212111bb991a47f1b91e9",
+  "cost_risk.png": "6de0ffff23421ec69f8a21d573974c90b538888b84add26eddc16ad5117229ca",
+  "evaluation_metrics.csv": "96fa7935c165ff6d9269c671fcd6ca50eb4d3abeff1b7ca87407177e7d019614",
+  "gate_status.json": "6e38aebc10629a703b7110792a29b6a496c6af796ebe6c4ff25c0c0e9abfcee0",
+  "paired_mean_differences.csv": "16e7924b79b9b51731e7ea12f79791fc6a53030b911e9cec986470372c595f2c",
+  "paired_tail_differences.csv": "1d25d80981d812fa9f623743aad923ce62735021daef2ae9ccb30a64c92844f7",
+  "peak_funding.png": "e6d7af96bb9876ed42d0c9d89ba8401c3504b2b012bd19a57bf32c5805b84822",
+  "protocol.json": "4dbfa7066e48f2b9e159168b109517259fd4f823794c70b5e65f5bf786b0a77a",
+  "protocol_commitment.json": "88e95a7fd3710f65c0169e3878e5e1ed78a7c015a9220a2a849caecfca98b683",
+  "provenance.json": "ebf2dca7a2ad7c08812fca672eeec72d32b6d9f5ad4f83da9172e52fb0e0b274",
+  "report.md": "dbe74602a67b69e72402087cece0082c0bb318fab82325fa699868d985e1a280",
+  "selected_risk_intervals.json": "1fd5daf09092a0aca35de46cdc95f29568e65daa4ab22b3dbf509a4f460c92eb",
+  "selection.json": "cbc6a7ac073e452cf1fe636b49f621c170e485fad54ad06bbb124abff82f9f94",
+  "selection_metrics.csv": "086577d49dca0c0c685b553260ad2001bb3a394ef501fd5e441db46031861a3b"
+}

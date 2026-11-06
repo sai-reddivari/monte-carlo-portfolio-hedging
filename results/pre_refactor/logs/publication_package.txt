@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/tmp/phase0-publication-8t4_h8jh/scripts/package_release_2.py", line 94, in <module>
+    package_release()
+    ~~~~~~~~~~~~~~~^^
+  File "/tmp/phase0-publication-8t4_h8jh/scripts/package_release_2.py", line 20, in package_release
+    raise FileExistsError(f'Frozen package already exists: {destination}')
+FileExistsError: Frozen package already exists: /private/tmp/phase0-publication-8t4_h8jh/results/research-release-2/release-2

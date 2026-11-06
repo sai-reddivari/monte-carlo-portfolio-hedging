@@ -1,0 +1,21 @@
+{
+  "output_dir": "/Users/saireddivari/MonteCarloEvaluations/results/pre_refactor/experiments_accelerate_pinned/incremental_features_original",
+  "models": 20,
+  "checks": {
+    "models_locked_before_test_predictions": true,
+    "fit_scaler_training_only": true,
+    "training_targets_purged_before_validation": true,
+    "validation_targets_purged_before_test": true,
+    "nonoverlap_targets_with_date_clustered_uncertainty": true,
+    "test_hyperparameters_tuned": false,
+    "total_underlying_variance_target": true,
+    "official_SEC_balance_sheet_layer_tested": true,
+    "original_vintage_publication_bound_used": true,
+    "actual_acceptance_timestamps_claimed": false,
+    "macro_layer_admitted": false,
+    "full_stage5_macro_funding_gate_passed": false,
+    "forecast_to_hedge_value_tested": false,
+    "maximum_admitted_release_age_days": 118.04166666666667,
+    "maximum_admitted_fiscal_period_age_days": 153.875
+  }
+}

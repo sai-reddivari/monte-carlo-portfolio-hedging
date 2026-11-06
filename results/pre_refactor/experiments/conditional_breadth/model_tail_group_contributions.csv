@@ -1,0 +1,529 @@
+scenario,composition,breadth,policy,current_industry,portfolio_tail_loss_contribution
+calibrated_dependence,canonical,3,maturity_band_050,Banks - Diversified,2439.9039192063497
+calibrated_dependence,canonical,3,maturity_band_050,Banks - Regional,2361.975196983916
+calibrated_dependence,canonical,3,maturity_band_050,Financial - Capital Markets,1867.2077541258434
+calibrated_dependence,canonical,3,daily,Banks - Diversified,2468.2597333859203
+calibrated_dependence,canonical,3,daily,Banks - Regional,2282.6346290024794
+calibrated_dependence,canonical,3,daily,Financial - Capital Markets,1922.7822716923602
+calibrated_dependence,canonical,3,weekly,Banks - Diversified,4831.140194104339
+calibrated_dependence,canonical,3,weekly,Banks - Regional,4973.50577538644
+calibrated_dependence,canonical,3,weekly,Financial - Capital Markets,4374.348590696759
+calibrated_dependence,canonical,10,maturity_band_050,Banks - Diversified,2695.8676936047304
+calibrated_dependence,canonical,10,maturity_band_050,Banks - Regional,1235.4467388617807
+calibrated_dependence,canonical,10,maturity_band_050,Financial - Capital Markets,1525.198990794986
+calibrated_dependence,canonical,10,maturity_band_050,Investment - Banking & Investment Services,458.12574456580694
+calibrated_dependence,canonical,10,daily,Banks - Diversified,2697.9694495570375
+calibrated_dependence,canonical,10,daily,Banks - Regional,1252.443915730661
+calibrated_dependence,canonical,10,daily,Financial - Capital Markets,1540.4145956732173
+calibrated_dependence,canonical,10,daily,Investment - Banking & Investment Services,456.6785047170568
+calibrated_dependence,canonical,10,weekly,Banks - Diversified,5661.960910375458
+calibrated_dependence,canonical,10,weekly,Banks - Regional,2537.44518341453
+calibrated_dependence,canonical,10,weekly,Financial - Capital Markets,3321.7725476585315
+calibrated_dependence,canonical,10,weekly,Investment - Banking & Investment Services,991.3454375131689
+calibrated_dependence,canonical,25,maturity_band_050,Banks - Diversified,982.5752741783432
+calibrated_dependence,canonical,25,maturity_band_050,Banks - Regional,439.0155573127465
+calibrated_dependence,canonical,25,maturity_band_050,Financial - Capital Markets,560.2127525880223
+calibrated_dependence,canonical,25,maturity_band_050,Investment - Banking & Investment Services,308.45934586721177
+calibrated_dependence,canonical,25,maturity_band_050,Insurance - Diversified,149.69451536453684
+calibrated_dependence,canonical,25,maturity_band_050,Financial - Credit Services,869.3167199026441
+calibrated_dependence,canonical,25,maturity_band_050,Asset Management,335.8005409965629
+calibrated_dependence,canonical,25,maturity_band_050,Financial - Data & Stock Exchanges,538.0430458332074
+calibrated_dependence,canonical,25,maturity_band_050,Insurance - Property & Casualty,231.79289835327538
+calibrated_dependence,canonical,25,maturity_band_050,Insurance - Brokers,106.21593118349399
+calibrated_dependence,canonical,25,daily,Banks - Diversified,986.7758487814824
+calibrated_dependence,canonical,25,daily,Banks - Regional,448.71176979232246
+calibrated_dependence,canonical,25,daily,Financial - Capital Markets,582.6669698599787
+calibrated_dependence,canonical,25,daily,Investment - Banking & Investment Services,302.0338201564754
+calibrated_dependence,canonical,25,daily,Insurance - Diversified,152.8385174373552
+calibrated_dependence,canonical,25,daily,Financial - Credit Services,869.6305144374219
+calibrated_dependence,canonical,25,daily,Asset Management,337.5064995939599
+calibrated_dependence,canonical,25,daily,Financial - Data & Stock Exchanges,563.0064468361713
+calibrated_dependence,canonical,25,daily,Insurance - Property & Casualty,230.32817794883258
+calibrated_dependence,canonical,25,daily,Insurance - Brokers,108.55563977714534
+calibrated_dependence,canonical,25,weekly,Banks - Diversified,2025.3706229954582
+calibrated_dependence,canonical,25,weekly,Banks - Regional,947.4197558154485
+calibrated_dependence,canonical,25,weekly,Financial - Capital Markets,1279.6929362263725
+calibrated_dependence,canonical,25,weekly,Investment - Banking & Investment Services,625.5245942938488
+calibrated_dependence,canonical,25,weekly,Insurance - Diversified,288.95484548326544
+calibrated_dependence,canonical,25,weekly,Financial - Credit Services,1767.3490908342933
+calibrated_dependence,canonical,25,weekly,Asset Management,672.4780936145517
+calibrated_dependence,canonical,25,weekly,Financial - Data & Stock Exchanges,1212.6465856104342
+calibrated_dependence,canonical,25,weekly,Insurance - Property & Casualty,505.84326715904433
+calibrated_dependence,canonical,25,weekly,Insurance - Brokers,214.15366531977355
+calibrated_dependence,canonical,40,maturity_band_050,Banks - Diversified,600.5746117477404
+calibrated_dependence,canonical,40,maturity_band_050,Banks - Regional,747.2353764830659
+calibrated_dependence,canonical,40,maturity_band_050,Financial - Capital Markets,347.5162868457956
+calibrated_dependence,canonical,40,maturity_band_050,Investment - Banking & Investment Services,188.7019965958055
+calibrated_dependence,canonical,40,maturity_band_050,Insurance - Diversified,357.72262325183
+calibrated_dependence,canonical,40,maturity_band_050,Financial - Credit Services,526.4060294381873
+calibrated_dependence,canonical,40,maturity_band_050,Asset Management,632.2822060540338
+calibrated_dependence,canonical,40,maturity_band_050,Financial - Data & Stock Exchanges,468.5291528998627
+calibrated_dependence,canonical,40,maturity_band_050,Insurance - Property & Casualty,219.45768319318177
+calibrated_dependence,canonical,40,maturity_band_050,Insurance - Brokers,133.70182287100693
+calibrated_dependence,canonical,40,maturity_band_050,Insurance - Life,418.7129496770708
+calibrated_dependence,canonical,40,daily,Banks - Diversified,607.829354126433
+calibrated_dependence,canonical,40,daily,Banks - Regional,766.2013647472254
+calibrated_dependence,canonical,40,daily,Financial - Capital Markets,356.91283791390356
+calibrated_dependence,canonical,40,daily,Investment - Banking & Investment Services,187.13624300312978
+calibrated_dependence,canonical,40,daily,Insurance - Diversified,367.0964260238716
+calibrated_dependence,canonical,40,daily,Financial - Credit Services,520.8352924756908
+calibrated_dependence,canonical,40,daily,Asset Management,635.0800892837849
+calibrated_dependence,canonical,40,daily,Financial - Data & Stock Exchanges,483.43248479951257
+calibrated_dependence,canonical,40,daily,Insurance - Property & Casualty,227.16683523510773
+calibrated_dependence,canonical,40,daily,Insurance - Brokers,137.42594643055315
+calibrated_dependence,canonical,40,daily,Insurance - Life,424.7156029326924
+calibrated_dependence,canonical,40,weekly,Banks - Diversified,1240.141005144155
+calibrated_dependence,canonical,40,weekly,Banks - Regional,1626.0318753746942
+calibrated_dependence,canonical,40,weekly,Financial - Capital Markets,776.1368958606332
+calibrated_dependence,canonical,40,weekly,Investment - Banking & Investment Services,402.6311936632231
+calibrated_dependence,canonical,40,weekly,Insurance - Diversified,759.5861508000824
+calibrated_dependence,canonical,40,weekly,Financial - Credit Services,1090.6375781344427
+calibrated_dependence,canonical,40,weekly,Asset Management,1330.2404872419074
+calibrated_dependence,canonical,40,weekly,Financial - Data & Stock Exchanges,1010.2857337673299
+calibrated_dependence,canonical,40,weekly,Insurance - Property & Casualty,472.90238612488065
+calibrated_dependence,canonical,40,weekly,Insurance - Brokers,292.9265409296934
+calibrated_dependence,canonical,40,weekly,Insurance - Life,912.4571062947026
+calibrated_dependence,seed_730711,3,maturity_band_050,Banks - Diversified,2525.5194804585576
+calibrated_dependence,seed_730711,3,maturity_band_050,Financial - Data & Stock Exchanges,3094.64918071401
+calibrated_dependence,seed_730711,3,daily,Banks - Diversified,2526.1080431065325
+calibrated_dependence,seed_730711,3,daily,Financial - Data & Stock Exchanges,3051.566541376873
+calibrated_dependence,seed_730711,3,weekly,Banks - Diversified,4770.861168365092
+calibrated_dependence,seed_730711,3,weekly,Financial - Data & Stock Exchanges,6215.068786788583
+calibrated_dependence,seed_730711,10,maturity_band_050,Banks - Diversified,1229.3442511732296
+calibrated_dependence,seed_730711,10,maturity_band_050,Financial - Data & Stock Exchanges,1552.9725599653248
+calibrated_dependence,seed_730711,10,maturity_band_050,Asset Management,765.7067408683887
+calibrated_dependence,seed_730711,10,maturity_band_050,Banks - Regional,605.6541744160736
+calibrated_dependence,seed_730711,10,maturity_band_050,Insurance - Brokers,326.6064956444824
+calibrated_dependence,seed_730711,10,maturity_band_050,Insurance - Life,639.4073116911536
+calibrated_dependence,seed_730711,10,daily,Banks - Diversified,1221.4265355961802
+calibrated_dependence,seed_730711,10,daily,Financial - Data & Stock Exchanges,1606.6732792247053
+calibrated_dependence,seed_730711,10,daily,Asset Management,731.4466603253534
+calibrated_dependence,seed_730711,10,daily,Banks - Regional,593.7615319438719
+calibrated_dependence,seed_730711,10,daily,Insurance - Brokers,339.5282241763489
+calibrated_dependence,seed_730711,10,daily,Insurance - Life,657.7712752119054
+calibrated_dependence,seed_730711,10,weekly,Banks - Diversified,2482.8710502093786
+calibrated_dependence,seed_730711,10,weekly,Financial - Data & Stock Exchanges,3373.3839629392205
+calibrated_dependence,seed_730711,10,weekly,Asset Management,1609.4817088268974
+calibrated_dependence,seed_730711,10,weekly,Banks - Regional,1298.620222135251
+calibrated_dependence,seed_730711,10,weekly,Insurance - Brokers,691.0572724892784
+calibrated_dependence,seed_730711,10,weekly,Insurance - Life,1348.3071065576905
+calibrated_dependence,seed_730711,25,maturity_band_050,Banks - Diversified,468.2191838953651
+calibrated_dependence,seed_730711,25,maturity_band_050,Financial - Data & Stock Exchanges,815.9335049276009
+calibrated_dependence,seed_730711,25,maturity_band_050,Asset Management,829.8961809355483
+calibrated_dependence,seed_730711,25,maturity_band_050,Banks - Regional,708.5058764114144
+calibrated_dependence,seed_730711,25,maturity_band_050,Insurance - Brokers,116.58054011236531
+calibrated_dependence,seed_730711,25,maturity_band_050,Insurance - Life,453.3584972619865
+calibrated_dependence,seed_730711,25,maturity_band_050,Insurance - Diversified,344.9157972439158
+calibrated_dependence,seed_730711,25,maturity_band_050,Financial - Credit Services,338.69472592956924
+calibrated_dependence,seed_730711,25,maturity_band_050,Insurance - Property & Casualty,135.71371547989804
+calibrated_dependence,seed_730711,25,maturity_band_050,Investment - Banking & Investment Services,176.89265680539424
+calibrated_dependence,seed_730711,25,maturity_band_050,Financial - Capital Markets,159.1747536316734
+calibrated_dependence,seed_730711,25,daily,Banks - Diversified,480.02294518587723
+calibrated_dependence,seed_730711,25,daily,Financial - Data & Stock Exchanges,834.4180896281503
+calibrated_dependence,seed_730711,25,daily,Asset Management,825.5859643999806
+calibrated_dependence,seed_730711,25,daily,Banks - Regional,713.79222996729
+calibrated_dependence,seed_730711,25,daily,Insurance - Brokers,124.77174435758485
+calibrated_dependence,seed_730711,25,daily,Insurance - Life,452.7013497732942
+calibrated_dependence,seed_730711,25,daily,Insurance - Diversified,345.99369802240767
+calibrated_dependence,seed_730711,25,daily,Financial - Credit Services,342.26433939621495
+calibrated_dependence,seed_730711,25,daily,Insurance - Property & Casualty,142.1825335179386
+calibrated_dependence,seed_730711,25,daily,Investment - Banking & Investment Services,180.7683040233196
+calibrated_dependence,seed_730711,25,daily,Financial - Capital Markets,160.7779466629682
+calibrated_dependence,seed_730711,25,weekly,Banks - Diversified,984.5730842930727
+calibrated_dependence,seed_730711,25,weekly,Financial - Data & Stock Exchanges,1713.1485999154352
+calibrated_dependence,seed_730711,25,weekly,Asset Management,1715.7179211573318
+calibrated_dependence,seed_730711,25,weekly,Banks - Regional,1561.303264643862
+calibrated_dependence,seed_730711,25,weekly,Insurance - Brokers,263.2836718092066
+calibrated_dependence,seed_730711,25,weekly,Insurance - Life,957.3145255482859
+calibrated_dependence,seed_730711,25,weekly,Insurance - Diversified,702.8549214536483
+calibrated_dependence,seed_730711,25,weekly,Financial - Credit Services,677.1554840846024
+calibrated_dependence,seed_730711,25,weekly,Insurance - Property & Casualty,282.6151747673966
+calibrated_dependence,seed_730711,25,weekly,Investment - Banking & Investment Services,376.20777242105294
+calibrated_dependence,seed_730711,25,weekly,Financial - Capital Markets,361.0446856566264
+calibrated_dependence,seed_730711,40,maturity_band_050,Banks - Diversified,604.9574764376206
+calibrated_dependence,seed_730711,40,maturity_band_050,Financial - Data & Stock Exchanges,451.0511076879826
+calibrated_dependence,seed_730711,40,maturity_band_050,Asset Management,748.6898450187363
+calibrated_dependence,seed_730711,40,maturity_band_050,Banks - Regional,915.8042308157687
+calibrated_dependence,seed_730711,40,maturity_band_050,Insurance - Brokers,130.11831162723607
+calibrated_dependence,seed_730711,40,maturity_band_050,Insurance - Life,419.35755854682
+calibrated_dependence,seed_730711,40,maturity_band_050,Insurance - Diversified,350.4838463474016
+calibrated_dependence,seed_730711,40,maturity_band_050,Financial - Credit Services,526.8603771044828
+calibrated_dependence,seed_730711,40,maturity_band_050,Insurance - Property & Casualty,83.90735419934376
+calibrated_dependence,seed_730711,40,maturity_band_050,Investment - Banking & Investment Services,189.43980135115578
+calibrated_dependence,seed_730711,40,maturity_band_050,Financial - Capital Markets,351.43450359552287
+calibrated_dependence,seed_730711,40,daily,Banks - Diversified,613.5681858818795
+calibrated_dependence,seed_730711,40,daily,Financial - Data & Stock Exchanges,461.8726413771839
+calibrated_dependence,seed_730711,40,daily,Asset Management,754.0665857645677
+calibrated_dependence,seed_730711,40,daily,Banks - Regional,931.9333469170238
+calibrated_dependence,seed_730711,40,daily,Insurance - Brokers,130.50048505001473
+calibrated_dependence,seed_730711,40,daily,Insurance - Life,432.02638824281803
+calibrated_dependence,seed_730711,40,daily,Insurance - Diversified,356.9282065945029
+calibrated_dependence,seed_730711,40,daily,Financial - Credit Services,524.2124523175527
+calibrated_dependence,seed_730711,40,daily,Insurance - Property & Casualty,82.3011839594608
+calibrated_dependence,seed_730711,40,daily,Investment - Banking & Investment Services,190.98546445121607
+calibrated_dependence,seed_730711,40,daily,Financial - Capital Markets,359.4112714375529
+calibrated_dependence,seed_730711,40,weekly,Banks - Diversified,1270.8883511731365
+calibrated_dependence,seed_730711,40,weekly,Financial - Data & Stock Exchanges,976.7488593311581
+calibrated_dependence,seed_730711,40,weekly,Asset Management,1580.7973147952084
+calibrated_dependence,seed_730711,40,weekly,Banks - Regional,1964.8675138322467
+calibrated_dependence,seed_730711,40,weekly,Insurance - Brokers,283.1253014524818
+calibrated_dependence,seed_730711,40,weekly,Insurance - Life,915.8559772071568
+calibrated_dependence,seed_730711,40,weekly,Insurance - Diversified,737.5982040562029
+calibrated_dependence,seed_730711,40,weekly,Financial - Credit Services,1095.4714281564845
+calibrated_dependence,seed_730711,40,weekly,Insurance - Property & Casualty,163.3731026924913
+calibrated_dependence,seed_730711,40,weekly,Investment - Banking & Investment Services,402.08354503594126
+calibrated_dependence,seed_730711,40,weekly,Financial - Capital Markets,776.1757506991773
+calibrated_dependence,seed_730712,3,maturity_band_050,Financial - Data & Stock Exchanges,1533.167339600156
+calibrated_dependence,seed_730712,3,maturity_band_050,Asset Management,2274.8758256086676
+calibrated_dependence,seed_730712,3,maturity_band_050,Banks - Regional,2802.0532491167532
+calibrated_dependence,seed_730712,3,daily,Financial - Data & Stock Exchanges,1537.7599906814128
+calibrated_dependence,seed_730712,3,daily,Asset Management,2209.8109949745212
+calibrated_dependence,seed_730712,3,daily,Banks - Regional,2787.869617756704
+calibrated_dependence,seed_730712,3,weekly,Financial - Data & Stock Exchanges,3462.485278014473
+calibrated_dependence,seed_730712,3,weekly,Asset Management,4630.97218664571
+calibrated_dependence,seed_730712,3,weekly,Banks - Regional,5735.03643926616
+calibrated_dependence,seed_730712,10,maturity_band_050,Financial - Data & Stock Exchanges,731.3156832697359
+calibrated_dependence,seed_730712,10,maturity_band_050,Asset Management,1883.4270374131015
+calibrated_dependence,seed_730712,10,maturity_band_050,Banks - Regional,671.4667364078606
+calibrated_dependence,seed_730712,10,maturity_band_050,Insurance - Life,524.627860727022
+calibrated_dependence,seed_730712,10,maturity_band_050,Insurance - Brokers,640.2077934623941
+calibrated_dependence,seed_730712,10,maturity_band_050,Insurance - Diversified,360.36067368689066
+calibrated_dependence,seed_730712,10,daily,Financial - Data & Stock Exchanges,729.7638383273922
+calibrated_dependence,seed_730712,10,daily,Asset Management,1876.9383259214592
+calibrated_dependence,seed_730712,10,daily,Banks - Regional,635.7313857138876
+calibrated_dependence,seed_730712,10,daily,Insurance - Life,543.560271933252
+calibrated_dependence,seed_730712,10,daily,Insurance - Brokers,678.8454124128223
+calibrated_dependence,seed_730712,10,daily,Insurance - Diversified,369.44539417621695
+calibrated_dependence,seed_730712,10,weekly,Financial - Data & Stock Exchanges,1706.5521610117887
+calibrated_dependence,seed_730712,10,weekly,Asset Management,3919.967163827706
+calibrated_dependence,seed_730712,10,weekly,Banks - Regional,1421.91138200484
+calibrated_dependence,seed_730712,10,weekly,Insurance - Life,1054.3486083184785
+calibrated_dependence,seed_730712,10,weekly,Insurance - Brokers,1422.8004187449037
+calibrated_dependence,seed_730712,10,weekly,Insurance - Diversified,734.1363208724575
+calibrated_dependence,seed_730712,25,maturity_band_050,Financial - Data & Stock Exchanges,649.0299747023253
+calibrated_dependence,seed_730712,25,maturity_band_050,Asset Management,709.7737000618213
+calibrated_dependence,seed_730712,25,maturity_band_050,Banks - Regional,724.5974863443923
+calibrated_dependence,seed_730712,25,maturity_band_050,Insurance - Life,694.3563884810108
+calibrated_dependence,seed_730712,25,maturity_band_050,Insurance - Brokers,221.98022783836416
+calibrated_dependence,seed_730712,25,maturity_band_050,Insurance - Diversified,578.8138073342766
+calibrated_dependence,seed_730712,25,maturity_band_050,Investment - Banking & Investment Services,186.83675778898055
+calibrated_dependence,seed_730712,25,maturity_band_050,Financial - Credit Services,248.8034027062
+calibrated_dependence,seed_730712,25,maturity_band_050,Financial - Capital Markets,339.33581947471987
+calibrated_dependence,seed_730712,25,maturity_band_050,Insurance - Property & Casualty,210.38537860455503
+calibrated_dependence,seed_730712,25,daily,Financial - Data & Stock Exchanges,667.6732641261507
+calibrated_dependence,seed_730712,25,daily,Asset Management,715.2713165163926
+calibrated_dependence,seed_730712,25,daily,Banks - Regional,723.8506793308617
+calibrated_dependence,seed_730712,25,daily,Insurance - Life,712.2468889268863
+calibrated_dependence,seed_730712,25,daily,Insurance - Brokers,232.71831799470786
+calibrated_dependence,seed_730712,25,daily,Insurance - Diversified,593.2395323156512
+calibrated_dependence,seed_730712,25,daily,Investment - Banking & Investment Services,190.92306121729177
+calibrated_dependence,seed_730712,25,daily,Financial - Credit Services,240.10235264741715
+calibrated_dependence,seed_730712,25,daily,Financial - Capital Markets,353.93059425424065
+calibrated_dependence,seed_730712,25,daily,Insurance - Property & Casualty,215.23884899434327
+calibrated_dependence,seed_730712,25,weekly,Financial - Data & Stock Exchanges,1392.308615837448
+calibrated_dependence,seed_730712,25,weekly,Asset Management,1535.2266789545588
+calibrated_dependence,seed_730712,25,weekly,Banks - Regional,1521.5495490491683
+calibrated_dependence,seed_730712,25,weekly,Insurance - Life,1470.7282272987807
+calibrated_dependence,seed_730712,25,weekly,Insurance - Brokers,482.97830296983676
+calibrated_dependence,seed_730712,25,weekly,Insurance - Diversified,1239.999747675981
+calibrated_dependence,seed_730712,25,weekly,Investment - Banking & Investment Services,389.76389310566805
+calibrated_dependence,seed_730712,25,weekly,Financial - Credit Services,493.415139562821
+calibrated_dependence,seed_730712,25,weekly,Financial - Capital Markets,764.7398466781426
+calibrated_dependence,seed_730712,25,weekly,Insurance - Property & Casualty,413.22660425773137
+calibrated_dependence,seed_730712,40,maturity_band_050,Financial - Data & Stock Exchanges,462.50643216731135
+calibrated_dependence,seed_730712,40,maturity_band_050,Asset Management,747.2642290722879
+calibrated_dependence,seed_730712,40,maturity_band_050,Banks - Regional,906.4483739199813
+calibrated_dependence,seed_730712,40,maturity_band_050,Insurance - Life,421.6502655652864
+calibrated_dependence,seed_730712,40,maturity_band_050,Insurance - Brokers,132.70134225437195
+calibrated_dependence,seed_730712,40,maturity_band_050,Insurance - Diversified,356.398404941325
+calibrated_dependence,seed_730712,40,maturity_band_050,Investment - Banking & Investment Services,116.78732032366575
+calibrated_dependence,seed_730712,40,maturity_band_050,Financial - Credit Services,524.212574401515
+calibrated_dependence,seed_730712,40,maturity_band_050,Financial - Capital Markets,348.9576797472763
+calibrated_dependence,seed_730712,40,maturity_band_050,Insurance - Property & Casualty,216.50228552427944
+calibrated_dependence,seed_730712,40,maturity_band_050,Banks - Diversified,446.3508316850541
+calibrated_dependence,seed_730712,40,daily,Financial - Data & Stock Exchanges,472.2875250552297
+calibrated_dependence,seed_730712,40,daily,Asset Management,755.5566199854778
+calibrated_dependence,seed_730712,40,daily,Banks - Regional,920.7688745428644
+calibrated_dependence,seed_730712,40,daily,Insurance - Life,428.2766214389551
+calibrated_dependence,seed_730712,40,daily,Insurance - Brokers,137.2592112472687
+calibrated_dependence,seed_730712,40,daily,Insurance - Diversified,356.308882485966
+calibrated_dependence,seed_730712,40,daily,Investment - Banking & Investment Services,115.23412227829361
+calibrated_dependence,seed_730712,40,daily,Financial - Credit Services,527.424525393796
+calibrated_dependence,seed_730712,40,daily,Financial - Capital Markets,357.8358929095551
+calibrated_dependence,seed_730712,40,daily,Insurance - Property & Casualty,226.3279131817542
+calibrated_dependence,seed_730712,40,daily,Banks - Diversified,453.07881814181764
+calibrated_dependence,seed_730712,40,weekly,Financial - Data & Stock Exchanges,976.256418092005
+calibrated_dependence,seed_730712,40,weekly,Asset Management,1568.5988020848351
+calibrated_dependence,seed_730712,40,weekly,Banks - Regional,1952.425378279943
+calibrated_dependence,seed_730712,40,weekly,Insurance - Life,913.4503593155196
+calibrated_dependence,seed_730712,40,weekly,Insurance - Brokers,287.3465747930115
+calibrated_dependence,seed_730712,40,weekly,Insurance - Diversified,757.0658832676563
+calibrated_dependence,seed_730712,40,weekly,Investment - Banking & Investment Services,238.41575056565478
+calibrated_dependence,seed_730712,40,weekly,Financial - Credit Services,1095.1495157446232
+calibrated_dependence,seed_730712,40,weekly,Financial - Capital Markets,779.5638352936796
+calibrated_dependence,seed_730712,40,weekly,Insurance - Property & Casualty,478.4749700711842
+calibrated_dependence,seed_730712,40,weekly,Banks - Diversified,932.5276398441354
+synthetic_common_shock_stress,canonical,3,maturity_band_050,Banks - Diversified,2584.2852704562333
+synthetic_common_shock_stress,canonical,3,maturity_band_050,Banks - Regional,2479.8525405495516
+synthetic_common_shock_stress,canonical,3,maturity_band_050,Financial - Capital Markets,2238.9276428059197
+synthetic_common_shock_stress,canonical,3,daily,Banks - Diversified,2584.6385225205586
+synthetic_common_shock_stress,canonical,3,daily,Banks - Regional,2496.911705203084
+synthetic_common_shock_stress,canonical,3,daily,Financial - Capital Markets,2192.8813965048275
+synthetic_common_shock_stress,canonical,3,weekly,Banks - Diversified,5234.243954762368
+synthetic_common_shock_stress,canonical,3,weekly,Banks - Regional,5480.413377962252
+synthetic_common_shock_stress,canonical,3,weekly,Financial - Capital Markets,4807.119578739234
+synthetic_common_shock_stress,canonical,10,maturity_band_050,Banks - Diversified,3074.967950205733
+synthetic_common_shock_stress,canonical,10,maturity_band_050,Banks - Regional,1418.3752639046388
+synthetic_common_shock_stress,canonical,10,maturity_band_050,Financial - Capital Markets,1812.5894498876603
+synthetic_common_shock_stress,canonical,10,maturity_band_050,Investment - Banking & Investment Services,556.3181999099714
+synthetic_common_shock_stress,canonical,10,daily,Banks - Diversified,3085.2033675259354
+synthetic_common_shock_stress,canonical,10,daily,Banks - Regional,1430.0574327283512
+synthetic_common_shock_stress,canonical,10,daily,Financial - Capital Markets,1837.7808829474184
+synthetic_common_shock_stress,canonical,10,daily,Investment - Banking & Investment Services,573.2197820758773
+synthetic_common_shock_stress,canonical,10,weekly,Banks - Diversified,6481.874146341643
+synthetic_common_shock_stress,canonical,10,weekly,Banks - Regional,3052.46390929421
+synthetic_common_shock_stress,canonical,10,weekly,Financial - Capital Markets,3950.8772998590366
+synthetic_common_shock_stress,canonical,10,weekly,Investment - Banking & Investment Services,1179.1658924234423
+synthetic_common_shock_stress,canonical,25,maturity_band_050,Banks - Diversified,1143.713298846839
+synthetic_common_shock_stress,canonical,25,maturity_band_050,Banks - Regional,523.2730060078848
+synthetic_common_shock_stress,canonical,25,maturity_band_050,Financial - Capital Markets,697.7414017319594
+synthetic_common_shock_stress,canonical,25,maturity_band_050,Investment - Banking & Investment Services,384.73040878268864
+synthetic_common_shock_stress,canonical,25,maturity_band_050,Insurance - Diversified,175.28741122208262
+synthetic_common_shock_stress,canonical,25,maturity_band_050,Financial - Credit Services,1065.7471452779187
+synthetic_common_shock_stress,canonical,25,maturity_band_050,Asset Management,413.64943712804416
+synthetic_common_shock_stress,canonical,25,maturity_band_050,Financial - Data & Stock Exchanges,734.1707019109872
+synthetic_common_shock_stress,canonical,25,maturity_band_050,Insurance - Property & Casualty,327.17004753564777
+synthetic_common_shock_stress,canonical,25,maturity_band_050,Insurance - Brokers,144.6217827966858
+synthetic_common_shock_stress,canonical,25,daily,Banks - Diversified,1152.6595514386197
+synthetic_common_shock_stress,canonical,25,daily,Banks - Regional,529.823565532804
+synthetic_common_shock_stress,canonical,25,daily,Financial - Capital Markets,718.5899477714793
+synthetic_common_shock_stress,canonical,25,daily,Investment - Banking & Investment Services,396.43020028931335
+synthetic_common_shock_stress,canonical,25,daily,Insurance - Diversified,179.56349781708815
+synthetic_common_shock_stress,canonical,25,daily,Financial - Credit Services,1080.6461211521141
+synthetic_common_shock_stress,canonical,25,daily,Asset Management,423.2778796550612
+synthetic_common_shock_stress,canonical,25,daily,Financial - Data & Stock Exchanges,748.4971391631893
+synthetic_common_shock_stress,canonical,25,daily,Insurance - Property & Casualty,325.61122702295535
+synthetic_common_shock_stress,canonical,25,daily,Insurance - Brokers,150.14095478421987
+synthetic_common_shock_stress,canonical,25,weekly,Banks - Diversified,2420.5132742021533
+synthetic_common_shock_stress,canonical,25,weekly,Banks - Regional,1157.8880600511213
+synthetic_common_shock_stress,canonical,25,weekly,Financial - Capital Markets,1575.7256143471914
+synthetic_common_shock_stress,canonical,25,weekly,Investment - Banking & Investment Services,845.5169417959667
+synthetic_common_shock_stress,canonical,25,weekly,Insurance - Diversified,354.24846755460464
+synthetic_common_shock_stress,canonical,25,weekly,Financial - Credit Services,2210.4408072553306
+synthetic_common_shock_stress,canonical,25,weekly,Asset Management,867.8387574942008
+synthetic_common_shock_stress,canonical,25,weekly,Financial - Data & Stock Exchanges,1603.392898014487
+synthetic_common_shock_stress,canonical,25,weekly,Insurance - Property & Casualty,701.1148960937229
+synthetic_common_shock_stress,canonical,25,weekly,Insurance - Brokers,306.3183202161103
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Banks - Diversified,715.6976496513959
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Banks - Regional,892.889627622406
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Financial - Capital Markets,430.94427576957
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Investment - Banking & Investment Services,240.76250622576333
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Insurance - Diversified,446.6164815537857
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Financial - Credit Services,659.3881450360009
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Asset Management,765.7764721601203
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Financial - Data & Stock Exchanges,667.7438835499266
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Insurance - Property & Casualty,308.95326358837923
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Insurance - Brokers,189.44784717302144
+synthetic_common_shock_stress,canonical,40,maturity_band_050,Insurance - Life,507.1182291977809
+synthetic_common_shock_stress,canonical,40,daily,Banks - Diversified,728.6735111979099
+synthetic_common_shock_stress,canonical,40,daily,Banks - Regional,906.0556297071006
+synthetic_common_shock_stress,canonical,40,daily,Financial - Capital Markets,442.2128077169021
+synthetic_common_shock_stress,canonical,40,daily,Investment - Banking & Investment Services,243.68918865210406
+synthetic_common_shock_stress,canonical,40,daily,Insurance - Diversified,452.94996083589854
+synthetic_common_shock_stress,canonical,40,daily,Financial - Credit Services,663.1990756008296
+synthetic_common_shock_stress,canonical,40,daily,Asset Management,770.4382375237418
+synthetic_common_shock_stress,canonical,40,daily,Financial - Data & Stock Exchanges,684.5563998253982
+synthetic_common_shock_stress,canonical,40,daily,Insurance - Property & Casualty,313.96932414532375
+synthetic_common_shock_stress,canonical,40,daily,Insurance - Brokers,196.01331232079735
+synthetic_common_shock_stress,canonical,40,daily,Insurance - Life,521.8248861736876
+synthetic_common_shock_stress,canonical,40,weekly,Banks - Diversified,1511.3495201364506
+synthetic_common_shock_stress,canonical,40,weekly,Banks - Regional,1970.6032968573509
+synthetic_common_shock_stress,canonical,40,weekly,Financial - Capital Markets,974.3018352278352
+synthetic_common_shock_stress,canonical,40,weekly,Investment - Banking & Investment Services,533.828784835368
+synthetic_common_shock_stress,canonical,40,weekly,Insurance - Diversified,995.1302547822997
+synthetic_common_shock_stress,canonical,40,weekly,Financial - Credit Services,1371.7048313594296
+synthetic_common_shock_stress,canonical,40,weekly,Asset Management,1675.9879804426673
+synthetic_common_shock_stress,canonical,40,weekly,Financial - Data & Stock Exchanges,1427.036109851567
+synthetic_common_shock_stress,canonical,40,weekly,Insurance - Property & Casualty,656.9851590491348
+synthetic_common_shock_stress,canonical,40,weekly,Insurance - Brokers,402.60057242727174
+synthetic_common_shock_stress,canonical,40,weekly,Insurance - Life,1138.2953888289023
+synthetic_common_shock_stress,seed_730711,3,maturity_band_050,Banks - Diversified,2678.745530414083
+synthetic_common_shock_stress,seed_730711,3,maturity_band_050,Financial - Data & Stock Exchanges,3489.912854019057
+synthetic_common_shock_stress,seed_730711,3,daily,Banks - Diversified,2699.6827359131044
+synthetic_common_shock_stress,seed_730711,3,daily,Financial - Data & Stock Exchanges,3467.2212811484433
+synthetic_common_shock_stress,seed_730711,3,weekly,Banks - Diversified,5270.765663388501
+synthetic_common_shock_stress,seed_730711,3,weekly,Financial - Data & Stock Exchanges,7220.286844127593
+synthetic_common_shock_stress,seed_730711,10,maturity_band_050,Banks - Diversified,1436.016565758107
+synthetic_common_shock_stress,seed_730711,10,maturity_band_050,Financial - Data & Stock Exchanges,1983.268832622044
+synthetic_common_shock_stress,seed_730711,10,maturity_band_050,Asset Management,816.1033876054744
+synthetic_common_shock_stress,seed_730711,10,maturity_band_050,Banks - Regional,666.2310718846587
+synthetic_common_shock_stress,seed_730711,10,maturity_band_050,Insurance - Brokers,429.8742186083741
+synthetic_common_shock_stress,seed_730711,10,maturity_band_050,Insurance - Life,772.2168080875957
+synthetic_common_shock_stress,seed_730711,10,daily,Banks - Diversified,1459.164134914046
+synthetic_common_shock_stress,seed_730711,10,daily,Financial - Data & Stock Exchanges,1977.0559942649575
+synthetic_common_shock_stress,seed_730711,10,daily,Asset Management,814.0419927865979
+synthetic_common_shock_stress,seed_730711,10,daily,Banks - Regional,664.7926670273334
+synthetic_common_shock_stress,seed_730711,10,daily,Insurance - Brokers,438.4498094851001
+synthetic_common_shock_stress,seed_730711,10,daily,Insurance - Life,793.4647907728717
+synthetic_common_shock_stress,seed_730711,10,weekly,Banks - Diversified,2938.615123352354
+synthetic_common_shock_stress,seed_730711,10,weekly,Financial - Data & Stock Exchanges,4302.646107988598
+synthetic_common_shock_stress,seed_730711,10,weekly,Asset Management,1811.119459855411
+synthetic_common_shock_stress,seed_730711,10,weekly,Banks - Regional,1537.466882536436
+synthetic_common_shock_stress,seed_730711,10,weekly,Insurance - Brokers,905.0068184446711
+synthetic_common_shock_stress,seed_730711,10,weekly,Insurance - Life,1641.1391782354717
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Banks - Diversified,564.935298719183
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Financial - Data & Stock Exchanges,1117.345631338606
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Asset Management,994.1222860656801
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Banks - Regional,847.9542787293344
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Insurance - Brokers,167.21984785855201
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Insurance - Life,547.0498750967005
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Insurance - Diversified,420.4448561944462
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Financial - Credit Services,431.06937779775683
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Insurance - Property & Casualty,182.31938824443912
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Investment - Banking & Investment Services,221.471928594118
+synthetic_common_shock_stress,seed_730711,25,maturity_band_050,Financial - Capital Markets,210.93744872862152
+synthetic_common_shock_stress,seed_730711,25,daily,Banks - Diversified,571.6000091706585
+synthetic_common_shock_stress,seed_730711,25,daily,Financial - Data & Stock Exchanges,1121.126316845598
+synthetic_common_shock_stress,seed_730711,25,daily,Asset Management,997.2962954583363
+synthetic_common_shock_stress,seed_730711,25,daily,Banks - Regional,863.2230160753443
+synthetic_common_shock_stress,seed_730711,25,daily,Insurance - Brokers,167.900177744557
+synthetic_common_shock_stress,seed_730711,25,daily,Insurance - Life,566.4269152909274
+synthetic_common_shock_stress,seed_730711,25,daily,Insurance - Diversified,430.9834320892403
+synthetic_common_shock_stress,seed_730711,25,daily,Financial - Credit Services,437.14770222128885
+synthetic_common_shock_stress,seed_730711,25,daily,Insurance - Property & Casualty,181.92427932682406
+synthetic_common_shock_stress,seed_730711,25,daily,Investment - Banking & Investment Services,224.70725946477373
+synthetic_common_shock_stress,seed_730711,25,daily,Financial - Capital Markets,208.63829958604498
+synthetic_common_shock_stress,seed_730711,25,weekly,Banks - Diversified,1185.462154360752
+synthetic_common_shock_stress,seed_730711,25,weekly,Financial - Data & Stock Exchanges,2365.710830389953
+synthetic_common_shock_stress,seed_730711,25,weekly,Asset Management,2121.7674264288007
+synthetic_common_shock_stress,seed_730711,25,weekly,Banks - Regional,1890.7358345862056
+synthetic_common_shock_stress,seed_730711,25,weekly,Insurance - Brokers,360.2225602237196
+synthetic_common_shock_stress,seed_730711,25,weekly,Insurance - Life,1200.4540495161032
+synthetic_common_shock_stress,seed_730711,25,weekly,Insurance - Diversified,923.3145002711225
+synthetic_common_shock_stress,seed_730711,25,weekly,Financial - Credit Services,890.1864830757987
+synthetic_common_shock_stress,seed_730711,25,weekly,Insurance - Property & Casualty,380.68705968358364
+synthetic_common_shock_stress,seed_730711,25,weekly,Investment - Banking & Investment Services,465.58926107071346
+synthetic_common_shock_stress,seed_730711,25,weekly,Financial - Capital Markets,476.8164279389907
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Banks - Diversified,719.4687453050179
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Financial - Data & Stock Exchanges,651.3611918369394
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Asset Management,905.6089937157142
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Banks - Regional,1090.099170960735
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Insurance - Brokers,183.74469585558046
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Insurance - Life,515.296116982556
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Insurance - Diversified,443.97620018477187
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Financial - Credit Services,658.4730529576334
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Insurance - Property & Casualty,111.51857928201602
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Investment - Banking & Investment Services,240.14438503841944
+synthetic_common_shock_stress,seed_730711,40,maturity_band_050,Financial - Capital Markets,430.9224621853211
+synthetic_common_shock_stress,seed_730711,40,daily,Banks - Diversified,734.2015992843443
+synthetic_common_shock_stress,seed_730711,40,daily,Financial - Data & Stock Exchanges,670.3712716340192
+synthetic_common_shock_stress,seed_730711,40,daily,Asset Management,910.3783574553856
+synthetic_common_shock_stress,seed_730711,40,daily,Banks - Regional,1097.742908658514
+synthetic_common_shock_stress,seed_730711,40,daily,Insurance - Brokers,191.79990455793055
+synthetic_common_shock_stress,seed_730711,40,daily,Insurance - Life,522.2951431090777
+synthetic_common_shock_stress,seed_730711,40,daily,Insurance - Diversified,456.15855513504323
+synthetic_common_shock_stress,seed_730711,40,daily,Financial - Credit Services,661.4019650935736
+synthetic_common_shock_stress,seed_730711,40,daily,Insurance - Property & Casualty,110.8928401571312
+synthetic_common_shock_stress,seed_730711,40,daily,Investment - Banking & Investment Services,244.2839275179471
+synthetic_common_shock_stress,seed_730711,40,daily,Financial - Capital Markets,441.9314577992998
+synthetic_common_shock_stress,seed_730711,40,weekly,Banks - Diversified,1519.0106478677235
+synthetic_common_shock_stress,seed_730711,40,weekly,Financial - Data & Stock Exchanges,1413.9773809626279
+synthetic_common_shock_stress,seed_730711,40,weekly,Asset Management,1981.6879336146694
+synthetic_common_shock_stress,seed_730711,40,weekly,Banks - Regional,2378.1925607367025
+synthetic_common_shock_stress,seed_730711,40,weekly,Insurance - Brokers,401.98111419704105
+synthetic_common_shock_stress,seed_730711,40,weekly,Insurance - Life,1138.120379733019
+synthetic_common_shock_stress,seed_730711,40,weekly,Insurance - Diversified,990.6311955035233
+synthetic_common_shock_stress,seed_730711,40,weekly,Financial - Credit Services,1369.7220980341465
+synthetic_common_shock_stress,seed_730711,40,weekly,Insurance - Property & Casualty,228.53547559075292
+synthetic_common_shock_stress,seed_730711,40,weekly,Investment - Banking & Investment Services,530.5410099746949
+synthetic_common_shock_stress,seed_730711,40,weekly,Financial - Capital Markets,973.2310561101162
+synthetic_common_shock_stress,seed_730712,3,maturity_band_050,Financial - Data & Stock Exchanges,1817.790796919647
+synthetic_common_shock_stress,seed_730712,3,maturity_band_050,Asset Management,2449.066850591119
+synthetic_common_shock_stress,seed_730712,3,maturity_band_050,Banks - Regional,3031.7563190994783
+synthetic_common_shock_stress,seed_730712,3,daily,Financial - Data & Stock Exchanges,1859.130793991454
+synthetic_common_shock_stress,seed_730712,3,daily,Asset Management,2295.3999223522524
+synthetic_common_shock_stress,seed_730712,3,daily,Banks - Regional,3030.4024400213807
+synthetic_common_shock_stress,seed_730712,3,weekly,Financial - Data & Stock Exchanges,4073.611430794234
+synthetic_common_shock_stress,seed_730712,3,weekly,Asset Management,5202.861702279847
+synthetic_common_shock_stress,seed_730712,3,weekly,Banks - Regional,6441.2494431437
+synthetic_common_shock_stress,seed_730712,10,maturity_band_050,Financial - Data & Stock Exchanges,995.021577943561
+synthetic_common_shock_stress,seed_730712,10,maturity_band_050,Asset Management,2126.975431943985
+synthetic_common_shock_stress,seed_730712,10,maturity_band_050,Banks - Regional,759.1799979751755
+synthetic_common_shock_stress,seed_730712,10,maturity_band_050,Insurance - Life,662.1904141912576
+synthetic_common_shock_stress,seed_730712,10,maturity_band_050,Insurance - Brokers,838.9641838667794
+synthetic_common_shock_stress,seed_730712,10,maturity_band_050,Insurance - Diversified,425.0506641246559
+synthetic_common_shock_stress,seed_730712,10,daily,Financial - Data & Stock Exchanges,986.0990501415338
+synthetic_common_shock_stress,seed_730712,10,daily,Asset Management,2119.319338044052
+synthetic_common_shock_stress,seed_730712,10,daily,Banks - Regional,770.7130894028055
+synthetic_common_shock_stress,seed_730712,10,daily,Insurance - Life,674.7456757095649
+synthetic_common_shock_stress,seed_730712,10,daily,Insurance - Brokers,860.3855199416889
+synthetic_common_shock_stress,seed_730712,10,daily,Insurance - Diversified,443.0907613880776
+synthetic_common_shock_stress,seed_730712,10,weekly,Financial - Data & Stock Exchanges,2161.4306224304464
+synthetic_common_shock_stress,seed_730712,10,weekly,Asset Management,4718.443543513253
+synthetic_common_shock_stress,seed_730712,10,weekly,Banks - Regional,1697.8630950181855
+synthetic_common_shock_stress,seed_730712,10,weekly,Insurance - Life,1355.1461451437049
+synthetic_common_shock_stress,seed_730712,10,weekly,Insurance - Brokers,1761.3121641838998
+synthetic_common_shock_stress,seed_730712,10,weekly,Insurance - Diversified,881.7891502043939
+synthetic_common_shock_stress,seed_730712,25,maturity_band_050,Financial - Data & Stock Exchanges,934.1904783275443
+synthetic_common_shock_stress,seed_730712,25,maturity_band_050,Asset Management,817.8142865715777
+synthetic_common_shock_stress,seed_730712,25,maturity_band_050,Banks - Regional,862.5966200025987
+synthetic_common_shock_stress,seed_730712,25,maturity_band_050,Insurance - Life,836.6576416006682
+synthetic_common_shock_stress,seed_730712,25,maturity_band_050,Insurance - Brokers,308.5950062946847
+synthetic_common_shock_stress,seed_730712,25,maturity_band_050,Insurance - Diversified,722.4924101807935
+synthetic_common_shock_stress,seed_730712,25,maturity_band_050,Investment - Banking & Investment Services,222.87147401394176
+synthetic_common_shock_stress,seed_730712,25,maturity_band_050,Financial - Credit Services,287.1080299089358
+synthetic_common_shock_stress,seed_730712,25,maturity_band_050,Financial - Capital Markets,441.79472208783136
+synthetic_common_shock_stress,seed_730712,25,maturity_band_050,Insurance - Property & Casualty,305.7476512598679
+synthetic_common_shock_stress,seed_730712,25,daily,Financial - Data & Stock Exchanges,940.910494177236
+synthetic_common_shock_stress,seed_730712,25,daily,Asset Management,818.9262485790787
+synthetic_common_shock_stress,seed_730712,25,daily,Banks - Regional,881.8463573650961
+synthetic_common_shock_stress,seed_730712,25,daily,Insurance - Life,847.516481267573
+synthetic_common_shock_stress,seed_730712,25,daily,Insurance - Brokers,310.9148612410712
+synthetic_common_shock_stress,seed_730712,25,daily,Insurance - Diversified,746.5971273090365
+synthetic_common_shock_stress,seed_730712,25,daily,Investment - Banking & Investment Services,224.68866525349583
+synthetic_common_shock_stress,seed_730712,25,daily,Financial - Credit Services,302.4375675381509
+synthetic_common_shock_stress,seed_730712,25,daily,Financial - Capital Markets,444.36403635271967
+synthetic_common_shock_stress,seed_730712,25,daily,Insurance - Property & Casualty,311.2161447996251
+synthetic_common_shock_stress,seed_730712,25,weekly,Financial - Data & Stock Exchanges,1972.3199929240186
+synthetic_common_shock_stress,seed_730712,25,weekly,Asset Management,1819.9721483935255
+synthetic_common_shock_stress,seed_730712,25,weekly,Banks - Regional,1872.6648578077434
+synthetic_common_shock_stress,seed_730712,25,weekly,Insurance - Life,1831.9678018665177
+synthetic_common_shock_stress,seed_730712,25,weekly,Insurance - Brokers,664.6464429744419
+synthetic_common_shock_stress,seed_730712,25,weekly,Insurance - Diversified,1615.1149407568118
+synthetic_common_shock_stress,seed_730712,25,weekly,Investment - Banking & Investment Services,474.68170610051504
+synthetic_common_shock_stress,seed_730712,25,weekly,Financial - Credit Services,592.3515368561258
+synthetic_common_shock_stress,seed_730712,25,weekly,Financial - Capital Markets,975.7781481890204
+synthetic_common_shock_stress,seed_730712,25,weekly,Insurance - Property & Casualty,601.454855222215
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Financial - Data & Stock Exchanges,658.4611906826635
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Asset Management,903.0015166679741
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Banks - Regional,1087.2253390895544
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Insurance - Life,508.1311615891732
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Insurance - Brokers,187.72894387154855
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Insurance - Diversified,449.06695410037673
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Investment - Banking & Investment Services,137.2067800074775
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Financial - Credit Services,658.1644380135582
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Financial - Capital Markets,427.3220467599695
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Insurance - Property & Casualty,307.81388986627496
+synthetic_common_shock_stress,seed_730712,40,maturity_band_050,Banks - Diversified,538.158572746762
+synthetic_common_shock_stress,seed_730712,40,daily,Financial - Data & Stock Exchanges,675.0028709929919
+synthetic_common_shock_stress,seed_730712,40,daily,Asset Management,914.9064355408333
+synthetic_common_shock_stress,seed_730712,40,daily,Banks - Regional,1095.4459700556802
+synthetic_common_shock_stress,seed_730712,40,daily,Insurance - Life,521.7778948768205
+synthetic_common_shock_stress,seed_730712,40,daily,Insurance - Brokers,193.24794067212798
+synthetic_common_shock_stress,seed_730712,40,daily,Insurance - Diversified,460.917424019544
+synthetic_common_shock_stress,seed_730712,40,daily,Investment - Banking & Investment Services,138.66192281849754
+synthetic_common_shock_stress,seed_730712,40,daily,Financial - Credit Services,658.0162196995582
+synthetic_common_shock_stress,seed_730712,40,daily,Financial - Capital Markets,436.5580058325836
+synthetic_common_shock_stress,seed_730712,40,daily,Insurance - Property & Casualty,318.76709989278766
+synthetic_common_shock_stress,seed_730712,40,daily,Banks - Diversified,547.6602037804857
+synthetic_common_shock_stress,seed_730712,40,weekly,Financial - Data & Stock Exchanges,1420.3671859323347
+synthetic_common_shock_stress,seed_730712,40,weekly,Asset Management,1976.1570649137893
+synthetic_common_shock_stress,seed_730712,40,weekly,Banks - Regional,2377.185849536858
+synthetic_common_shock_stress,seed_730712,40,weekly,Insurance - Life,1133.4189798281848
+synthetic_common_shock_stress,seed_730712,40,weekly,Insurance - Brokers,405.06008962901456
+synthetic_common_shock_stress,seed_730712,40,weekly,Insurance - Diversified,995.8418954500014
+synthetic_common_shock_stress,seed_730712,40,weekly,Investment - Banking & Investment Services,289.0364712042516
+synthetic_common_shock_stress,seed_730712,40,weekly,Financial - Credit Services,1367.66960107337
+synthetic_common_shock_stress,seed_730712,40,weekly,Financial - Capital Markets,973.3807585960697
+synthetic_common_shock_stress,seed_730712,40,weekly,Insurance - Property & Casualty,658.2374102103927
+synthetic_common_shock_stress,seed_730712,40,weekly,Banks - Diversified,1129.187454992446

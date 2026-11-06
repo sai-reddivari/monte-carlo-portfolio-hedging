@@ -1,0 +1,1282 @@
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:118: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  frame = pd.read_csv(path, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:75: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  a = pd.read_csv(original, float_precision='round_trip')
+/Users/saireddivari/MonteCarloEvaluations/scripts/audit_phase0.py:76: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  b = pd.read_csv(reproduced, float_precision='round_trip')
+WARNING: The directory '/Users/saireddivari/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+{
+  "status": "phase0_complete_with_findings",
+  "execution_counts": {
+    "passed": 45,
+    "failed": 4,
+    "hash-only": 6
+  },
+  "evidence_checks": 482,
+  "evidence_mismatches": 0,
+  "tables_compared": 210,
+  "tables_with_differences": 0,
+  "numeric_cells_compared": 5030792,
+  "original_tracked_file_changes": 0,
+  "manifest_size_bytes": 29295700
+}

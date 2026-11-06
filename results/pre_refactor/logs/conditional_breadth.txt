@@ -1,0 +1,52 @@
+Completed calibrated_dependence/canonical/3
+Completed calibrated_dependence/canonical/10
+Completed calibrated_dependence/canonical/25
+Completed calibrated_dependence/canonical/40
+Completed calibrated_dependence/seed_730711/3
+Completed calibrated_dependence/seed_730711/10
+Completed calibrated_dependence/seed_730711/25
+Completed calibrated_dependence/seed_730711/40
+Completed calibrated_dependence/seed_730712/3
+Completed calibrated_dependence/seed_730712/10
+Completed calibrated_dependence/seed_730712/25
+Completed calibrated_dependence/seed_730712/40
+Completed synthetic_common_shock_stress/canonical/3
+Completed synthetic_common_shock_stress/canonical/10
+Completed synthetic_common_shock_stress/canonical/25
+Completed synthetic_common_shock_stress/canonical/40
+Completed synthetic_common_shock_stress/seed_730711/3
+Completed synthetic_common_shock_stress/seed_730711/10
+Completed synthetic_common_shock_stress/seed_730711/25
+Completed synthetic_common_shock_stress/seed_730711/40
+Completed synthetic_common_shock_stress/seed_730712/3
+Completed synthetic_common_shock_stress/seed_730712/10
+Completed synthetic_common_shock_stress/seed_730712/25
+Completed synthetic_common_shock_stress/seed_730712/40
+                     scenario  breadth            policy   pnl_std  loss_es95  mean_financed_cost
+        calibrated_dependence        3 maturity_band_050 2843.4879  6669.0869            488.0074
+        calibrated_dependence        3             daily 2750.3446  6673.6766            545.5870
+        calibrated_dependence        3            weekly 5914.1613 14178.9946            337.7407
+        calibrated_dependence       10 maturity_band_050 2470.9075  5914.6392            488.3296
+        calibrated_dependence       10             daily 2421.1595  5947.5065            545.9319
+        calibrated_dependence       10            weekly 5256.0328 12512.5241            337.8023
+        calibrated_dependence       25 maturity_band_050 1821.4839  4521.1266            487.5768
+        calibrated_dependence       25             daily 1792.1257  4582.0542            545.2076
+        calibrated_dependence       25            weekly 3944.3502  9539.4335            337.1190
+        calibrated_dependence       40 maturity_band_050 1892.0692  4640.8407            487.9497
+        calibrated_dependence       40             daily 1865.2031  4713.8325            545.5937
+        calibrated_dependence       40            weekly 4102.5122  9913.9770            337.5639
+synthetic_common_shock_stress        3 maturity_band_050 3092.0354  7303.0655            487.7544
+synthetic_common_shock_stress        3             daily 3000.0382  7274.4316            545.3368
+synthetic_common_shock_stress        3            weekly 6481.6143 15521.7769            337.5447
+synthetic_common_shock_stress       10 maturity_band_050 2874.3209  6862.2509            487.8636
+synthetic_common_shock_stress       10             daily 2819.9290  6926.2615            545.5363
+synthetic_common_shock_stress       10            weekly 6131.2322 14664.3812            337.5908
+synthetic_common_shock_stress       25 maturity_band_050 2309.4890  5610.1046            487.3204
+synthetic_common_shock_stress       25             daily 2271.2940  5705.2401            544.9887
+synthetic_common_shock_stress       25            weekly 4994.0225 12042.9980            336.9135
+synthetic_common_shock_stress       40 maturity_band_050 2419.3639  5825.3384            487.6301
+synthetic_common_shock_stress       40             daily 2381.3507  5923.5823            545.3340
+synthetic_common_shock_stress       40            weekly 5242.4176 12657.8237            337.3332
+Conditional breadth passed: True
+Full stage-7 gate passed: False
+Artifacts: /Users/saireddivari/MonteCarloEvaluations/results/pre_refactor/experiments/conditional_breadth

@@ -1,0 +1,434 @@
+{
+  "study": "European model-contract accounting replay on historical stock prices",
+  "generated_utc": "2026-11-06T06:34:46.239632+00:00",
+  "model_options_are_historical_quoted_options": false,
+  "historical_option_backtest_gate_passed": false,
+  "model_contract_accounting_gate_passed": true,
+  "prices_file": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted.csv",
+  "prices_file_sha256": "fafef4fc0276fd7ed75ec808c6f8fa8822d41d35df4b938cf22b47d0fae31a27",
+  "market_data_source_verified": true,
+  "source_metadata_file": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json",
+  "price_basis": "FMP split-adjusted close; dividends excluded; not a total-return index",
+  "historical_sigma_is_implied_volatility": false,
+  "calibration_returns": 252,
+  "windows": {
+    "normal_2019": [
+      "2019-01-02",
+      "2019-03-29"
+    ],
+    "stress_covid_2020": [
+      "2020-02-03",
+      "2020-04-30"
+    ]
+  },
+  "rate": 0.04,
+  "rate_interpretation": "constant illustrative model financing rate, not a historical rate observation",
+  "cost_bps": 5.0,
+  "stock_execution": "observe close and transact at same model close plus assumed proportional cost",
+  "sessions_per_year": 252,
+  "hedge_every": 5,
+  "notional_per_name": 100000.0,
+  "core_equity_comparisons_use_same_initial_capital": true,
+  "protective_puts_automatically_delta_neutralized": false,
+  "limitations": [
+    "No historical option quotes or historical implied volatilities",
+    "No listed-option executable backtest or American exercise claim",
+    "No dividends, split event processing, margin, borrow fees or option spreads",
+    "Source observation index used as session calendar; exchange calendar not independently verified",
+    "Three current survivors and two illustrative historical windows are not an unbiased sector study"
+  ],
+  "runs": {
+    "normal_2019/short_calls_stock_hedged": {
+      "model": "European fixed-volatility model contracts on supplied underlying observations",
+      "data_label": "FMP split-adjusted historical stock closes; synthetic model option contracts",
+      "as_of": "2019-01-02T00:00:00",
+      "terminal_date": "2019-03-29T00:00:00",
+      "session_count": 61,
+      "sessions_per_year": 252,
+      "time_convention": "one trading session per supplied row; rates/volatilities annualized",
+      "initial_capital": 0.0,
+      "capital_convention": "gross long core-equity inception value unless initial_capital is supplied",
+      "rate": 0.04,
+      "cost_bps": 5.0,
+      "hedge_options": true,
+      "hedge_every": 5,
+      "liquidate_at_end": true,
+      "equity_holdings": {},
+      "option_positions": [
+        {
+          "instrument_id": "JPM_model_call",
+          "underlying": "JPM",
+          "kind": "call",
+          "strike": 99.31,
+          "expiry": "2019-03-29T00:00:00",
+          "quantity": -1006.9479407914611,
+          "volatility": 0.22055827224274469,
+          "multiplier": 1.0
+        },
+        {
+          "instrument_id": "PNC_model_call",
+          "underlying": "PNC",
+          "kind": "call",
+          "strike": 118.81,
+          "expiry": "2019-03-29T00:00:00",
+          "quantity": -841.67999326656,
+          "volatility": 0.23204305747340495,
+          "multiplier": 1.0
+        },
+        {
+          "instrument_id": "GS_model_call",
+          "underlying": "GS",
+          "kind": "call",
+          "strike": 172.03,
+          "expiry": "2019-03-29T00:00:00",
+          "quantity": -581.2939603557519,
+          "volatility": 0.25786561502138133,
+          "multiplier": 1.0
+        }
+      ],
+      "prices_sha256": "8687aa08299499678c051f3fa9fec5c29fe68dcf906b2c41ec1f364f0d2ee6a9",
+      "source_sha256": {
+        "hedging_harness/replay.py": "1175ff1c64d6ae5838e054c45ebaf4d7838b24a14ffb80d06c028d70903d31c7",
+        "BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b"
+      },
+      "limitations": [
+        "No historical option quotes or executable listed-option claim",
+        "No American exercise/assignment",
+        "No dividends or corporate-action processing",
+        "No option spreads, margin, stock borrow charges or asymmetric funding",
+        "Fixed volatility inputs require separate availability/cutoff verification"
+      ],
+      "volatility_calibration": {
+        "method": "sample standard deviation of prior daily log returns times sqrt(252)",
+        "cutoff": "2018-12-31",
+        "return_observations": 252,
+        "interpretation": "realized-volatility proxy supplied as fixed model sigma; not historical implied volatility"
+      }
+    },
+    "normal_2019/unhedged_equity": {
+      "model": "European fixed-volatility model contracts on supplied underlying observations",
+      "data_label": "FMP split-adjusted historical stock closes; synthetic model option contracts",
+      "as_of": "2019-01-02T00:00:00",
+      "terminal_date": "2019-03-29T00:00:00",
+      "session_count": 61,
+      "sessions_per_year": 252,
+      "time_convention": "one trading session per supplied row; rates/volatilities annualized",
+      "initial_capital": 300000.0,
+      "capital_convention": "gross long core-equity inception value unless initial_capital is supplied",
+      "rate": 0.04,
+      "cost_bps": 5.0,
+      "hedge_options": false,
+      "hedge_every": 5,
+      "liquidate_at_end": true,
+      "equity_holdings": {
+        "JPM": 1006.9479407914611,
+        "PNC": 841.67999326656,
+        "GS": 581.2939603557519
+      },
+      "option_positions": [],
+      "prices_sha256": "8687aa08299499678c051f3fa9fec5c29fe68dcf906b2c41ec1f364f0d2ee6a9",
+      "source_sha256": {
+        "hedging_harness/replay.py": "1175ff1c64d6ae5838e054c45ebaf4d7838b24a14ffb80d06c028d70903d31c7",
+        "BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b"
+      },
+      "limitations": [
+        "No historical option quotes or executable listed-option claim",
+        "No American exercise/assignment",
+        "No dividends or corporate-action processing",
+        "No option spreads, margin, stock borrow charges or asymmetric funding",
+        "Fixed volatility inputs require separate availability/cutoff verification"
+      ],
+      "volatility_calibration": {
+        "method": "sample standard deviation of prior daily log returns times sqrt(252)",
+        "cutoff": "2018-12-31",
+        "return_observations": 252,
+        "interpretation": "realized-volatility proxy supplied as fixed model sigma; not historical implied volatility"
+      }
+    },
+    "normal_2019/protective_puts": {
+      "model": "European fixed-volatility model contracts on supplied underlying observations",
+      "data_label": "FMP split-adjusted historical stock closes; synthetic model option contracts",
+      "as_of": "2019-01-02T00:00:00",
+      "terminal_date": "2019-03-29T00:00:00",
+      "session_count": 61,
+      "sessions_per_year": 252,
+      "time_convention": "one trading session per supplied row; rates/volatilities annualized",
+      "initial_capital": 300000.0,
+      "capital_convention": "gross long core-equity inception value unless initial_capital is supplied",
+      "rate": 0.04,
+      "cost_bps": 5.0,
+      "hedge_options": false,
+      "hedge_every": 5,
+      "liquidate_at_end": true,
+      "equity_holdings": {
+        "JPM": 1006.9479407914611,
+        "PNC": 841.67999326656,
+        "GS": 581.2939603557519
+      },
+      "option_positions": [
+        {
+          "instrument_id": "JPM_model_put",
+          "underlying": "JPM",
+          "kind": "put",
+          "strike": 99.31,
+          "expiry": "2019-03-29T00:00:00",
+          "quantity": 1006.9479407914611,
+          "volatility": 0.22055827224274469,
+          "multiplier": 1.0
+        },
+        {
+          "instrument_id": "PNC_model_put",
+          "underlying": "PNC",
+          "kind": "put",
+          "strike": 118.81,
+          "expiry": "2019-03-29T00:00:00",
+          "quantity": 841.67999326656,
+          "volatility": 0.23204305747340495,
+          "multiplier": 1.0
+        },
+        {
+          "instrument_id": "GS_model_put",
+          "underlying": "GS",
+          "kind": "put",
+          "strike": 172.03,
+          "expiry": "2019-03-29T00:00:00",
+          "quantity": 581.2939603557519,
+          "volatility": 0.25786561502138133,
+          "multiplier": 1.0
+        }
+      ],
+      "prices_sha256": "8687aa08299499678c051f3fa9fec5c29fe68dcf906b2c41ec1f364f0d2ee6a9",
+      "source_sha256": {
+        "hedging_harness/replay.py": "1175ff1c64d6ae5838e054c45ebaf4d7838b24a14ffb80d06c028d70903d31c7",
+        "BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b"
+      },
+      "limitations": [
+        "No historical option quotes or executable listed-option claim",
+        "No American exercise/assignment",
+        "No dividends or corporate-action processing",
+        "No option spreads, margin, stock borrow charges or asymmetric funding",
+        "Fixed volatility inputs require separate availability/cutoff verification"
+      ],
+      "volatility_calibration": {
+        "method": "sample standard deviation of prior daily log returns times sqrt(252)",
+        "cutoff": "2018-12-31",
+        "return_observations": 252,
+        "interpretation": "realized-volatility proxy supplied as fixed model sigma; not historical implied volatility"
+      }
+    },
+    "stress_covid_2020/short_calls_stock_hedged": {
+      "model": "European fixed-volatility model contracts on supplied underlying observations",
+      "data_label": "FMP split-adjusted historical stock closes; synthetic model option contracts",
+      "as_of": "2020-02-03T00:00:00",
+      "terminal_date": "2020-04-30T00:00:00",
+      "session_count": 62,
+      "sessions_per_year": 252,
+      "time_convention": "one trading session per supplied row; rates/volatilities annualized",
+      "initial_capital": 0.0,
+      "capital_convention": "gross long core-equity inception value unless initial_capital is supplied",
+      "rate": 0.04,
+      "cost_bps": 5.0,
+      "hedge_options": true,
+      "hedge_every": 5,
+      "liquidate_at_end": true,
+      "equity_holdings": {},
+      "option_positions": [
+        {
+          "instrument_id": "JPM_model_call",
+          "underlying": "JPM",
+          "kind": "call",
+          "strike": 133.37,
+          "expiry": "2020-04-30T00:00:00",
+          "quantity": -749.7938067031566,
+          "volatility": 0.18980291967676802,
+          "multiplier": 1.0
+        },
+        {
+          "instrument_id": "PNC_model_call",
+          "underlying": "PNC",
+          "kind": "call",
+          "strike": 149.54,
+          "expiry": "2020-04-30T00:00:00",
+          "quantity": -668.7174000267487,
+          "volatility": 0.19954898722015854,
+          "multiplier": 1.0
+        },
+        {
+          "instrument_id": "GS_model_call",
+          "underlying": "GS",
+          "kind": "call",
+          "strike": 239.01,
+          "expiry": "2020-04-30T00:00:00",
+          "quantity": -418.39253587715996,
+          "volatility": 0.21620452132391751,
+          "multiplier": 1.0
+        }
+      ],
+      "prices_sha256": "df4182ec765d1d3f2e0f18eea388e6792ef138c274324b7d0cb29333d3c01e66",
+      "source_sha256": {
+        "hedging_harness/replay.py": "1175ff1c64d6ae5838e054c45ebaf4d7838b24a14ffb80d06c028d70903d31c7",
+        "BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b"
+      },
+      "limitations": [
+        "No historical option quotes or executable listed-option claim",
+        "No American exercise/assignment",
+        "No dividends or corporate-action processing",
+        "No option spreads, margin, stock borrow charges or asymmetric funding",
+        "Fixed volatility inputs require separate availability/cutoff verification"
+      ],
+      "volatility_calibration": {
+        "method": "sample standard deviation of prior daily log returns times sqrt(252)",
+        "cutoff": "2020-01-31",
+        "return_observations": 252,
+        "interpretation": "realized-volatility proxy supplied as fixed model sigma; not historical implied volatility"
+      }
+    },
+    "stress_covid_2020/unhedged_equity": {
+      "model": "European fixed-volatility model contracts on supplied underlying observations",
+      "data_label": "FMP split-adjusted historical stock closes; synthetic model option contracts",
+      "as_of": "2020-02-03T00:00:00",
+      "terminal_date": "2020-04-30T00:00:00",
+      "session_count": 62,
+      "sessions_per_year": 252,
+      "time_convention": "one trading session per supplied row; rates/volatilities annualized",
+      "initial_capital": 300000.0,
+      "capital_convention": "gross long core-equity inception value unless initial_capital is supplied",
+      "rate": 0.04,
+      "cost_bps": 5.0,
+      "hedge_options": false,
+      "hedge_every": 5,
+      "liquidate_at_end": true,
+      "equity_holdings": {
+        "JPM": 749.7938067031566,
+        "PNC": 668.7174000267487,
+        "GS": 418.39253587715996
+      },
+      "option_positions": [],
+      "prices_sha256": "df4182ec765d1d3f2e0f18eea388e6792ef138c274324b7d0cb29333d3c01e66",
+      "source_sha256": {
+        "hedging_harness/replay.py": "1175ff1c64d6ae5838e054c45ebaf4d7838b24a14ffb80d06c028d70903d31c7",
+        "BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b"
+      },
+      "limitations": [
+        "No historical option quotes or executable listed-option claim",
+        "No American exercise/assignment",
+        "No dividends or corporate-action processing",
+        "No option spreads, margin, stock borrow charges or asymmetric funding",
+        "Fixed volatility inputs require separate availability/cutoff verification"
+      ],
+      "volatility_calibration": {
+        "method": "sample standard deviation of prior daily log returns times sqrt(252)",
+        "cutoff": "2020-01-31",
+        "return_observations": 252,
+        "interpretation": "realized-volatility proxy supplied as fixed model sigma; not historical implied volatility"
+      }
+    },
+    "stress_covid_2020/protective_puts": {
+      "model": "European fixed-volatility model contracts on supplied underlying observations",
+      "data_label": "FMP split-adjusted historical stock closes; synthetic model option contracts",
+      "as_of": "2020-02-03T00:00:00",
+      "terminal_date": "2020-04-30T00:00:00",
+      "session_count": 62,
+      "sessions_per_year": 252,
+      "time_convention": "one trading session per supplied row; rates/volatilities annualized",
+      "initial_capital": 300000.0,
+      "capital_convention": "gross long core-equity inception value unless initial_capital is supplied",
+      "rate": 0.04,
+      "cost_bps": 5.0,
+      "hedge_options": false,
+      "hedge_every": 5,
+      "liquidate_at_end": true,
+      "equity_holdings": {
+        "JPM": 749.7938067031566,
+        "PNC": 668.7174000267487,
+        "GS": 418.39253587715996
+      },
+      "option_positions": [
+        {
+          "instrument_id": "JPM_model_put",
+          "underlying": "JPM",
+          "kind": "put",
+          "strike": 133.37,
+          "expiry": "2020-04-30T00:00:00",
+          "quantity": 749.7938067031566,
+          "volatility": 0.18980291967676802,
+          "multiplier": 1.0
+        },
+        {
+          "instrument_id": "PNC_model_put",
+          "underlying": "PNC",
+          "kind": "put",
+          "strike": 149.54,
+          "expiry": "2020-04-30T00:00:00",
+          "quantity": 668.7174000267487,
+          "volatility": 0.19954898722015854,
+          "multiplier": 1.0
+        },
+        {
+          "instrument_id": "GS_model_put",
+          "underlying": "GS",
+          "kind": "put",
+          "strike": 239.01,
+          "expiry": "2020-04-30T00:00:00",
+          "quantity": 418.39253587715996,
+          "volatility": 0.21620452132391751,
+          "multiplier": 1.0
+        }
+      ],
+      "prices_sha256": "df4182ec765d1d3f2e0f18eea388e6792ef138c274324b7d0cb29333d3c01e66",
+      "source_sha256": {
+        "hedging_harness/replay.py": "1175ff1c64d6ae5838e054c45ebaf4d7838b24a14ffb80d06c028d70903d31c7",
+        "BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b"
+      },
+      "limitations": [
+        "No historical option quotes or executable listed-option claim",
+        "No American exercise/assignment",
+        "No dividends or corporate-action processing",
+        "No option spreads, margin, stock borrow charges or asymmetric funding",
+        "Fixed volatility inputs require separate availability/cutoff verification"
+      ],
+      "volatility_calibration": {
+        "method": "sample standard deviation of prior daily log returns times sqrt(252)",
+        "cutoff": "2020-01-31",
+        "return_observations": 252,
+        "interpretation": "realized-volatility proxy supplied as fixed model sigma; not historical implied volatility"
+      }
+    }
+  },
+  "source_sha256": {
+    "scripts/run_model_contract_replay.py": "c3ac4c463ec2604df74d8efbfd2e912a0b00fe270d942aad416462ba6a7318de"
+  },
+  "artifacts_sha256": {
+    "calibration.csv": "c9965c6df05ed89bcd1467410027ddb97a53c321c2ebc7dd1311269f4a7288a7",
+    "checks.csv": "e479d86021fcbc70de2fad0d81e7f2a6f36594f877ed3fcdd728cdad930c1f48",
+    "historical_model_contract_replay.png": "8b550c29b78b1501fc4e77d62ad698d9e5244d76040a05e8d424342cf3e275ee",
+    "manual_reconciliation.csv": "a176dd603c736956c9b55967969861a8d62a0990c7f97615154fd04e8b55868e",
+    "normal_2019/protective_puts/holdings.csv": "5d2a115560e156e5890bdbf484063db36e1c88bf86560755c5ed379e68fdb5e9",
+    "normal_2019/protective_puts/ledger.csv": "0ad2d13759bc078aeb080b3379336a2d26f163066d5c0e4cedcaaf8da837572f",
+    "normal_2019/protective_puts/option_ledger.csv": "883d2f90b0648ac04d76877ac8a88a9602bd38acf64206deecd3aae4c739c6ed",
+    "normal_2019/protective_puts/trades.csv": "5a75b2ff0732f1d889ffe8ba5285458c46972ab44c4d782537c2c7a45ab94172",
+    "normal_2019/short_calls_stock_hedged/holdings.csv": "11302ce7724823351daf0ccb3f60b89842762dcda33ef7b7601aa1c2c8cd3b65",
+    "normal_2019/short_calls_stock_hedged/ledger.csv": "b4e31613287762b0348ecc922ee3696328889ec527b4e563f61acde1d69155e7",
+    "normal_2019/short_calls_stock_hedged/option_ledger.csv": "414bde7cc088bfe0f79e9be0dc6a646ef42a5028c3a218450e7691d62fa1d6c7",
+    "normal_2019/short_calls_stock_hedged/trades.csv": "e88a65fd10d21c059cf44c920b086be9441a89d1602d966a410520134e60472e",
+    "normal_2019/unhedged_equity/holdings.csv": "d0e1ecc74ff88d6db82c180f2c92e35cce2bec9ea850610d3a5cb2bb2adddafc",
+    "normal_2019/unhedged_equity/ledger.csv": "1323ab61741a6b8d54f283e456a2ac05be3c4222930e41fe1a61f0557ad91d6f",
+    "normal_2019/unhedged_equity/option_ledger.csv": "17a5aa127d03ef6f0783de3d435cbffa5601decba4892abece0f10a05e160ee8",
+    "normal_2019/unhedged_equity/trades.csv": "5a75b2ff0732f1d889ffe8ba5285458c46972ab44c4d782537c2c7a45ab94172",
+    "report.md": "2326ddc331bcaa3b1bb9d5d7fc96953b8f7fe372aa0577d1443d56eb8d5f14dd",
+    "representative_option_events.csv": "fa9310566a2ce67151e0175d6c79b1574cf7499862cd95a64980f08e2570f894",
+    "stress_covid_2020/protective_puts/holdings.csv": "6e1f68e3f4abd8a1b5ca0c98306b2bd6f170bdbbae4b631d94755a224c0911f1",
+    "stress_covid_2020/protective_puts/ledger.csv": "9212350847081f04af9bfaf2f60aaeed784f1f3b09e4d0d2395f4058d3df8cfa",
+    "stress_covid_2020/protective_puts/option_ledger.csv": "eba707fd3c2fd5f008b700dcf7c42b6da075c748bbb940ebd00621705234c278",
+    "stress_covid_2020/protective_puts/trades.csv": "974666fe2ff5744dbf0db15d71af84c00f4a545e36ba37b64cc4f50603c74862",
+    "stress_covid_2020/short_calls_stock_hedged/holdings.csv": "15166c106b0bb8f7a22d1f4ca312d8498352b6122a3155331930d2c9ca32966b",
+    "stress_covid_2020/short_calls_stock_hedged/ledger.csv": "248584abda578222375c976a3507c348a6a756d1f7debbe9b7d5cb9e62319249",
+    "stress_covid_2020/short_calls_stock_hedged/option_ledger.csv": "3bb594b2d6865a822f236bec01b19fd5884cd6eefa47db72d0364518ef287ae1",
+    "stress_covid_2020/short_calls_stock_hedged/trades.csv": "d47582796ca94e884f819e37d92b32549ea36be63139eba5f9dddefbde558362",
+    "stress_covid_2020/unhedged_equity/holdings.csv": "6a1d159f6c45a4d4797b0b9aef5a3f43a02516b18d0e28d53c76aef3c511e2bd",
+    "stress_covid_2020/unhedged_equity/ledger.csv": "562efcad3810bf88b4b9d716badfa2cb95fc9dd5d03dbfa09a72345674722330",
+    "stress_covid_2020/unhedged_equity/option_ledger.csv": "17a5aa127d03ef6f0783de3d435cbffa5601decba4892abece0f10a05e160ee8",
+    "stress_covid_2020/unhedged_equity/trades.csv": "974666fe2ff5744dbf0db15d71af84c00f4a545e36ba37b64cc4f50603c74862",
+    "summary.csv": "898a5858b92eb2b2c2b7b18215f76f84cbed0b40a70c2edfae242b2240fe2533"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "protocol": {
+    "train_start": "2010-01-04",
+    "train_end": "2017-12-31",
+    "validation_start": "2018-01-01",
+    "validation_end": "2020-12-31",
+    "test_start": "2021-01-01",
+    "test_end": "2026-11-04",
+    "horizons": [
+      5,
+      20
+    ],
+    "lookback": 252,
+    "recent_window": 20,
+    "ewma_lambda": 0.94,
+    "shrinkage": 0.2,
+    "bootstrap_repetitions": 1000,
+    "bootstrap_seed": 730501
+  },
+  "data_metadata_sha256": {
+    "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json": "6329315abde1342ca33651b22bbad287ec1697f377f252cc7c1b43734cc76d2c",
+    "/Users/saireddivari/MonteCarloEvaluations/data/market/core_10_metadata.json": "7213aee225067ec44c9f9e95e1559d4dd8594d85067c3b4bfee9d98a8e989e69",
+    "/Users/saireddivari/MonteCarloEvaluations/data/market/issuer_symbol_mappings.json": "526c6ea86778dddc6f9e1e077d3c8824453a573c64ddce6025595d3b9ae181f5"
+  },
+  "underlyings": [
+    "JPM",
+    "PNC",
+    "GS",
+    "BAC",
+    "WFC",
+    "C",
+    "USB",
+    "MS",
+    "SCHW",
+    "BK"
+  ],
+  "factor_symbols": [
+    "SPY",
+    "XLF"
+  ],
+  "prices_file": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_core_10.csv",
+  "prices_sha256": "122bd24d6f9279a1d406d56e04ddbdc813dc79c7aa0de6c543e562384398c0dc",
+  "factor_file": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+  "factors_sha256": "1ea1c06f8ed4c6967fa93d3c63ba98463df14f380075881734a1a11fc265bbe3",
+  "frozen_before_evaluation_utc": "2026-11-06T06:38:36.996603+00:00",
+  "parameter_selection": "Fixed defaults; no training/validation/test outcome tuning.",
+  "universe_caveat": "Conditional current-name sample; historical eligibility and survivorship-free membership are unverified.",
+  "protocol_sha256": "c4c7cc2adab06af081c2d34bc96d027759a14753856fed73ece68c0bf0590a4e",
+  "checks": {
+    "price_only_past_feature_checks_passed": true,
+    "target_windows_nonoverlapping_within_split_horizon": true,
+    "covariance_positive_semidefinite_checks_passed": true,
+    "minimum_covariance_eigenvalue": 1.0166834963673638e-05,
+    "train_validation_test_predeclared": true,
+    "test_parameters_tuned": false,
+    "macro_funding_features_evaluated": false,
+    "historical_membership_verified": false,
+    "listed_option_hedge_value_evaluated": false,
+    "full_stage5_gate_passed": false
+  },
+  "source_sha256": {
+    "hedging_harness/risk_models.py": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+    "scripts/run_risk_research.py": "9e25b69b178d1305f2c366d5159fae7d73fd88580826b0a7d40a907e22e213ef"
+  },
+  "artifacts_sha256": {
+    "checks.json": "65f9ccd8bacac5358d81c8e4cb403b835aab5ebab201db028ce72fc6b4c1e7b1",
+    "forecast_observations.csv": "019427102a5082f18e6350f3096e3a6da3c08b614ef8d7dcd801a68fde56cddd",
+    "paired_loss_differences.csv": "39e8747934046d3f37b8a62a21011ce1a323dce593e085bdb7f40296296c63d5",
+    "pooled_scores.csv": "d03af37d6d98e247cf686b05394e38af5b10cdb516345a51900dc2a9e7858456",
+    "protocol.json": "c4c7cc2adab06af081c2d34bc96d027759a14753856fed73ece68c0bf0590a4e",
+    "report.md": "e229a4ca0b729d1bea1d27b7c543ceb92a6faadf4797ac3b149528966682e519",
+    "scores_by_asset.csv": "3f16ee147625fc42afa81fdf6e4df278b4835117fc08b92d770d1aad36b8d98e",
+    "test_mse_skill.png": "59805ae894d06c58d989a9a4b65a3db7ca37b857697829c8ac7300f0adc2259b",
+    "test_qlike_intervals.png": "77067c2d3735560d01242bb8ef2125f9a0fada3a1f1cfa42ee88dcf6d14882ff"
+  }
+}

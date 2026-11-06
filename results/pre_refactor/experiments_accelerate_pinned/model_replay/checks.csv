@@ -1,0 +1,7 @@
+window,strategy,cash_from_trade_and_option_records,expiry_payoff_recomputed,terminal_shares_and_liabilities_zero,no_future_info_decisions,calibration_strictly_before_replay
+normal_2019,short_calls_stock_hedged,True,True,True,True,True
+normal_2019,unhedged_equity,True,True,True,True,True
+normal_2019,protective_puts,True,True,True,True,True
+stress_covid_2020,short_calls_stock_hedged,True,True,True,True,True
+stress_covid_2020,unhedged_equity,True,True,True,True,True
+stress_covid_2020,protective_puts,True,True,True,True,True

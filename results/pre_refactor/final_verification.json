@@ -1,0 +1,136 @@
+{
+  "manifest_sha256": "7d19a930a5d018f0e4029797ae687f1e15ad645f8b4fe2575e744c4063452063",
+  "experiment_file_hash_checks": 939,
+  "hash_mismatches": [],
+  "byte_identical_csv_tables": 210,
+  "npz_comparisons": [
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__canonical__10.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__canonical__10.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__canonical__25.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__canonical__25.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__canonical__3.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__canonical__3.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__canonical__40.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__canonical__40.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__seed_730711__10.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__seed_730711__10.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__seed_730711__25.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__seed_730711__25.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__seed_730711__3.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__seed_730711__3.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__seed_730711__40.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__seed_730711__40.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__seed_730712__10.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__seed_730712__10.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__seed_730712__25.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__seed_730712__25.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__seed_730712__3.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__seed_730712__3.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/calibrated_dependence__seed_730712__40.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/calibrated_dependence__seed_730712__40.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__canonical__10.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__canonical__10.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__canonical__25.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__canonical__25.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__canonical__3.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__canonical__3.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__canonical__40.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__canonical__40.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__seed_730711__10.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__seed_730711__10.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__seed_730711__25.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__seed_730711__25.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__seed_730711__3.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__seed_730711__3.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__seed_730711__40.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__seed_730711__40.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__seed_730712__10.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__seed_730712__10.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__seed_730712__25.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__seed_730712__25.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__seed_730712__3.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__seed_730712__3.npz",
+      "byte_equal": true
+    },
+    {
+      "saved": "results/breadth-20261106T020730752645Z/portfolio_outcomes/synthetic_common_shock_stress__seed_730712__40.npz",
+      "reproduced": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/portfolio_outcomes/synthetic_common_shock_stress__seed_730712__40.npz",
+      "byte_equal": true
+    }
+  ],
+  "untracked_files_before_commit": 499,
+  "new_files_over_50_MiB": [],
+  "frozen_tag": {
+    "local": "a96d99210ea16ac2dd33f46623aaf96cbc563196",
+    "origin": "a96d99210ea16ac2dd33f46623aaf96cbc563196\trefs/tags/pre-refactor",
+    "passed": true
+  },
+  "frozen_packages_unchanged": true
+}

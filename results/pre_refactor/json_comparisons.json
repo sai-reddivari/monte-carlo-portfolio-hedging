@@ -1,0 +1,1758 @@
+[
+  {
+    "experiment": "controlled_release",
+    "file": "results/research-release-1/release-1/artifact_manifest.json",
+    "reproduction": "results/pre_refactor/experiments/controlled_release/artifact_manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/provenance.json",
+        "before": "bd6a0d6f731ebee5d4a2bab04bfd750f995aec56baca51ba7fa57e15706e07ba",
+        "after": "ebf2dca7a2ad7c08812fca672eeec72d32b6d9f5ad4f83da9172e52fb0e0b274"
+      },
+      {
+        "pointer": "/selection.json",
+        "before": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+        "after": "cbc6a7ac073e452cf1fe636b49f621c170e485fad54ad06bbb124abff82f9f94"
+      },
+      {
+        "pointer": "/protocol_commitment.json",
+        "before": "34d8b8205d0a14a7205a2d35d1f3999070762f098d7f8a0c247d3defcd1efd12",
+        "after": "88e95a7fd3710f65c0169e3878e5e1ed78a7c015a9220a2a849caecfca98b683"
+      },
+      {
+        "pointer": "/gate_status.json",
+        "before": "ac00e3bad4aa1be77bf7b185d06519f8610e736053e9ce229cdb2901ac51b5a9",
+        "after": "6e38aebc10629a703b7110792a29b6a496c6af796ebe6c4ff25c0c0e9abfcee0"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "controlled_release",
+    "file": "results/research-release-1/release-1/gate_status.json",
+    "reproduction": "results/pre_refactor/experiments/controlled_release/gate_status.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/selection_lock_sha256",
+        "before": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+        "after": "cbc6a7ac073e452cf1fe636b49f621c170e485fad54ad06bbb124abff82f9f94"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "controlled_release",
+    "file": "results/research-release-1/release-1/protocol.json",
+    "reproduction": "results/pre_refactor/experiments/controlled_release/protocol.json",
+    "byte_equal": true,
+    "numeric_cells": 25,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "controlled_release",
+    "file": "results/research-release-1/release-1/protocol_commitment.json",
+    "reproduction": "results/pre_refactor/experiments/controlled_release/protocol_commitment.json",
+    "byte_equal": false,
+    "numeric_cells": 29,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_selection_utc",
+        "before": "2026-11-06T01:46:14.512172+00:00",
+        "after": "2026-11-06T06:28:38.886244+00:00"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/source/source_sha256",
+        "missing": [],
+        "added": [
+          "hedging_harness/breadth.py",
+          "hedging_harness/feature_models.py",
+          "hedging_harness/overlays.py",
+          "hedging_harness/study.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "experiment": "controlled_release",
+    "file": "results/research-release-1/release-1/provenance.json",
+    "reproduction": "results/pre_refactor/experiments/controlled_release/provenance.json",
+    "byte_equal": false,
+    "numeric_cells": 66,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/selected_policy/locked_before_evaluation_utc",
+        "before": "2026-11-06T01:46:16.381936+00:00",
+        "after": "2026-11-06T06:28:40.337417+00:00"
+      },
+      {
+        "pointer": "/frozen_before_selection_utc",
+        "before": "2026-11-06T01:46:14.512172+00:00",
+        "after": "2026-11-06T06:28:38.886244+00:00"
+      },
+      {
+        "pointer": "/selection_lock_sha256",
+        "before": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+        "after": "cbc6a7ac073e452cf1fe636b49f621c170e485fad54ad06bbb124abff82f9f94"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/source/source_sha256",
+        "missing": [],
+        "added": [
+          "hedging_harness/breadth.py",
+          "hedging_harness/feature_models.py",
+          "hedging_harness/overlays.py",
+          "hedging_harness/study.py"
+        ]
+      },
+      {
+        "pointer": "/evaluation/source_sha256",
+        "missing": [],
+        "added": [
+          "hedging_harness/breadth.py",
+          "hedging_harness/feature_models.py",
+          "hedging_harness/overlays.py",
+          "hedging_harness/study.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "experiment": "controlled_release",
+    "file": "results/research-release-1/release-1/selected_risk_intervals.json",
+    "reproduction": "results/pre_refactor/experiments/controlled_release/selected_risk_intervals.json",
+    "byte_equal": true,
+    "numeric_cells": 19,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "controlled_release",
+    "file": "results/research-release-1/release-1/selection.json",
+    "reproduction": "results/pre_refactor/experiments/controlled_release/selection.json",
+    "byte_equal": false,
+    "numeric_cells": 5,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/locked_before_evaluation_utc",
+        "before": "2026-11-06T01:46:16.381936+00:00",
+        "after": "2026-11-06T06:28:40.337417+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "model_replay",
+    "file": "results/model-contract-replay-20261106T014523263280Z/run_record.json",
+    "reproduction": "results/pre_refactor/experiments/model_replay/run_record.json",
+    "byte_equal": false,
+    "numeric_cells": 108,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/generated_utc",
+        "before": "2026-11-06T01:45:23.261674+00:00",
+        "after": "2026-11-06T06:28:55.976625+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "price_risk",
+    "file": "results/risk-research-20261106T014747676804Z/checks.json",
+    "reproduction": "results/pre_refactor/experiments/price_risk/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "price_risk",
+    "file": "results/risk-research-20261106T014747676804Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments/price_risk/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 9,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "8f6eb6b3eb18c32f1ebd2099596bec028d96df2672d7132e924f8c26446917dc",
+        "after": "aa2c26b72ba04435a2b55ac7e08cdc3bf14ce33b0313a63eab00208252f15d66"
+      },
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:47:47.708085+00:00",
+        "after": "2026-11-06T06:28:57.471921+00:00"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json",
+        "before": "ced649972893d0d2af3356e8d3ff40f8542ee039841d229735238841f90348e3",
+        "after": "6329315abde1342ca33651b22bbad287ec1697f377f252cc7c1b43734cc76d2c"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/core_10_metadata.json",
+        "before": "b16facf100ff6358721b75b065005aed9875cdd152e7c5051b70579fcfde7850",
+        "after": "7213aee225067ec44c9f9e95e1559d4dd8594d85067c3b4bfee9d98a8e989e69"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/issuer_symbol_mappings.json",
+        "before": "e9128bccbce898495f0707e9e42c3bb8cc7d7c7468f9ee8ae901d556ccc33576",
+        "after": "526c6ea86778dddc6f9e1e077d3c8824453a573c64ddce6025595d3b9ae181f5"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "8f6eb6b3eb18c32f1ebd2099596bec028d96df2672d7132e924f8c26446917dc",
+        "after": "aa2c26b72ba04435a2b55ac7e08cdc3bf14ce33b0313a63eab00208252f15d66"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "price_risk",
+    "file": "results/risk-research-20261106T014747676804Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments/price_risk/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 8,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:47:47.708085+00:00",
+        "after": "2026-11-06T06:28:57.471921+00:00"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json",
+        "before": "ced649972893d0d2af3356e8d3ff40f8542ee039841d229735238841f90348e3",
+        "after": "6329315abde1342ca33651b22bbad287ec1697f377f252cc7c1b43734cc76d2c"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/core_10_metadata.json",
+        "before": "b16facf100ff6358721b75b065005aed9875cdd152e7c5051b70579fcfde7850",
+        "after": "7213aee225067ec44c9f9e95e1559d4dd8594d85067c3b4bfee9d98a8e989e69"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/issuer_symbol_mappings.json",
+        "before": "e9128bccbce898495f0707e9e42c3bb8cc7d7c7468f9ee8ae901d556ccc33576",
+        "after": "526c6ea86778dddc6f9e1e077d3c8824453a573c64ddce6025595d3b9ae181f5"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "price_risk_original_three",
+    "file": "results/risk-research-20261106T014645390937Z/checks.json",
+    "reproduction": "results/pre_refactor/experiments/price_risk_original_three/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "price_risk_original_three",
+    "file": "results/risk-research-20261106T014645390937Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments/price_risk_original_three/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 9,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/source_sha256/scripts/run_risk_research.py",
+        "before": "8c4c31b6bcbd774eb16dda94357fd6f1f6cb37b0b4179c5e53bfd066a7765b55",
+        "after": "9e25b69b178d1305f2c366d5159fae7d73fd88580826b0a7d40a907e22e213ef"
+      },
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "fb7583a1c1a968a3cbcaaed372056e8e5ccc1c779b2a802be48bae039e1e20e8",
+        "after": "6e7798a8601cad5e3c73482970a2dcbf8411f9ab4f5cc769b25a0f53397ea29f"
+      },
+      {
+        "pointer": "/artifacts_sha256/report.md",
+        "before": "d371aafb462e3d4ff75312f80989b182a15d682db934f717342a41ee72fce65b",
+        "after": "fd96626a3b79ec37efee0405394ec19bb390f84b96a8332295d1dbce01ed35b3"
+      },
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:46:45.403367+00:00",
+        "after": "2026-11-06T06:29:00.378356+00:00"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "fb7583a1c1a968a3cbcaaed372056e8e5ccc1c779b2a802be48bae039e1e20e8",
+        "after": "6e7798a8601cad5e3c73482970a2dcbf8411f9ab4f5cc769b25a0f53397ea29f"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "",
+        "missing": [],
+        "added": [
+          "data_metadata_sha256"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "experiment": "price_risk_original_three",
+    "file": "results/risk-research-20261106T014645390937Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments/price_risk_original_three/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 8,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:46:45.403367+00:00",
+        "after": "2026-11-06T06:29:00.378356+00:00"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "",
+        "missing": [],
+        "added": [
+          "data_metadata_sha256"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "experiment": "incremental_features_original",
+    "file": "results/feature-research-20261106T024225834886Z/checks.json",
+    "reproduction": "results/pre_refactor/experiments/incremental_features_original/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 2,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features_original",
+    "file": "results/feature-research-20261106T024225834886Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments/incremental_features_original/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 19,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "194d2197425efcb9377d384516a031a1a34a469e3ac73f1445aaea908497dc1b",
+        "after": "bd4c47b8e965841661c213bf0f39c29f66a1f7b10e661db114802fbbf96ab2f1"
+      },
+      {
+        "pointer": "/artifacts_sha256/selected_models.json",
+        "before": "8466f74bbcd755b5b39f935cf4c6749a05fc05baaf0bdc731d0fde12994f6a48",
+        "after": "5697261a3a99de8feb80eecbe37685237a5d1061cd3c24dfe182244101419585"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "194d2197425efcb9377d384516a031a1a34a469e3ac73f1445aaea908497dc1b",
+        "after": "bd4c47b8e965841661c213bf0f39c29f66a1f7b10e661db114802fbbf96ab2f1"
+      },
+      {
+        "pointer": "/selected_models_sha256",
+        "before": "8466f74bbcd755b5b39f935cf4c6749a05fc05baaf0bdc731d0fde12994f6a48",
+        "after": "5697261a3a99de8feb80eecbe37685237a5d1061cd3c24dfe182244101419585"
+      },
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:25.855882+00:00",
+        "after": "2026-11-06T06:29:04.913883+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features_original",
+    "file": "results/feature-research-20261106T024225834886Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments/incremental_features_original/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 17,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:25.855882+00:00",
+        "after": "2026-11-06T06:29:04.913883+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features_original",
+    "file": "results/feature-research-20261106T024225834886Z/selected_models.json",
+    "reproduction": "results/pre_refactor/experiments/incremental_features_original/selected_models.json",
+    "byte_equal": false,
+    "numeric_cells": 1258,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "194d2197425efcb9377d384516a031a1a34a469e3ac73f1445aaea908497dc1b",
+        "after": "bd4c47b8e965841661c213bf0f39c29f66a1f7b10e661db114802fbbf96ab2f1"
+      },
+      {
+        "pointer": "/locked_before_test_predictions_utc",
+        "before": "2026-11-06T02:42:26.470195+00:00",
+        "after": "2026-11-06T06:29:05.477253+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features",
+    "file": "results/feature-research-20261106T024244836968Z/checks.json",
+    "reproduction": "results/pre_refactor/experiments/incremental_features/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 2,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features",
+    "file": "results/feature-research-20261106T024244836968Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments/incremental_features/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 19,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "342403a1a827dcdb124faf459b705de662df734e617c4f5edaa9601d53d4445d"
+      },
+      {
+        "pointer": "/artifacts_sha256/selected_models.json",
+        "before": "2f27d3816b5715891a2956442cee162b515fc3a33f57f95b8cc10f4d3b1d9456",
+        "after": "fae46971a422c8461aa57fdf47ab90480e2ebc61e7c27eb2ee9dbed11c4c3624"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "342403a1a827dcdb124faf459b705de662df734e617c4f5edaa9601d53d4445d"
+      },
+      {
+        "pointer": "/selected_models_sha256",
+        "before": "2f27d3816b5715891a2956442cee162b515fc3a33f57f95b8cc10f4d3b1d9456",
+        "after": "fae46971a422c8461aa57fdf47ab90480e2ebc61e7c27eb2ee9dbed11c4c3624"
+      },
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:44.858351+00:00",
+        "after": "2026-11-06T06:29:09.121694+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features",
+    "file": "results/feature-research-20261106T024244836968Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments/incremental_features/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 17,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:44.858351+00:00",
+        "after": "2026-11-06T06:29:09.121694+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features",
+    "file": "results/feature-research-20261106T024244836968Z/selected_models.json",
+    "reproduction": "results/pre_refactor/experiments/incremental_features/selected_models.json",
+    "byte_equal": false,
+    "numeric_cells": 2478,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "342403a1a827dcdb124faf459b705de662df734e617c4f5edaa9601d53d4445d"
+      },
+      {
+        "pointer": "/locked_before_test_predictions_utc",
+        "before": "2026-11-06T02:42:46.151429+00:00",
+        "after": "2026-11-06T06:29:10.291266+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "conditional_breadth",
+    "file": "results/breadth-20261106T020730752645Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments/conditional_breadth/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 5,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "8523480cb63fc4fcbee114d0aa69a8db751762c9f732282b9034371f7222efe6",
+        "after": "8ccc08ac255724a6ba3e3287eb968c7902bc838d3231935d88affa6c94d9a258"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "8523480cb63fc4fcbee114d0aa69a8db751762c9f732282b9034371f7222efe6",
+        "after": "8ccc08ac255724a6ba3e3287eb968c7902bc838d3231935d88affa6c94d9a258"
+      },
+      {
+        "pointer": "/generated_utc",
+        "before": "2026-11-06T02:08:02.184392+00:00",
+        "after": "2026-11-06T06:29:41.056814+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "conditional_breadth",
+    "file": "results/breadth-20261106T020730752645Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments/conditional_breadth/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 27,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/created_utc",
+        "before": "2026-11-06T02:07:30.753193+00:00",
+        "after": "2026-11-06T06:29:14.650043+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "equity_overlays",
+    "file": "results/equity-overlays-20261106T023430248130Z/gate_status.json",
+    "reproduction": "results/pre_refactor/experiments/equity_overlays/gate_status.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "069e8c3ae7b5efb33865bf5ce08cc505b22a7e0e0c864b0c4cd51d22a3701585"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "equity_overlays",
+    "file": "results/equity-overlays-20261106T023430248130Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments/equity_overlays/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/report.md",
+        "before": "06ddb66b279dbebeef1473a4e053769309a546ecf1242e611aa2a83eddb0d655",
+        "after": "a55340009c016d8c41e345f41a77dab4debbfa8a448ebcc772baf3d16588e893"
+      },
+      {
+        "pointer": "/artifacts_sha256/protocol.sha256",
+        "before": "d34d5b67e6cf3d055c7ef894bfa7c0fdc5f6a321d0be072b1e39773b9fef405b",
+        "after": "12b3e048d208bddcca0ec7bef294026c37e313e83d5ff69841263252c7ee26ac"
+      },
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "069e8c3ae7b5efb33865bf5ce08cc505b22a7e0e0c864b0c4cd51d22a3701585"
+      },
+      {
+        "pointer": "/completed_utc",
+        "before": "2026-11-06T02:38:01.213014+00:00",
+        "after": "2026-11-06T06:32:24.730493+00:00"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "069e8c3ae7b5efb33865bf5ce08cc505b22a7e0e0c864b0c4cd51d22a3701585"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "equity_overlays",
+    "file": "results/equity-overlays-20261106T023430248130Z/notebook_execution.json",
+    "reproduction": "results/pre_refactor/experiments/equity_overlays/notebook_execution.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [
+      "Reproduction output missing"
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "experiment": "equity_overlays",
+    "file": "results/equity-overlays-20261106T023430248130Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments/equity_overlays/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 140,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_utc",
+        "before": "2026-11-06T02:35:35.315865+00:00",
+        "after": "2026-11-06T06:30:45.890844+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "equity_overlays",
+    "file": "results/equity-overlays-20261106T023430248130Z/test_evaluation_log.json",
+    "reproduction": "results/pre_refactor/experiments/equity_overlays/test_evaluation_log.json",
+    "byte_equal": false,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/0/protocol_sha256",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "069e8c3ae7b5efb33865bf5ce08cc505b22a7e0e0c864b0c4cd51d22a3701585"
+      },
+      {
+        "pointer": "/0/started_utc",
+        "before": "2026-11-06T02:35:36.898548+00:00",
+        "after": "2026-11-06T06:30:48.427533+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "controlled_release_accelerate_pinned",
+    "file": "results/research-release-1/release-1/artifact_manifest.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/controlled_release/artifact_manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/provenance.json",
+        "before": "bd6a0d6f731ebee5d4a2bab04bfd750f995aec56baca51ba7fa57e15706e07ba",
+        "after": "df112439b8d9299e66e0e633d339f4ebac74e154a18729217baef8b39197b73c"
+      },
+      {
+        "pointer": "/selection.json",
+        "before": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+        "after": "dc3dfe08c22de92f40b925acf980b469dc0d1cd4bc7dfe2afd1f1f81364c60be"
+      },
+      {
+        "pointer": "/protocol_commitment.json",
+        "before": "34d8b8205d0a14a7205a2d35d1f3999070762f098d7f8a0c247d3defcd1efd12",
+        "after": "9f878d67ad67d193ae2b7c223ceb83c6f0dbad81b6668d06faba7e97ab5b84b0"
+      },
+      {
+        "pointer": "/gate_status.json",
+        "before": "ac00e3bad4aa1be77bf7b185d06519f8610e736053e9ce229cdb2901ac51b5a9",
+        "after": "44e430b8b8face1535a8a43a92112e47002cd8f23a09592b0d2c3b681d8c15e0"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "controlled_release_accelerate_pinned",
+    "file": "results/research-release-1/release-1/gate_status.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/controlled_release/gate_status.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/selection_lock_sha256",
+        "before": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+        "after": "dc3dfe08c22de92f40b925acf980b469dc0d1cd4bc7dfe2afd1f1f81364c60be"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "controlled_release_accelerate_pinned",
+    "file": "results/research-release-1/release-1/protocol.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/controlled_release/protocol.json",
+    "byte_equal": true,
+    "numeric_cells": 25,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "controlled_release_accelerate_pinned",
+    "file": "results/research-release-1/release-1/protocol_commitment.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/controlled_release/protocol_commitment.json",
+    "byte_equal": false,
+    "numeric_cells": 29,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_selection_utc",
+        "before": "2026-11-06T01:46:14.512172+00:00",
+        "after": "2026-11-06T06:34:37.225578+00:00"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/source/source_sha256",
+        "missing": [],
+        "added": [
+          "hedging_harness/breadth.py",
+          "hedging_harness/feature_models.py",
+          "hedging_harness/overlays.py",
+          "hedging_harness/study.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "experiment": "controlled_release_accelerate_pinned",
+    "file": "results/research-release-1/release-1/provenance.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/controlled_release/provenance.json",
+    "byte_equal": false,
+    "numeric_cells": 66,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/selected_policy/locked_before_evaluation_utc",
+        "before": "2026-11-06T01:46:16.381936+00:00",
+        "after": "2026-11-06T06:34:40.199740+00:00"
+      },
+      {
+        "pointer": "/frozen_before_selection_utc",
+        "before": "2026-11-06T01:46:14.512172+00:00",
+        "after": "2026-11-06T06:34:37.225578+00:00"
+      },
+      {
+        "pointer": "/selection_lock_sha256",
+        "before": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+        "after": "dc3dfe08c22de92f40b925acf980b469dc0d1cd4bc7dfe2afd1f1f81364c60be"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/source/source_sha256",
+        "missing": [],
+        "added": [
+          "hedging_harness/breadth.py",
+          "hedging_harness/feature_models.py",
+          "hedging_harness/overlays.py",
+          "hedging_harness/study.py"
+        ]
+      },
+      {
+        "pointer": "/evaluation/source_sha256",
+        "missing": [],
+        "added": [
+          "hedging_harness/breadth.py",
+          "hedging_harness/feature_models.py",
+          "hedging_harness/overlays.py",
+          "hedging_harness/study.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "experiment": "controlled_release_accelerate_pinned",
+    "file": "results/research-release-1/release-1/selected_risk_intervals.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/controlled_release/selected_risk_intervals.json",
+    "byte_equal": true,
+    "numeric_cells": 19,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "controlled_release_accelerate_pinned",
+    "file": "results/research-release-1/release-1/selection.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/controlled_release/selection.json",
+    "byte_equal": false,
+    "numeric_cells": 5,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/locked_before_evaluation_utc",
+        "before": "2026-11-06T01:46:16.381936+00:00",
+        "after": "2026-11-06T06:34:40.199740+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "model_replay_accelerate_pinned",
+    "file": "results/model-contract-replay-20261106T014523263280Z/run_record.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/model_replay/run_record.json",
+    "byte_equal": false,
+    "numeric_cells": 108,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/generated_utc",
+        "before": "2026-11-06T01:45:23.261674+00:00",
+        "after": "2026-11-06T06:34:46.239632+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "price_risk_accelerate_pinned",
+    "file": "results/risk-research-20261106T014747676804Z/checks.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/price_risk/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "price_risk_accelerate_pinned",
+    "file": "results/risk-research-20261106T014747676804Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/price_risk/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 9,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "8f6eb6b3eb18c32f1ebd2099596bec028d96df2672d7132e924f8c26446917dc",
+        "after": "60ae343aa3a30b256b47b477cecdeb98b532fa871eba0b0043ed276256e385c5"
+      },
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:47:47.708085+00:00",
+        "after": "2026-11-06T06:34:47.873107+00:00"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json",
+        "before": "ced649972893d0d2af3356e8d3ff40f8542ee039841d229735238841f90348e3",
+        "after": "6329315abde1342ca33651b22bbad287ec1697f377f252cc7c1b43734cc76d2c"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/core_10_metadata.json",
+        "before": "b16facf100ff6358721b75b065005aed9875cdd152e7c5051b70579fcfde7850",
+        "after": "7213aee225067ec44c9f9e95e1559d4dd8594d85067c3b4bfee9d98a8e989e69"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/issuer_symbol_mappings.json",
+        "before": "e9128bccbce898495f0707e9e42c3bb8cc7d7c7468f9ee8ae901d556ccc33576",
+        "after": "526c6ea86778dddc6f9e1e077d3c8824453a573c64ddce6025595d3b9ae181f5"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "8f6eb6b3eb18c32f1ebd2099596bec028d96df2672d7132e924f8c26446917dc",
+        "after": "60ae343aa3a30b256b47b477cecdeb98b532fa871eba0b0043ed276256e385c5"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "price_risk_accelerate_pinned",
+    "file": "results/risk-research-20261106T014747676804Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/price_risk/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 8,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:47:47.708085+00:00",
+        "after": "2026-11-06T06:34:47.873107+00:00"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json",
+        "before": "ced649972893d0d2af3356e8d3ff40f8542ee039841d229735238841f90348e3",
+        "after": "6329315abde1342ca33651b22bbad287ec1697f377f252cc7c1b43734cc76d2c"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/core_10_metadata.json",
+        "before": "b16facf100ff6358721b75b065005aed9875cdd152e7c5051b70579fcfde7850",
+        "after": "7213aee225067ec44c9f9e95e1559d4dd8594d85067c3b4bfee9d98a8e989e69"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/issuer_symbol_mappings.json",
+        "before": "e9128bccbce898495f0707e9e42c3bb8cc7d7c7468f9ee8ae901d556ccc33576",
+        "after": "526c6ea86778dddc6f9e1e077d3c8824453a573c64ddce6025595d3b9ae181f5"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "price_risk_original_three_accelerate_pinned",
+    "file": "results/risk-research-20261106T014645390937Z/checks.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/price_risk_original_three/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "price_risk_original_three_accelerate_pinned",
+    "file": "results/risk-research-20261106T014645390937Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/price_risk_original_three/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 9,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/source_sha256/scripts/run_risk_research.py",
+        "before": "8c4c31b6bcbd774eb16dda94357fd6f1f6cb37b0b4179c5e53bfd066a7765b55",
+        "after": "9e25b69b178d1305f2c366d5159fae7d73fd88580826b0a7d40a907e22e213ef"
+      },
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "fb7583a1c1a968a3cbcaaed372056e8e5ccc1c779b2a802be48bae039e1e20e8",
+        "after": "7e721062e8e3c91861e20cc417938739dfcea6a1d7b626ef08b1b51c7d782c5e"
+      },
+      {
+        "pointer": "/artifacts_sha256/report.md",
+        "before": "d371aafb462e3d4ff75312f80989b182a15d682db934f717342a41ee72fce65b",
+        "after": "fd96626a3b79ec37efee0405394ec19bb390f84b96a8332295d1dbce01ed35b3"
+      },
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:46:45.403367+00:00",
+        "after": "2026-11-06T06:34:51.484704+00:00"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "fb7583a1c1a968a3cbcaaed372056e8e5ccc1c779b2a802be48bae039e1e20e8",
+        "after": "7e721062e8e3c91861e20cc417938739dfcea6a1d7b626ef08b1b51c7d782c5e"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "",
+        "missing": [],
+        "added": [
+          "data_metadata_sha256"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "experiment": "price_risk_original_three_accelerate_pinned",
+    "file": "results/risk-research-20261106T014645390937Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/price_risk_original_three/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 8,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:46:45.403367+00:00",
+        "after": "2026-11-06T06:34:51.484704+00:00"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "",
+        "missing": [],
+        "added": [
+          "data_metadata_sha256"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "experiment": "incremental_features_original_accelerate_pinned",
+    "file": "results/feature-research-20261106T024225834886Z/checks.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/incremental_features_original/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 2,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features_original_accelerate_pinned",
+    "file": "results/feature-research-20261106T024225834886Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/incremental_features_original/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 19,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "194d2197425efcb9377d384516a031a1a34a469e3ac73f1445aaea908497dc1b",
+        "after": "5d3c535cee5c8db84c08e65ffe9e84f8130927e8cedab742e398f700bc4ef099"
+      },
+      {
+        "pointer": "/artifacts_sha256/selected_models.json",
+        "before": "8466f74bbcd755b5b39f935cf4c6749a05fc05baaf0bdc731d0fde12994f6a48",
+        "after": "eb8e02f895c2945d88fbfe3986b242431fe95e039f69d1a32d30e40fddf449be"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "194d2197425efcb9377d384516a031a1a34a469e3ac73f1445aaea908497dc1b",
+        "after": "5d3c535cee5c8db84c08e65ffe9e84f8130927e8cedab742e398f700bc4ef099"
+      },
+      {
+        "pointer": "/selected_models_sha256",
+        "before": "8466f74bbcd755b5b39f935cf4c6749a05fc05baaf0bdc731d0fde12994f6a48",
+        "after": "eb8e02f895c2945d88fbfe3986b242431fe95e039f69d1a32d30e40fddf449be"
+      },
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:25.855882+00:00",
+        "after": "2026-11-06T06:34:54.106987+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features_original_accelerate_pinned",
+    "file": "results/feature-research-20261106T024225834886Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/incremental_features_original/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 17,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:25.855882+00:00",
+        "after": "2026-11-06T06:34:54.106987+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features_original_accelerate_pinned",
+    "file": "results/feature-research-20261106T024225834886Z/selected_models.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/incremental_features_original/selected_models.json",
+    "byte_equal": false,
+    "numeric_cells": 1258,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "194d2197425efcb9377d384516a031a1a34a469e3ac73f1445aaea908497dc1b",
+        "after": "5d3c535cee5c8db84c08e65ffe9e84f8130927e8cedab742e398f700bc4ef099"
+      },
+      {
+        "pointer": "/locked_before_test_predictions_utc",
+        "before": "2026-11-06T02:42:26.470195+00:00",
+        "after": "2026-11-06T06:34:54.545515+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features_accelerate_pinned",
+    "file": "results/feature-research-20261106T024244836968Z/checks.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/incremental_features/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 2,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features_accelerate_pinned",
+    "file": "results/feature-research-20261106T024244836968Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/incremental_features/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 19,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "9a53dc6982411d0e713d87ed1050ccb99ffad4c3be937cc99d53fb20dd98a6be"
+      },
+      {
+        "pointer": "/artifacts_sha256/selected_models.json",
+        "before": "2f27d3816b5715891a2956442cee162b515fc3a33f57f95b8cc10f4d3b1d9456",
+        "after": "13c0acccfe27c64377e1e52ba443b6b91acad7ea20be1a67615115091c77eb27"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "9a53dc6982411d0e713d87ed1050ccb99ffad4c3be937cc99d53fb20dd98a6be"
+      },
+      {
+        "pointer": "/selected_models_sha256",
+        "before": "2f27d3816b5715891a2956442cee162b515fc3a33f57f95b8cc10f4d3b1d9456",
+        "after": "13c0acccfe27c64377e1e52ba443b6b91acad7ea20be1a67615115091c77eb27"
+      },
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:44.858351+00:00",
+        "after": "2026-11-06T06:34:56.815282+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features_accelerate_pinned",
+    "file": "results/feature-research-20261106T024244836968Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/incremental_features/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 17,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:44.858351+00:00",
+        "after": "2026-11-06T06:34:56.815282+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "incremental_features_accelerate_pinned",
+    "file": "results/feature-research-20261106T024244836968Z/selected_models.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/incremental_features/selected_models.json",
+    "byte_equal": false,
+    "numeric_cells": 2478,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "9a53dc6982411d0e713d87ed1050ccb99ffad4c3be937cc99d53fb20dd98a6be"
+      },
+      {
+        "pointer": "/locked_before_test_predictions_utc",
+        "before": "2026-11-06T02:42:46.151429+00:00",
+        "after": "2026-11-06T06:34:57.996820+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "conditional_breadth_accelerate_pinned",
+    "file": "results/breadth-20261106T020730752645Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 5,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "8523480cb63fc4fcbee114d0aa69a8db751762c9f732282b9034371f7222efe6",
+        "after": "ff4c34b84d83c4e07eb82a9bbc35e67a67ee8038e1e361e47b97c3440218b45f"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "8523480cb63fc4fcbee114d0aa69a8db751762c9f732282b9034371f7222efe6",
+        "after": "ff4c34b84d83c4e07eb82a9bbc35e67a67ee8038e1e361e47b97c3440218b45f"
+      },
+      {
+        "pointer": "/generated_utc",
+        "before": "2026-11-06T02:08:02.184392+00:00",
+        "after": "2026-11-06T06:35:28.290485+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "conditional_breadth_accelerate_pinned",
+    "file": "results/breadth-20261106T020730752645Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/conditional_breadth/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 27,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/created_utc",
+        "before": "2026-11-06T02:07:30.753193+00:00",
+        "after": "2026-11-06T06:35:02.760216+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "equity_overlays_accelerate_pinned",
+    "file": "results/equity-overlays-20261106T023430248130Z/gate_status.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/equity_overlays/gate_status.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "c66908152994b1e2a611fc7bf0a8c72da332831122f0d3ef61fa798c86df75bd"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "equity_overlays_accelerate_pinned",
+    "file": "results/equity-overlays-20261106T023430248130Z/manifest.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/equity_overlays/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/report.md",
+        "before": "06ddb66b279dbebeef1473a4e053769309a546ecf1242e611aa2a83eddb0d655",
+        "after": "5f1c74706f53c9010d30f4e53c3168d4addd81ae6f1e1b1c5a6c3ef130c024cd"
+      },
+      {
+        "pointer": "/artifacts_sha256/protocol.sha256",
+        "before": "d34d5b67e6cf3d055c7ef894bfa7c0fdc5f6a321d0be072b1e39773b9fef405b",
+        "after": "5b054ab29c6f7bb380f9e99f8f3884e2af519dd6a662387b13655a882a64e073"
+      },
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "c66908152994b1e2a611fc7bf0a8c72da332831122f0d3ef61fa798c86df75bd"
+      },
+      {
+        "pointer": "/completed_utc",
+        "before": "2026-11-06T02:38:01.213014+00:00",
+        "after": "2026-11-06T06:38:17.805769+00:00"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "c66908152994b1e2a611fc7bf0a8c72da332831122f0d3ef61fa798c86df75bd"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "equity_overlays_accelerate_pinned",
+    "file": "results/equity-overlays-20261106T023430248130Z/notebook_execution.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/equity_overlays/notebook_execution.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [
+      "Reproduction output missing"
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "experiment": "equity_overlays_accelerate_pinned",
+    "file": "results/equity-overlays-20261106T023430248130Z/protocol.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/equity_overlays/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 140,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_utc",
+        "before": "2026-11-06T02:35:35.315865+00:00",
+        "after": "2026-11-06T06:36:30.587955+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "equity_overlays_accelerate_pinned",
+    "file": "results/equity-overlays-20261106T023430248130Z/test_evaluation_log.json",
+    "reproduction": "results/pre_refactor/experiments_accelerate_pinned/equity_overlays/test_evaluation_log.json",
+    "byte_equal": false,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/0/protocol_sha256",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "c66908152994b1e2a611fc7bf0a8c72da332831122f0d3ef61fa798c86df75bd"
+      },
+      {
+        "pointer": "/0/started_utc",
+        "before": "2026-11-06T02:35:36.898548+00:00",
+        "after": "2026-11-06T06:36:32.321104+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "notebook_06_market_risk_models",
+    "file": "results/risk-research-20261106T014747676804Z/checks.json",
+    "reproduction": "results/risk-research-notebook-20261106T063836975058Z/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "notebook_06_market_risk_models",
+    "file": "results/risk-research-20261106T014747676804Z/manifest.json",
+    "reproduction": "results/risk-research-notebook-20261106T063836975058Z/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 9,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "8f6eb6b3eb18c32f1ebd2099596bec028d96df2672d7132e924f8c26446917dc",
+        "after": "c4c7cc2adab06af081c2d34bc96d027759a14753856fed73ece68c0bf0590a4e"
+      },
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:47:47.708085+00:00",
+        "after": "2026-11-06T06:38:36.996603+00:00"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json",
+        "before": "ced649972893d0d2af3356e8d3ff40f8542ee039841d229735238841f90348e3",
+        "after": "6329315abde1342ca33651b22bbad287ec1697f377f252cc7c1b43734cc76d2c"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/core_10_metadata.json",
+        "before": "b16facf100ff6358721b75b065005aed9875cdd152e7c5051b70579fcfde7850",
+        "after": "7213aee225067ec44c9f9e95e1559d4dd8594d85067c3b4bfee9d98a8e989e69"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/issuer_symbol_mappings.json",
+        "before": "e9128bccbce898495f0707e9e42c3bb8cc7d7c7468f9ee8ae901d556ccc33576",
+        "after": "526c6ea86778dddc6f9e1e077d3c8824453a573c64ddce6025595d3b9ae181f5"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "8f6eb6b3eb18c32f1ebd2099596bec028d96df2672d7132e924f8c26446917dc",
+        "after": "c4c7cc2adab06af081c2d34bc96d027759a14753856fed73ece68c0bf0590a4e"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "notebook_06_market_risk_models",
+    "file": "results/risk-research-20261106T014747676804Z/protocol.json",
+    "reproduction": "results/risk-research-notebook-20261106T063836975058Z/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 8,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:47:47.708085+00:00",
+        "after": "2026-11-06T06:38:36.996603+00:00"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json",
+        "before": "ced649972893d0d2af3356e8d3ff40f8542ee039841d229735238841f90348e3",
+        "after": "6329315abde1342ca33651b22bbad287ec1697f377f252cc7c1b43734cc76d2c"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/core_10_metadata.json",
+        "before": "b16facf100ff6358721b75b065005aed9875cdd152e7c5051b70579fcfde7850",
+        "after": "7213aee225067ec44c9f9e95e1559d4dd8594d85067c3b4bfee9d98a8e989e69"
+      },
+      {
+        "pointer": "/data_metadata_sha256//Users/saireddivari/MonteCarloEvaluations/data/market/issuer_symbol_mappings.json",
+        "before": "e9128bccbce898495f0707e9e42c3bb8cc7d7c7468f9ee8ae901d556ccc33576",
+        "after": "526c6ea86778dddc6f9e1e077d3c8824453a573c64ddce6025595d3b9ae181f5"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "notebook_09_release_aware_features",
+    "file": "results/feature-research-20261106T024244836968Z/checks.json",
+    "reproduction": "results/feature-research-notebook-20261106T063845148548Z/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 2,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "notebook_09_release_aware_features",
+    "file": "results/feature-research-20261106T024244836968Z/manifest.json",
+    "reproduction": "results/feature-research-notebook-20261106T063845148548Z/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 19,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "95cbd091892389d88f399dd290052158f3156ee54938d5fafb26a07bb47c8d17"
+      },
+      {
+        "pointer": "/artifacts_sha256/selected_models.json",
+        "before": "2f27d3816b5715891a2956442cee162b515fc3a33f57f95b8cc10f4d3b1d9456",
+        "after": "8ef4b6f98316713a4717a74ff0545a113dfa7f5d431736335ea7b724b2610312"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "95cbd091892389d88f399dd290052158f3156ee54938d5fafb26a07bb47c8d17"
+      },
+      {
+        "pointer": "/selected_models_sha256",
+        "before": "2f27d3816b5715891a2956442cee162b515fc3a33f57f95b8cc10f4d3b1d9456",
+        "after": "8ef4b6f98316713a4717a74ff0545a113dfa7f5d431736335ea7b724b2610312"
+      },
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:44.858351+00:00",
+        "after": "2026-11-06T06:38:45.169873+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "notebook_09_release_aware_features",
+    "file": "results/feature-research-20261106T024244836968Z/protocol.json",
+    "reproduction": "results/feature-research-notebook-20261106T063845148548Z/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 17,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:44.858351+00:00",
+        "after": "2026-11-06T06:38:45.169873+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "notebook_09_release_aware_features",
+    "file": "results/feature-research-20261106T024244836968Z/selected_models.json",
+    "reproduction": "results/feature-research-notebook-20261106T063845148548Z/selected_models.json",
+    "byte_equal": false,
+    "numeric_cells": 2478,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "95cbd091892389d88f399dd290052158f3156ee54938d5fafb26a07bb47c8d17"
+      },
+      {
+        "pointer": "/locked_before_test_predictions_utc",
+        "before": "2026-11-06T02:42:46.151429+00:00",
+        "after": "2026-11-06T06:38:46.296111+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "independent_accounting",
+    "file": "results/research-release-2/astra-review-20261106/accounting/verified_outputs/audit_summary.json",
+    "reproduction": "results/pre_refactor/reviewers/accounting/audit_summary.json",
+    "byte_equal": false,
+    "numeric_cells": 8,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/reviewed_utc",
+        "before": "2026-11-06T03:15:09.000997+00:00",
+        "after": "2026-11-06T06:41:08.277512+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "independent_statistics",
+    "file": "results/research-release-2/astra-review-20261106/statistical_review/metadata.json",
+    "reproduction": "results/pre_refactor/reviewers/statistics/metadata.json",
+    "byte_equal": false,
+    "numeric_cells": 8,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/created_utc",
+        "before": "2026-11-06T03:10:07.548271+00:00",
+        "after": "2026-11-06T06:41:08.769783+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "window_placement",
+    "file": "results/research-release-2/astra-review-20261106/window_placement/completion.json",
+    "reproduction": "results/pre_refactor/reviewers/window_placement/completion.json",
+    "byte_equal": false,
+    "numeric_cells": 7,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [
+      {
+        "pointer": "/elapsed_seconds",
+        "before": 60.720907999999326,
+        "after": 72.65426945799845,
+        "reason": "Measured runtime is observational, not an economic/numerical result. Both measurements are retained; no equality tolerance is asserted."
+      }
+    ],
+    "string_differences": [
+      {
+        "pointer": "/completed_utc",
+        "before": "2026-11-06T03:11:49.061092+00:00",
+        "after": "2026-11-06T06:42:22.244936+00:00"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0",
+        "after": "eac9a43688734e273c7afbdd24e1673604fce7e40828153aa6ce76d5fc15ee92"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "window_placement",
+    "file": "results/research-release-2/astra-review-20261106/window_placement/diagnostic_protocol.json",
+    "reproduction": "results/pre_refactor/reviewers/window_placement/diagnostic_protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 79,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/created_utc",
+        "before": "2026-11-06T03:10:48.339489+00:00",
+        "after": "2026-11-06T06:41:09.590312+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "experiment": "window_placement",
+    "file": "results/research-release-2/astra-review-20261106/window_placement/pre_run_commitment.json",
+    "reproduction": "results/pre_refactor/reviewers/window_placement/pre_run_commitment.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0",
+        "after": "eac9a43688734e273c7afbdd24e1673604fce7e40828153aa6ce76d5fc15ee92"
+      },
+      {
+        "pointer": "/frozen_utc",
+        "before": "2026-11-06T03:10:48.339817+00:00",
+        "after": "2026-11-06T06:41:09.590708+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  }
+]

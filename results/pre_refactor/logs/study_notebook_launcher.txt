@@ -1,0 +1,74 @@
+Executing 00_study_setup.ipynb
+/Users/saireddivari/MonteCarloEvaluations/.venv/lib/python3.14/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/saireddivari/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"
+Traceback (most recent call last):
+  File "/Users/saireddivari/MonteCarloEvaluations/scripts/run_harness_notebooks.py", line 73, in <module>
+    main()
+    ~~~~^^
+  File "/Users/saireddivari/MonteCarloEvaluations/scripts/run_harness_notebooks.py", line 58, in main
+    client.execute(env=env)
+    ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/saireddivari/MonteCarloEvaluations/.venv/lib/python3.14/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/saireddivari/MonteCarloEvaluations/.venv/lib/python3.14/site-packages/nbclient/client.py", line 709, in async_execute
+    await self.async_execute_cell(
+        cell, index, execution_count=self.code_cells_executed + 1
+    )
+  File "/Users/saireddivari/MonteCarloEvaluations/.venv/lib/python3.14/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/Users/saireddivari/MonteCarloEvaluations/.venv/lib/python3.14/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+# Reproducible experiment controls. Edit these for a different run.
+N_PATHS = 5000
+SEED = 20261105
+
+for field in ("days_to_expiration", "days_in_trading_year", "risk_free_rate"):
+    assert assumptions[field].nunique() == 1, f"The current simulator requires one common {field}."
+
+first_option = option_portfolio[option_underlyings[0]]
+
+book = Book(
+    names=tuple(option_underlyings),
+    spots=tuple(option_portfolio[name]["spot"] for name in option_underlyings),
+    strikes=tuple(option_portfolio[name]["strike"] for name in option_underlyings),
+    notionals=tuple(option_portfolio[name]["notional"] for name in option_underlyings),
+    pricing_vols=tuple(option_portfolio[name]["pricing_vol"] for name in option_underlyings),
+    steps=first_option["days_to_expiration"],
+    sessions_per_year=first_option["days_in_trading_year"],
+    rate=first_option["risk_free_rate"],
+)
+simulation_scenario = {
+    "path_vols": [scenario["path_vols"][name] for name in option_underlyings],
+    "correlation": correlation_matrix.loc[option_underlyings, option_underlyings].to_numpy().tolist(),
+}
+paths = simulate_paths(book, **simulation_scenario, n_paths=N_PATHS, seed=SEED)
+
+assert paths.shape == (N_PATHS, book.steps + 1, len(book.names))
+assert np.isfinite(paths).all() and (paths > 0).all()
+np.testing.assert_allclose(paths[:, 0, :], np.broadcast_to(book.spots, (N_PATHS, len(book.names))))
+print(f"Asset order: {book.names}")
+print(f"Paths shape: {paths.shape} — (path, date including inception, asset)")
+print(f"Seed: {SEED}; maturity: {book.maturity:.2f} years; rate: {book.rate:.1%}")
+------------------
+
+
+[31m---------------------------------------------------------------------------[39m
+[31mNameError[39m                                 Traceback (most recent call last)
+[36mCell[39m[36m [39m[32mIn[10][39m[32m, line 10[39m
+[32m      6[39m     [38;5;28;01massert[39;00m assumptions[field].nunique() == [32m1[39m, f"The current simulator requires one common {field}."
+[32m      7[39m 
+[32m      8[39m first_option = option_portfolio[option_underlyings[[32m0[39m]]
+[32m      9[39m 
+[32m---> [39m[32m10[39m book = Book(
+[32m     11[39m     names=tuple(option_underlyings),
+[32m     12[39m     spots=tuple(option_portfolio[name][[33m"spot"[39m] [38;5;28;01mfor[39;00m name [38;5;28;01min[39;00m option_underlyings),
+[32m     13[39m     strikes=tuple(option_portfolio[name][[33m"strike"[39m] [38;5;28;01mfor[39;00m name [38;5;28;01min[39;00m option_underlyings),
+
+[31mNameError[39m: name 'Book' is not defined
+
