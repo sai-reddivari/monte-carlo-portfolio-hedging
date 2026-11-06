@@ -1,0 +1,542 @@
+{
+  "audited_utc": "2026-11-06T01:51:32.503913+00:00",
+  "status": "price_sample_observed",
+  "requests_sent": 0,
+  "symbols": [
+    "JPM",
+    "PNC",
+    "GS"
+  ],
+  "windows": {
+    "normal_2019": [
+      "2019-01-02",
+      "2019-03-29"
+    ],
+    "stress_covid_2020": [
+      "2020-02-03",
+      "2020-04-30"
+    ]
+  },
+  "price_coverage": [
+    {
+      "symbol": "JPM",
+      "window": "normal_2019",
+      "start": "2019-01-02",
+      "end": "2019-03-29",
+      "adjustment": "split_adjusted",
+      "status": "observed",
+      "observations": 61,
+      "first_date": "2019-01-02",
+      "last_date": "2019-03-29",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.17477246052226494,
+      "max_abs_one_session_log_return": 0.03620213332126099,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 61,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/full",
+        "parameters": {
+          "symbol": "JPM",
+          "from": "2019-01-02",
+          "to": "2019-03-29"
+        },
+        "adjustment": "split_adjusted",
+        "source_price_field": "close",
+        "retrieved_utc": "2026-11-06T01:38:03.896732+00:00",
+        "retrieval": "cache",
+        "cache_id": "1c22213766c027bd4dfe5932e31ddb66234e983dc486fa4afd08859779264f20",
+        "price_interpretation": "split-adjusted price; not a dividend total-return series"
+      }
+    },
+    {
+      "symbol": "PNC",
+      "window": "normal_2019",
+      "start": "2019-01-02",
+      "end": "2019-03-29",
+      "adjustment": "split_adjusted",
+      "status": "observed",
+      "observations": 61,
+      "first_date": "2019-01-02",
+      "last_date": "2019-03-29",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.19249462180109342,
+      "max_abs_one_session_log_return": 0.031539446389446724,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 61,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/full",
+        "parameters": {
+          "symbol": "PNC",
+          "from": "2019-01-02",
+          "to": "2019-03-29"
+        },
+        "adjustment": "split_adjusted",
+        "source_price_field": "close",
+        "retrieved_utc": "2026-11-06T01:38:04.029282+00:00",
+        "retrieval": "cache",
+        "cache_id": "7cb4a0af025be897d47ea534ab2af59ffd1ad2bf54a9feeaa82e16287c8164ff",
+        "price_interpretation": "split-adjusted price; not a dividend total-return series"
+      }
+    },
+    {
+      "symbol": "GS",
+      "window": "normal_2019",
+      "start": "2019-01-02",
+      "end": "2019-03-29",
+      "adjustment": "split_adjusted",
+      "status": "observed",
+      "observations": 61,
+      "first_date": "2019-01-02",
+      "last_date": "2019-03-29",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.26961375381489155,
+      "max_abs_one_session_log_return": 0.09115301182723456,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 61,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/full",
+        "parameters": {
+          "symbol": "GS",
+          "from": "2019-01-02",
+          "to": "2019-03-29"
+        },
+        "adjustment": "split_adjusted",
+        "source_price_field": "close",
+        "retrieved_utc": "2026-11-06T01:38:04.259498+00:00",
+        "retrieval": "cache",
+        "cache_id": "731e62a75ee1da6195a7efe968d4ac31ebb378c08c29fca61321985b8533fe76",
+        "price_interpretation": "split-adjusted price; not a dividend total-return series"
+      }
+    },
+    {
+      "symbol": "JPM",
+      "window": "normal_2019",
+      "start": "2019-01-02",
+      "end": "2019-03-29",
+      "adjustment": "dividend_adjusted",
+      "status": "observed",
+      "observations": 61,
+      "first_date": "2019-01-02",
+      "last_date": "2019-03-29",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.17106819571764523,
+      "max_abs_one_session_log_return": 0.03620023358244229,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 61,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/dividend-adjusted",
+        "parameters": {
+          "symbol": "JPM",
+          "from": "2019-01-02",
+          "to": "2019-03-29"
+        },
+        "adjustment": "dividend_adjusted",
+        "source_price_field": "adjClose",
+        "retrieved_utc": "2026-11-06T01:38:04.397387+00:00",
+        "retrieval": "cache",
+        "cache_id": "0b2abd5d5d75783cf7744644c5742cb4cf69b316c755f402fd2571448d406ee8",
+        "price_interpretation": "dividend-adjusted series; not an unadjusted executable option underlying quote"
+      }
+    },
+    {
+      "symbol": "PNC",
+      "window": "normal_2019",
+      "start": "2019-01-02",
+      "end": "2019-03-29",
+      "adjustment": "dividend_adjusted",
+      "status": "observed",
+      "observations": 61,
+      "first_date": "2019-01-02",
+      "last_date": "2019-03-29",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.19339798868559585,
+      "max_abs_one_session_log_return": 0.031574487726408584,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 61,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/dividend-adjusted",
+        "parameters": {
+          "symbol": "PNC",
+          "from": "2019-01-02",
+          "to": "2019-03-29"
+        },
+        "adjustment": "dividend_adjusted",
+        "source_price_field": "adjClose",
+        "retrieved_utc": "2026-11-06T01:38:04.530008+00:00",
+        "retrieval": "cache",
+        "cache_id": "a75fb79acec5f1975431419381bf57c3c7094d59e14760e047eba36faf37e766",
+        "price_interpretation": "dividend-adjusted series; not an unadjusted executable option underlying quote"
+      }
+    },
+    {
+      "symbol": "GS",
+      "window": "normal_2019",
+      "start": "2019-01-02",
+      "end": "2019-03-29",
+      "adjustment": "dividend_adjusted",
+      "status": "observed",
+      "observations": 61,
+      "first_date": "2019-01-02",
+      "last_date": "2019-03-29",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.26936474598345944,
+      "max_abs_one_session_log_return": 0.09116800997916563,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 61,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/dividend-adjusted",
+        "parameters": {
+          "symbol": "GS",
+          "from": "2019-01-02",
+          "to": "2019-03-29"
+        },
+        "adjustment": "dividend_adjusted",
+        "source_price_field": "adjClose",
+        "retrieved_utc": "2026-11-06T01:38:04.688091+00:00",
+        "retrieval": "cache",
+        "cache_id": "823c5b8bbf0500fd496b7462a75dee901f47a69a542f9a5c8fffdad0dfb56c44",
+        "price_interpretation": "dividend-adjusted series; not an unadjusted executable option underlying quote"
+      }
+    },
+    {
+      "symbol": "JPM",
+      "window": "stress_covid_2020",
+      "start": "2020-02-03",
+      "end": "2020-04-30",
+      "adjustment": "split_adjusted",
+      "status": "observed",
+      "observations": 62,
+      "first_date": "2020-02-03",
+      "last_date": "2020-04-30",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.8962867615880322,
+      "max_abs_one_session_log_return": 0.16562030492233948,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 62,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/full",
+        "parameters": {
+          "symbol": "JPM",
+          "from": "2020-02-03",
+          "to": "2020-04-30"
+        },
+        "adjustment": "split_adjusted",
+        "source_price_field": "close",
+        "retrieved_utc": "2026-11-06T01:38:04.813321+00:00",
+        "retrieval": "cache",
+        "cache_id": "5a9518ac3bf92f1b8a8174caa6e040cd9c8730c2067d831c429bb9c6a88c7701",
+        "price_interpretation": "split-adjusted price; not a dividend total-return series"
+      }
+    },
+    {
+      "symbol": "PNC",
+      "window": "stress_covid_2020",
+      "start": "2020-02-03",
+      "end": "2020-04-30",
+      "adjustment": "split_adjusted",
+      "status": "observed",
+      "observations": 62,
+      "first_date": "2020-02-03",
+      "last_date": "2020-04-30",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.9659427567268611,
+      "max_abs_one_session_log_return": 0.1731656196740765,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 62,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/full",
+        "parameters": {
+          "symbol": "PNC",
+          "from": "2020-02-03",
+          "to": "2020-04-30"
+        },
+        "adjustment": "split_adjusted",
+        "source_price_field": "close",
+        "retrieved_utc": "2026-11-06T01:38:04.934139+00:00",
+        "retrieval": "cache",
+        "cache_id": "ccf0d1e793509b9b6d22029323718a234a57d6927a31d7f32ab79b5ef153d6f8",
+        "price_interpretation": "split-adjusted price; not a dividend total-return series"
+      }
+    },
+    {
+      "symbol": "GS",
+      "window": "stress_covid_2020",
+      "start": "2020-02-03",
+      "end": "2020-04-30",
+      "adjustment": "split_adjusted",
+      "status": "observed",
+      "observations": 62,
+      "first_date": "2020-02-03",
+      "last_date": "2020-04-30",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.8516675533901054,
+      "max_abs_one_session_log_return": 0.16195134078850515,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 62,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/full",
+        "parameters": {
+          "symbol": "GS",
+          "from": "2020-02-03",
+          "to": "2020-04-30"
+        },
+        "adjustment": "split_adjusted",
+        "source_price_field": "close",
+        "retrieved_utc": "2026-11-06T01:38:05.060295+00:00",
+        "retrieval": "cache",
+        "cache_id": "8a40e89cd8ef8849a501ffcc0e71b3a29d1a40275f3ba0c0afad8fc5b33b7a7d",
+        "price_interpretation": "split-adjusted price; not a dividend total-return series"
+      }
+    },
+    {
+      "symbol": "JPM",
+      "window": "stress_covid_2020",
+      "start": "2020-02-03",
+      "end": "2020-04-30",
+      "adjustment": "dividend_adjusted",
+      "status": "observed",
+      "observations": 62,
+      "first_date": "2020-02-03",
+      "last_date": "2020-04-30",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.8949465822652518,
+      "max_abs_one_session_log_return": 0.1656018488532407,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 62,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/dividend-adjusted",
+        "parameters": {
+          "symbol": "JPM",
+          "from": "2020-02-03",
+          "to": "2020-04-30"
+        },
+        "adjustment": "dividend_adjusted",
+        "source_price_field": "adjClose",
+        "retrieved_utc": "2026-11-06T01:38:05.181990+00:00",
+        "retrieval": "cache",
+        "cache_id": "fecf36509bdb565d6204e9f66a6cd3504ae7f690a9edc3bd249d5bf11582e571",
+        "price_interpretation": "dividend-adjusted series; not an unadjusted executable option underlying quote"
+      }
+    },
+    {
+      "symbol": "PNC",
+      "window": "stress_covid_2020",
+      "start": "2020-02-03",
+      "end": "2020-04-30",
+      "adjustment": "dividend_adjusted",
+      "status": "observed",
+      "observations": 62,
+      "first_date": "2020-02-03",
+      "last_date": "2020-04-30",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.9625553109560401,
+      "max_abs_one_session_log_return": 0.1730616803475984,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 62,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/dividend-adjusted",
+        "parameters": {
+          "symbol": "PNC",
+          "from": "2020-02-03",
+          "to": "2020-04-30"
+        },
+        "adjustment": "dividend_adjusted",
+        "source_price_field": "adjClose",
+        "retrieved_utc": "2026-11-06T01:38:05.321560+00:00",
+        "retrieval": "cache",
+        "cache_id": "749eab4a675d1f3fefd033f7744ab659c44e2f9b6d4be421b3ec8ecdaca7264d",
+        "price_interpretation": "dividend-adjusted series; not an unadjusted executable option underlying quote"
+      }
+    },
+    {
+      "symbol": "GS",
+      "window": "stress_covid_2020",
+      "start": "2020-02-03",
+      "end": "2020-04-30",
+      "adjustment": "dividend_adjusted",
+      "status": "observed",
+      "observations": 62,
+      "first_date": "2020-02-03",
+      "last_date": "2020-04-30",
+      "missing_weekdays_including_possible_exchange_holidays": 2,
+      "annualized_log_return_volatility": 0.851157176610977,
+      "max_abs_one_session_log_return": 0.16197077064151344,
+      "exchange_calendar_validated": true,
+      "exchange_calendar_checked": true,
+      "calendar": "XNYS",
+      "calendar_package": "exchange_calendars",
+      "calendar_version": "4.13.2",
+      "expected_sessions": 62,
+      "missing_expected_sessions": [],
+      "unexpected_dates": [],
+      "source_metadata": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/dividend-adjusted",
+        "parameters": {
+          "symbol": "GS",
+          "from": "2020-02-03",
+          "to": "2020-04-30"
+        },
+        "adjustment": "dividend_adjusted",
+        "source_price_field": "adjClose",
+        "retrieved_utc": "2026-11-06T01:38:05.455259+00:00",
+        "retrieval": "cache",
+        "cache_id": "c7bd199903c0d8b24ad2575d332be3e7a081c82baff64eafa2ff7c5655d0851a",
+        "price_interpretation": "dividend-adjusted series; not an unadjusted executable option underlying quote"
+      }
+    }
+  ],
+  "alignment": [
+    {
+      "window": "normal_2019",
+      "adjustment": "split_adjusted",
+      "all_symbols_available": true,
+      "common_observations": 61,
+      "union_observations": 61,
+      "all_dates_aligned": true
+    },
+    {
+      "window": "normal_2019",
+      "adjustment": "dividend_adjusted",
+      "all_symbols_available": true,
+      "common_observations": 61,
+      "union_observations": 61,
+      "all_dates_aligned": true
+    },
+    {
+      "window": "stress_covid_2020",
+      "adjustment": "split_adjusted",
+      "all_symbols_available": true,
+      "common_observations": 62,
+      "union_observations": 62,
+      "all_dates_aligned": true
+    },
+    {
+      "window": "stress_covid_2020",
+      "adjustment": "dividend_adjusted",
+      "all_symbols_available": true,
+      "common_observations": 62,
+      "union_observations": 62,
+      "all_dates_aligned": true
+    }
+  ],
+  "research_gate_2_passed": false,
+  "historical_listed_options_gate": {
+    "status": "vendor_documented_unavailable",
+    "expired_contracts": "not_supported_by_documented_FMP_API",
+    "timestamped_historical_bid_ask": "not_supported_by_documented_FMP_API",
+    "entitlement": "not_applicable_to_unsupported_product",
+    "source": "https://site.financialmodelingprep.com/faqs",
+    "source_question": "Does FMP provide options data or Level-2 (Depth of Market) data through the API?"
+  },
+  "financial_statement_gate": {
+    "status": "not_audited",
+    "point_in_time_release_dates": "unverified"
+  },
+  "limitations": [
+    "Successful small-window price requests do not establish long-history, delisted-name or historical-option coverage.",
+    "Business-day gaps include exchange holidays; use the explicit versioned exchange-calendar fields to distinguish missing sessions.",
+    "Dividend-adjusted observations are recorded separately from split-adjusted prices; neither is silently substituted.",
+    "The price audit alone cannot pass Research Gate 2, which additionally requires a reconciled replay and validated historical research evidence."
+  ],
+  "canonical_prices": {
+    "full_history": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted.csv",
+      "observations": 4236,
+      "first_date": "2010-01-04",
+      "last_date": "2026-11-04",
+      "sha256": "fafef4fc0276fd7ed75ec808c6f8fa8822d41d35df4b938cf22b47d0fae31a27"
+    },
+    "normal_2019": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted_normal_2019.csv",
+      "observations": 61,
+      "first_date": "2019-01-02",
+      "last_date": "2019-03-29",
+      "sha256": "2bdd959b59337818561de42dd163dcdaf8e3cae3180f64912a2830c9c8393ca1"
+    },
+    "stress_covid_2020": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted_stress_covid_2020.csv",
+      "observations": 62,
+      "first_date": "2020-02-03",
+      "last_date": "2020-04-30",
+      "sha256": "60d93fa99f0e580a91888bc7ec6b8334359421cde6aee40b8e28da3ebd5ab7d6"
+    }
+  }
+}

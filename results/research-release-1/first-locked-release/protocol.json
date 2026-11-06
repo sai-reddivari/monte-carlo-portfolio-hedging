@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "study_file": "illustrative_study.json",
+  "research_question": "How much incremental protection do adaptive delta hedges buy under an expected financed trading-cost budget?",
+  "objective": "minimize_selection_ES95_subject_to_cost_upper_bound",
+  "cost_budget_dollars": 500.0,
+  "cost_bps": 5.0,
+  "confidence": 0.95,
+  "tail_probability": 0.05,
+  "selection": {
+    "seed": 730201,
+    "n_paths": 5000
+  },
+  "evaluation": {
+    "seed": 730202,
+    "n_paths": 10000
+  },
+  "bootstrap": {
+    "seed": 730204,
+    "n_resamples": 1000
+  },
+  "audit_path": 0,
+  "benchmark_labels": [
+    "initial_only",
+    "daily",
+    "two_day",
+    "weekly"
+  ],
+  "candidates": [
+    {
+      "label": "initial_only",
+      "kind": "periodic",
+      "hedge_every": null
+    },
+    {
+      "label": "daily",
+      "kind": "periodic",
+      "hedge_every": 1
+    },
+    {
+      "label": "two_day",
+      "kind": "periodic",
+      "hedge_every": 2
+    },
+    {
+      "label": "weekly",
+      "kind": "periodic",
+      "hedge_every": 5
+    },
+    {
+      "label": "delta_band_010",
+      "kind": "delta_band",
+      "band": 0.01
+    },
+    {
+      "label": "delta_band_025",
+      "kind": "delta_band",
+      "band": 0.025
+    },
+    {
+      "label": "delta_band_050",
+      "kind": "delta_band",
+      "band": 0.05
+    },
+    {
+      "label": "delta_band_075",
+      "kind": "delta_band",
+      "band": 0.075
+    },
+    {
+      "label": "delta_band_100",
+      "kind": "delta_band",
+      "band": 0.1
+    },
+    {
+      "label": "delta_band_150",
+      "kind": "delta_band",
+      "band": 0.15
+    },
+    {
+      "label": "delta_band_200",
+      "kind": "delta_band",
+      "band": 0.2
+    },
+    {
+      "label": "maturity_band_025",
+      "kind": "maturity_band",
+      "band": 0.025
+    },
+    {
+      "label": "maturity_band_050",
+      "kind": "maturity_band",
+      "band": 0.05
+    },
+    {
+      "label": "maturity_band_100",
+      "kind": "maturity_band",
+      "band": 0.1
+    }
+  ]
+}

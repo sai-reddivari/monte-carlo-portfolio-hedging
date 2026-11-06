@@ -1,0 +1,16 @@
+{
+  "source": "FMP actual SEC filing metadata",
+  "study_symbol": "C",
+  "lookup_symbol": "C",
+  "records": [
+    {
+      "symbol": "C",
+      "cik": "0000831001",
+      "filingDate": "2026-11-05 00:00:00",
+      "acceptedDate": "2026-11-04 21:39:24",
+      "formType": "FWP",
+      "link": "https://www.sec.gov/Archives/edgar/data/831001/000095010326016991/0000950103-26-016991-index.htm",
+      "finalLink": "https://www.sec.gov/Archives/edgar/data/831001/000095010326016991/dp256333_fwp-us26s8467.htm"
+    }
+  ]
+}

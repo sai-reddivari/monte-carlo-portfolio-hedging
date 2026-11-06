@@ -1,0 +1,4 @@
+snapshot_id,underlying_id,spot,pricing_vol,path_vol,financing_rate,source_sha256,market_observed
+illustrative_start,JPM,100.0,0.22,0.22,0.04,17a3148a1fa6f6826edac8a835b77ae9b940735c7eb76e7b01bb6ca30808694d,False
+illustrative_start,PNC,100.0,0.28,0.28,0.04,17a3148a1fa6f6826edac8a835b77ae9b940735c7eb76e7b01bb6ca30808694d,False
+illustrative_start,GS,100.0,0.26,0.26,0.04,17a3148a1fa6f6826edac8a835b77ae9b940735c7eb76e7b01bb6ca30808694d,False

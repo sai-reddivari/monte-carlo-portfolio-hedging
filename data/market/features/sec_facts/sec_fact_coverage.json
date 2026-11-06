@@ -1,0 +1,307 @@
+{
+  "prepared_utc": "2026-11-06T02:14:04.710335+00:00",
+  "source": "US_SEC_official_companyfacts_and_submissions",
+  "source_documentation": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+  "CIK_source": "Actual FMP SEC-filing metadata, retained and hashed; not guessed identifiers.",
+  "sec_requests_in_initial_probe": 6,
+  "fmp_identifier_requests": 2,
+  "user_agent": "MonteCarloEvaluations/0.1 (noncommercial portfolio hedging research)",
+  "automated_native_vintage_binding_checks_passed": true,
+  "company_reports": [
+    {
+      "symbol": "JPM",
+      "cik": "0000019617",
+      "SEC_entity_name": "JPMORGAN CHASE & CO",
+      "facts": 977,
+      "verified_native_filing_facts": 977,
+      "independent_recent_crosschecks": 56,
+      "recent_crosscheck_mismatches": 0,
+      "within_filing_ambiguous_facts": 0,
+      "coverage": [
+        {
+          "symbol": "JPM",
+          "field": "assets",
+          "taxonomy_tag": "Assets",
+          "USD_native_records": 209,
+          "other_units": [],
+          "normalized_records": 203,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "JPM",
+          "field": "liabilities",
+          "taxonomy_tag": "Liabilities",
+          "USD_native_records": 149,
+          "other_units": [],
+          "normalized_records": 143,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "JPM",
+          "field": "cash_and_cash_equivalents",
+          "taxonomy_tag": "CashAndCashEquivalentsAtCarryingValue",
+          "USD_native_records": 16,
+          "other_units": [],
+          "normalized_records": 16,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "JPM",
+          "field": "cash_and_due_from_banks",
+          "taxonomy_tag": "CashAndDueFromBanks",
+          "USD_native_records": 226,
+          "other_units": [],
+          "normalized_records": 214,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "JPM",
+          "field": "deposits",
+          "taxonomy_tag": "Deposits",
+          "USD_native_records": 148,
+          "other_units": [],
+          "normalized_records": 142,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": true
+        },
+        {
+          "symbol": "JPM",
+          "field": "stockholders_equity",
+          "taxonomy_tag": "StockholdersEquity",
+          "USD_native_records": 193,
+          "other_units": [],
+          "normalized_records": 187,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "JPM",
+          "field": "short_term_borrowings",
+          "taxonomy_tag": "ShortTermBorrowings",
+          "USD_native_records": 72,
+          "other_units": [],
+          "normalized_records": 72,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        }
+      ],
+      "rejected_counts": [],
+      "historical_recent_metadata_limit": "Older native facts remain accession/filed-bound official SEC records; they are explicitly distinguished from independently crosschecked recent submissions.",
+      "custom_taxonomy_or_dimensional_funding_features_supported": false
+    },
+    {
+      "symbol": "PNC",
+      "cik": "0000713676",
+      "SEC_entity_name": "PNC Financial Services Group, Inc.",
+      "facts": 791,
+      "verified_native_filing_facts": 791,
+      "independent_recent_crosschecks": 220,
+      "recent_crosscheck_mismatches": 0,
+      "within_filing_ambiguous_facts": 0,
+      "coverage": [
+        {
+          "symbol": "PNC",
+          "field": "assets",
+          "taxonomy_tag": "Assets",
+          "USD_native_records": 144,
+          "other_units": [],
+          "normalized_records": 140,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "PNC",
+          "field": "liabilities",
+          "taxonomy_tag": "Liabilities",
+          "USD_native_records": 144,
+          "other_units": [],
+          "normalized_records": 140,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "PNC",
+          "field": "cash_and_cash_equivalents",
+          "taxonomy_tag": "CashAndCashEquivalentsAtCarryingValue",
+          "USD_native_records": 0,
+          "other_units": [],
+          "normalized_records": 0,
+          "status": "unavailable_or_no_unambiguous_instant_USD_facts",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "PNC",
+          "field": "cash_and_due_from_banks",
+          "taxonomy_tag": "CashAndDueFromBanks",
+          "USD_native_records": 240,
+          "other_units": [],
+          "normalized_records": 231,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "PNC",
+          "field": "deposits",
+          "taxonomy_tag": "Deposits",
+          "USD_native_records": 144,
+          "other_units": [],
+          "normalized_records": 140,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": true
+        },
+        {
+          "symbol": "PNC",
+          "field": "stockholders_equity",
+          "taxonomy_tag": "StockholdersEquity",
+          "USD_native_records": 144,
+          "other_units": [],
+          "normalized_records": 140,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "PNC",
+          "field": "short_term_borrowings",
+          "taxonomy_tag": "ShortTermBorrowings",
+          "USD_native_records": 0,
+          "other_units": [],
+          "normalized_records": 0,
+          "status": "unavailable_or_no_unambiguous_instant_USD_facts",
+          "deposit_feature_approved_for_issuer": null
+        }
+      ],
+      "rejected_counts": [],
+      "historical_recent_metadata_limit": "Older native facts remain accession/filed-bound official SEC records; they are explicitly distinguished from independently crosschecked recent submissions.",
+      "custom_taxonomy_or_dimensional_funding_features_supported": false
+    },
+    {
+      "symbol": "GS",
+      "cik": "0000886982",
+      "SEC_entity_name": "The Goldman Sachs Group, Inc.",
+      "facts": 1058,
+      "verified_native_filing_facts": 1058,
+      "independent_recent_crosschecks": 56,
+      "recent_crosscheck_mismatches": 0,
+      "within_filing_ambiguous_facts": 0,
+      "coverage": [
+        {
+          "symbol": "GS",
+          "field": "assets",
+          "taxonomy_tag": "Assets",
+          "USD_native_records": 211,
+          "other_units": [],
+          "normalized_records": 211,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "GS",
+          "field": "liabilities",
+          "taxonomy_tag": "Liabilities",
+          "USD_native_records": 156,
+          "other_units": [],
+          "normalized_records": 156,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "GS",
+          "field": "cash_and_cash_equivalents",
+          "taxonomy_tag": "CashAndCashEquivalentsAtCarryingValue",
+          "USD_native_records": 182,
+          "other_units": [],
+          "normalized_records": 182,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "GS",
+          "field": "cash_and_due_from_banks",
+          "taxonomy_tag": "CashAndDueFromBanks",
+          "USD_native_records": 134,
+          "other_units": [],
+          "normalized_records": 134,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "GS",
+          "field": "deposits",
+          "taxonomy_tag": "Deposits",
+          "USD_native_records": 142,
+          "other_units": [],
+          "normalized_records": 142,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": false
+        },
+        {
+          "symbol": "GS",
+          "field": "stockholders_equity",
+          "taxonomy_tag": "StockholdersEquity",
+          "USD_native_records": 189,
+          "other_units": [],
+          "normalized_records": 189,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        },
+        {
+          "symbol": "GS",
+          "field": "short_term_borrowings",
+          "taxonomy_tag": "ShortTermBorrowings",
+          "USD_native_records": 44,
+          "other_units": [],
+          "normalized_records": 44,
+          "status": "native_USD_filing_facts_observed",
+          "deposit_feature_approved_for_issuer": null
+        }
+      ],
+      "rejected_counts": [],
+      "historical_recent_metadata_limit": "Older native facts remain accession/filed-bound official SEC records; they are explicitly distinguished from independently crosschecked recent submissions.",
+      "custom_taxonomy_or_dimensional_funding_features_supported": false
+    }
+  ],
+  "source_file_sha256": {
+    "data/cache/sec/JPM_companyfacts.json": "7d8cd4d6ccd26cb24397d9ed2fce4a444b7a9003651c804fc1ae4be0096a805e",
+    "data/cache/sec/JPM_submissions.json": "14fe1bfabaff4cdf10d3aaa35983a38228312efc5030d395a83e6000132b8af2",
+    "data/market/features/JPM_sec_filings_sample.json": "74e7500d39a7280e77c5171068408d445ccaa45c86d679c194e25863e49cee70",
+    "data/cache/sec/PNC_companyfacts.json": "9d496036091f01aaf605dcf93e6482db634553fa79e3455dac00c251021544bb",
+    "data/cache/sec/PNC_submissions.json": "3b6f2b0ff9bc01ae1ce816c5b9eda90737c93064967ac2f9422bff9991336c84",
+    "data/market/features/PNC_identifier_fmp_filings.json": "c9607c1035dc0ab33749ffb100a5e710e2e5e63103a928d6e8ca43047f3273ae",
+    "data/cache/sec/GS_companyfacts.json": "0b24dcea6569e820ddcb8bde6310d363feb084ced403c2ba7f5850faa1f73953",
+    "data/cache/sec/GS_submissions.json": "00f905c7ccf79d83706b1183e21edb31f9aa45fd00cb2648fa6962c37de493bb",
+    "data/market/features/GS_identifier_fmp_filings.json": "cd8b7808a2305a0146f92200a2d3425bcbba91c8f9dec726a49d24460fb4b3d7"
+  },
+  "files": {
+    "sec_filing_facts_long.csv": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_filing_facts_long.csv",
+      "sha256": "a51f04a362b3000ca25114a1d5dc6e4499f0851933ea8a8efd7655809f5e2dd0"
+    },
+    "sec_filing_snapshots.csv": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_filing_snapshots.csv",
+      "sha256": "9c49d8532b9f64fc89d1c57ee51298eab5d895570574afd38f7d731b5e443d65"
+    },
+    "sec_field_year_coverage.csv": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_field_year_coverage.csv",
+      "sha256": "f2522b182c3fd9ae8b6a0049d501e8bcffec4f5e8a2a249794050e1197af81c5"
+    }
+  },
+  "snapshot_rows": 212,
+  "retained_filing_fact_rows": 2826,
+  "availability": "Verified SEC filed DATE plus the close of the next XNYS session; actual intraday acceptance time not asserted.",
+  "asof_rule": "Only available_at<=decision; maximize period_end first, then latest available filed/accession within that period.",
+  "missing_facts_filled_with_zero": false,
+  "all_returned_selected_filing_vintages_retained": true,
+  "human_review_status": "pending_definition_and_representative_filing_review",
+  "incremental_forecasting_improvement_established": false,
+  "limitations": [
+    "SEC companyfacts covers noncustom, entity-wide facts; missing custom funding tags are not synthesized.",
+    "Independent submissions crosschecks cover recent metadata; older facts are explicitly native SEC accession/filed bindings, not independently downloaded archived filings.",
+    "CashAndDueFromBanks is a separate bank liquidity concept from CashAndCashEquivalents, not a silent alias.",
+    "Deposit funding is approved for JPM/PNC bank comparison; GS brokerage funding requires separate economic interpretation.",
+    "The existence of auditable data does not establish forecast or hedge improvement."
+  ]
+}

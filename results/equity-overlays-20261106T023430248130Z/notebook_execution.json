@@ -1,0 +1,10 @@
+{
+  "notebook": "Hedging_Study_Notebooks/07_equity_overlay_study.ipynb",
+  "executed_from_fresh_kernel": true,
+  "started_utc": "2026-11-06T02:39:51.645339+00:00",
+  "completed_utc": "2026-11-06T02:39:53.358353+00:00",
+  "code_cells": 9,
+  "error_outputs": 0,
+  "notebook_sha256": "d91912238e4ce0417f91d6c55421a865af820f1b58420bd7238717a8ff25444c",
+  "python": "3.14.8"
+}

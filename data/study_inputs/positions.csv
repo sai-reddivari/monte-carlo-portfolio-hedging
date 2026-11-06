@@ -1,0 +1,4 @@
+portfolio_id,instrument_id,signed_quantity,multiplier
+controlled_base,MODEL::JPM::CALL::63S,-1000.0,1.0
+controlled_base,MODEL::PNC::CALL::63S,-1000.0,1.0
+controlled_base,MODEL::GS::CALL::63S,-1000.0,1.0

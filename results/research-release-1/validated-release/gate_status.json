@@ -1,0 +1,5 @@
+{
+  "gate": "research_gate_1",
+  "status": "failed",
+  "reason": "Native plotting backend failed before report completion; superseded by headless verified run."
+}

@@ -1,0 +1,16 @@
+{
+  "source": "FMP actual SEC filing metadata",
+  "study_symbol": "BK",
+  "lookup_symbol": "BNY",
+  "records": [
+    {
+      "symbol": "BNY",
+      "cik": "0001390777",
+      "filingDate": "2026-10-30 00:00:00",
+      "acceptedDate": "2026-10-30 07:02:45",
+      "formType": "10-Q",
+      "link": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/0001390777-26-000120-index.htm",
+      "finalLink": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/bk-20260930.htm"
+    }
+  ]
+}

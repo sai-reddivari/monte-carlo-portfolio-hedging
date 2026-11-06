@@ -1,0 +1,84 @@
+{
+  "protocol_sha256": "6bf5148edb3f7b822bc59fc21b60e047205d6daa66fbc2a7676c350bec64b6cb",
+  "study_sha256": "17a3148a1fa6f6826edac8a835b77ae9b940735c7eb76e7b01bb6ca30808694d",
+  "protocol_file": "/Users/saireddivari/MonteCarloEvaluations/config/research_release_1.json",
+  "study_file": "/Users/saireddivari/MonteCarloEvaluations/config/illustrative_study.json",
+  "frozen_before_selection_utc": "2026-11-06T01:45:26.515049+00:00",
+  "source": {
+    "book": {
+      "names": [
+        "JPM",
+        "PNC",
+        "GS"
+      ],
+      "spots": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "strikes": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "notionals": [
+        100000.0,
+        100000.0,
+        100000.0
+      ],
+      "pricing_vols": [
+        0.22,
+        0.28,
+        0.26
+      ],
+      "steps": 63,
+      "sessions_per_year": 252,
+      "rate": 0.04
+    },
+    "scenario": {
+      "path_vols": [
+        0.22,
+        0.28,
+        0.26
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.65,
+          0.7
+        ],
+        [
+          0.65,
+          1.0,
+          0.55
+        ],
+        [
+          0.7,
+          0.55,
+          1.0
+        ]
+      ]
+    },
+    "seed": 730201,
+    "n_paths": 5000,
+    "measure": "Q; drift equals constant financing rate; no dividends",
+    "versions": {
+      "python": "3.14.8",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.1"
+    },
+    "source_sha256": {
+      "BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+      "MonteCarlo_Functions/MonteCarlo_ExactPathwayGeneration.py": "eb6552a565170a7a0aabcaeb476cada8961b201405419f5361904245af9fd745",
+      "hedging_harness/__init__.py": "526516fa1ccc7718eb84b9c59142121d7e6c669ade2c08dbe7ff54aa1f61e298",
+      "hedging_harness/core.py": "6311f7ae6b6c035c6f3baf019006365cbafd8458974d6e2e23a6e1458d4b5c1e",
+      "hedging_harness/legacy.py": "4dc0a27f694882769f9d7534ae6da82489f9a3c80843c02457668c2678ce417d",
+      "hedging_harness/policies.py": "e213dc91d6afd7391a2d03761cfd43de57396b98c0e2dd1531d339516b08a68c",
+      "hedging_harness/replay.py": "1175ff1c64d6ae5838e054c45ebaf4d7838b24a14ffb80d06c028d70903d31c7",
+      "hedging_harness/research.py": "f84f207c327b7b351e5ed41c7d6129c62856efff56d55c1970e9719c7d7548f6",
+      "hedging_harness/risk_models.py": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+      "hedging_harness/uncertainty.py": "c6379f05ecfd0470d5cae5045c10196e1ecf0870f0e02fa0ad0f4a50ee290ea6"
+    }
+  }
+}

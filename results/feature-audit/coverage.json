@@ -1,0 +1,154 @@
+{
+  "audited_utc": "2026-11-06T02:02:46.945332+00:00",
+  "financial_request_attempts": 6,
+  "treasury_request_attempts": 2,
+  "statement_coverage": [
+    {
+      "symbol": "JPM",
+      "endpoint": "balance-sheet-statement-as-reported",
+      "status": "observed",
+      "records": 3,
+      "publication_records": 0,
+      "timing_eligible_records": 0,
+      "strict_pit_usable_records": 0,
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/JPM_balance-sheet-statement-as-reported.json"
+    },
+    {
+      "symbol": "JPM",
+      "endpoint": "balance-sheet-statement",
+      "status": "observed",
+      "records": 3,
+      "publication_records": 3,
+      "timing_eligible_records": 3,
+      "strict_pit_usable_records": 0,
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/JPM_balance-sheet-statement.json"
+    },
+    {
+      "symbol": "PNC",
+      "endpoint": "balance-sheet-statement-as-reported",
+      "status": "observed",
+      "records": 3,
+      "publication_records": 0,
+      "timing_eligible_records": 0,
+      "strict_pit_usable_records": 0,
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/PNC_balance-sheet-statement-as-reported.json"
+    },
+    {
+      "symbol": "PNC",
+      "endpoint": "balance-sheet-statement",
+      "status": "observed",
+      "records": 3,
+      "publication_records": 3,
+      "timing_eligible_records": 3,
+      "strict_pit_usable_records": 0,
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/PNC_balance-sheet-statement.json"
+    },
+    {
+      "symbol": "GS",
+      "endpoint": "balance-sheet-statement-as-reported",
+      "status": "observed",
+      "records": 3,
+      "publication_records": 0,
+      "timing_eligible_records": 0,
+      "strict_pit_usable_records": 0,
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/GS_balance-sheet-statement-as-reported.json"
+    },
+    {
+      "symbol": "GS",
+      "endpoint": "balance-sheet-statement",
+      "status": "observed",
+      "records": 3,
+      "publication_records": 3,
+      "timing_eligible_records": 3,
+      "strict_pit_usable_records": 0,
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/GS_balance-sheet-statement.json"
+    },
+    {
+      "symbol": "JPM",
+      "endpoint": "sec-filings-search/symbol",
+      "status": "observed",
+      "records": 20,
+      "strict_pit_usable_records": 0
+    }
+  ],
+  "treasury_coverage": [
+    {
+      "window": "normal_2019",
+      "status": "observed",
+      "observations": 61,
+      "actual_publication_timestamp_verified": false,
+      "original_vintage_verified": false
+    },
+    {
+      "window": "stress_2020",
+      "status": "observed",
+      "observations": 62,
+      "actual_publication_timestamp_verified": false,
+      "original_vintage_verified": false
+    }
+  ],
+  "artifacts": {
+    "GS_balance-sheet-statement.json": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/GS_balance-sheet-statement.json",
+      "sha256": "b61b38124117684a7da2fa9eb42ec806b79d7879fecc04ec9312463dedc7d61d"
+    },
+    "treasury_normal_2019.json": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/treasury_normal_2019.json",
+      "sha256": "aad436df400141365a2d03d8b607785e18c0f96001a04551063deabcd7db00c6"
+    },
+    "JPM_balance-sheet-statement-as-reported.json": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/JPM_balance-sheet-statement-as-reported.json",
+      "sha256": "10ea1d975aca32d18cc0feb834e7faa1571d040122bff707fdeb9ca9a3249f26"
+    },
+    "JPM_balance-sheet-statement.json": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/JPM_balance-sheet-statement.json",
+      "sha256": "dea157e32256ec783b0453c51440317b2258b9c1d3f7e5530f9f0412b128880d"
+    },
+    "treasury_stress_2020.json": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/treasury_stress_2020.json",
+      "sha256": "0506249a1758194b2a3f5a8bae10aec8118300984005c587b6cbb951343e81ed"
+    },
+    "company_feature_concept_coverage.csv": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/company_feature_concept_coverage.csv",
+      "sha256": "9d17a48423ca041444528c5690bd86c57a57d7645253ad30442800965b8ac616"
+    },
+    "JPM_sec_filings_sample.json": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/JPM_sec_filings_sample.json",
+      "sha256": "74e7500d39a7280e77c5171068408d445ccaa45c86d679c194e25863e49cee70"
+    },
+    "company_feature_fields_long.csv": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/company_feature_fields_long.csv",
+      "sha256": "31569821045fb9f5aece643cf80b089481cdcb759b6443fe6f31da12d8da9bef"
+    },
+    "treasury_rates_lagged_samples.csv": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/treasury_rates_lagged_samples.csv",
+      "sha256": "0953feb3e552c25c332cc1d00d335ff9c06c8add078c71bdc9e874ec0deee570"
+    },
+    "GS_balance-sheet-statement-as-reported.json": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/GS_balance-sheet-statement-as-reported.json",
+      "sha256": "f6dfb95cef1511b26c7f30c31d97df83fba98c2ac2dfc9668f6f63aa27cdc838"
+    },
+    "PNC_balance-sheet-statement-as-reported.json": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/PNC_balance-sheet-statement-as-reported.json",
+      "sha256": "8598f1f893b46f46a348cf837f8dc9e905a91c427a4d2f457da43b749e4f184f"
+    },
+    "PNC_balance-sheet-statement.json": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/features/PNC_balance-sheet-statement.json",
+      "sha256": "2bad7ee04c5870fdcdd801ca4bc2d4dafd522ef7f0a7c557bc29e13d47c9d4c7"
+    }
+  },
+  "stage5_incremental_macro_funding_gate_passed": false,
+  "original_statement_vintages_verified": false,
+  "fiscal_period_end_used_as_publication_date": false,
+  "fundamentals_usable_without_further_review": false,
+  "treasury_usable_without_explicit_lag_and_snapshot_caveat": false,
+  "limits": [
+    "As-reported values lacking filing/acceptance fields cannot be as-of joined using period-end.",
+    "Standardized current values with historical accepted dates are timing candidates only; original-vintage restatement risk remains unverified.",
+    "Two90-day Treasury samples do not provide a full historical forecast layer.",
+    "Access and timing metadata do not prove an incremental forecasting or hedging improvement."
+  ],
+  "initial_live_financial_attempts_total": 8,
+  "initial_live_treasury_attempts_total": 2,
+  "initial_attempt_accounting_note": "Includes one repeat financial request after a local normalization failure; SEC CIK lookups are separately counted in sec_probe_manifest.json."
+}

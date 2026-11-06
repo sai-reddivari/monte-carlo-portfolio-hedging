@@ -1,0 +1,1573 @@
+{
+  "created_utc": "2026-11-06T01:48:30.240295+00:00",
+  "source": "FMP",
+  "adjustment": "split_adjusted",
+  "source_price_field": "close",
+  "requested_start": "2010-01-04",
+  "requested_end": "2026-11-04",
+  "calendar": "XNYS",
+  "calendar_package": "exchange_calendars",
+  "calendar_version": "4.13.2",
+  "expected_sessions": 4236,
+  "selected_names": 50,
+  "universe_asof_snapshot": {
+    "provider": "FMP",
+    "endpoint": "company-screener",
+    "parameters": {
+      "sector": "Financial Services",
+      "country": "US",
+      "exchange": "NYSE,NASDAQ",
+      "isEtf": "false",
+      "isFund": "false",
+      "isActivelyTrading": "true",
+      "limit": 100
+    },
+    "retrieved_utc": "2026-11-06T01:40:13.920118+00:00",
+    "historical_completeness_validated": false
+  },
+  "universe_type": "fixed CURRENT survivor snapshot; NOT historical point-in-time membership",
+  "selection_rule": "Preserve required core10 issuer IDs, then descending current marketCap, volume and symbol; US active Financial Services, nonETF/nonfund common-symbol pattern, marketCap>=2bn, current daily volume>=250000; deduplicate current issuer names.",
+  "data_availability_does_not_define_historical_membership": true,
+  "missing_values_filled": false,
+  "failed_symbols_dropped": false,
+  "incomplete_names_dropped": false,
+  "historical_membership_status": "FMP historical-sp500-constituent HTTP402 entitlement_denied",
+  "survivorship_safe_generalization_gate_passed": false,
+  "historical_option_quotes_verified": false,
+  "dividend_cashflows_included": false,
+  "request_attempts_in_this_client": 40,
+  "coverage": [
+    {
+      "stable_id": "JPM",
+      "source_symbol": "JPM",
+      "request_attempts": 0,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "PNC",
+      "source_symbol": "PNC",
+      "request_attempts": 0,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "GS",
+      "source_symbol": "GS",
+      "request_attempts": 0,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "BAC",
+      "source_symbol": "BAC",
+      "request_attempts": 0,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "WFC",
+      "source_symbol": "WFC",
+      "request_attempts": 0,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "C",
+      "source_symbol": "C",
+      "request_attempts": 0,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "USB",
+      "source_symbol": "USB",
+      "request_attempts": 0,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "MS",
+      "source_symbol": "MS",
+      "request_attempts": 0,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "SCHW",
+      "source_symbol": "SCHW",
+      "request_attempts": 0,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "BK",
+      "source_symbol": "BNY",
+      "request_attempts": 0,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "BRK-B",
+      "source_symbol": "BRK-B",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "V",
+      "source_symbol": "V",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "MA",
+      "source_symbol": "MA",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "AXP",
+      "source_symbol": "AXP",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "BLK",
+      "source_symbol": "BLK",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "BX",
+      "source_symbol": "BX",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "SPGI",
+      "source_symbol": "SPGI",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "PGR",
+      "source_symbol": "PGR",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "IBKR",
+      "source_symbol": "IBKR",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "COF",
+      "source_symbol": "COF",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "CME",
+      "source_symbol": "CME",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "MRSH",
+      "source_symbol": "MRSH",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "ICE",
+      "source_symbol": "ICE",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "MCO",
+      "source_symbol": "MCO",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "KKR",
+      "source_symbol": "KKR",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_partial",
+      "observations": 4233,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 3,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 3,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "BAM",
+      "source_symbol": "BAM",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_partial",
+      "observations": 985,
+      "first_observed_date": "2022-12-01",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 3251,
+      "leading_missing_sessions": 3251,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "TRV",
+      "source_symbol": "TRV",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "AJG",
+      "source_symbol": "AJG",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "APO",
+      "source_symbol": "APO",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_partial",
+      "observations": 3924,
+      "first_observed_date": "2011-03-30",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 312,
+      "leading_missing_sessions": 312,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "ALL",
+      "source_symbol": "ALL",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "MET",
+      "source_symbol": "MET",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "AFL",
+      "source_symbol": "AFL",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "HOOD",
+      "source_symbol": "HOOD",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_partial",
+      "observations": 1324,
+      "first_observed_date": "2021-07-29",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 2912,
+      "leading_missing_sessions": 2912,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "TFC",
+      "source_symbol": "TFC",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "NDAQ",
+      "source_symbol": "NDAQ",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "PYPL",
+      "source_symbol": "PYPL",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_partial",
+      "observations": 2852,
+      "first_observed_date": "2015-07-06",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 1384,
+      "leading_missing_sessions": 1384,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "FITB",
+      "source_symbol": "FITB",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "MSCI",
+      "source_symbol": "MSCI",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "STT",
+      "source_symbol": "STT",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "AMP",
+      "source_symbol": "AMP",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "ARES",
+      "source_symbol": "ARES",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_partial",
+      "observations": 3147,
+      "first_observed_date": "2014-05-02",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 1089,
+      "leading_missing_sessions": 1089,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "AIG",
+      "source_symbol": "AIG",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "PRU",
+      "source_symbol": "PRU",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "RKT",
+      "source_symbol": "RKT",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_partial",
+      "observations": 1570,
+      "first_observed_date": "2020-08-06",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 2666,
+      "leading_missing_sessions": 2666,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "HIG",
+      "source_symbol": "HIG",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "COIN",
+      "source_symbol": "COIN",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_partial",
+      "observations": 1398,
+      "first_observed_date": "2021-04-14",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 2838,
+      "leading_missing_sessions": 2838,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "MTB",
+      "source_symbol": "MTB",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "RJF",
+      "source_symbol": "RJF",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "HBAN",
+      "source_symbol": "HBAN",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    },
+    {
+      "stable_id": "NTRS",
+      "source_symbol": "NTRS",
+      "request_attempts": 1,
+      "historical_membership_verified": false,
+      "status": "observed_full",
+      "observations": 4236,
+      "first_observed_date": "2010-01-04",
+      "last_observed_date": "2026-11-04",
+      "missing_expected_sessions": 0,
+      "leading_missing_sessions": 0,
+      "internal_missing_sessions": 0,
+      "trailing_missing_sessions": 0,
+      "unexpected_dates": 0
+    }
+  ],
+  "source_metadata": {
+    "JPM": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "JPM",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:39:06.279681+00:00",
+      "retrieval": "cache",
+      "cache_id": "b96175642a128dae21ac13fb143886834642e949d72ef5fb7c3b4f117a4cf2ad",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "PNC": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "PNC",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:39:06.723314+00:00",
+      "retrieval": "cache",
+      "cache_id": "c60b8c7b2672a81dac1f54478c1c6d52dd15da890ebb742c01ddefe59f911e09",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "GS": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "GS",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:39:07.201918+00:00",
+      "retrieval": "cache",
+      "cache_id": "ef86b90c516aba6404404fc8f5a8282c8b6d9cb80a93a1c3810e38f1fc2a49c3",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "BAC": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "BAC",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:44:29.318765+00:00",
+      "retrieval": "cache",
+      "cache_id": "cc2c246e913fa48b5bca5f2e52a8aaf27529b0f166a2fa5f275bb1949e78f36b",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "WFC": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "WFC",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:44:29.722683+00:00",
+      "retrieval": "cache",
+      "cache_id": "e1e9227a2aaec0c12950dae69b05109911416d528d405a76e832c420e4832115",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "C": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "C",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:44:30.380592+00:00",
+      "retrieval": "cache",
+      "cache_id": "340d15d6fa6485afcc5fa1e393945a343881be9672b9fd942ac97b65d9e199c6",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "USB": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "USB",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:44:31.040746+00:00",
+      "retrieval": "cache",
+      "cache_id": "19daec7469ffe7d19f615aedac8297e407b1dcd7f98581b5f181b070c674e710",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "MS": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "MS",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:44:31.583994+00:00",
+      "retrieval": "cache",
+      "cache_id": "be440f06de759a19bb56900b0daa699e4dcd3691a05937c94e032d4919e1199f",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "SCHW": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "SCHW",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:44:35.249459+00:00",
+      "retrieval": "cache",
+      "cache_id": "3f6f723ad20a61c4f16a3803b163cb877ca388d446825686b92b30c2c8ac5768",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "BK": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "BNY",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:45:46.255069+00:00",
+      "retrieval": "cache",
+      "cache_id": "5de9c122d492e5f5808ac1d14c446a8a2b3423e08768da85afcab77c9ae700ee",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "BRK-B": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "BRK-B",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:47:58.650618+00:00",
+      "retrieval": "live",
+      "cache_id": "8d58092032eeb3e2989e609111671beb965e72478dc2ea116b926d7ca7b7c056",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "V": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "V",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:47:59.488445+00:00",
+      "retrieval": "live",
+      "cache_id": "9d8641263e005cb34477a6ee0e079111f12d6215c7b47dd9f43162ebe641b460",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "MA": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "MA",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:00.488310+00:00",
+      "retrieval": "live",
+      "cache_id": "e55956ac9175185ec1d92ad74e687b5836a0f12fcadfc4d9c46035c82663d963",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "AXP": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "AXP",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:01.238085+00:00",
+      "retrieval": "live",
+      "cache_id": "2954a8b024cbee56dcbad9a1176cd7e6e587d6be0cf3305dd89e438470a66e49",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "BLK": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "BLK",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:02.090268+00:00",
+      "retrieval": "live",
+      "cache_id": "c24963ff1c349c21f93421510dfe4d74c9f67d571590a23aee9f80485c2e39d6",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "BX": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "BX",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:03.438845+00:00",
+      "retrieval": "live",
+      "cache_id": "85cfa18a6705c87ed2436aed328e73dcfc9d2481961ab23785d002a10b5655b9",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "SPGI": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "SPGI",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:05.437188+00:00",
+      "retrieval": "live",
+      "cache_id": "8591ea0167fccf4d2afb825f7d938f44e87d730bd97e77a8eef0e6732701cf63",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "PGR": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "PGR",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:06.149999+00:00",
+      "retrieval": "live",
+      "cache_id": "283257705d9ff76afaf6b4faba4139b5f7b1b0e5b3c882d385f37fb1c8151b9c",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "IBKR": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "IBKR",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:06.870111+00:00",
+      "retrieval": "live",
+      "cache_id": "7dc776f49a5d24e3ff089bb85986edf037dbec5be587677f2c29fcff48b5243b",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "COF": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "COF",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:07.532445+00:00",
+      "retrieval": "live",
+      "cache_id": "55b63ec2adbfc3ed5f16b162091253f1cdde03f12588c940791b0fc8e65c154e",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "CME": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "CME",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:08.233452+00:00",
+      "retrieval": "live",
+      "cache_id": "52a8a039999f75ae96537d16dfba78475006fb742deb93a1f7834e696910eee7",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "MRSH": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "MRSH",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:09.526038+00:00",
+      "retrieval": "live",
+      "cache_id": "362f5e62a55a16ab8a1650b5015d4698e6de19262fa1fb225facfefae4e66d93",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "ICE": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "ICE",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:10.218154+00:00",
+      "retrieval": "live",
+      "cache_id": "f41d0fc63926ac9f20255ed97b24d58e2228c8205f3b46de0b00e116f10292ed",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "MCO": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "MCO",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:10.891043+00:00",
+      "retrieval": "live",
+      "cache_id": "f2c83102ea32487ca9220b9216b1e7d1ec11e40a5bafc13622c8d9d1e35ab425",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "KKR": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "KKR",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:11.704073+00:00",
+      "retrieval": "live",
+      "cache_id": "54fa36194d0ad69a4c90bb1794bad2eb96f5f7f4ba5808063ef3ba4a660e6096",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "BAM": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "BAM",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:12.265763+00:00",
+      "retrieval": "live",
+      "cache_id": "99c8c4d19687df47bb3d1ac08b5b4d3582d05054a179d0c9180e75ee4db79d4c",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "TRV": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "TRV",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:12.940881+00:00",
+      "retrieval": "live",
+      "cache_id": "3cefbaf36776cd59c534f873b556311449038ddc33b12487faacd24546eb7964",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "AJG": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "AJG",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:13.628979+00:00",
+      "retrieval": "live",
+      "cache_id": "8ed25b30f5c578c803897b47eb5456cbadb454fac9a5dbd4d80a37aac3df12e2",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "APO": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "APO",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:14.306076+00:00",
+      "retrieval": "live",
+      "cache_id": "baa48b1ae24105b5b3eb379a5eaa17cfe91160e7f2fd1c3a0135a20dcf27907a",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "ALL": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "ALL",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:14.999695+00:00",
+      "retrieval": "live",
+      "cache_id": "bfe1f5f25a3871bba14d789e1f0a507f003d24996b3eb1a397f37ed2d19cbedf",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "MET": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "MET",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:15.686171+00:00",
+      "retrieval": "live",
+      "cache_id": "ed3b47c6fbaebdaebd8e974707292313c7e6e482c2ce86b8810eef8fbab85e62",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "AFL": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "AFL",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:16.359320+00:00",
+      "retrieval": "live",
+      "cache_id": "e270baa63d605045a87be5673893b24a18c6f19e143a8f6194d82b9f158f7d44",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "HOOD": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "HOOD",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:16.944232+00:00",
+      "retrieval": "live",
+      "cache_id": "b9759160dfb917918bede08a7c04221660894aee18ba922592ade7ca3dee3641",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "TFC": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "TFC",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:17.630411+00:00",
+      "retrieval": "live",
+      "cache_id": "1dd1045e8f614d57401bc31dec10952afe958584793eb57d95f395a786f672bc",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "NDAQ": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "NDAQ",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:18.323162+00:00",
+      "retrieval": "live",
+      "cache_id": "4590eb8a34c9c28b456a7c2f254a9db2f47534e7373291986fa61635ac3a5a4c",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "PYPL": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "PYPL",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:18.944001+00:00",
+      "retrieval": "live",
+      "cache_id": "269f91767cb5054be8f221436f0fdd1ca81895f171f260096a8f679963153db4",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "FITB": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "FITB",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:19.793044+00:00",
+      "retrieval": "live",
+      "cache_id": "599a2a4a015fca454de94b4e72898b9037aad35ae7d7b6b4f8bf122bade7d83a",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "MSCI": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "MSCI",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:20.583113+00:00",
+      "retrieval": "live",
+      "cache_id": "78ae98b6dc524e78bf1e42e8cb26ffb04939a464f1703dec79098e4ea5cf422f",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "STT": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "STT",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:21.318010+00:00",
+      "retrieval": "live",
+      "cache_id": "c614123db97df7e5e925b0882ca3b212456141353a36b7c7af67506f95c6e00c",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "AMP": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "AMP",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:21.994154+00:00",
+      "retrieval": "live",
+      "cache_id": "2d938262ee609d1c12eb487b191e9e6096b908d207d4aa3c6f431bf618a3aba8",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "ARES": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "ARES",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:22.650134+00:00",
+      "retrieval": "live",
+      "cache_id": "1510efdd3537f150eb872403ef0ac2632d52bfbd12e45a2bde798db6281c8366",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "AIG": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "AIG",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:23.371001+00:00",
+      "retrieval": "live",
+      "cache_id": "f4fa1dd5d567c51cccef2a398d95d5f97f14322df5229e9fa46b652285af23e2",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "PRU": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "PRU",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:24.084777+00:00",
+      "retrieval": "live",
+      "cache_id": "553bbf39c7a92158634342bbd34ea6ce93e24b1706fab09d2d8ff077c339365a",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "RKT": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "RKT",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:24.677832+00:00",
+      "retrieval": "live",
+      "cache_id": "0e37b584ead8510ef75b29b7321e6e75f1151c9b31176ef55a36df68234447da",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "HIG": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "HIG",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:25.369630+00:00",
+      "retrieval": "live",
+      "cache_id": "e03b92e166d6012764efb5a0b1d0345aaa32bd13e4287067b43a65edd80140c4",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "COIN": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "COIN",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:25.944526+00:00",
+      "retrieval": "live",
+      "cache_id": "590f5dc917a1d740c68f7d6d21db0ebeedf5c50a644d2b76c4f17f0988c49849",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "MTB": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "MTB",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:26.616646+00:00",
+      "retrieval": "live",
+      "cache_id": "d52a7ceb8baa2c84b1e21d7930eb973e747433e40ebfeb7e7e2c4ee02f938784",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "RJF": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "RJF",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:27.318017+00:00",
+      "retrieval": "live",
+      "cache_id": "31283a7c9acec7fcc92e3f160debb958036bb4ce573befe49109efd8e0181498",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "HBAN": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "HBAN",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:28.009095+00:00",
+      "retrieval": "live",
+      "cache_id": "a4b739f50017468b12bcbaf216eaabaa917aa7fdc9fe2a38fd07b6fd93b6919a",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "NTRS": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "NTRS",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:48:28.859101+00:00",
+      "retrieval": "live",
+      "cache_id": "b3f9e458cddaad51f44a47d946241c2da59aadb77ca4fd20b8f93613cbdefdb6",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    }
+  },
+  "files": {
+    "prices": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_financial_50_unbalanced.csv",
+      "sha256": "3c741f3b68ba859c8f733cff63f949abf8db624b9a883f9bc25ee9499ca6ae94"
+    },
+    "availability": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_financial_50_availability.csv",
+      "sha256": "16295ad59a60205738475a511113648225b07a0f210d86a204afc92c868a934d"
+    },
+    "coverage": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/financial_50_coverage.csv",
+      "sha256": "bcf6fceeb0cf407d6fcdf8cec21e9afa55f90efd5ca2370fdcffddc43f4f23be"
+    },
+    "universe": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/financial_50_universe.csv",
+      "sha256": "998c8e7be9058ee4b59fe920f9eec05ededc9acbc8c9b40f2612917e954374c7"
+    }
+  },
+  "limitations": [
+    "Current-sector classification, market cap and volume are not point-in-time historical eligibility.",
+    "The bounded100-name source snapshot is not a complete historical financial-sector universe.",
+    "First observed price is data availability, not a verified IPO date or historical membership start.",
+    "Current issuer-name deduplication does not validate every historical merger/spinoff/symbol reassignment.",
+    "All selected columns and unavailable dates are retained; downstream balanced subsets must disclose exclusions explicitly."
+  ],
+  "prior_identifier_resolution_requests": 1,
+  "total_breadth_live_request_attempts": 41,
+  "total_breadth_request_budget": 50,
+  "historical_options_status": "vendor_documented_unavailable",
+  "historical_options_source": "https://site.financialmodelingprep.com/faqs"
+}

@@ -1,0 +1,61 @@
+case,window,policy,stage,item,hand,ledger,residual
+validation_long_downside,validation-008,long_put_k90_b2,inception,stock cash flow,-49361636.260000005,-49361636.260000005,0.0
+validation_long_downside,validation-008,long_put_k90_b2,inception,option premium cash flow,-658042.9762757048,-658042.9762757035,-1.280568540096283e-09
+validation_long_downside,validation-008,long_put_k90_b2,inception,stock cost,64021.59762,64021.59761999999,7.275957614183426e-12
+validation_long_downside,validation-008,long_put_k90_b2,inception,cash,49916299.16610429,49916299.16610429,0.0
+validation_long_downside,validation-008,long_put_k90_b2,inception,nav,99935978.40238,99935978.40237999,1.4901161193847656e-08
+validation_long_downside,validation-008,long_put_k90_b2,adverse 2020-01-31,cash,50067067.62079259,50067067.62079258,7.450580596923828e-09
+validation_long_downside,validation-008,long_put_k90_b2,adverse 2020-01-31,stock value,43681428.55,43681428.55,0.0
+validation_long_downside,validation-008,long_put_k90_b2,adverse 2020-01-31,option value,1843929.6792507279,1843929.6792507307,-2.7939677238464355e-09
+validation_long_downside,validation-008,long_put_k90_b2,adverse 2020-01-31,nav,95592425.85004331,95592425.85004331,0.0
+validation_long_downside,validation-008,long_put_k90_b2,expiry,option settlement,29558854.5,29558854.5,0.0
+validation_long_downside,validation-008,long_put_k90_b2,expiry,stock proceeds,21110136.63000001,21110136.630000003,7.450580596923828e-09
+validation_long_downside,validation-008,long_put_k90_b2,expiry,stock cost,36924.653045,36924.65304500001,-7.275957614183426e-12
+validation_long_downside,validation-008,long_put_k90_b2,expiry,terminal nav,101050032.78990196,101050032.78990194,1.4901161193847656e-08
+validation_long_downside,validation-008,long_put_k90_b2,expiry,total interest,501667.1468426585,501667.14684266655,-8.032657206058502e-09
+validation_long_downside,validation-008,long_put_k90_b2,roll,"next window opens with common capital, not prior NAV",100000000.0,100000000.0,0.0
+validation_short_upside,validation-009,short_call_k110_b1,inception,stock cash flow,-46618657.44000001,-46618657.44,-1.4901161193847656e-08
+validation_short_upside,validation-009,short_call_k110_b1,inception,option premium cash flow,-231941.7916811699,-231941.79168117003,1.1641532182693481e-10
+validation_short_upside,validation-009,short_call_k110_b1,inception,stock cost,62897.33013,62897.33013000001,-7.275957614183426e-12
+validation_short_upside,validation-009,short_call_k110_b1,inception,cash,53086503.43818881,53086503.43818883,-1.4901161193847656e-08
+validation_short_upside,validation-009,short_call_k110_b1,inception,nav,99937102.66987,99937102.66986999,1.4901161193847656e-08
+validation_short_upside,validation-009,short_call_k110_b1,adverse 2020-05-13,cash,53314505.250682704,53314505.25068272,-1.4901161193847656e-08
+validation_short_upside,validation-009,short_call_k110_b1,adverse 2020-05-13,stock value,45417242.530000016,45417242.53,1.4901161193847656e-08
+validation_short_upside,validation-009,short_call_k110_b1,adverse 2020-05-13,option value,250501.07530873697,250501.07530873694,2.9103830456733704e-11
+validation_short_upside,validation-009,short_call_k110_b1,adverse 2020-05-13,nav,98982248.85599145,98982248.85599145,0.0
+validation_short_upside,validation-009,short_call_k110_b1,expiry,option settlement,735223.8999999996,735223.8999999996,0.0
+validation_short_upside,validation-009,short_call_k110_b1,expiry,stock proceeds,51812572.30999999,51812572.309999995,-7.450580596923828e-09
+validation_short_upside,validation-009,short_call_k110_b1,expiry,stock cost,75544.96174500001,75544.96174500001,0.0
+validation_short_upside,validation-009,short_call_k110_b1,expiry,terminal nav,106092282.91591185,106092282.91591185,0.0
+validation_short_upside,validation-009,short_call_k110_b1,expiry,total interest,533528.2294680551,533528.2294680597,-4.6566128730773926e-09
+validation_short_upside,validation-009,short_call_k110_b1,roll,"next window opens with common capital, not prior NAV",100000000.0,100000000.0,0.0
+test_long_downside,test-005,long_put_k90_b2,inception,stock cash flow,-50332660.34,-50332660.34,0.0
+test_long_downside,test-005,long_put_k90_b2,inception,option premium cash flow,-492647.904169281,-492647.90416927985,-1.1641532182693481e-09
+test_long_downside,test-005,long_put_k90_b2,inception,stock cost,65002.124930000005,65002.12493,7.275957614183426e-12
+test_long_downside,test-005,long_put_k90_b2,inception,cash,49109689.63090071,49109689.63090072,-7.450580596923828e-09
+test_long_downside,test-005,long_put_k90_b2,inception,nav,99934997.87507,99934997.87506999,1.4901161193847656e-08
+test_long_downside,test-005,long_put_k90_b2,adverse 2022-06-30,cash,49579635.24486009,49579635.244860075,1.4901161193847656e-08
+test_long_downside,test-005,long_put_k90_b2,adverse 2022-06-30,stock value,41523483.16,41523483.160000004,-7.450580596923828e-09
+test_long_downside,test-005,long_put_k90_b2,adverse 2022-06-30,option value,2281850.9806179805,2281850.9806179805,0.0
+test_long_downside,test-005,long_put_k90_b2,adverse 2022-06-30,nav,93384969.38547806,93384969.38547806,0.0
+test_long_downside,test-005,long_put_k90_b2,expiry,option settlement,2130700.5,2130700.5,0.0
+test_long_downside,test-005,long_put_k90_b2,expiry,stock proceeds,42023398.61,42023398.61,0.0
+test_long_downside,test-005,long_put_k90_b2,expiry,stock cost,54583.126615,54583.126615,0.0
+test_long_downside,test-005,long_put_k90_b2,expiry,terminal nav,93702766.20052789,93702766.20052788,1.4901161193847656e-08
+test_long_downside,test-005,long_put_k90_b2,expiry,total interest,493560.58624218404,493560.58624218765,-3.6088749766349792e-09
+test_long_downside,test-005,long_put_k90_b2,roll,"next window opens with common capital, not prior NAV",100000000.0,100000000.0,0.0
+test_short_upside,test-017,short_call_k110_b1,inception,stock cash flow,-52885573.51,-52885573.51,0.0
+test_short_upside,test-017,short_call_k110_b1,inception,option premium cash flow,-649742.4415083736,-649742.4415083736,0.0
+test_short_upside,test-017,short_call_k110_b1,inception,stock cost,70316.760235,70316.76023500001,-1.4551915228366852e-11
+test_short_upside,test-017,short_call_k110_b1,inception,cash,46394367.28825663,46394367.28825663,0.0
+test_short_upside,test-017,short_call_k110_b1,inception,nav,99929683.239765,99929683.239765,0.0
+test_short_upside,test-017,short_call_k110_b1,adverse 2025-04-10,cash,46401732.05803056,46401732.05803055,7.450580596923828e-09
+test_short_upside,test-017,short_call_k110_b1,adverse 2025-04-10,stock value,50413388.97,50413388.97,0.0
+test_short_upside,test-017,short_call_k110_b1,adverse 2025-04-10,option value,442219.6456605389,442219.64566053945,-5.238689482212067e-10
+test_short_upside,test-017,short_call_k110_b1,adverse 2025-04-10,nav,97257340.6736911,97257340.67369108,1.4901161193847656e-08
+test_short_upside,test-017,short_call_k110_b1,expiry,option settlement,2744397.9999999986,2744397.9999999986,0.0
+test_short_upside,test-017,short_call_k110_b1,expiry,stock proceeds,65754726.83000001,65754726.830000006,7.450580596923828e-09
+test_short_upside,test-017,short_call_k110_b1,expiry,stock cost,88214.835795,88214.83579499998,2.9103830456733704e-11
+test_short_upside,test-017,short_call_k110_b1,expiry,terminal nav,115271548.42547287,115271548.42547286,1.4901161193847656e-08
+test_short_upside,test-017,short_call_k110_b1,expiry,total interest,466271.1430112347,466271.14301123994,-5.238689482212067e-09
+test_short_upside,test-017,short_call_k110_b1,roll,"next window opens with common capital, not prior NAV",100000000.0,100000000.0,0.0

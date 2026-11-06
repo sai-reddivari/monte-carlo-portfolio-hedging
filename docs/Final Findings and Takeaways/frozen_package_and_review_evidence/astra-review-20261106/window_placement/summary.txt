@@ -1,0 +1,26 @@
+Astra window phase diagnostic
+
+Status: completed post-hoc descriptive sensitivity, not a new confirmatory test.
+Frozen diagnostic protocol SHA256: 057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0.
+Original frozen Stage6 protocol: 18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6.
+
+Before evaluation, fixed offsets [0,5,21,42] trading sessions from each split's original first eligible execution date. Reused the original selected8 policies, data,63-session horizon,1-session decision lag, valuation/sizing rules, capital and budgets. Rolling estimates were recomputed past-only at shifted decision dates; no policies were reselected. Each offset uses separate accounts and split-contained windows. Offsets are overlapping alternative partitions and must not be pooled into additional observations.
+
+Executed1936 policy/window replays in60.7seconds. Every existing per-window accounting check passed. Offset0 reproduced all saved selected-policy summaries exactly for n_windows,tail_windows,ES,mean P&L,upside retained and downside capture. Frozen data and source hashes matched before and after the diagnostic. The diagnostic used the existing engine; this is not an independent ledger implementation.
+
+Counts by offset0,5,21,42: train27,27,27,27; validation11,11,11,11; test23,23,22,22. Test tail count remains6, validation3, training7. Different offsets can drop different end-of-split periods, so this changes both option timing and included observations; it does not isolate a pure maturity-date effect.
+
+Key descriptive findings (percentage points of initial capital):
+- Long-put validation ES reduction against unhedged:10.351,7.042,7.219,2.229.
+- Long-put validation ES reduction against reduced75:7.005,4.098,4.096,-0.230. The originally large advantage over simple exposure reduction changes sign at the42-session offset.
+- Long-put test ES reduction against unhedged:0.580,1.207,0.810,0.164.
+- Long-put test ES reduction against reduced75:-1.241,-0.998,-1.302,-1.369. Puts have higher tail losses than reduced75 at all four offsets but also retain more upside; this is not evidence of dominance.
+- Long-put test upside retained:93.4%,91.7%,93.9%,89.9%.
+- Sector-put test ES reduction against unhedged:0.222,0.488,0.014,-0.111, changing sign at42sessions.
+- Risk-informed put test ES reduction:0.290,0.608,0.405,0.082.
+- Collar test ES reduction:3.373,5.422,4.774,2.733. This does not remove its upside sacrifice, exposure changes or budget sensitivity.
+- Purchased calls protecting the short sleeve worsen whole-book test tail losses at each offset by0.237,0.278,0.253,0.245. Side-specific usefulness remains a different estimand.
+
+Interpretation: the validation protection benefit is materially dependent on the window partition; a fixed original protocol protects against selecting a favorable offset but not against phase sensitivity. The findings strengthen the case for reporting all planned date shifts in the next protocol. They do not prove COVID benefits were an accounting artifact, prove puts worthless, or authorize selecting the most favorable offset. No new intervals or significance tests were calculated.
+
+Files: diagnostic_protocol.json,diagnostic_protocol.sha256,pre_run_commitment.json,run_diagnostic.py,summary.csv,comparisons.csv,window_records.csv,window_counts.csv,checks.csv,completion.json.

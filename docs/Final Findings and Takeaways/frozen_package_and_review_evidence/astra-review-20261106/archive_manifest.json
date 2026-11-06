@@ -1,0 +1,118 @@
+{
+  "kind": "unaltered_archive_of_external_astra_review_evidence",
+  "archived_utc": "2026-11-06T03:30:09.059426+00:00",
+  "original_hashes_preserved": true,
+  "files": {
+    "accounting/astra_overlay_independent_portable.py": {
+      "sha256": "1026f5d2a499ae3a9523b9c3e23d68939cc6d00ee1e79b7f89c8475030e06cb2",
+      "original_path": "/tmp/astra_overlay_independent_portable.py",
+      "bytes": 14462
+    },
+    "accounting/verified_outputs/audit_summary.json": {
+      "sha256": "42f7e9560301e21c4f22f22b66831bab3031271d2d635da92ccb37d6c72aadeb",
+      "original_path": "/tmp/astra_overlay_portable_audit/audit_summary.json",
+      "bytes": 2165
+    },
+    "accounting/verified_outputs/terminal_cash_components.csv": {
+      "sha256": "61be9a70866a7784925e2865c88f94c63f7adb3e4be741bb0fe471dba7438aed",
+      "original_path": "/tmp/astra_overlay_portable_audit/terminal_cash_components.csv",
+      "bytes": 197264
+    },
+    "accounting/verified_outputs/terminal_pnl_reconstruction.csv": {
+      "sha256": "dc887852af3bf0dd01e35faa05195fb5948d88e4ddcfb34e26786feae536d453",
+      "original_path": "/tmp/astra_overlay_portable_audit/terminal_pnl_reconstruction.csv",
+      "bytes": 168482
+    },
+    "statistical_review/collar_initial_exposure_reconstruction.csv": {
+      "sha256": "fe9ae7e49f42ed3f81f9ff3578a1451ada385a919942856dc1e625de76a7a307",
+      "original_path": "/tmp/astra_statistical_review/collar_initial_exposure_reconstruction.csv",
+      "bytes": 2856
+    },
+    "statistical_review/collar_signed_legs_reconstruction.csv": {
+      "sha256": "ca507ad58887ae9dae1afc96634a04770d484e6086b01db0150c0b6f9358a3f8",
+      "original_path": "/tmp/astra_statistical_review/collar_signed_legs_reconstruction.csv",
+      "bytes": 37132
+    },
+    "statistical_review/diagnostic.py": {
+      "sha256": "5816986e9ab6ab6fbdc1548882e82d2b1bad05b7b2a095b879b7a0003b7c075c",
+      "original_path": "/tmp/astra_statistical_review/diagnostic.py",
+      "bytes": 9556
+    },
+    "statistical_review/metadata.json": {
+      "sha256": "4c7f0ee307ed67c20ac0ae0f7cc31d0592785812003d9397ce3ae739b5645d2a",
+      "original_path": "/tmp/astra_statistical_review/metadata.json",
+      "bytes": 3622
+    },
+    "statistical_review/paired_es_diagnostics.csv": {
+      "sha256": "3783e5c8e03452a40e03e82658d75ad8f9e412f6bbb38b3617edc44ba52674d1",
+      "original_path": "/tmp/astra_statistical_review/paired_es_diagnostics.csv",
+      "bytes": 7931
+    },
+    "statistical_review/selected_test_summary.csv": {
+      "sha256": "ffcd0ed00a7b81c84de57b2bce5bd3fbbc7edd24a644b906a3db59fea1f134d9",
+      "original_path": "/tmp/astra_statistical_review/selected_test_summary.csv",
+      "bytes": 4286
+    },
+    "window_placement/checks.csv": {
+      "sha256": "1fd08d2ecc30bd8b5ad6d4fd069af2613a9a20cceab32efd6d0256ee511b4872",
+      "original_path": "/tmp/astra_window_phase_20261106/checks.csv",
+      "bytes": 162302
+    },
+    "window_placement/comparisons.csv": {
+      "sha256": "2fc44a6e0bbb4d3bf2f7930526069d3ba7a31996df7dd0ad8dd7ab2590ed88ec",
+      "original_path": "/tmp/astra_window_phase_20261106/comparisons.csv",
+      "bytes": 11504
+    },
+    "window_placement/completion.json": {
+      "sha256": "64e3faa2d275e9290ac8cefbcbfca6de1895d4cccb435e018b64109762b8c7d2",
+      "original_path": "/tmp/astra_window_phase_20261106/completion.json",
+      "bytes": 961
+    },
+    "window_placement/diagnostic_protocol.json": {
+      "sha256": "057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0",
+      "original_path": "/tmp/astra_window_phase_20261106/diagnostic_protocol.json",
+      "bytes": 9780
+    },
+    "window_placement/diagnostic_protocol.sha256": {
+      "sha256": "96872af06568168e69ce9e65f6a5e0e214ac4de4f133e3de845f155bfc125b73",
+      "original_path": "/tmp/astra_window_phase_20261106/diagnostic_protocol.sha256",
+      "bytes": 65
+    },
+    "window_placement/pre_run_commitment.json": {
+      "sha256": "1a839e0f608d3e3200c37a9cde5871b5db3153437a62a28200b8e5b5bec97dc3",
+      "original_path": "/tmp/astra_window_phase_20261106/pre_run_commitment.json",
+      "bytes": 175
+    },
+    "window_placement/run_diagnostic.py": {
+      "sha256": "02c2f98b57af30baaf39d0665f05d926f4923dce24e03ce2a1cf08d70d57ebc1",
+      "original_path": "/tmp/astra_window_phase_20261106/run_diagnostic.py",
+      "bytes": 6182
+    },
+    "window_placement/summary.csv": {
+      "sha256": "cc01b4334c44ddf96cae877d2e514a86df1a278e43f133a8f8fbd6e1718b9229",
+      "original_path": "/tmp/astra_window_phase_20261106/summary.csv",
+      "bytes": 44611
+    },
+    "window_placement/summary.txt": {
+      "sha256": "4c741c750b8de33a8dbc60519513f822b7a054e438e180659972fee26aa14c1e",
+      "original_path": "/tmp/astra_window_phase_20261106/summary.txt",
+      "bytes": 3358
+    },
+    "window_placement/window_counts.csv": {
+      "sha256": "eb0afeba2b3768f43782c829593ceb91b67cb7867878823b8a7bb16e740826f9",
+      "original_path": "/tmp/astra_window_phase_20261106/window_counts.csv",
+      "bytes": 471
+    },
+    "window_placement/window_records.csv": {
+      "sha256": "1dedddd0fa649fd25f9f7cc2542486123bbe788fc059b02371b377dab15a36ce",
+      "original_path": "/tmp/astra_window_phase_20261106/window_records.csv",
+      "bytes": 886291
+    },
+    "astra_shared_handoff.txt": {
+      "sha256": "846d5a8fdbe4b954dfd8b3295f9535e3bced20a2c46a1f1c6818e41c6e5a63a6",
+      "original_path": "/Users/saireddivari/.codex/attachments/c309b7a6-bd10-4a02-bbd7-08d3096862b1/Pasted text.txt",
+      "bytes": 17080
+    }
+  },
+  "scope": "Review evidence and explicitly post-hoc diagnostics; no experiment output changed; archived scripts may retain original machine paths."
+}

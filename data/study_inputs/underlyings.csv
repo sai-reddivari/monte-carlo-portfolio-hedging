@@ -1,0 +1,4 @@
+underlying_id,symbol,currency,calendar,classification
+JPM,JPM,USD,synthetic_252_session_year,illustrative_label
+PNC,PNC,USD,synthetic_252_session_year,illustrative_label
+GS,GS,USD,synthetic_252_session_year,illustrative_label

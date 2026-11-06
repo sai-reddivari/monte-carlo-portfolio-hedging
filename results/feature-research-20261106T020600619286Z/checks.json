@@ -1,0 +1,12 @@
+{
+  "models_locked_before_test_predictions": true,
+  "fit_scaler_training_only": true,
+  "training_targets_purged_before_validation": true,
+  "validation_targets_purged_before_test": true,
+  "nonoverlap_targets_with_date_clustered_uncertainty": true,
+  "test_hyperparameters_tuned": false,
+  "total_underlying_variance_target": true,
+  "macro_company_layers_admitted": false,
+  "full_stage5_macro_funding_gate_passed": false,
+  "forecast_to_hedge_value_tested": false
+}

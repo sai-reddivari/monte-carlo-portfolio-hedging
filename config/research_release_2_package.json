@@ -1,0 +1,30 @@
+{
+  "kind": "publication_evidence_index_not_an_economic_experiment_protocol",
+  "title": "Financial Sector Hedging Under Trading Costs and Model Uncertainty",
+  "release": "Conditional Research Release 2",
+  "research_gate_2_passed": false,
+  "canonical_runs": {
+    "controlled_release": "results/research-release-1/release-1",
+    "model_replay": "results/model-contract-replay-20261106T014523263280Z",
+    "price_risk": "results/risk-research-20261106T014747676804Z",
+    "incremental_features_original": "results/feature-research-20261106T024225834886Z",
+    "incremental_features": "results/feature-research-20261106T024244836968Z",
+    "conditional_breadth": "results/breadth-20261106T020730752645Z",
+    "equity_overlays": "results/equity-overlays-20261106T023430248130Z"
+  },
+  "review_archive": "results/research-release-2/astra-review-20261106",
+  "publication_summary": "docs/Final Findings and Takeaways/research_release_2_publication.md",
+  "claims_and_errata": "docs/Final Findings and Takeaways/research_release_2_claims_and_errata.md",
+  "overlay_owner_addendum_candidates": [
+    "docs/equity_overlay_review_addendum.md",
+    "docs/overlay_review_addendum.md",
+    "docs/stage6_overlay_review_addendum.md"
+  ],
+  "test_evidence": "reports/release_2_tests.xml",
+  "verification": "reports/release_2_verification.json",
+  "publication_snapshot": "results/research-release-2/release-2",
+  "public_push_performed": false,
+  "human_review": "separate downstream step",
+  "findings_folder": "docs/Final Findings and Takeaways",
+  "packaged_review_evidence": "docs/Final Findings and Takeaways/frozen_package_and_review_evidence"
+}

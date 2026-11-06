@@ -1,0 +1,13 @@
+symbol,observations,first_date,last_date,canonical_series,exchange_calendar_checked,exchange_calendar_validated,calendar,calendar_package,calendar_version,expected_sessions
+JPM,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236
+PNC,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236
+GS,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236
+BAC,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236
+WFC,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236
+C,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236
+USB,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236
+MS,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236
+SCHW,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236
+BK,4236,2010-01-04,2026-11-04,issuer_resolved,True,True,XNYS,exchange_calendars,4.13.2,4236
+SPY,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236
+XLF,4236,2010-01-04,2026-11-04,direct_symbol,True,True,XNYS,exchange_calendars,4.13.2,4236

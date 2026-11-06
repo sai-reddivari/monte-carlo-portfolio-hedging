@@ -1,0 +1,21 @@
+{
+  "input_status": "ILLUSTRATIVE ONLY: JPM/PNC/GS are labels; volatilities, correlation, rates and costs are not calibrated or quoted market observations.",
+  "book": {
+    "names": ["JPM", "PNC", "GS"],
+    "spots": [100.0, 100.0, 100.0],
+    "strikes": [100.0, 100.0, 100.0],
+    "notionals": [100000.0, 100000.0, 100000.0],
+    "pricing_vols": [0.22, 0.28, 0.26],
+    "steps": 63,
+    "sessions_per_year": 252,
+    "rate": 0.04
+  },
+  "scenario": {
+    "path_vols": [0.22, 0.28, 0.26],
+    "correlation": [[1.0, 0.65, 0.70], [0.65, 1.0, 0.55], [0.70, 0.55, 1.0]]
+  },
+  "seed": 20261105,
+  "n_paths": 5000,
+  "cost_grid_bps": [0.0, 1.0, 5.0, 10.0],
+  "hedge_vol_multipliers": [0.8, 1.0, 1.2]
+}

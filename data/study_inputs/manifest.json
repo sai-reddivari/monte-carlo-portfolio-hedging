@@ -1,0 +1,14 @@
+{
+  "source": {
+    "path": "/Users/saireddivari/MonteCarloEvaluations/config/illustrative_study.json",
+    "sha256": "17a3148a1fa6f6826edac8a835b77ae9b940735c7eb76e7b01bb6ca30808694d",
+    "status": "ILLUSTRATIVE ONLY: JPM/PNC/GS are labels; volatilities, correlation, rates and costs are not calibrated or quoted market observations."
+  },
+  "derived_views_only": true,
+  "files_sha256": {
+    "underlyings.csv": "d8a888a18c5cc5a27cb1c3035d2f97a9ac6f9cfa4ad33812c0ec9b5015398e7a",
+    "instruments.csv": "8bda88a84c4bf5fa37bc38e3267235194ccfb0b1615804f81ada2568a8ca4272",
+    "positions.csv": "d48dc7e266cc13fb166f1c661762b2762b0f368650dfb1f3937e217be9a87633",
+    "model_observations.csv": "39d026749be622e81161092c3068e69fdb24de5aaac92887ac1baffdee3d9529"
+  }
+}

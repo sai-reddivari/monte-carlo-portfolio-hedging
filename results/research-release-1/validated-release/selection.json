@@ -1,0 +1,17 @@
+{
+  "selected_policy": "maturity_band_050",
+  "policy": {
+    "kind": "maturity_band",
+    "hedge_every": 1,
+    "band": 0.05,
+    "label": "maturity_band_050"
+  },
+  "selection_scenario_id": "b05bc46ba2ba7d27bc9f2fdeb3269f5947e55b2653cd7fe2b613653fab7d1598",
+  "selection_seed": 730201,
+  "evaluation_seed": 730202,
+  "budget_dollars": 500.0,
+  "budget_screen": "upper endpoint of two-sided normal mean CI",
+  "objective": "minimize_selection_ES95_subject_to_cost_upper_bound",
+  "protocol_sha256": "6bf5148edb3f7b822bc59fc21b60e047205d6daa66fbc2a7676c350bec64b6cb",
+  "locked_before_evaluation_utc": "2026-11-06T01:45:28.688719+00:00"
+}

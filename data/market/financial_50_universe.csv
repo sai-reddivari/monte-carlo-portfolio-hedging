@@ -1,0 +1,51 @@
+symbol,companyName,marketCap,sector,industry,volume,exchange,exchangeShortName,country,isEtf,isFund,isActivelyTrading,stable_id,eligible_sector,eligible_country,eligible_instrument,eligible_common_symbol,eligible_size_liquidity,eligible_before_issuer_deduplication,universe_order
+JPM,JPMorgan Chase & Co.,896713814600,Financial Services,Banks - Diversified,12919661,New York Stock Exchange,NYSE,US,False,False,True,JPM,True,True,True,True,True,True,0
+PNC,"The PNC Financial Services Group, Inc.",90074749800,Financial Services,Banks - Regional,1886581,New York Stock Exchange,NYSE,US,False,False,True,PNC,True,True,True,True,True,True,1
+GS,"The Goldman Sachs Group, Inc.",253013394982,Financial Services,Financial - Capital Markets,3863500,New York Stock Exchange,NYSE,US,False,False,True,GS,True,True,True,True,True,True,2
+BAC,Bank of America Corporation,343354449600,Financial Services,Banks - Diversified,61464357,New York Stock Exchange,NYSE,US,False,False,True,BAC,True,True,True,True,True,True,3
+WFC,Wells Fargo & Company,254556880000,Financial Services,Banks - Diversified,16261912,New York Stock Exchange,NYSE,US,False,False,True,WFC,True,True,True,True,True,True,4
+C,Citigroup Inc.,198743091200,Financial Services,Banks - Diversified,16874147,New York Stock Exchange,NYSE,US,False,False,True,C,True,True,True,True,True,True,5
+USB,U.S. Bancorp,93093487500,Financial Services,Banks - Regional,10477432,New York Stock Exchange,NYSE,US,False,False,True,USB,True,True,True,True,True,True,6
+MS,Morgan Stanley,287759842013,Financial Services,Financial - Capital Markets,10862797,New York Stock Exchange,NYSE,US,False,False,True,MS,True,True,True,True,True,True,7
+SCHW,The Charles Schwab Corporation,160102297200,Financial Services,Financial - Capital Markets,13259214,New York Stock Exchange,NYSE,US,False,False,True,SCHW,True,True,True,True,True,True,8
+BNY,Bank of New York Mellon Corp,99245873510,Financial Services,Investment - Banking & Investment Services,4021775,New York Stock Exchange,NYSE,US,False,False,True,BK,True,True,True,True,True,True,9
+BRK-B,Berkshire Hathaway Inc.,1223929379887,Financial Services,Insurance - Diversified,9771972,New York Stock Exchange,NYSE,US,False,False,True,BRK-B,True,True,True,True,True,True,10
+V,Visa Inc.,789823265402,Financial Services,Financial - Credit Services,14975009,New York Stock Exchange,NYSE,US,False,False,True,V,True,True,True,True,True,True,11
+MA,Mastercard Incorporated,571421868179,Financial Services,Financial - Credit Services,4935954,New York Stock Exchange,NYSE,US,False,False,True,MA,True,True,True,True,True,True,12
+AXP,American Express Company,217909289289,Financial Services,Financial - Credit Services,4573095,New York Stock Exchange,NYSE,US,False,False,True,AXP,True,True,True,True,True,True,13
+BLK,"BlackRock, Inc.",181300795434,Financial Services,Asset Management,905336,New York Stock Exchange,NYSE,US,False,False,True,BLK,True,True,True,True,True,True,14
+BX,Blackstone Inc.,139662071940,Financial Services,Asset Management,10490431,New York Stock Exchange,NYSE,US,False,False,True,BX,True,True,True,True,True,True,15
+SPGI,S&P Global Inc.,136951659000,Financial Services,Financial - Data & Stock Exchanges,1826021,New York Stock Exchange,NYSE,US,False,False,True,SPGI,True,True,True,True,True,True,16
+PGR,The Progressive Corporation,135500898000,Financial Services,Insurance - Property & Casualty,4532143,New York Stock Exchange,NYSE,US,False,False,True,PGR,True,True,True,True,True,True,17
+IBKR,"Interactive Brokers Group, Inc.",127822151187,Financial Services,Investment - Banking & Investment Services,11115057,NASDAQ Global Select,NASDAQ,US,False,False,True,IBKR,True,True,True,True,True,True,18
+COF,Capital One Financial Corporation,125052748970,Financial Services,Financial - Credit Services,5679189,New York Stock Exchange,NYSE,US,False,False,True,COF,True,True,True,True,True,True,19
+CME,CME Group Inc.,109971608364,Financial Services,Financial - Data & Stock Exchanges,2109619,NASDAQ Global Select,NASDAQ,US,False,False,True,CME,True,True,True,True,True,True,20
+MRSH,"Marsh & McLennan Companies, Inc.",99942355857,Financial Services,Insurance - Brokers,3132642,New York Stock Exchange,NYSE,US,False,False,True,MRSH,True,True,True,True,True,True,21
+ICE,"Intercontinental Exchange, Inc.",97241367690,Financial Services,Financial - Data & Stock Exchanges,3549503,New York Stock Exchange,NYSE,US,False,False,True,ICE,True,True,True,True,True,True,22
+MCO,Moody's Corporation,88857026418,Financial Services,Financial - Data & Stock Exchanges,1176025,New York Stock Exchange,NYSE,US,False,False,True,MCO,True,True,True,True,True,True,23
+KKR,KKR & Co. Inc.,88237618800,Financial Services,Asset Management,7263117,New York Stock Exchange,NYSE,US,False,False,True,KKR,True,True,True,True,True,True,24
+BAM,Brookfield Asset Management Ltd.,83790704318,Financial Services,Asset Management,3544004,New York Stock Exchange,NYSE,US,False,False,True,BAM,True,True,True,True,True,True,25
+TRV,"The Travelers Companies, Inc.",82570693940,Financial Services,Insurance - Property & Casualty,2079628,New York Stock Exchange,NYSE,US,False,False,True,TRV,True,True,True,True,True,True,26
+AJG,Arthur J. Gallagher & Co.,73875725650,Financial Services,Insurance - Brokers,2705925,New York Stock Exchange,NYSE,US,False,False,True,AJG,True,True,True,True,True,True,27
+APO,"Apollo Global Management, Inc.",69252977610,Financial Services,Asset Management,6042320,New York Stock Exchange,NYSE,US,False,False,True,APO,True,True,True,True,True,True,28
+ALL,The Allstate Corporation,67442285760,Financial Services,Insurance - Property & Casualty,3331670,New York Stock Exchange,NYSE,US,False,False,True,ALL,True,True,True,True,True,True,29
+MET,"MetLife, Inc.",63388830750,Financial Services,Insurance - Life,3919534,New York Stock Exchange,NYSE,US,False,False,True,MET,True,True,True,True,True,True,30
+AFL,Aflac Incorporated,63289577940,Financial Services,Insurance - Life,2333030,New York Stock Exchange,NYSE,US,False,False,True,AFL,True,True,True,True,True,True,31
+HOOD,"Robinhood Markets, Inc.",62196597587,Financial Services,Financial - Capital Markets,32048618,NASDAQ Global Select,NASDAQ,US,False,False,True,HOOD,True,True,True,True,True,True,32
+TFC,Truist Financial Corporation,59732741600,Financial Services,Banks - Regional,9418480,New York Stock Exchange,NYSE,US,False,False,True,TFC,True,True,True,True,True,True,33
+NDAQ,"Nasdaq, Inc.",59715552651,Financial Services,Financial - Data & Stock Exchanges,4759791,NASDAQ Global Select,NASDAQ,US,False,False,True,NDAQ,True,True,True,True,True,True,34
+PYPL,"PayPal Holdings, Inc.",48975613250,Financial Services,Financial - Credit Services,11180052,NASDAQ Global Select,NASDAQ,US,False,False,True,PYPL,True,True,True,True,True,True,35
+FITB,Fifth Third Bancorp,48473407546,Financial Services,Banks - Regional,8677922,New York Stock Exchange,NYSE,US,False,False,True,FITB,True,True,True,True,True,True,36
+MSCI,MSCI Inc.,47684657000,Financial Services,Financial - Data & Stock Exchanges,1048984,New York Stock Exchange,NYSE,US,False,False,True,MSCI,True,True,True,True,True,True,37
+STT,State Street Corporation,44955455045,Financial Services,Asset Management,2420205,New York Stock Exchange,NYSE,US,False,False,True,STT,True,True,True,True,True,True,38
+AMP,"Ameriprise Financial, Inc.",44215342500,Financial Services,Asset Management,588902,New York Stock Exchange,NYSE,US,False,False,True,AMP,True,True,True,True,True,True,39
+ARES,Ares Management Corporation,43915647916,Financial Services,Asset Management,3410547,New York Stock Exchange,NYSE,US,False,False,True,ARES,True,True,True,True,True,True,40
+AIG,"American International Group, Inc.",42909589466,Financial Services,Insurance - Diversified,4209346,New York Stock Exchange,NYSE,US,False,False,True,AIG,True,True,True,True,True,True,41
+PRU,"Prudential Financial, Inc.",42248700000,Financial Services,Insurance - Life,2679288,New York Stock Exchange,NYSE,US,False,False,True,PRU,True,True,True,True,True,True,42
+RKT,"Rocket Companies, Inc.",41851890207,Financial Services,Financial - Mortgages,51611348,New York Stock Exchange,NYSE,US,False,False,True,RKT,True,True,True,True,True,True,43
+HIG,"The Hartford Insurance Group, Inc.",36659702595,Financial Services,Insurance - Diversified,1655956,New York Stock Exchange,NYSE,US,False,False,True,HIG,True,True,True,True,True,True,44
+COIN,"Coinbase Global, Inc.",36224930030,Financial Services,Financial - Data & Stock Exchanges,12406976,NASDAQ Global Select,NASDAQ,US,False,False,True,COIN,True,True,True,True,True,True,45
+MTB,M&T Bank Corporation,31739804524,Financial Services,Banks - Regional,1290124,New York Stock Exchange,NYSE,US,False,False,True,MTB,True,True,True,True,True,True,46
+RJF,"Raymond James Financial, Inc.",31661922000,Financial Services,Asset Management,1255840,New York Stock Exchange,NYSE,US,False,False,True,RJF,True,True,True,True,True,True,47
+HBAN,Huntington Bancshares Incorporated,31460237900,Financial Services,Banks - Regional,26225604,NASDAQ Global Select,NASDAQ,US,False,False,True,HBAN,True,True,True,True,True,True,48
+NTRS,Northern Trust Corporation,31041814020,Financial Services,Asset Management,1282423,NASDAQ Global Select,NASDAQ,US,False,False,True,NTRS,True,True,True,True,True,True,49

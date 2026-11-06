@@ -1,0 +1,5 @@
+# Additional trusted CA bundle for live FMP HTTPS; base scientific packages are
+# declared in requirements-harness.txt. TLS certificate verification stays on.
+certifi>=2024.2.2
+# Versioned exchange sessions distinguish holidays from missing price records.
+exchange_calendars>=4.13.2

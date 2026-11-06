@@ -1,0 +1,14 @@
+{
+  "gate": "research_gate_1",
+  "status": "complete",
+  "human_review": "pending_separate_review",
+  "scope": "controlled synthetic policy-selection study only",
+  "selected_policy": "maturity_band_050",
+  "selected_evaluation_budget_feasible": true,
+  "selection_locked_before_evaluation": true,
+  "selection_lock_sha256": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+  "accounting_checks_passed": true,
+  "tail_uncertainty_reported": true,
+  "peak_financing_reported": true,
+  "market_or_stage7_gate_passed": false
+}

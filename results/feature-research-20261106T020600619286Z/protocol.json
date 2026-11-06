@@ -1,0 +1,94 @@
+{
+  "risk_protocol": {
+    "train_start": "2010-01-04",
+    "train_end": "2017-12-31",
+    "validation_start": "2018-01-01",
+    "validation_end": "2020-12-31",
+    "test_start": "2021-01-01",
+    "test_end": "2026-11-04",
+    "horizons": [
+      5,
+      20
+    ],
+    "lookback": 252,
+    "recent_window": 20,
+    "ewma_lambda": 0.94,
+    "shrinkage": 0.2,
+    "bootstrap_repetitions": 1000,
+    "bootstrap_seed": 730501
+  },
+  "ridge_alphas": [
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "selection_objective": "minimum_validation_mean_QLIKE_per_layer_and_horizon",
+  "fit_rule": "Fit scaler, coefficients and smearing on training rows only; choose alpha on validation; no train+validation refit.",
+  "price_features": [
+    "log_rv_recent",
+    "log_rv_long",
+    "log_ewma",
+    "return_5",
+    "return_20",
+    "negative_return_20"
+  ],
+  "market_sector_increment_features": [
+    "SPY_log_rv_20",
+    "SPY_log_rv_252",
+    "SPY_return_5",
+    "SPY_return_20",
+    "XLF_log_rv_20",
+    "XLF_log_rv_252",
+    "XLF_return_5",
+    "XLF_return_20",
+    "beta_SPY",
+    "beta_XLF",
+    "beta_SPY_return_5",
+    "beta_XLF_return_5"
+  ],
+  "issuer_encoding": "Fixed declared issuer intercepts, first issuer reference.",
+  "target": "Total underlying cumulative next 5/20-session squared log returns; model log daily variance, positive retransformation.",
+  "forecast_timing": "Issued after origin close; fundamentals cutoff at 16:00 New York; subsequent trading must respect executable timing.",
+  "universe": [
+    "JPM",
+    "PNC",
+    "GS",
+    "BAC",
+    "WFC",
+    "C",
+    "USB",
+    "MS",
+    "SCHW",
+    "BK"
+  ],
+  "factor_symbols": [
+    "SPY",
+    "XLF"
+  ],
+  "prices_path": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_core_10.csv",
+  "prices_sha256": "122bd24d6f9279a1d406d56e04ddbdc813dc79c7aa0de6c543e562384398c0dc",
+  "factors_path": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+  "factors_sha256": "1ea1c06f8ed4c6967fa93d3c63ba98463df14f380075881734a1a11fc265bbe3",
+  "feature_audit_sha256": {
+    "/Users/saireddivari/MonteCarloEvaluations/results/feature-audit/coverage.json": "ba43bf5f6ab1de783f1d5c5aa30c38aeeea6cae7fa692dbd2016c3c6dc90d4cf",
+    "/Users/saireddivari/MonteCarloEvaluations/data/market/features/company_feature_fields_long.csv": "31569821045fb9f5aece643cf80b089481cdcb759b6443fe6f31da12d8da9bef",
+    "/Users/saireddivari/MonteCarloEvaluations/data/market/features/treasury_rates_lagged_samples.csv": "0953feb3e552c25c332cc1d00d335ff9c06c8add078c71bdc9e874ec0deee570"
+  },
+  "admission": {
+    "macro_layer_admitted": false,
+    "company_funding_layer_admitted": false,
+    "reason": "No verified original-vintage and publication-available full-history feature layer.",
+    "company_fields": {
+      "observed_rows": 907,
+      "strictly_admissible_rows": 0
+    },
+    "treasury_samples": {
+      "observed_rows": 123,
+      "strictly_admissible_rows": 0
+    }
+  },
+  "frozen_before_model_selection_utc": "2026-11-06T02:06:00.640326+00:00",
+  "scope": "Current-available core names; survivor/PIT-universe conditions unresolved."
+}

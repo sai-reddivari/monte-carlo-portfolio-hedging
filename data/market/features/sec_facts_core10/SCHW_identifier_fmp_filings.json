@@ -1,0 +1,16 @@
+{
+  "source": "FMP actual SEC filing metadata",
+  "study_symbol": "SCHW",
+  "lookup_symbol": "SCHW",
+  "records": [
+    {
+      "symbol": "SCHW",
+      "cik": "0000316709",
+      "filingDate": "2026-11-03 00:00:00",
+      "acceptedDate": "2026-11-03 17:29:28",
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/316709/000187997426000017/0001879974-26-000017-index.htm",
+      "finalLink": "https://www.sec.gov/Archives/edgar/data/316709/000187997426000017/xslF345X06/wk-form4_1793744965.xml"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+**Yes—the reviews are done. I haven’t delivered them to either session. Sorry for letting delivery hold this up. Send this same handoff to both; their separate assignments are at the end.**
+
+```text
+ASTRA REVIEW — SHARED HANDOFF FOR SOL AND OPUS
+
+Repository:
+ /Users/saireddivari/MonteCarloEvaluations
+
+Sai wants a defensible publication-ready research release tonight, including
+mixed, negative or inconclusive findings. Do not tune against exposed test
+results or manufacture a positive headline.
+
+Astra reviewed Sol’s consolidated brief, Opus’s owner feedback, source code
+and frozen outputs, with three independent reviewers. The review is complete.
+Original research code, protocols and frozen result directories were preserved.
+
+DECISION
+
+There is enough evidence for a useful conditional Research Release 2.
+
+Do NOT mark the existing full empirical Research Gate 2 passed. Its missing
+option-market, historical-universe and forecast-to-hedge evidence remains
+missing. Publish progress through the implemented stages with those gates
+explicitly open. Publication readiness and empirical certification are
+different decisions.
+
+Suggested title:
+“Financial Sector Hedging Under Trading Costs and Model Uncertainty”
+
+Suggested central conclusion:
+“A controlled hedging experiment identifies a favorable cost–risk tradeoff.
+Historical extensions show that forecast improvements depend on metric and
+horizon, while model-priced option protection depends materially on pricing,
+exposure and evaluation-window assumptions. Incremental economic hedge value
+remains unestablished.”
+
+That is a finding worth publishing. It is not a claim that options, forecasts
+or funding information have no value.
+
+
+1. WHAT ASTRA INDEPENDENTLY VERIFIED
+
+A. Current combined test suite:
+194 tests passed, plus 22 subtests.
+There were 28 pandas timezone-related deprecation warnings, not failures.
+
+Command:
+MPLBACKEND=Agg MPLCONFIGDIR=/tmp/astra-review-mpl \
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q
+
+B. Independent Stage-6 terminal-accounting reconstruction:
+All 2,013 base-case window-policy outcomes reproduced:
+33 candidates across 61 training/validation/test windows.
+
+The reconstruction used raw prices and the frozen protocol. It independently
+calculated volatility, beta, EWMA ratios, stock holdings, whole-contract sizing,
+option premiums, payoffs, stock costs and financed cash.
+
+It did NOT call the production replay, overlay, risk-model or valuation
+functions and did NOT reuse saved option legs.
+
+Maximum absolute terminal-P&L discrepancy: $1.1921e-7.
+Frozen source, input, configuration and artifact integrity checks passed.
+
+This does not independently certify every intrawindow option mark, drawdown,
+sensitivity run, vendor observation or real-market execution assumption.
+
+C. Statistical reconstruction:
+An independent NumPy implementation reproduced the original paired
+block-bootstrap ES intervals to approximately 1.8e-15.
+
+D. Collar mechanics:
+All 276 test-window collar legs were independently reconstructed.
+Signs are correct; written calls are covered by owned shares.
+Premium and initial-delta calculations reconcile.
+
+
+2. CORRECTIONS BOTH WRITE-UPS MUST USE
+
+Budget:
+“Within a 2% budget” is too strong. It was a nominal annual allowance used for
+decision-time sizing, not an execution-enforced premium cap.
+
+Worst test-window spend/allowance:
+- Long puts: 1.304x.
+- Purchased calls protecting shorts: 2.599x their selected 1% allowance.
+- Sector puts: 1.269x.
+- Collar: 4.125x; validation reached 6.517x.
+- Risk-informed puts: 1.303x.
+
+Do not retrospectively resize positions and replace the original results.
+Execution-time caps belong in a new protocol.
+
+Exposure:
+130% gross/50% net are decision-close targets. Lagged whole-share execution
+produced test inception gross exposure of 126.644%–140.634%.
+Comparisons still share base holdings, so relative accounting remains valid.
+
+Collar:
+Mean initial dollar delta was +50.401% of capital for the unhedged book and
+−5.385% after the collar. This is local option-model delta, not market beta.
+The collar also retained only approximately 13% of unhedged upside.
+
+Say it materially changes exposure and sacrifices upside. Do not claim its
+entire benefit is explained by exposure reduction without further attribution.
+The saved beta field omits option exposure and cannot establish matched total
+portfolio beta across these policies.
+
+ETF:
+The reported 1.73% per-window “cost” is average P&L underperformance versus
+unhedged, including exposure and financing effects. It is not a transaction
+cost or option premium.
+
+Tail statistic:
+Stage 6 averages the worst six of 23 test windows, using a 25% tail fraction
+with ceiling rounding. It is not Gate 1’s ES95.
+Always identify horizon, tail fraction and observation count.
+
+Episodes:
+The “four episodes” are four contiguous clusters of baseline tail windows.
+They are not four demonstrated independent crises.
+
+Drawdown:
+The saved drawdown statistic divides the running-peak NAV dollar decline by
+INITIAL capital, not by the running peak. State that definition.
+
+Short-side calls:
+These are PURCHASED calls protecting short equities, not written calls.
+They worsen whole-book downside ES in this sample while reducing some
+short-sleeve losses. Both statements can be true.
+
+The reported approximately 5.4% sleeve-loss reduction excludes marginal
+premium financing. Including it changes loss capture from 0.946109 to
+0.946695, so the direction survives, but describe the metric correctly.
+
+Forecasts:
+Five-session own-price ridge MSE is 29.3% worse as a POINT ESTIMATE; its paired
+MSE interval includes zero. Twenty-session ridge has favorable pointwise
+intervals for both QLIKE and MSE. Neither establishes improved hedging.
+
+Adverse deposit-share results concern that proxy/model/cohort. They do not
+show that funding vulnerability is irrelevant.
+
+Interpretation:
+Do not write:
+- “Options only pay in fast crashes.”
+- “Validation is an outlier we should disregard.”
+- “Training/test agreement proves the typical outcome.”
+- “Purchased calls are redundant because signed sleeves are negatively correlated.”
+- “Not using training for selection was inherently a design error.”
+- “No significant benefit means no useful protection.”
+
+The valid statement is that benefits were concentrated in particular episodes
+under these specified contracts, windows and model-pricing assumptions.
+
+
+3. NEW REVIEWER DIAGNOSTICS — EXPLICITLY POST-HOC
+
+No policies were reselected. These are diagnostic analyses of exposed data,
+not new confirmatory holdout tests.
+
+A. Selected policies versus the existing 75%-equity comparator
+
+Difference in worst-six-window mean loss, percentage points of capital.
+Positive means the option policy has greater tail loss.
+
+Policy                  Difference       Pointwise 95% interval
+Long-name puts             +1.241             [+0.944, +1.395]
+Sector puts                +1.599             [+0.678, +2.446]
+Risk-informed puts         +1.531             [+1.032, +1.739]
+Collar                     −1.552             [−3.034, +0.773]
+XLF stock hedge            +0.774             [−1.358, +3.143]
+
+The collar’s incremental tail advantage over reduced equity remains
+unresolved. Purchased puts retain substantially more upside than reduced
+equity, so these tail comparisons do not establish overall dominance.
+
+Bootstrap block lengths 2/4/6 preserved the qualitative original conclusions
+versus unhedged. This does not solve sparse crisis coverage, multiplicity or
+model-price uncertainty.
+
+B. Window-placement sensitivity
+
+Before running this diagnostic, fixed offsets of 0/5/21/42 trading sessions.
+Preserved all eight selected policies, 63-session holding periods, pricing,
+sizing, capital and split boundaries. Past-only estimates update at shifted
+decision dates. All offsets are reported; no favorable offset was selected.
+
+1,936 additional policy-window replays completed.
+All existing accounting checks passed.
+Offset 0 reproduced frozen selected-policy summaries exactly.
+Frozen source/input hashes remained unchanged.
+
+Long-put tail-loss REDUCTION, percentage points:
+
+                              Offset 0    5       21      42
+Validation vs unhedged          10.351    7.042   7.219   2.229
+Validation vs reduced equity     7.005    4.098   4.096  −0.230
+Test vs unhedged                  0.580    1.207   0.810   0.164
+Test vs reduced equity          −1.241   −0.998  −1.302  −1.369
+
+The large validation advantage over reduced equity changes sign at the
+42-session shift. Test puts retain more upside but have greater tail losses
+than reduced equity at every tested offset.
+
+Sector-put test benefit also changes sign at offset 42.
+
+These shifts change both timing and included end-period observations.
+They overlap and must not be pooled as additional independent observations.
+They show sensitivity to the window partition, not that COVID protection
+was an accounting artifact or that protection is useless.
+
+
+4. PUBLICATION NARRATIVE
+
+Suggested abstract:
+
+“We study portfolio hedging through controlled simulation and historical
+model-contract replay. A locked maturity-sensitive delta hedge met its
+expected-cost screen and reduced ES95 relative to weekly hedging; its ES95
+difference from daily hedging was inconclusive at lower trading cost.
+Historical extensions evaluated five- and twenty-session variance forecasts,
+filing-aware financial features and eight protection policies for a ten-name
+financial-sector equity long/short mandate. Forecast improvements depended
+on metric and horizon, while tested deposit-share features worsened
+incremental QLIKE. Model-priced option protection showed substantial
+pricing and window-placement sensitivity. Exposure reduction was a strong
+benchmark; collar protection sacrificed substantial upside. The study
+identifies the market-data and execution evidence needed before claiming
+incremental economic hedge value.”
+
+Keep these qualifications close to the historical results:
+- Hypothetical European contracts; no acquired historical option quotes.
+- Current-survivor universe.
+- Separate window accounts, not continuous portfolio returns.
+- Illustrative financing, omitted dividends/borrow/margin/option spreads.
+- Exploratory historical inference with few tail observations.
+
+Resume wording available now:
+
+“Built and independently validated a Python framework for discrete option
+hedging, historical equity/option cash accounting, filing-aware variance
+forecasts and ten-name long/short overlay comparisons.”
+
+“In held-out risk-neutral simulations, a locked maturity-sensitive hedge
+reduced ES95 by 46.7% versus weekly hedging while meeting a $500 expected-cost
+screen; historical model-option experiments documented pricing sensitivity
+and inconclusive purchased-protection benefits.”
+
+Do not present the simulated improvement as historical trading performance.
+
+
+5. NEXT PROTOCOL — FREEZE BEFORE FURTHER ECONOMIC EVALUATION
+
+Keep two tracks separate.
+
+Track A: descriptive robustness of the existing release.
+The reviewer comparisons and window shifts above belong here. Preserve their
+post-hoc labels. Do not select new strategies or dates from these results.
+
+Track B: next economic study.
+Prioritize actual timestamped option bid/ask observations and contract terms,
+then dividends and realistic financing/borrow treatment. A small verified
+quote panel is more informative now than additional model families or names.
+
+Use a 20-session decision/evaluation horizon to connect to the established
+forecast target. Explicitly define option maturity, exit date and execution
+lag. Do not scale a short-horizon forecast mechanically into a quarterly
+hedging claim.
+
+Freeze:
+- One modest risk-informed put policy and one static put comparator.
+- An unchanged core equity mandate.
+- A predetermined equity-reduction comparator.
+- One common execution/valuation convention.
+- A hard execution-time premium cap, whole-contract resizing and a no-trade
+  fallback when the cap/coverage requirements cannot be met.
+- Separate gross premium outlay/receipts and net premium.
+- Retained-exposure/upside requirements and financing constraints.
+- One primary downside estimand, secondary mean-return/cost/upside measures,
+  dependence treatment and multiplicity rules.
+
+Compare the adaptive policy with the static option rule under the same
+constraints; use equity reduction as an economic benchmark. Do not match
+the comparator to realized TEST upside or expected returns estimated from
+the test sample.
+
+Forecasts may alter coverage, not the price of an identical option.
+
+The exact policy mapping and implementation protocol still need to be
+written and hashed BEFORE another economic run. Astra has not falsely
+labelled that future experiment as already frozen or completed.
+
+Historical quotes on already exposed dates improve measurement, but do not
+make that market history untouched again. Label such work retrospective.
+Use genuinely prospective or independently sequestered observations for
+renewed confirmatory claims.
+
+Better funding variables are a later focused extension: uninsured/runnable
+funding, funding maturity, securities losses relative to capital and liquidity,
+with correct parent/subsidiary mapping and failed-name coverage. Do not
+reinterpret deposits/liabilities as a complete funding-risk test.
+
+
+6. REVIEW ARTIFACTS AVAILABLE NOW
+
+All paths below exist on this machine. Copy them into a NEW permanent review
+directory before relying on /tmp for publication. Preserve original hashes.
+
+Portable independent accounting reconstruction:
+ /tmp/astra_overlay_independent_portable.py
+
+Its verified outputs:
+ /tmp/astra_overlay_portable_audit/audit_summary.json
+ /tmp/astra_overlay_portable_audit/terminal_pnl_reconstruction.csv
+ /tmp/astra_overlay_portable_audit/terminal_cash_components.csv
+
+Run with:
+ .venv/bin/python /tmp/astra_overlay_independent_portable.py \
+   --repo /Users/saireddivari/MonteCarloEvaluations \
+   --output-dir NEW_OUTPUT_DIRECTORY
+
+Statistical/exposure review:
+ /tmp/astra_statistical_review/
+Contains diagnostic.py, paired_es_diagnostics.csv,
+collar_signed_legs_reconstruction.csv,
+collar_initial_exposure_reconstruction.csv,
+selected_test_summary.csv and metadata.json.
+
+Window-placement diagnostic:
+ /tmp/astra_window_phase_20261106/
+Contains the pre-run protocol/commitment, run_diagnostic.py, summaries,
+comparisons, window records, checks, completion record and written findings.
+
+Window-diagnostic protocol hash:
+057b938dbd6c4e9fdfe1cfa13f4d583328bb282e4ed43b6693464dbf033b10b0
+
+Original frozen Stage-6 protocol hash:
+18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6
+
+The archived window script contains this machine’s paths; preserve it as
+evidence. Any portable adaptation should be a separate file, retaining the
+original pre-run commitment.
+
+
+7. SEPARATE OWNER ASSIGNMENTS
+
+SOL — INTEGRATION AND PUBLICATION OWNER
+
+1. Archive the review evidence in a new permanent results directory with
+   a manifest. Do not modify frozen experiment outputs.
+2. Update README and reports/research_status.md/json to reflect completed
+   Stage-6 accounting review and the correct final feature-study artifacts.
+   They currently contain stale pending status and older feature links.
+3. Add a publication summary and claims/errata supplement. Preserve the
+   original hashed reports.
+4. Correct publication prose that describes the final ten-name/six-bank
+   feature extension as only three names/two banks.
+5. Keep full empirical Gate 2 open. Mark the conditional Release 2 package
+   ready when documentation, links and artifact checks are complete.
+6. Integrate Opus’s addendum below. Freeze the next economic protocol
+   separately; do not delay tonight’s honest release to search for a win.
+7. Do not purchase data or claim a public push occurred without the required
+   destination/access and authorization.
+
+OPUS — OVERLAY OWNER
+
+1. Read the independent accounting and reviewer diagnostics.
+2. Produce ONE new overlay-review addendum accepting or contesting the
+   corrections above with evidence.
+3. Explain budget overruns, execution exposure drift, collar delta/upside,
+   short-sleeve versus whole-book objectives and the exact drawdown metric.
+4. Incorporate the window-placement findings as post-hoc diagnostics.
+5. Separate hypotheses such as “expensive scaling” or “late signal” from
+   conclusions supported by the frozen experiment.
+6. State precise remaining engine/data requests for the NEXT protocol.
+   Do not modify shared modules or replace the frozen study.
+7. Do not restart all 14 skeptic investigations as a publication prerequisite.
+   Further checks should target a concrete unresolved claim.
+
+BOTH
+
+Use this shared evidence and keep one consistent release narrative.
+A negative or inconclusive result does not block publication.
+Misleading claims, unreconciled accounting or undisclosed protocol changes do.
+
+Human review remains separate. No new positive result is required tonight.
+```

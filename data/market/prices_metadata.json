@@ -1,0 +1,100 @@
+{
+  "exported_utc": "2026-11-06T01:51:33.823707+00:00",
+  "provider": "FMP",
+  "adjustment": "split_adjusted",
+  "source_price_field": "close",
+  "currency": "USD",
+  "date_index": "unique ascending timezone-naive daily dates",
+  "symbols": [
+    "JPM",
+    "PNC",
+    "GS"
+  ],
+  "requested_start": "2010-01-04",
+  "requested_end": "2026-11-04",
+  "dividend_cashflows_included": false,
+  "executable_option_quotes_included": false,
+  "exchange_calendar_checked": true,
+  "exchange_calendar_validated": true,
+  "calendar": "XNYS",
+  "calendar_package": "exchange_calendars",
+  "calendar_version": "4.13.2",
+  "expected_sessions": 4236,
+  "missing_expected_sessions": [],
+  "unexpected_dates": [],
+  "data_files": {
+    "full_history": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted.csv",
+      "observations": 4236,
+      "first_date": "2010-01-04",
+      "last_date": "2026-11-04",
+      "sha256": "fafef4fc0276fd7ed75ec808c6f8fa8822d41d35df4b938cf22b47d0fae31a27"
+    },
+    "normal_2019": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted_normal_2019.csv",
+      "observations": 61,
+      "first_date": "2019-01-02",
+      "last_date": "2019-03-29",
+      "sha256": "2bdd959b59337818561de42dd163dcdaf8e3cae3180f64912a2830c9c8393ca1"
+    },
+    "stress_covid_2020": {
+      "path": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted_stress_covid_2020.csv",
+      "observations": 62,
+      "first_date": "2020-02-03",
+      "last_date": "2020-04-30",
+      "sha256": "60d93fa99f0e580a91888bc7ec6b8334359421cde6aee40b8e28da3ebd5ab7d6"
+    }
+  },
+  "source_metadata": {
+    "JPM": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "JPM",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:39:06.279681+00:00",
+      "retrieval": "cache",
+      "cache_id": "b96175642a128dae21ac13fb143886834642e949d72ef5fb7c3b4f117a4cf2ad",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "PNC": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "PNC",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:39:06.723314+00:00",
+      "retrieval": "cache",
+      "cache_id": "c60b8c7b2672a81dac1f54478c1c6d52dd15da890ebb742c01ddefe59f911e09",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    },
+    "GS": {
+      "provider": "FMP",
+      "endpoint": "historical-price-eod/full",
+      "parameters": {
+        "symbol": "GS",
+        "from": "2010-01-04",
+        "to": "2026-11-04"
+      },
+      "adjustment": "split_adjusted",
+      "source_price_field": "close",
+      "retrieved_utc": "2026-11-06T01:39:07.201918+00:00",
+      "retrieval": "cache",
+      "cache_id": "ef86b90c516aba6404404fc8f5a8282c8b6d9cb80a93a1c3810e38f1fc2a49c3",
+      "price_interpretation": "split-adjusted price; not a dividend total-return series"
+    }
+  },
+  "limitations": [
+    "Historical split-adjusted prices are model-replay inputs, not historical option quotes.",
+    "A dividend-adjusted total-return series must not be substituted for stock prices in an option settlement ledger.",
+    "This three-survivor sample is not a survivorship-safe financial-sector universe."
+  ]
+}

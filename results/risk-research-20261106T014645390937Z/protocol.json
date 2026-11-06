@@ -1,0 +1,36 @@
+{
+  "protocol": {
+    "train_start": "2010-01-04",
+    "train_end": "2017-12-31",
+    "validation_start": "2018-01-01",
+    "validation_end": "2020-12-31",
+    "test_start": "2021-01-01",
+    "test_end": "2026-11-04",
+    "horizons": [
+      5,
+      20
+    ],
+    "lookback": 252,
+    "recent_window": 20,
+    "ewma_lambda": 0.94,
+    "shrinkage": 0.2,
+    "bootstrap_repetitions": 1000,
+    "bootstrap_seed": 730501
+  },
+  "underlyings": [
+    "JPM",
+    "PNC",
+    "GS"
+  ],
+  "factor_symbols": [
+    "SPY",
+    "XLF"
+  ],
+  "prices_file": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted.csv",
+  "prices_sha256": "fafef4fc0276fd7ed75ec808c6f8fa8822d41d35df4b938cf22b47d0fae31a27",
+  "factor_file": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+  "factors_sha256": "1ea1c06f8ed4c6967fa93d3c63ba98463df14f380075881734a1a11fc265bbe3",
+  "frozen_before_evaluation_utc": "2026-11-06T01:46:45.403367+00:00",
+  "parameter_selection": "Fixed defaults; no training/validation/test outcome tuning.",
+  "universe_caveat": "Conditional current-name sample; historical eligibility and survivorship-free membership are unverified."
+}

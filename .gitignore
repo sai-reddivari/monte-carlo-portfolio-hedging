@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+results/harness-*/
+
+# Local credentials and market-data caches
+.env
+.env.*
+!.env.example
+data/cache/

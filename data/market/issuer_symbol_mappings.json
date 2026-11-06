@@ -1,0 +1,31 @@
+{
+  "mappings": [
+    {
+      "stable_study_id": "BK",
+      "issuer": "The Bank of New York Mellon Corporation",
+      "old_ticker": "BK",
+      "current_ticker": "BNY",
+      "effective_date": "2026-05-21",
+      "mapping_rule": "BK observations before effective date; actual BNY observations on/after effective date; no forward fill.",
+      "issuer_source": "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/bny-announces-planned-change-of-stock-ticker-symbol-to-bny-130465.html",
+      "issuer_capital_structure_or_CUSIP_changed": false,
+      "vendor_overlap_observations": 4121,
+      "max_overlap_abs_difference": 0.0,
+      "source_metadata_BNY": {
+        "provider": "FMP",
+        "endpoint": "historical-price-eod/full",
+        "parameters": {
+          "symbol": "BNY",
+          "from": "2010-01-04",
+          "to": "2026-11-04"
+        },
+        "adjustment": "split_adjusted",
+        "source_price_field": "close",
+        "retrieved_utc": "2026-11-06T01:45:46.255069+00:00",
+        "retrieval": "cache",
+        "cache_id": "5de9c122d492e5f5808ac1d14c446a8a2b3423e08768da85afcab77c9ae700ee",
+        "price_interpretation": "split-adjusted price; not a dividend total-return series"
+      }
+    }
+  ]
+}
