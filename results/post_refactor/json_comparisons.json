@@ -1,0 +1,1158 @@
+[
+  {
+    "file": "results/research-release-1/release-1/artifact_manifest.json",
+    "reproduction": "results/reproduction/20261106T015356/controlled_release/artifact_manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/provenance.json",
+        "before": "bd6a0d6f731ebee5d4a2bab04bfd750f995aec56baca51ba7fa57e15706e07ba",
+        "after": "67ee89163f25b84c0359229486e55d9fd12976daf05908842f01d05ff7dd8207"
+      },
+      {
+        "pointer": "/selection.json",
+        "before": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+        "after": "89e36c44c15efa980bafe8bd729c4aa48f64d744240a63bde44f1a4e72a13094"
+      },
+      {
+        "pointer": "/protocol_commitment.json",
+        "before": "34d8b8205d0a14a7205a2d35d1f3999070762f098d7f8a0c247d3defcd1efd12",
+        "after": "ef31632c2ef365b5e57f9417b328372f4a8a10a0daf4f867fd74a5b43d68339b"
+      },
+      {
+        "pointer": "/gate_status.json",
+        "before": "ac00e3bad4aa1be77bf7b185d06519f8610e736053e9ce229cdb2901ac51b5a9",
+        "after": "258a8719664e0cd36424e1826405b334d1c2e531bfa3ac9e0cac2917cfc279d1"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/research-release-1/release-1/gate_status.json",
+    "reproduction": "results/reproduction/20261106T015356/controlled_release/gate_status.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/selection_lock_sha256",
+        "before": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+        "after": "89e36c44c15efa980bafe8bd729c4aa48f64d744240a63bde44f1a4e72a13094"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/research-release-1/release-1/protocol.json",
+    "reproduction": "results/reproduction/20261106T015356/controlled_release/protocol.json",
+    "byte_equal": true,
+    "numeric_cells": 25,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/research-release-1/release-1/protocol_commitment.json",
+    "reproduction": "results/reproduction/20261106T015356/controlled_release/protocol_commitment.json",
+    "byte_equal": false,
+    "numeric_cells": 29,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/source/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/source/source_sha256/hedging_harness/core.py",
+        "before": "6311f7ae6b6c035c6f3baf019006365cbafd8458974d6e2e23a6e1458d4b5c1e",
+        "after": "aa3ef7009a1dd025e214b83c7f6f4dc24daf278f0aec5ef98d047579695a9bed"
+      },
+      {
+        "pointer": "/source/source_sha256/hedging_harness/risk_models.py",
+        "before": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+        "after": "3a75f3e9ffed793bc4161d1e9b0fd44e38d7cd7c576f95eba2a6962abf5eeb62"
+      },
+      {
+        "pointer": "/protocol_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/config/research_release_1.json",
+        "after": "/private/tmp/hedging-publication-clean-clone/config/research_release_1.json"
+      },
+      {
+        "pointer": "/frozen_before_selection_utc",
+        "before": "2026-11-06T01:46:14.512172+00:00",
+        "after": "2026-11-06T07:53:58.888861+00:00"
+      },
+      {
+        "pointer": "/study_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/config/illustrative_study.json",
+        "after": "/private/tmp/hedging-publication-clean-clone/config/illustrative_study.json"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/source/source_sha256",
+        "missing": [],
+        "added": [
+          "hedging_harness/breadth.py",
+          "hedging_harness/configuration.py",
+          "hedging_harness/data_loading.py",
+          "hedging_harness/domain.py",
+          "hedging_harness/evaluation.py",
+          "hedging_harness/feature_models.py",
+          "hedging_harness/hedging.py",
+          "hedging_harness/legacy_methods.py",
+          "hedging_harness/notebook_execution.py",
+          "hedging_harness/notebook_views.py",
+          "hedging_harness/overlays.py",
+          "hedging_harness/pricing.py",
+          "hedging_harness/reporting.py",
+          "hedging_harness/reproduction.py",
+          "hedging_harness/simulation.py",
+          "hedging_harness/study.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/research-release-1/release-1/provenance.json",
+    "reproduction": "results/reproduction/20261106T015356/controlled_release/provenance.json",
+    "byte_equal": false,
+    "numeric_cells": 66,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/selected_policy/locked_before_evaluation_utc",
+        "before": "2026-11-06T01:46:16.381936+00:00",
+        "after": "2026-11-06T07:54:00.473662+00:00"
+      },
+      {
+        "pointer": "/source/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/source/source_sha256/hedging_harness/core.py",
+        "before": "6311f7ae6b6c035c6f3baf019006365cbafd8458974d6e2e23a6e1458d4b5c1e",
+        "after": "aa3ef7009a1dd025e214b83c7f6f4dc24daf278f0aec5ef98d047579695a9bed"
+      },
+      {
+        "pointer": "/source/source_sha256/hedging_harness/risk_models.py",
+        "before": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+        "after": "3a75f3e9ffed793bc4161d1e9b0fd44e38d7cd7c576f95eba2a6962abf5eeb62"
+      },
+      {
+        "pointer": "/protocol_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/config/research_release_1.json",
+        "after": "/private/tmp/hedging-publication-clean-clone/config/research_release_1.json"
+      },
+      {
+        "pointer": "/frozen_before_selection_utc",
+        "before": "2026-11-06T01:46:14.512172+00:00",
+        "after": "2026-11-06T07:53:58.888861+00:00"
+      },
+      {
+        "pointer": "/evaluation/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/evaluation/source_sha256/hedging_harness/core.py",
+        "before": "6311f7ae6b6c035c6f3baf019006365cbafd8458974d6e2e23a6e1458d4b5c1e",
+        "after": "aa3ef7009a1dd025e214b83c7f6f4dc24daf278f0aec5ef98d047579695a9bed"
+      },
+      {
+        "pointer": "/evaluation/source_sha256/hedging_harness/risk_models.py",
+        "before": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+        "after": "3a75f3e9ffed793bc4161d1e9b0fd44e38d7cd7c576f95eba2a6962abf5eeb62"
+      },
+      {
+        "pointer": "/selection_lock_sha256",
+        "before": "c0dd334985d7bf3f2ad1e3512c6e447a6c19df07cda22ec0e5677936b8d0e01c",
+        "after": "89e36c44c15efa980bafe8bd729c4aa48f64d744240a63bde44f1a4e72a13094"
+      },
+      {
+        "pointer": "/study_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/config/illustrative_study.json",
+        "after": "/private/tmp/hedging-publication-clean-clone/config/illustrative_study.json"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/source/source_sha256",
+        "missing": [],
+        "added": [
+          "hedging_harness/breadth.py",
+          "hedging_harness/configuration.py",
+          "hedging_harness/data_loading.py",
+          "hedging_harness/domain.py",
+          "hedging_harness/evaluation.py",
+          "hedging_harness/feature_models.py",
+          "hedging_harness/hedging.py",
+          "hedging_harness/legacy_methods.py",
+          "hedging_harness/notebook_execution.py",
+          "hedging_harness/notebook_views.py",
+          "hedging_harness/overlays.py",
+          "hedging_harness/pricing.py",
+          "hedging_harness/reporting.py",
+          "hedging_harness/reproduction.py",
+          "hedging_harness/simulation.py",
+          "hedging_harness/study.py"
+        ]
+      },
+      {
+        "pointer": "/evaluation/source_sha256",
+        "missing": [],
+        "added": [
+          "hedging_harness/breadth.py",
+          "hedging_harness/configuration.py",
+          "hedging_harness/data_loading.py",
+          "hedging_harness/domain.py",
+          "hedging_harness/evaluation.py",
+          "hedging_harness/feature_models.py",
+          "hedging_harness/hedging.py",
+          "hedging_harness/legacy_methods.py",
+          "hedging_harness/notebook_execution.py",
+          "hedging_harness/notebook_views.py",
+          "hedging_harness/overlays.py",
+          "hedging_harness/pricing.py",
+          "hedging_harness/reporting.py",
+          "hedging_harness/reproduction.py",
+          "hedging_harness/simulation.py",
+          "hedging_harness/study.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/research-release-1/release-1/selected_risk_intervals.json",
+    "reproduction": "results/reproduction/20261106T015356/controlled_release/selected_risk_intervals.json",
+    "byte_equal": true,
+    "numeric_cells": 19,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/research-release-1/release-1/selection.json",
+    "reproduction": "results/reproduction/20261106T015356/controlled_release/selection.json",
+    "byte_equal": false,
+    "numeric_cells": 5,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/locked_before_evaluation_utc",
+        "before": "2026-11-06T01:46:16.381936+00:00",
+        "after": "2026-11-06T07:54:00.473662+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/model-contract-replay-20261106T014523263280Z/run_record.json",
+    "reproduction": "results/reproduction/20261106T015356/model_replay/run_record.json",
+    "byte_equal": false,
+    "numeric_cells": 108,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/runs/normal_2019/unhedged_equity/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/runs/stress_covid_2020/protective_puts/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/runs/stress_covid_2020/short_calls_stock_hedged/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/runs/normal_2019/protective_puts/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/runs/stress_covid_2020/unhedged_equity/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/runs/normal_2019/short_calls_stock_hedged/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/generated_utc",
+        "before": "2026-11-06T01:45:23.261674+00:00",
+        "after": "2026-11-06T07:54:07.999483+00:00"
+      },
+      {
+        "pointer": "/source_metadata_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_metadata.json"
+      },
+      {
+        "pointer": "/prices_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_split_adjusted.csv"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/source_sha256",
+        "missing": [
+          "scripts/run_model_contract_replay.py"
+        ],
+        "added": [
+          "hedging_harness/experiments/run_model_contract_replay.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/risk-research-20261106T014747676804Z/checks.json",
+    "reproduction": "results/reproduction/20261106T015356/price_risk/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/risk-research-20261106T014747676804Z/manifest.json",
+    "reproduction": "results/reproduction/20261106T015356/price_risk/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 9,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/factor_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_benchmarks.csv"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/risk_models.py",
+        "before": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+        "after": "3a75f3e9ffed793bc4161d1e9b0fd44e38d7cd7c576f95eba2a6962abf5eeb62"
+      },
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "8f6eb6b3eb18c32f1ebd2099596bec028d96df2672d7132e924f8c26446917dc",
+        "after": "9c83a05ce70fe0ffef6b06ad604c3d618021ecefb3b43c97dfdf12e1c6e702bf"
+      },
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:47:47.708085+00:00",
+        "after": "2026-11-06T07:54:09.393968+00:00"
+      },
+      {
+        "pointer": "/prices_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_core_10.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_core_10.csv"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "8f6eb6b3eb18c32f1ebd2099596bec028d96df2672d7132e924f8c26446917dc",
+        "after": "9c83a05ce70fe0ffef6b06ad604c3d618021ecefb3b43c97dfdf12e1c6e702bf"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/source_sha256",
+        "missing": [
+          "scripts/run_risk_research.py"
+        ],
+        "added": [
+          "hedging_harness/experiments/run_risk_research.py"
+        ]
+      },
+      {
+        "pointer": "/data_metadata_sha256",
+        "missing": [
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/core_10_metadata.json",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/issuer_symbol_mappings.json",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json"
+        ],
+        "added": [
+          "/private/tmp/hedging-publication-clean-clone/data/market/core_10_metadata.json",
+          "/private/tmp/hedging-publication-clean-clone/data/market/issuer_symbol_mappings.json",
+          "/private/tmp/hedging-publication-clean-clone/data/market/prices_metadata.json"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/risk-research-20261106T014747676804Z/protocol.json",
+    "reproduction": "results/reproduction/20261106T015356/price_risk/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 8,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/factor_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_benchmarks.csv"
+      },
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:47:47.708085+00:00",
+        "after": "2026-11-06T07:54:09.393968+00:00"
+      },
+      {
+        "pointer": "/prices_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_core_10.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_core_10.csv"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/data_metadata_sha256",
+        "missing": [
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/core_10_metadata.json",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/issuer_symbol_mappings.json",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_metadata.json"
+        ],
+        "added": [
+          "/private/tmp/hedging-publication-clean-clone/data/market/core_10_metadata.json",
+          "/private/tmp/hedging-publication-clean-clone/data/market/issuer_symbol_mappings.json",
+          "/private/tmp/hedging-publication-clean-clone/data/market/prices_metadata.json"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/risk-research-20261106T014645390937Z/checks.json",
+    "reproduction": "results/reproduction/20261106T015356/price_risk_original_three/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/risk-research-20261106T014645390937Z/manifest.json",
+    "reproduction": "results/reproduction/20261106T015356/price_risk_original_three/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 9,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/factor_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_benchmarks.csv"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/risk_models.py",
+        "before": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+        "after": "3a75f3e9ffed793bc4161d1e9b0fd44e38d7cd7c576f95eba2a6962abf5eeb62"
+      },
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "fb7583a1c1a968a3cbcaaed372056e8e5ccc1c779b2a802be48bae039e1e20e8",
+        "after": "9cdd93e5a1f0c6fdf0cb7d4796bc5a9a4eba32684ad82a41edbf14817c231a49"
+      },
+      {
+        "pointer": "/artifacts_sha256/report.md",
+        "before": "d371aafb462e3d4ff75312f80989b182a15d682db934f717342a41ee72fce65b",
+        "after": "fd96626a3b79ec37efee0405394ec19bb390f84b96a8332295d1dbce01ed35b3"
+      },
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:46:45.403367+00:00",
+        "after": "2026-11-06T07:54:12.153124+00:00"
+      },
+      {
+        "pointer": "/prices_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_split_adjusted.csv"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "fb7583a1c1a968a3cbcaaed372056e8e5ccc1c779b2a802be48bae039e1e20e8",
+        "after": "9cdd93e5a1f0c6fdf0cb7d4796bc5a9a4eba32684ad82a41edbf14817c231a49"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "",
+        "missing": [],
+        "added": [
+          "data_metadata_sha256"
+        ]
+      },
+      {
+        "pointer": "/source_sha256",
+        "missing": [
+          "scripts/run_risk_research.py"
+        ],
+        "added": [
+          "hedging_harness/experiments/run_risk_research.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/risk-research-20261106T014645390937Z/protocol.json",
+    "reproduction": "results/reproduction/20261106T015356/price_risk_original_three/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 8,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/factor_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_benchmarks.csv"
+      },
+      {
+        "pointer": "/frozen_before_evaluation_utc",
+        "before": "2026-11-06T01:46:45.403367+00:00",
+        "after": "2026-11-06T07:54:12.153124+00:00"
+      },
+      {
+        "pointer": "/prices_file",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_split_adjusted.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_split_adjusted.csv"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "",
+        "missing": [],
+        "added": [
+          "data_metadata_sha256"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/feature-research-20261106T024225834886Z/checks.json",
+    "reproduction": "results/reproduction/20261106T015356/incremental_features_original/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 2,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/feature-research-20261106T024225834886Z/manifest.json",
+    "reproduction": "results/reproduction/20261106T015356/incremental_features_original/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 19,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "194d2197425efcb9377d384516a031a1a34a469e3ac73f1445aaea908497dc1b",
+        "after": "263ad804f19d7ac70caf573fab77ccdc5b986ba70638d15292222401c631c1e3"
+      },
+      {
+        "pointer": "/artifacts_sha256/selected_models.json",
+        "before": "8466f74bbcd755b5b39f935cf4c6749a05fc05baaf0bdc731d0fde12994f6a48",
+        "after": "ad3fd57533ebc6fa87f6475c15b5120163c88a53b3f38d2dff36b5ed654e3b20"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "194d2197425efcb9377d384516a031a1a34a469e3ac73f1445aaea908497dc1b",
+        "after": "263ad804f19d7ac70caf573fab77ccdc5b986ba70638d15292222401c631c1e3"
+      },
+      {
+        "pointer": "/selected_models_sha256",
+        "before": "8466f74bbcd755b5b39f935cf4c6749a05fc05baaf0bdc731d0fde12994f6a48",
+        "after": "ad3fd57533ebc6fa87f6475c15b5120163c88a53b3f38d2dff36b5ed654e3b20"
+      },
+      {
+        "pointer": "/factors_path",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_benchmarks.csv"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/risk_models.py",
+        "before": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+        "after": "3a75f3e9ffed793bc4161d1e9b0fd44e38d7cd7c576f95eba2a6962abf5eeb62"
+      },
+      {
+        "pointer": "/prices_path",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_core_10.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_core_10.csv"
+      },
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:25.855882+00:00",
+        "after": "2026-11-06T07:54:14.373096+00:00"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/feature_audit_sha256",
+        "missing": [
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/company_feature_fields_long.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_field_year_coverage.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_filing_facts_long.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_filing_snapshots.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/treasury_rates_lagged_samples.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/results/feature-audit/coverage.json"
+        ],
+        "added": [
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/company_feature_fields_long.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_field_year_coverage.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_filing_facts_long.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_filing_snapshots.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/treasury_rates_lagged_samples.csv",
+          "/private/tmp/hedging-publication-clean-clone/results/feature-audit/coverage.json"
+        ]
+      },
+      {
+        "pointer": "/source_sha256",
+        "missing": [
+          "scripts/run_feature_research.py"
+        ],
+        "added": [
+          "hedging_harness/experiments/run_feature_research.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/feature-research-20261106T024225834886Z/protocol.json",
+    "reproduction": "results/reproduction/20261106T015356/incremental_features_original/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 17,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/factors_path",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_benchmarks.csv"
+      },
+      {
+        "pointer": "/prices_path",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_core_10.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_core_10.csv"
+      },
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:25.855882+00:00",
+        "after": "2026-11-06T07:54:14.373096+00:00"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/feature_audit_sha256",
+        "missing": [
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/company_feature_fields_long.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_field_year_coverage.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_filing_facts_long.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_filing_snapshots.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/treasury_rates_lagged_samples.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/results/feature-audit/coverage.json"
+        ],
+        "added": [
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/company_feature_fields_long.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_field_year_coverage.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_filing_facts_long.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_filing_snapshots.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/treasury_rates_lagged_samples.csv",
+          "/private/tmp/hedging-publication-clean-clone/results/feature-audit/coverage.json"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/feature-research-20261106T024225834886Z/selected_models.json",
+    "reproduction": "results/reproduction/20261106T015356/incremental_features_original/selected_models.json",
+    "byte_equal": false,
+    "numeric_cells": 1258,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "194d2197425efcb9377d384516a031a1a34a469e3ac73f1445aaea908497dc1b",
+        "after": "263ad804f19d7ac70caf573fab77ccdc5b986ba70638d15292222401c631c1e3"
+      },
+      {
+        "pointer": "/locked_before_test_predictions_utc",
+        "before": "2026-11-06T02:42:26.470195+00:00",
+        "after": "2026-11-06T07:54:14.967811+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/feature-research-20261106T024244836968Z/checks.json",
+    "reproduction": "results/reproduction/20261106T015356/incremental_features/checks.json",
+    "byte_equal": true,
+    "numeric_cells": 2,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/feature-research-20261106T024244836968Z/manifest.json",
+    "reproduction": "results/reproduction/20261106T015356/incremental_features/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 19,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "9ca3acab6c1580b5e0751886796b725fe1b7ab90bcb078d433344cf0c1accb08"
+      },
+      {
+        "pointer": "/artifacts_sha256/selected_models.json",
+        "before": "2f27d3816b5715891a2956442cee162b515fc3a33f57f95b8cc10f4d3b1d9456",
+        "after": "8c3175757cc9efd43158690a4cf2e65f8feb1abfa09497a70dc830619147c0ca"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "9ca3acab6c1580b5e0751886796b725fe1b7ab90bcb078d433344cf0c1accb08"
+      },
+      {
+        "pointer": "/selected_models_sha256",
+        "before": "2f27d3816b5715891a2956442cee162b515fc3a33f57f95b8cc10f4d3b1d9456",
+        "after": "8c3175757cc9efd43158690a4cf2e65f8feb1abfa09497a70dc830619147c0ca"
+      },
+      {
+        "pointer": "/factors_path",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_benchmarks.csv"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/risk_models.py",
+        "before": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+        "after": "3a75f3e9ffed793bc4161d1e9b0fd44e38d7cd7c576f95eba2a6962abf5eeb62"
+      },
+      {
+        "pointer": "/prices_path",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_core_10.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_core_10.csv"
+      },
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:44.858351+00:00",
+        "after": "2026-11-06T07:54:17.375222+00:00"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/feature_audit_sha256",
+        "missing": [
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/company_feature_fields_long.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_field_year_coverage.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_filing_facts_long.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_filing_snapshots.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts_core10/sec_fact_coverage.json",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts_core10/sec_field_year_coverage.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts_core10/sec_filing_facts_long.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts_core10/sec_filing_snapshots.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/treasury_rates_lagged_samples.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/results/feature-audit/coverage.json"
+        ],
+        "added": [
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/company_feature_fields_long.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_field_year_coverage.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_filing_facts_long.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_filing_snapshots.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts_core10/sec_fact_coverage.json",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts_core10/sec_field_year_coverage.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts_core10/sec_filing_facts_long.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts_core10/sec_filing_snapshots.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/treasury_rates_lagged_samples.csv",
+          "/private/tmp/hedging-publication-clean-clone/results/feature-audit/coverage.json"
+        ]
+      },
+      {
+        "pointer": "/source_sha256",
+        "missing": [
+          "scripts/run_feature_research.py"
+        ],
+        "added": [
+          "hedging_harness/experiments/run_feature_research.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/feature-research-20261106T024244836968Z/protocol.json",
+    "reproduction": "results/reproduction/20261106T015356/incremental_features/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 17,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/factors_path",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_benchmarks.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_benchmarks.csv"
+      },
+      {
+        "pointer": "/prices_path",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/data/market/prices_core_10.csv",
+        "after": "/private/tmp/hedging-publication-clean-clone/data/market/prices_core_10.csv"
+      },
+      {
+        "pointer": "/frozen_before_model_selection_utc",
+        "before": "2026-11-06T02:42:44.858351+00:00",
+        "after": "2026-11-06T07:54:17.375222+00:00"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/feature_audit_sha256",
+        "missing": [
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/company_feature_fields_long.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_field_year_coverage.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_filing_facts_long.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts/sec_filing_snapshots.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts_core10/sec_fact_coverage.json",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts_core10/sec_field_year_coverage.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts_core10/sec_filing_facts_long.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/sec_facts_core10/sec_filing_snapshots.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/data/market/features/treasury_rates_lagged_samples.csv",
+          "/Users/saireddivari/MonteCarloEvaluations/results/feature-audit/coverage.json"
+        ],
+        "added": [
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/company_feature_fields_long.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_field_year_coverage.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_filing_facts_long.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts/sec_filing_snapshots.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts_core10/sec_fact_coverage.json",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts_core10/sec_field_year_coverage.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts_core10/sec_filing_facts_long.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/sec_facts_core10/sec_filing_snapshots.csv",
+          "/private/tmp/hedging-publication-clean-clone/data/market/features/treasury_rates_lagged_samples.csv",
+          "/private/tmp/hedging-publication-clean-clone/results/feature-audit/coverage.json"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/feature-research-20261106T024244836968Z/selected_models.json",
+    "reproduction": "results/reproduction/20261106T015356/incremental_features/selected_models.json",
+    "byte_equal": false,
+    "numeric_cells": 2478,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "9a5436acf08b339b4b4e21823aadacc5cf3008dd271a7fdc91019479669068fc",
+        "after": "9ca3acab6c1580b5e0751886796b725fe1b7ab90bcb078d433344cf0c1accb08"
+      },
+      {
+        "pointer": "/locked_before_test_predictions_utc",
+        "before": "2026-11-06T02:42:46.151429+00:00",
+        "after": "2026-11-06T07:54:18.331493+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/breadth-20261106T020730752645Z/manifest.json",
+    "reproduction": "results/reproduction/20261106T015356/conditional_breadth/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 5,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "8523480cb63fc4fcbee114d0aa69a8db751762c9f732282b9034371f7222efe6",
+        "after": "7270a93b4112257b7bd6ea3780cd7e1648d61adde3de7384892c802b9b44e6a8"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "8523480cb63fc4fcbee114d0aa69a8db751762c9f732282b9034371f7222efe6",
+        "after": "7270a93b4112257b7bd6ea3780cd7e1648d61adde3de7384892c802b9b44e6a8"
+      },
+      {
+        "pointer": "/generated_utc",
+        "before": "2026-11-06T02:08:02.184392+00:00",
+        "after": "2026-11-06T07:54:47.538984+00:00"
+      },
+      {
+        "pointer": "/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/core.py",
+        "before": "6311f7ae6b6c035c6f3baf019006365cbafd8458974d6e2e23a6e1458d4b5c1e",
+        "after": "aa3ef7009a1dd025e214b83c7f6f4dc24daf278f0aec5ef98d047579695a9bed"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/breadth.py",
+        "before": "95f6d6cc8d3b1818884df8ed3e3409b3a29e5e4917d8b6c1b8367a508bbd692d",
+        "after": "d93954788ca1e9f94a083fb39be6e0a98e936467eb4545bd803f20cb00558417"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/risk_models.py",
+        "before": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+        "after": "3a75f3e9ffed793bc4161d1e9b0fd44e38d7cd7c576f95eba2a6962abf5eeb62"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/source_sha256",
+        "missing": [
+          "scripts/run_breadth_research.py"
+        ],
+        "added": [
+          "hedging_harness/experiments/run_breadth_research.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/breadth-20261106T020730752645Z/protocol.json",
+    "reproduction": "results/reproduction/20261106T015356/conditional_breadth/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 27,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/core.py",
+        "before": "6311f7ae6b6c035c6f3baf019006365cbafd8458974d6e2e23a6e1458d4b5c1e",
+        "after": "aa3ef7009a1dd025e214b83c7f6f4dc24daf278f0aec5ef98d047579695a9bed"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/breadth.py",
+        "before": "95f6d6cc8d3b1818884df8ed3e3409b3a29e5e4917d8b6c1b8367a508bbd692d",
+        "after": "d93954788ca1e9f94a083fb39be6e0a98e936467eb4545bd803f20cb00558417"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/risk_models.py",
+        "before": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+        "after": "3a75f3e9ffed793bc4161d1e9b0fd44e38d7cd7c576f95eba2a6962abf5eeb62"
+      },
+      {
+        "pointer": "/created_utc",
+        "before": "2026-11-06T02:07:30.753193+00:00",
+        "after": "2026-11-06T07:54:22.444756+00:00"
+      },
+      {
+        "pointer": "/locked_selection_path",
+        "before": "/Users/saireddivari/MonteCarloEvaluations/results/research-release-1/release-1/selection.json",
+        "after": "/private/tmp/hedging-publication-clean-clone/results/research-release-1/release-1/selection.json"
+      }
+    ],
+    "structure_differences": [
+      {
+        "pointer": "/source_sha256",
+        "missing": [
+          "scripts/run_breadth_research.py"
+        ],
+        "added": [
+          "hedging_harness/experiments/run_breadth_research.py"
+        ]
+      }
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/equity-overlays-20261106T023430248130Z/gate_status.json",
+    "reproduction": "results/reproduction/20261106T015356/equity_overlays/gate_status.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/protocol_sha256",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "979d14110b5e1c8de1c6f645e5dc61e3be11cd1a9aa292565cc3a238009fad47"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/equity-overlays-20261106T023430248130Z/manifest.json",
+    "reproduction": "results/reproduction/20261106T015356/equity_overlays/manifest.json",
+    "byte_equal": false,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/artifacts_sha256/report.md",
+        "before": "06ddb66b279dbebeef1473a4e053769309a546ecf1242e611aa2a83eddb0d655",
+        "after": "442ca66e23854e47923db1465757b2e85e8ae38c7365340f9c17c9c5e583311b"
+      },
+      {
+        "pointer": "/artifacts_sha256/protocol.sha256",
+        "before": "d34d5b67e6cf3d055c7ef894bfa7c0fdc5f6a321d0be072b1e39773b9fef405b",
+        "after": "89a49d4964fe10825f4228caee5f2e15a9d27803dad674f3a94a39d2a0a986eb"
+      },
+      {
+        "pointer": "/artifacts_sha256/protocol.json",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "979d14110b5e1c8de1c6f645e5dc61e3be11cd1a9aa292565cc3a238009fad47"
+      },
+      {
+        "pointer": "/completed_utc",
+        "before": "2026-11-06T02:38:01.213014+00:00",
+        "after": "2026-11-06T07:57:33.597850+00:00"
+      },
+      {
+        "pointer": "/protocol_sha256",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "979d14110b5e1c8de1c6f645e5dc61e3be11cd1a9aa292565cc3a238009fad47"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/equity-overlays-20261106T023430248130Z/notebook_execution.json",
+    "reproduction": "results/reproduction/20261106T015356/equity_overlays/notebook_execution.json",
+    "byte_equal": false,
+    "numeric_cells": 0,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [],
+    "structure_differences": [
+      "Reproduction output missing"
+    ],
+    "boolean_differences": [],
+    "passed": false
+  },
+  {
+    "file": "results/equity-overlays-20261106T023430248130Z/protocol.json",
+    "reproduction": "results/reproduction/20261106T015356/equity_overlays/protocol.json",
+    "byte_equal": false,
+    "numeric_cells": 140,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/frozen_utc",
+        "before": "2026-11-06T02:35:35.315865+00:00",
+        "after": "2026-11-06T07:55:50.067723+00:00"
+      },
+      {
+        "pointer": "/source_sha256/BlackScholes_Functions/BlackScholes_D1D2_Price_Payoff_Greeks.py",
+        "before": "06dd465baf4e25b7e64eef9c360ecea3a59b35d676f7e4ba1860706c94e1fa6b",
+        "after": "7a969f738987022370d10ecca64be61d9f1b1e39a8705e7611021a2f397c8385"
+      },
+      {
+        "pointer": "/source_sha256/hedging_harness/risk_models.py",
+        "before": "7cfe9dfea5780c24db693937e67c1b2addc32803cee4377d9cdc0d7e596a8cd3",
+        "after": "3a75f3e9ffed793bc4161d1e9b0fd44e38d7cd7c576f95eba2a6962abf5eeb62"
+      },
+      {
+        "pointer": "/source_sha256/scripts/run_overlay_research.py",
+        "before": "e8bb46211a1d3d130ef2e369b07e1baa8e0fb36f1b44eaa122b91b096bff4f5e",
+        "after": "83e9453e4f55542517be7039c953ecb1190e76f8d6be831099b888d2c72af184"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  },
+  {
+    "file": "results/equity-overlays-20261106T023430248130Z/test_evaluation_log.json",
+    "reproduction": "results/reproduction/20261106T015356/equity_overlays/test_evaluation_log.json",
+    "byte_equal": false,
+    "numeric_cells": 1,
+    "numeric_mismatches": [],
+    "observed_timing_differences": [],
+    "string_differences": [
+      {
+        "pointer": "/0/protocol_sha256",
+        "before": "18948e86cef72c6b2bc183cc6e7d5ebba49cb9788806463864d57efdaf6079b6",
+        "after": "979d14110b5e1c8de1c6f645e5dc61e3be11cd1a9aa292565cc3a238009fad47"
+      },
+      {
+        "pointer": "/0/started_utc",
+        "before": "2026-11-06T02:35:36.898548+00:00",
+        "after": "2026-11-06T07:55:51.714306+00:00"
+      }
+    ],
+    "structure_differences": [],
+    "boolean_differences": [],
+    "passed": true
+  }
+]

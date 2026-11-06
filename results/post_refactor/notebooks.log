@@ -1,0 +1,13 @@
+Executing 00_study_setup.ipynb
+/private/tmp/hedging-publication-clean-env/lib/python3.14/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/saireddivari/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"
+Executing 01_single_option_ledger.ipynb
+Executing 02_three_name_portfolio.ipynb
+Executing 03_cost_and_volatility_sensitivity.ipynb
+Executing 04_policy_selection_research.ipynb
+Executing 05_model_contract_replay.ipynb
+Executing 06_market_risk_models.ipynb
+Executing 07_equity_overlay_study.ipynb
+Executing 08_breadth_and_composition.ipynb
+Executing 09_release_aware_features.ipynb
+Executed notebooks and manifest: /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/notebooks

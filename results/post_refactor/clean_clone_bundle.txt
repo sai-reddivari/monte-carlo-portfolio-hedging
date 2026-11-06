@@ -1,0 +1,10 @@
+{
+  "entries": 48,
+  "matching": 47,
+  "missing": [
+    "frozen_package_and_review_evidence/.DS_Store"
+  ],
+  "mismatches": [],
+  "clean_checkout_expectation": "47 of 48; ignored macOS metadata is absent",
+  "passed": true
+}

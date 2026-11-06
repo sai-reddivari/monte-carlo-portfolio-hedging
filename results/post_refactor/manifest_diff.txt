@@ -1,0 +1,10 @@
+{
+  "experiments": 8,
+  "full_precision_contract_values": 197077,
+  "csv_tables": 94,
+  "csv_numeric_cells": 1870832,
+  "relative_tolerance": 1e-09,
+  "absolute_tolerance": 0,
+  "mismatches": 0,
+  "passed": true
+}
