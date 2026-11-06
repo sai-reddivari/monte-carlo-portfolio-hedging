@@ -1,0 +1,15 @@
+{
+  "controls": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "PYTHONHASHSEED": "0",
+    "MPLBACKEND": "Agg",
+    "MPLCONFIGDIR": "/tmp/phase0-mpl"
+  },
+  "numpy_build_configuration": "results/pre_refactor/numpy_build_configuration.txt",
+  "numpy_build_sha256": "1b213f217a87192fb3b70cee6786a5b1bcb1a3eb189033884458a52bdb441f7e",
+  "packages": "env/frozen_environment.txt",
+  "reason": "Additional Apple Accelerate thread control discovered after first canonical pass; no package changes."
+}
