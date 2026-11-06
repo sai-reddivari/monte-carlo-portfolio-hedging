@@ -7,21 +7,24 @@ import numpy as np
 import pandas as pd
 
 
+from .configuration import defaults
+_RISK = defaults()['risk']
+
 @dataclass(frozen=True)
 class RiskProtocol:
-    train_start: str = "2010-01-04"
-    train_end: str = "2017-12-31"
-    validation_start: str = "2018-01-01"
-    validation_end: str = "2020-12-31"
-    test_start: str = "2021-01-01"
-    test_end: str = "2026-11-04"
-    horizons: tuple[int, ...] = (5, 20)
-    lookback: int = 252
-    recent_window: int = 20
-    ewma_lambda: float = 0.94
-    shrinkage: float = 0.20
-    bootstrap_repetitions: int = 1000
-    bootstrap_seed: int = 730501
+    train_start: str = _RISK['train_start']
+    train_end: str = _RISK['train_end']
+    validation_start: str = _RISK['validation_start']
+    validation_end: str = _RISK['validation_end']
+    test_start: str = _RISK['test_start']
+    test_end: str = _RISK['test_end']
+    horizons: tuple[int, ...] = tuple(_RISK['horizons'])
+    lookback: int = _RISK['lookback']
+    recent_window: int = _RISK['recent_window']
+    ewma_lambda: float = _RISK['ewma_lambda']
+    shrinkage: float = _RISK['shrinkage']
+    bootstrap_repetitions: int = _RISK['bootstrap_repetitions']
+    bootstrap_seed: int = _RISK['bootstrap_seed']
 
     def __post_init__(self):
         dates = [pd.Timestamp(getattr(self, name)) for name in (

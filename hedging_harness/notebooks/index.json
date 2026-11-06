@@ -1,0 +1,17 @@
+{
+  "00_study_setup": "study_00_study_setup",
+  "01_single_option_ledger": "study_01_single_option_ledger",
+  "02_three_name_portfolio": "study_02_three_name_portfolio",
+  "03_cost_and_volatility_sensitivity": "study_03_cost_and_volatility_sensitivity",
+  "04_policy_selection_research": "study_04_policy_selection_research",
+  "05_model_contract_replay": "study_05_model_contract_replay",
+  "06_market_risk_models": "study_06_market_risk_models",
+  "07_equity_overlay_study": "study_07_equity_overlay_study",
+  "08_breadth_and_composition": "study_08_breadth_and_composition",
+  "09_release_aware_features": "study_09_release_aware_features",
+  "MonteCarlo_Accuracy_ComputingCost": "investigation_MonteCarlo_Accuracy_ComputingCost",
+  "MonteCarlo_EstimatingGreeks": "investigation_MonteCarlo_EstimatingGreeks",
+  "MonteCarlo_ModelIntroduction": "investigation_MonteCarlo_ModelIntroduction",
+  "MonteCarlo_PathDependency_HedgeControls": "investigation_MonteCarlo_PathDependency_HedgeControls",
+  "MonteCarlo_StochasticVolatility": "investigation_MonteCarlo_StochasticVolatility"
+}

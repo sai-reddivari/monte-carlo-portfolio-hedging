@@ -1,0 +1,54 @@
+/tmp/hedging-publication-clean-env/bin/python -m hedging_harness.reproduction --notebooks --reviewers
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/scripts/run_research_release_1.py --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/controlled_release
+controlled_release: 10 CSVs, 16036 numeric cells; differences=0; 8.912s
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/scripts/run_model_contract_replay.py --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/model_replay
+model_replay: 29 CSVs, 19614 numeric cells; differences=0; 1.753s
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/scripts/run_risk_research.py --prices data/market/prices_core_10.csv --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/price_risk
+price_risk: 4 CSVs, 174834 numeric cells; differences=0; 2.652s
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/scripts/run_risk_research.py --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/price_risk_original_three
+price_risk_original_three: 4 CSVs, 69708 numeric cells; differences=0; 2.168s
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/scripts/run_feature_research.py --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/incremental_features_original
+incremental_features_original: 7 CSVs, 439224 numeric cells; differences=0; 2.759s
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/scripts/run_feature_research.py --sec-core10 --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/incremental_features
+incremental_features: 7 CSVs, 1007068 numeric cells; differences=0; 4.338s
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/scripts/run_breadth_research.py --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/conditional_breadth
+conditional_breadth: 14 CSVs, 13288 numeric cells; differences=0; 26.657s
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/scripts/run_overlay_research.py freeze --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/equity_overlays
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/scripts/run_overlay_research.py evaluate --run-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/equity_overlays
+equity_overlays: 19 CSVs, 131060 numeric cells; differences=0; 103.138s
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/scripts/run_harness_notebooks.py --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/notebooks
+/private/tmp/hedging-publication-clean-env/lib/python3.14/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/saireddivari/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"
+/private/tmp/hedging-publication-clean-env/lib/python3.14/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/saireddivari/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"
+/private/tmp/hedging-publication-clean-env/lib/python3.14/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/saireddivari/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"
+/private/tmp/hedging-publication-clean-env/lib/python3.14/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/saireddivari/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"
+/private/tmp/hedging-publication-clean-env/lib/python3.14/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/saireddivari/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/frozen_source/results/research-release-2/astra-review-20261106/accounting/astra_overlay_independent_portable.py --repo /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/frozen_source --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/independent_accounting
+$ /private/tmp/hedging-publication-clean-env/bin/python /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/frozen_source/results/research-release-2/astra-review-20261106/statistical_review/diagnostic.py --repo /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/frozen_source --output-dir /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/independent_statistics
+$ /private/tmp/hedging-publication-clean-env/bin/python -m hedging_harness.reproduction --window-worker /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/frozen_source /private/tmp/hedging-publication-clean-clone/results/reproduction/20261106T015356/window_placement
+{
+  "status": "passed",
+  "scope": "all_eight_current_research_variants",
+  "tables_compared": 94,
+  "numeric_cells_compared": 1870832,
+  "numeric_mismatches": 0,
+  "byte_identical_tables": 94
+}
+/tmp/hedging-publication-clean-env/bin/python scripts/diff_manifests.py
+{
+  "experiments": 8,
+  "full_precision_contract_values": 197077,
+  "csv_tables": 94,
+  "csv_numeric_cells": 1870832,
+  "relative_tolerance": 1e-09,
+  "absolute_tolerance": 0,
+  "mismatches": 0,
+  "passed": true
+}
+real 480.35
+user 415.41
+sys 18.47

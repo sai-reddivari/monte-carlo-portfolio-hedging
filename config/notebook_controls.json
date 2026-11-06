@@ -1,0 +1,92 @@
+{
+  "00_study_setup": {
+    "OPTION_KIND": "call",
+    "POSITION_SIGN": -1,
+    "N_PATHS": 5000,
+    "SEED": 20261105
+  },
+  "01_single_option_ledger": {
+    "OPTION_NAME": "JPM",
+    "HEDGE_EVERY": 5,
+    "COST_BPS": 5.0,
+    "AUDIT_PATH": 0
+  },
+  "02_three_name_portfolio": {
+    "POLICIES": {
+      "initial_only": null,
+      "daily": 1,
+      "two_day": 2,
+      "weekly": 5
+    },
+    "COST_BPS": 0.0,
+    "AUDIT_PATH": 0
+  },
+  "03_cost_and_volatility_sensitivity": {
+    "POLICIES": {
+      "initial_only": null,
+      "daily": 1,
+      "two_day": 2,
+      "weekly": 5
+    },
+    "COST_GRID_BPS": [
+      0.0,
+      1.0,
+      5.0,
+      10.0
+    ],
+    "REFERENCE_COST_BPS": 5.0,
+    "HEDGE_VOL_MULTIPLIERS": [
+      0.8,
+      1.0,
+      1.2
+    ],
+    "SENSITIVITY_POLICIES": [
+      "daily",
+      "two_day",
+      "weekly"
+    ],
+    "AUDIT_PATH": 0,
+    "VALIDATION_N": 10000
+  },
+  "04_policy_selection_research": {
+    "RUN_NEW_EXPERIMENT": false
+  },
+  "05_model_contract_replay": {
+    "CALIBRATION_RETURNS": 252,
+    "NOTIONAL_PER_NAME": 100000.0,
+    "RATE": 0.04,
+    "COST_BPS": 5.0,
+    "HEDGE_EVERY": 5
+  },
+  "MonteCarlo_PathDependency_HedgeControls": {
+    "bar_n_dates": 252,
+    "mvr_N": 10000
+  },
+  "MonteCarlo_StochasticVolatility": {
+    "sv_ladder": [
+      3,
+      6,
+      12,
+      26,
+      52,
+      126,
+      252
+    ],
+    "sv_n_paths": 200000,
+    "sv_steps": {
+      "12": "monthly (n=12)",
+      "52": "weekly (n=52)",
+      "252": "daily (n=252)"
+    },
+    "sv_rhos": [
+      -0.7,
+      0.0,
+      0.7
+    ]
+  },
+  "__integer_key_maps__": {
+    "MonteCarlo_StochasticVolatility": [
+      "sv_steps"
+    ]
+  }
+}

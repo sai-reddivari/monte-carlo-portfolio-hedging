@@ -1,0 +1,7 @@
+{
+  "matching_distribution_versions": 57,
+  "mismatches": [],
+  "python": "3.14.8",
+  "lock": "env/requirements-macos-arm64.lock",
+  "wheel_hashes_enforced": true
+}

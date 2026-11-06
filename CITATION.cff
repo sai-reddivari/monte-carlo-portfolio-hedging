@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the frozen research release and retain its stated limitations."
+title: "Financial Sector Hedging Under Trading Costs and Model Uncertainty"
+authors:
+  - family-names: Reddivari
+    given-names: Sai
+type: software
+version: "Research Release 2"
+date-released: 2026-11-06
+repository-code: "https://github.com/sai-reddivari/financial-sector-hedging"
+license: MIT
+abstract: "Controlled hedging and historical model-contract research. Incremental economic hedge value remains unestablished."

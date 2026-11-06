@@ -106,8 +106,9 @@ class SharedInputIntegrationTests(unittest.TestCase):
 class CachedReleaseNotebookIntegrationTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        notebook=json.loads((ROOT/"Hedging_Study_Notebooks/04_policy_selection_research.ipynb").read_text())
-        cls.artifact_source=''.join(next(cell for cell in notebook["cells"] if cell.get("id")=="release1-artifacts")["source"])
+        # The same cached-lock contract now belongs to the package, not notebook code.
+        cls.artifact_source = ("from hedging_harness.notebook_views import load_cached_release\n"
+            "RELEASE_DIR, selected, selection, evaluation, gate = load_cached_release(PROTOCOL, study_path, RELEASE_DIR, ROOT, RUN_NEW_EXPERIMENT=RUN_NEW_EXPERIMENT, run_release=run_release)\n")
 
     def _fixture(self,folder):
         root=Path(folder)

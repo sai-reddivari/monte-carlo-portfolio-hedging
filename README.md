@@ -1,81 +1,52 @@
-# MonteCarloEvaluations — financial-sector hedging research
+# Financial-sector hedging under trading costs and model uncertainty
 
-Start with [Financial Sector Hedging Under Trading Costs and Model Uncertainty](docs/Final%20Findings%20and%20Takeaways/research_release_2_publication.md), the conditional Research Release 2 publication summary, and its [claims and errata](docs/Final%20Findings%20and%20Takeaways/research_release_2_claims_and_errata.md). The [evidence checkpoint](reports/research_status.md) records package readiness separately from empirical certification. **Research Gate 1 is complete and independently reproduced; full empirical Research Gate 2 remains open.** Human review is a separate downstream step. No public upload has occurred.
+Can financial-sector risk signals improve protection of a ten-stock long/short portfolio after costs, pricing assumptions and simpler exposure-reduction benchmarks are considered?
 
-The central finding is a favorable cost–risk tradeoff in controlled hedging simulations, with metric-/horizon-dependent historical forecasts and pricing-/window-dependent model-option protection. Incremental economic hedge value remains unestablished. Mixed, adverse and inconclusive findings are retained.
+A controlled hedging experiment identifies a favorable cost–risk tradeoff. Historical extensions show that forecast improvements depend on metric and horizon, while model-priced option protection depends materially on pricing, exposure and evaluation-window assumptions. Incremental economic hedge value remains unestablished.
 
-The project retains `Book` as its validated model container. Baseline notebooks 00–03 load one source, [`config/illustrative_study.json`](config/illustrative_study.json), through `hedging_harness.study.load_named_inputs`. Named dictionaries and DataFrames remain readable notebook views. Derived underlying/instrument/position/observation tables are in `data/study_inputs/`; the JSON is authoritative.
+The paragraph above is verbatim from the [frozen publication summary](docs/final_findings/research_release_2_publication.md). Read its [claims and errata](docs/final_findings/research_release_2_claims_and_errata.md) and the separate [post-freeze display errata](docs/review/errata_post_freeze.md). Full empirical Research Gate 2 remains open.
 
-## Research notebooks
+## Reproduce
 
-| Notebook | Purpose |
+Use Python **3.14.8** and the unchanged 57-distribution lock. No package upgrades are part of this refactor.
+
+```sh
+python3.14 -m venv .venv
+.venv/bin/python -m pip install -r requirements.lock
+make reproduce
+make test
+make diff
+```
+
+Run from a clone that includes the immutable `pre-refactor` tag. The pipeline restores exact missing raw input files from that tag, checks their hashes, and executes pricing/Greeks and simulation/hedging studies, chronological forecasts/features, all eight overlay policies and original sensitivities, notebook views, and independent accounting/statistical checks. It writes fresh outputs under `results/reproduction/` and the full-precision `results/manifest_post_refactor.json`. No API keys, downloads or parameter reselection on test outcomes are required. Raw data provenance and redistribution limits are in [data/README.md](data/README.md).
+
+For a fast review, `make test` includes a real frozen-seed regression of the controlled release, historical replay and ten-name risk model. Complete command output, elapsed time and the fresh-environment check are in [the Phase 1 report](docs/PHASE1_REPORT.md).
+
+## Repository map
+
+| Path | Purpose |
 |---|---|
-| [00 — Setup](Hedging_Study_Notebooks/00_study_setup.ipynb) | Assumptions, Black–Scholes values/Greeks, initial exposures and Q paths |
-| [01 — One-option ledger](Hedging_Study_Notebooks/01_single_option_ledger.ipynb) | Premium, stock trades, financing, costs and settlement |
-| [02 — Portfolio](Hedging_Study_Notebooks/02_three_name_portfolio.ipynb) | Dependence, hedge frequencies, variance and joint-tail contributions |
-| [03 — Sensitivities](Hedging_Study_Notebooks/03_cost_and_volatility_sensitivity.ipynb) | Costs, fixed-premium hedge-volatility errors and fresh-seed checks |
-| [04 — Research Release 1](Hedging_Study_Notebooks/04_policy_selection_research.ipynb) | Budget-aware policy selection, locked evaluation, tail uncertainty and peak funding |
-| [05 — Model-contract replay](Hedging_Study_Notebooks/05_model_contract_replay.ipynb) | Signed calls/puts, multipliers and lifecycle accounting on actual stock observations |
-| [06 — Market risk](Hedging_Study_Notebooks/06_market_risk_models.ipynb) | Past-only variance/covariance forecasts and chronological evaluation |
-| [07 — Equity overlays](Hedging_Study_Notebooks/07_equity_overlay_study.ipynb) | Fixed ten-name long/short mandate, model-option policies and exposure-reduction benchmarks |
-| [08 — Breadth and composition](Hedging_Study_Notebooks/08_breadth_and_composition.ipynb) | Constant-notional, common-path comparisons through forty names |
-| [09 — Filing-aware features](Hedging_Study_Notebooks/09_release_aware_features.ipynb) | Chronological price/sector/SEC variance forecasts, including final ten-name/six-bank extension |
+| `hedging_harness/pricing.py`, `domain.py`, `simulation.py` | Pricing/Greeks, validated books and correlated Q paths |
+| `hedging_harness/hedging.py`, `policies.py`, `replay.py`, `overlays.py` | Cost-aware hedges and historical cash/stock/option accounting |
+| `hedging_harness/risk_models.py`, `feature_models.py`, `breadth.py` | Chronological forecasting, filing-aware features and conditional breadth |
+| `hedging_harness/evaluation.py`, `reporting.py`, `experiments/` | Metrics, provenance and experiment interfaces |
+| `hedging_harness/notebooks/`, `Hedging_Study_Notebooks/` | Package-owned studies and call-only notebook views |
+| `config/` | Exact published defaults, seeds, splits, costs and policy settings |
+| `docs/final_findings/`, `docs/research_log/` | Unchanged frozen conclusions/evidence and research history |
+| `docs/provenance/`, `docs/review/` | Per-number provenance and post-freeze errata |
+| `results/pre_refactor/`, `results/manifest_pre_refactor.json` | Preserved baseline, executed notebook backups, logs and numerical contracts |
 
-Opus's stage 6 work is integrated with his [owner review addendum](docs/equity_overlay_review_addendum.md). Astra independently reconstructed all 2,013 base-case terminal outcomes, all 276 test collar legs and the original paired bootstrap intervals. The [permanent review archive](results/research-release-2/astra-review-20261106/archive_manifest.json) preserves evidence previously under `/tmp`. This review does not certify every intrawindow mark, drawdown, sensitivity or execution assumption. The [research plan](docs/research_plan.md) records evidence required for each empirical gate.
+[EXPERIMENTS](docs/EXPERIMENTS.md) lists commands, inputs, outputs, runtimes and non-determinism controls. [CHANGELOG](CHANGELOG.md) maps every moved path; compatibility modules/links retain historical imports and document context. [FUTURE_WORK](docs/FUTURE_WORK.md) contains proposals only.
 
-Canonical final artifacts are pinned in [the release index](config/research_release_2_package.json), including the [ten-name/six-bank feature report](results/feature-research-20261106T024244836968Z/report.md) and [frozen stage 6 report](results/equity-overlays-20261106T023430248130Z/report.md). Original hashed reports remain unchanged; the release claims supplement controls their corrected interpretation.
+## Limitations
 
-## Completed controlled release
+- Historical options are hypothetical European Black–Scholes contracts at assumed volatility; observed option quotes, bid/ask, dividends, borrow/rebate spreads, margin and American exercise are absent. Current-survivor samples are not survivorship-safe historical universes. Separate-window accounts are not continuous portfolio returns.
+- In the historical equity-overlay accounting engine, short proceeds count as cash, so recorded ledger borrowing is zero for every policy; usable liquidity is not modelled. This is not a claim of zero real financing needs. The controlled short-call Monte Carlo book is a different account and does report borrowing.
+- The two superseded directories `results/equity-overlays-20261106T020955456052Z` and `results/feature-research-20261106T020600619286Z`, and all six acquisition utilities, are **hash-only, not reproducible from current code**. Historical code is not reconstructed; see EXPERIMENTS for each entry.
+- The frozen bundle manifest lists one macOS metadata file that Git ignores (`frozen_package_and_review_evidence/.DS_Store`), so **47 of 48 bundle entries verify from a clean checkout**. The manifest and frozen documents remain unchanged.
+- Publication figures are rounded; manifests retain full precision. Three display-rounding differences are listed separately without changing any conclusion. Pointwise intervals, sparse tail windows, model-price assumptions and post-hoc date shifts limit economic inference.
+- The software license excludes third-party market data and historical review material. Redistribution rights for vendor snapshots are not certified. The immutable historical tag retains original research artifacts; removing them from current-tree tracking does not erase Git history.
 
-- [Standalone report](results/research-release-1/release-1/report.md)
-- [Frozen protocol](config/research_release_1.json)
-- [Locked choice](results/research-release-1/release-1/selection.json)
-- [Held-out outcomes](results/research-release-1/release-1/evaluation_metrics.csv)
-- [Paired ES95 uncertainty](results/research-release-1/release-1/paired_tail_differences.csv)
-- [Independent validation](docs/independent_validation.md)
+## Citation and license
 
-Fourteen periodic, fixed-band and maturity-band candidates were compared under a $500 expected financed stock-cost budget on a $300,000 synthetic short-call book at 5 bp. The policy is selected on 5,000 outcomes and locked before generating 10,000 held-out outcomes. The selected maturity band has evaluation ES95 $3,327.95 and expected financed cost $487.97. The selected-versus-daily ES interval includes zero; no formal equivalence/noninferiority claim is made. Selected-versus-weekly incremental protection has an entirely negative paired interval.
-
-## Data and interpretation
-
-[Data coverage](docs/data_coverage.md) and [`data_gate_status.json`](data/market/data_gate_status.json) document actual FMP capabilities and entitlements. Ten issuers plus SPY/XLF have 4,236 aligned XNYS sessions, 2010-01-04..2026-11-04. The 50-name panel retains all names and missingness: 42 full histories and 8 partial. BK→BNY issuer continuity is explicit, not a silent ticker substitution.
-
-FMP officially does **not** provide options data. Historical membership access returned HTTP 402. Current-survivor panels and European model contracts on historical stock paths are useful conditional research, not a survivorship-safe listed-option backtest. Split-adjusted closes do not include dividend cash flows. [Replay details](docs/model_contract_replay.md) and [risk research](docs/risk_research.md) state their limits and actual findings.
-
-Stage 6 uses separate 63-session accounts and averages the worst six of 23 test windows (25% tail fraction), unlike Gate 1's ES95. Premium budgets were decision-time sizing allowances, not execution-enforced caps. The collar materially changes local delta and sacrifices upside; its entire benefit has not been attributed to exposure reduction. Post-hoc reduced-equity comparisons and window-placement diagnostics are labelled as such in the claims supplement.
-
-Risk scenarios and forecasts are physical-return research; option valuation uses an explicitly declared Q-model. Under Q, zero-dividend drift is the financing rate, not an equity expected-return estimate. A realized-volatility forecast is not automatically market implied volatility. Forecasts issued after the origin close cannot support an executable same-close trade based on that close.
-
-## Environment and credentials
-
-```sh
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements-dev.txt
-```
-
-For market-data calls, place `FMP_API_KEY=...` in a local `.env` in this project root. `.env` and caches are ignored; `.env.example` contains placeholders only. Never put secrets in notebooks, results, reports or authenticated URLs in logs. Git ignore rules prevent accidental inclusion of these local files; they are not encryption or access control.
-
-## Reproduce and verify
-
-```sh
-MPLBACKEND=Agg MPLCONFIGDIR=/tmp/hedging-study-mpl .venv/bin/python -m pytest -q
-.venv/bin/python scripts/verify_release_2.py
-.venv/bin/python scripts/research_status.py
-```
-
-The combined suite passed 194 tests plus 22 subtests, with 28 pandas timezone deprecation warnings and no failures. Publication verification checks archived hashes, frozen artifacts, source/input identities, documentation links and recorded test evidence; it does not run a new economic experiment. Human review remains separate.
-
-Optional economic replications write fresh directories and do not replace the frozen release:
-
-```sh
-.venv/bin/python scripts/run_research_release_1.py
-.venv/bin/python scripts/run_model_contract_replay.py
-.venv/bin/python scripts/run_risk_research.py --prices data/market/prices_core_10.csv
-```
-
-Research runners write fresh result directories with protocol/data/source identities. Imports make no downloads or trading calls. Existing release directories are never overwritten by the controlled-study runner. Notebook 04 reads the committed release by default; its explicit flag starts a separate replication.
-
-The original `MonteCarlo_Functions`/investigation notebooks remain numerical-method references. The adapter reuses the consolidated Black–Scholes module and exact-GBM source. Trading costs already reduce net P&L, including their financing impact; never subtract them twice. Shared peak funding uses aggregate concurrent cash, not a sum of separate maxima. Tail estimates and validation intervals retain their sample/model restrictions.
-
-[Next economic protocol requirements](docs/next_economic_protocol_requirements.md) are tracked separately. Exact policy mapping and execution/inference rules must be written and hashed before another economic evaluation. No new economic protocol is represented as frozen or completed by this publication release, and no data purchase has been made.
+Use [CITATION.cff](CITATION.cff) to cite the study. [LICENSE](LICENSE) covers the project software; it does not grant rights to vendor data or third-party material.

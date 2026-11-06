@@ -1,0 +1,84 @@
+{
+  "risk": {
+    "train_start": "2010-01-04",
+    "train_end": "2017-12-31",
+    "validation_start": "2018-01-01",
+    "validation_end": "2020-12-31",
+    "test_start": "2021-01-01",
+    "test_end": "2026-11-04",
+    "horizons": [
+      5,
+      20
+    ],
+    "lookback": 252,
+    "recent_window": 20,
+    "ewma_lambda": 0.94,
+    "shrinkage": 0.2,
+    "bootstrap_repetitions": 1000,
+    "bootstrap_seed": 730501
+  },
+  "breadth": {
+    "n_paths": 5000,
+    "n_bootstrap": 500,
+    "seed": 730701,
+    "cutoff": "2020-12-31",
+    "lookback": 252,
+    "composition_seeds": [
+      730711,
+      730712
+    ],
+    "sizes": [
+      3,
+      10,
+      25,
+      40
+    ],
+    "total_notional": 300000.0,
+    "cost_bps": 5.0,
+    "steps": 63,
+    "rate": 0.04,
+    "stress_mix": 0.4,
+    "make_plot": true,
+    "shrinkage": 0.2,
+    "paired_bootstrap_seed": 730731,
+    "historical_bootstrap_seed": 730721
+  },
+  "replay": {
+    "calibration_returns": 252,
+    "notional_per_name": 100000.0,
+    "rate": 0.04,
+    "cost_bps": 5.0,
+    "hedge_every": 5,
+    "write_outputs": true,
+    "make_plot": true
+  },
+  "replay_windows": {
+    "normal_2019": [
+      "2019-01-02",
+      "2019-03-29"
+    ],
+    "stress_covid_2020": [
+      "2020-02-03",
+      "2020-04-30"
+    ]
+  },
+  "ridge_alphas": [
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "legacy_reference": {
+    "S0": 100.0,
+    "K": 100.0,
+    "T": 1.0,
+    "r": 0.05,
+    "sigma": 0.2,
+    "seed": 1995
+  },
+  "simulation": {
+    "n_paths": 5000,
+    "seed": 20261105
+  }
+}
