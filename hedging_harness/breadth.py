@@ -16,8 +16,9 @@ from .uncertainty import expected_shortfall
 
 
 CORE_TEN = ("JPM", "PNC", "GS", "BAC", "WFC", "C", "USB", "MS", "SCHW", "BK")
-DEFAULT_SIZES = (3, 10, 25, 40)
-COMPOSITION_SEEDS = (730711, 730712)
+from .configuration import defaults
+DEFAULT_SIZES = tuple(defaults()['breadth']['sizes'])
+COMPOSITION_SEEDS = tuple(defaults()['breadth']['composition_seeds'])
 
 
 @dataclass
