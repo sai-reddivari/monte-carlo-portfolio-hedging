@@ -162,28 +162,8 @@ def canonical(repeat=False):
 
 
 def notebook_worker(source, destination):
-    import nbformat
-    from nbclient import NotebookClient
-    from jupyter_client import KernelManager
-    import tempfile
-    source, destination = ROOT/source, ROOT/destination
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    nb = nbformat.read(source, as_version=4)
-    # Same transport and interpreter as the repository's notebook runner.
-    with tempfile.TemporaryDirectory(prefix='phase0-kernel-', dir='/tmp') as runtime:
-        runtime = Path(runtime)
-        env = dict(os.environ, IPYTHONDIR=str(runtime/'ipython'), JUPYTER_RUNTIME_DIR=str(runtime),
-                   MPLBACKEND='module://matplotlib_inline.backend_inline')
-        km = KernelManager(kernel_name='python3', transport='ipc', connection_file=str(runtime/'k.json'))
-        km.kernel_spec.argv = [str(PYTHON), '-m', 'ipykernel_launcher', '-f', '{connection_file}']
-        client = NotebookClient(nb, timeout=1200, kernel_name='python3', km=km,
-                                resources={'metadata': {'path': str(ROOT)}})
-        try:
-            client.execute(env=env)
-        finally:
-            if km.has_kernel:
-                km.shutdown_kernel(now=True)
-            nbformat.write(nb, destination)
+    from hedging_harness.notebook_execution import execute
+    execute(source, destination, root=ROOT, python=sys.executable)
 
 
 def notebooks():
